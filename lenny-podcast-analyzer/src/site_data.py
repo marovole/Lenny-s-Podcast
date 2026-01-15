@@ -229,19 +229,41 @@ def translate_episode(client: Any, model: str, episode: Dict, locale: str) -> Di
 
 def build_search_index(episodes: List[Dict]) -> Dict:
     documents = []
+    max_documents = os.getenv("SEARCH_MAX_DOCUMENTS", "20000")
+    max_chars = os.getenv("SEARCH_CONTENT_MAX_CHARS", "280")
+
+    try:
+        max_documents_value = int(max_documents) if max_documents else None
+    except ValueError:
+        max_documents_value = None
+
+    try:
+        max_chars_value = int(max_chars) if max_chars else None
+    except ValueError:
+        max_chars_value = None
+
     for episode in episodes:
         for segment in episode["segments"]:
-            search_text = f"{segment['speaker']} {segment['content']}".lower()
+            content = segment["content"]
+            if (
+                max_chars_value
+                and max_chars_value > 0
+                and len(content) > max_chars_value
+            ):
+                content = f"{content[:max_chars_value].rstrip()}..."
+            search_text = f"{segment['speaker']} {content}".lower()
             documents.append(
                 {
                     "slug": episode["slug"],
                     "title": episode["title"],
                     "speaker": segment["speaker"],
                     "timestamp": segment["timestamp"],
-                    "content": segment["content"],
+                    "content": content,
                     "search_text": search_text,
                 }
             )
+            if max_documents_value and len(documents) >= max_documents_value:
+                return {"documents": documents}
     return {"documents": documents}
 
 

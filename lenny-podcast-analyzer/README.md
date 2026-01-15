@@ -82,6 +82,8 @@ npm run build:site
 - `TRANSLATION_MODEL` 或 `--translation-model`：翻译模型
 - `TRANSLATION_BATCH_SIZE`：每批翻译段落数量
 - `SEARCH_INDEX_LOCALES`：生成搜索索引的语言（默认 `en`，用于控制 Pages 文件大小）
+- `SEARCH_MAX_DOCUMENTS`：搜索索引最大条数（默认 20000）
+- `SEARCH_CONTENT_MAX_CHARS`：搜索片段最大字符数（默认 280）
 
 ### Cloudflare Pages 配置
 - Root directory: `lenny-podcast-analyzer`
