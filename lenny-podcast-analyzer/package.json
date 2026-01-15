@@ -7,7 +7,7 @@
     "build:data": "python3 src/site_data.py",
     "build": "next build",
     "build:site": "npm run build:data && next build",
-    "build:pages": "python3 src/site_data.py --rss $RSS_URL && next build && npx @cloudflare/next-on-pages"
+    "build:pages": "python3 src/site_data.py --rss $RSS_URL --allow-fallback && next build && npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "next": "14.2.5",
