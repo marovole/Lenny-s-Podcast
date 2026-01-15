@@ -1,0 +1,81 @@
+{
+  "locale": "zh-cn",
+  "updated_at": "2026-01-15T10:35:12.295507",
+  "total_episodes": 1,
+  "topics": [
+    {
+      "id": "product",
+      "name": "产品管理"
+    },
+    {
+      "id": "growth",
+      "name": "增长"
+    },
+    {
+      "id": "leadership",
+      "name": "领导力"
+    },
+    {
+      "id": "hiring",
+      "name": "招聘/面试"
+    },
+    {
+      "id": "tech_ai",
+      "name": "技术/AI"
+    },
+    {
+      "id": "culture",
+      "name": "公司文化"
+    },
+    {
+      "id": "finance",
+      "name": "融资/财务"
+    },
+    {
+      "id": "career",
+      "name": "职业发展"
+    },
+    {
+      "id": "design",
+      "name": "设计"
+    },
+    {
+      "id": "operations",
+      "name": "运营"
+    }
+  ],
+  "locales": [
+    {
+      "code": "en",
+      "label": "en"
+    },
+    {
+      "code": "es",
+      "label": "es"
+    },
+    {
+      "code": "fr",
+      "label": "fr"
+    },
+    {
+      "code": "de",
+      "label": "de"
+    },
+    {
+      "code": "pt-br",
+      "label": "pt-br"
+    },
+    {
+      "code": "ja",
+      "label": "ja"
+    },
+    {
+      "code": "ko",
+      "label": "ko"
+    },
+    {
+      "code": "zh-cn",
+      "label": "zh-cn"
+    }
+  ]
+}

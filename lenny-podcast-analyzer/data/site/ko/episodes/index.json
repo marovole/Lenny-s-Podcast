@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "ada-chen-rekhi",
+    "title": "Ada Chen Rekhi",
+    "num_segments": 158,
+    "topics": [
+      "tech_ai",
+      "hiring",
+      "finance",
+      "culture",
+      "growth",
+      "career",
+      "operations",
+      "design",
+      "leadership",
+      "product"
+    ],
+    "failure_patterns": [],
+    "companies": [
+      "Microsoft",
+      "Box",
+      "Twitter",
+      "Meta",
+      "LinkedIn",
+      "Apple",
+      "Notion",
+      "Airbnb",
+      "Zoom",
+      "Robinhood"
+    ]
+  }
+]

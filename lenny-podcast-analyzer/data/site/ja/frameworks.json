@@ -1,0 +1,50 @@
+[
+  {
+    "id": "two_question_decision",
+    "name": "两问题决策法",
+    "description": "面对复杂决策，只问两个最关键的问题来划分决策空间",
+    "source": "Shishir Mehrotra (Coda)"
+  },
+  {
+    "id": "fear_vs_purpose",
+    "name": "恐惧 vs 目的驱动",
+    "description": "恐惧驱动的决策往往失败，目的驱动的决策更容易成功",
+    "source": "Paul Adams (Facebook/Google)"
+  },
+  {
+    "id": "click_in_abyss",
+    "name": "深渊点击法",
+    "description": "当两个选择都很差时，选择\"稍微好一点\"的，犹豫是最糟糕的决定",
+    "source": "Ben Horowitz (a16z)"
+  },
+  {
+    "id": "run_towards_fear",
+    "name": "直面恐惧",
+    "description": "领导者要培养面对恐惧做决定的能力，犹豫是最具破坏性的",
+    "source": "Ben Horowitz"
+  },
+  {
+    "id": "eigenquestions",
+    "name": "特征问题法",
+    "description": "找到能最大化信息量的根本性问题",
+    "source": "Shishir Mehrotra"
+  },
+  {
+    "id": "come_in_listening",
+    "name": "先听后说",
+    "description": "加入新团队时，先倾听建立信任，再推动改变",
+    "source": "Katie Dill (Airbnb/Stripe)"
+  },
+  {
+    "id": "sunk_cost_psychology",
+    "name": "沉没成本心理学",
+    "description": "成功是一系列小决定的累积，及时止损相信下一小步会带向好结果",
+    "source": "Ben Horowitz"
+  },
+  {
+    "id": "trust_building",
+    "name": "信任建立",
+    "description": "信任需要时间，需要证明你关心团队和他们的目标",
+    "source": "Katie Dill"
+  }
+]

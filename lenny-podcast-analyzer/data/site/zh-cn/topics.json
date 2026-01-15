@@ -1,0 +1,72 @@
+[
+  {
+    "id": "product",
+    "name": "产品管理",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "growth",
+    "name": "增长",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "leadership",
+    "name": "领导力",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "hiring",
+    "name": "招聘/面试",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "tech_ai",
+    "name": "技术/AI",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "culture",
+    "name": "公司文化",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "finance",
+    "name": "融资/财务",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "career",
+    "name": "职业发展",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "design",
+    "name": "设计",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  },
+  {
+    "id": "operations",
+    "name": "运营",
+    "episodes": [
+      "ada-chen-rekhi"
+    ]
+  }
+]

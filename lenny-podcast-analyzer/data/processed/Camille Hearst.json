@@ -1,0 +1,1235 @@
+{
+  "episode_name": "Camille Hearst",
+  "filename": "Camille Hearst.txt",
+  "segments": [
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:00:00)",
+      "timestamp_seconds": 0.0,
+      "content": "... those Steve Jobs' lore was that if you were in an elevator with him, you better be prepared to talk about what you do at the company because he had a habit of getting in the elevator and looking at you and saying, \"What do you do? What do you do here?\" And there were also rumors that people who had not given him a good answer,"
+    },
+    {
+      "speaker": "that ended up being their last day at Apple.",
+      "timestamp": "00:00:23)",
+      "timestamp_seconds": 0.0,
+      "content": "So there was someone who I didn't know personally but worked in my department before I got there who got in an elevator and looked up and Steve was approaching him and so he went to press the button to open the door and accidentally pressed the one to close the door. And it was like doing this press... You can't see me if you're listening on podcast but frantically pressing the button, trying to open the door, but accidentally pressing the closed door button and the elevator going to its destination. And apparently he got off and just bolted straight up,"
+    },
+    {
+      "speaker": "He'll never remember my face.\n\nCamille Hearst",
+      "timestamp": "00:01:02)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "Welcome to Lenny's Podcast where I interview world-class product leaders and growth experts to learn from their hard win experiences building and growing today's most successful products.",
+      "timestamp": "00:01:15)",
+      "timestamp_seconds": 0.0,
+      "content": "Today my guest is Camille Hearst. Camille is head of fan monetization at Spotify. Before that,"
+    },
+    {
+      "speaker": "she was head of product for creators of Patreon. She was product marketing manager at YouTube and the second PM on iTunes. She's also a former founder. She started a company called Kit that she sold to Patreon.",
+      "timestamp": "00:01:31)",
+      "timestamp_seconds": 0.0,
+      "content": "And this episode is for anyone who's curious about the creator space, either from the creator side or the platform side,"
+    },
+    {
+      "speaker": "or if you'd just like to hear a bunch of fun stories from an awesome product leader.",
+      "timestamp": "00:01:42)",
+      "timestamp_seconds": 0.0,
+      "content": "We chat about the future of creator platforms, how to be successful as a creator, and also as a new creator platform, the downsides of creator life plus frameworks, stories from Steve Jobs,"
+    },
+    {
+      "speaker": "This episode is brought to you by Merge. Every product manager knows how slow product development can get when developers have to build and maintain integrations with other platforms.",
+      "timestamp": "00:02:12)",
+      "timestamp_seconds": 0.0,
+      "content": "Merge's unified API can fully remove this blocker from your roadmap. With one API, your team can add over 180 HR, accounting, ATS, ticketing, CRM, file storage and marketing automation integrations into your product. You can get your first integration into production in a matter of days and save countless weeks building custom integrations,"
+    },
+    {
+      "speaker": "letting you get back to building your core product.",
+      "timestamp": "00:02:36)",
+      "timestamp_seconds": 0.0,
+      "content": "Merge's integration speed up the product development process for customers like Ramp, Drata, and many of their fast growing and established companies,"
+    },
+    {
+      "speaker": "allowing them to test their features at scale without having to worry about a never ending integrations roadmap.",
+      "timestamp": "00:02:50)",
+      "timestamp_seconds": 0.0,
+      "content": "Save your engineers countless hours, hit your growth targets,"
+    },
+    {
+      "speaker": "This episode is brought to you by Coda. You've heard me talk about how Coda is the doc that brings it all together and how it can help your team run smoother and be more efficient.",
+      "timestamp": "00:03:15)",
+      "timestamp_seconds": 0.0,
+      "content": "I know this firsthand because Coda does that for me. I use Coda every day to wrinkle my newsletter content calendar, my interview notes for podcasts,"
+    },
+    {
+      "speaker": "and to coordinate my sponsors.",
+      "timestamp": "00:03:25)",
+      "timestamp_seconds": 0.0,
+      "content": "More recently, I actually wrote a whole post on how Coda's product team operates, and within that post, they shared a dozen templates that they use internally to run their product team, including managing the roadmap, their OKR process, getting internal feedback,"
+    },
+    {
+      "speaker": "and essentially their whole product development process is done within Coda.",
+      "timestamp": "00:03:43)",
+      "timestamp_seconds": 0.0,
+      "content": "If your team's work is spread out across different documents and spreadsheets and a stack of workflow tools, that's why you need Coda. Coda puts data in one centralized location regardless of format,"
+    },
+    {
+      "speaker": "eliminating roadblocks that can slow your team down. Coda allows your team to operate on the same information and collaborate in one place.",
+      "timestamp": "00:04:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Take advantage of the special limited time offer just for startups. Plan up today at coda.io/lenny and get a thousand dollars startup credit on your first statement. That's C-O-D-A .io/lenny to sign up and get a startup credit of $1000."
+    },
+    {
+      "speaker": "coda.io/lenny.",
+      "timestamp": "00:04:24)",
+      "timestamp_seconds": 0.0,
+      "content": "Camille,"
+    },
+    {
+      "speaker": "thank you so much for being here. Welcome to the podcast.\n\nCamille Hearst",
+      "timestamp": "00:04:28)",
+      "timestamp_seconds": 0.0,
+      "content": "Thank you so much for having me,"
+    },
+    {
+      "speaker": "I first wanted to just give a big thank you to Adam Fishman for introducing us who had just so many nice things to say about you and so I'm really excited to be chatting.",
+      "timestamp": "00:04:38)",
+      "timestamp_seconds": 0.0,
+      "content": "I want to start with talking about your current role at Spotify and I believe your role is head of fan monetization. What does that actually entail and what are you responsible for within Spotify?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:04:49)",
+      "timestamp_seconds": 0.0,
+      "content": "As head of fan monetization,"
+    },
+    {
+      "speaker": "I have a team of folks who are really passionate about figuring out new ways to help artists and fans connect and also figure out ways to make those connections result in new monetization opportunities for the artists.",
+      "timestamp": "00:05:08)",
+      "timestamp_seconds": 0.0,
+      "content": "So one of the things that we all know and we've seen is how passionate fans are about the artists that they love. You've been following any of the latest bits about the Taylor Swift tour, the Beyoncé tour that's been happening this summer,"
+    },
+    {
+      "speaker": "But one of the things that we also know is it's not just the big huge superstars who have those rabid and super engaged fan bases. People are really passionate just about supporting the artists that they love in general.",
+      "timestamp": "00:05:40)",
+      "timestamp_seconds": 0.0,
+      "content": "And on Spotify,"
+    },
+    {
+      "speaker": "we want to figure out ways we can help that result in more money that goes directly to the artist.\n\nLenny",
+      "timestamp": "00:05:48)",
+      "timestamp_seconds": 0.0,
+      "content": "What are some of those ways just to give people a sense of what might be happening?"
+    },
+    {
+      "speaker": "I did not realize that.\n\nCamille Hearst",
+      "timestamp": "00:06:04)",
+      "timestamp_seconds": 0.0,
+      "content": "... for a bit of time and my team's recently been working on making it more prominent, giving artists more ways to offer that merch in the form of a reward for fans. So things like an exclusive discount or an exclusive design or early access because you're a top listener on Spotify,"
+    },
+    {
+      "speaker": "really thinking about thank yous and rewards for your Spotify listenership and fandom.",
+      "timestamp": "00:06:28)",
+      "timestamp_seconds": 0.0,
+      "content": "And then other things we've been looking at have been listening parties. We ran a few of those over the past year. I think I talked about it actually on a Spotify event a few years ago. We were running... Sorry, it wasn't a few years ago,"
+    },
+    {
+      "speaker": "Mysterious but exciting.",
+      "timestamp": "00:07:11)",
+      "timestamp_seconds": 0.0,
+      "content": "Speaking of Taylor Swift, I was watching a TikTok the other day and they showed a video of someone inside the concert showing the whole concert and then they panned to the parking lot and there was just tens of thousands of people just standing around in the parking lot listening to the second order music out at the stadium. And I wonder how can you monetize that if there's an opportunity?"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny",
+      "timestamp": "00:07:40)",
+      "timestamp_seconds": 0.0,
+      "content": "So you work with artists and I actually wanted to ask this question. What's the best part about working with artists, musical artists, and what's the worst part?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:07:48)",
+      "timestamp_seconds": 0.0,
+      "content": "I think the best part is working with people who really lean into their creativity and their passion so much so that they do it for a living. And I think a lot of us have creative pursuit and passions and things we love to do and if we made millions of dollars and could retire, what would you do full time? Usually, it's one of these pursuits. But I think it takes an element of bravery, not to mention talent,"
+    },
+    {
+      "speaker": "but you really have to go out on a limb.",
+      "timestamp": "00:08:18)",
+      "timestamp_seconds": 0.0,
+      "content": "And so that's this equality that exists in this group of people and it's fun to be around and feel that rub off on you and think, \"Oh, maybe I could take the dive one day and I don't know, go do my calligraphy or learn my ukulele and then do it full time.\""
+    },
+    {
+      "speaker": "And the thing I'm really... I grew up in a musical household. My dad's a drummer although his joke when we were growing up was real musicians have day jobs because he had to actually have a job with benefit to support the family and couldn't just be gigging full time.",
+      "timestamp": "00:08:55)",
+      "timestamp_seconds": 0.0,
+      "content": "Which actually brings me to the flip side of the question which you asked what is the hardest part. I do think we saw this a lot at Patreon and I think you see it especially with musicians and artists, this feeling that you want to give your fans everything that you create and you want to do it for free because you're so enamored with this idea that people really love you and want to support you and they're really responding to your creativity and everything that you're making, you don't want to charge them. But what comes with that is, well,"
+    },
+    {
+      "speaker": "how are you going to make a living.",
+      "timestamp": "00:09:29)",
+      "timestamp_seconds": 0.0,
+      "content": "To some degree,"
+    },
+    {
+      "speaker": "there has to be a value exchange that happens in order for a creative person to live from their art.",
+      "timestamp": "00:09:37)",
+      "timestamp_seconds": 0.0,
+      "content": "And I've found that that's much more pronounced with musicians, this starving artist ethos which makes what I'm trying to do actually quite difficult because a lot of the feedback we get is, \"Oh, that's awesome. I want to have a listening party and have everything be free and just have everyone show up and don't sell anything.\" And we're really looking at it as a way to fans want to support the artists they love,"
+    },
+    {
+      "speaker": "But musicians in particular I think tend to shy away from that which makes the kind of thing that I'm working on more difficult.\n\nLenny",
+      "timestamp": "00:10:20)",
+      "timestamp_seconds": 0.0,
+      "content": "This's a great segue to an area I want to spend time on is the creator economy and creators and artists and things like that. And along these lines, I think I have this issue too. I feel bad charging people but there's also... I don't think my stuff is worth enough to charge for and why would anyone ever pay anything for it and so I imagine you see that too. It's just like, \"No one's going to pay for this. It's crazy.\""
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:10:40)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. It's funny because we live in a very capitalist and market dictate the price kind of society, but on an individual level, particularly when the commodity so to speak is art,"
+    },
+    {
+      "speaker": "there's so many emotions and feelings involved in that that it's hard for someone who's the creator to disassociate themselves from it and see what the market will bear.",
+      "timestamp": "00:11:05)",
+      "timestamp_seconds": 0.0,
+      "content": "Which is why I actually think it's great that there's platforms who have stepped in and said, \"Hey, we see an opportunity. Let us insert ourselves in the center, let us aggregate, and let us do the hard work of pricing and payment and tax and finance and actually create value where it would be really hard for an individual person who's a creator to do all of this work and facilitate that connection.\""
+    },
+    {
+      "speaker": "It's almost like the perfect marketplace solution.",
+      "timestamp": "00:11:38)",
+      "timestamp_seconds": 0.0,
+      "content": "But again,"
+    },
+    {
+      "speaker": "it's hard because if the supplier doesn't want to actually make money in some cases or shies away from optimizing or making money.",
+      "timestamp": "00:11:47)",
+      "timestamp_seconds": 0.0,
+      "content": "And then there's the creative process. Sometimes, you're in a flow mode and you're producing a lot and then other times, you're in a drought spell and these things ebb and flow which is why I think companies like Patreon and Substack are really cool because what they try to do is smooth out that revenue and make it so an artist can actually have a predictable... They're not even artist,"
+    },
+    {
+      "speaker": "a creator can have a predictable sustainable paycheck so that they aren't bouncing around from job to job and losing the ability to have that burst of creativity because they're worried about their bills.\n\nLenny",
+      "timestamp": "00:12:22)",
+      "timestamp_seconds": 0.0,
+      "content": "I have that experience myself with Substack which is a subscription newsletter and one of the big downsides people don't think about with this life is once you start charging, people start buying, say, an annual subscription and that means I have to at least go for another year and in reality, I never really want to stop it because the revenue would just stop and that would be really sad. So you get on the treadmill where you don't really have an exit path. And I'm not sure exactly where this all goes, but it's been great. But that's something people don't think a lot about is this never ending, keep creating,"
+    },
+    {
+      "speaker": "We call it internally the hamster wheel of content creation. You get on because you love it and then how do you get off.",
+      "timestamp": "00:12:59)",
+      "timestamp_seconds": 0.0,
+      "content": "So it's actually an interesting challenge again for platforms to think about where can they add value, are there ways to either make the content creation process that much easier and I don't want to say less of a burden because it's not a burden but sometimes, if you don't have time or you're just at a point in life where you can't do it, are there services or things that can be offered,"
+    },
+    {
+      "speaker": "are there things like financing that makes sense for creators that banks or traditional institutions wouldn't offer because of just the difference in the type of work that's being produced.",
+      "timestamp": "00:13:34)",
+      "timestamp_seconds": 0.0,
+      "content": "Or another potential solution is are there ways that platforms can create content. Maybe it's automated so that the creator can take a break. So maybe they're not AI necessarily,"
+    },
+    {
+      "speaker": "maybe it's more just aggregating data or doing summaries or maybe there's just other ideas that haven't been explored out there. But it's a real problem.\n\nLenny",
+      "timestamp": "00:13:56)",
+      "timestamp_seconds": 0.0,
+      "content": "So I have this lennybot.com site which is an AI chatbot based on all my content including the podcast episodes and actually, an engineer who was listening to this podcast reached out and offered to help me build it and he did and it's awesome. And I'm curious if that becomes my retirement plan as the bot ends up just doing this and learns enough. I highly doubt it,"
+    },
+    {
+      "speaker": "but it's fun to experiment with.\n\nCamille Hearst",
+      "timestamp": "00:14:18)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. Use your own content as your large language model, right?"
+    },
+    {
+      "speaker": "Exactly. That's exactly what it is. And I'm curious where this goes.",
+      "timestamp": "00:14:26)",
+      "timestamp_seconds": 0.0,
+      "content": "I want to follow the thread of the creator economy. It feels like there's this huge wave of the creator economies, the future of work, and all these platforms launched to allow creator to make money. But it feels like over the past couple of years, it feels like it faded away. And these very small number of platforms essentially one YouTube, Spotify, Instagram, TikTok, Patreon, maybe Substack, and there was also the sense that the future of work is freelance, everyone's going to be working for themselves, creating stuff,"
+    },
+    {
+      "speaker": "and it feels like people are still working regular jobs. A lot of these startups haven't done great.",
+      "timestamp": "00:15:01)",
+      "timestamp_seconds": 0.0,
+      "content": "So I guess I'm just curious what you think happens maybe in the next five or 10 years from a perspective of platforms emerging and also just from creators, what... Do you think things stay the same? Do you think there's another wave? Where do you think things go?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:15:14)",
+      "timestamp_seconds": 0.0,
+      "content": "I think it was probably predictable to some degree that platforms would win because just of the nature of aggregation. Once you have either all of the supply or you've aggregated the demand, it's really a strong network effect. Why investors love to invest in these types of businesses,"
+    },
+    {
+      "speaker": "I wouldn't underestimate the strategic ability either of some the big platforms. They were definitely thinking ahead and building features and thinking about whether or not they saw it as a monetization opportunity. It certainly is a great strategic play to make sure that creators felt like they were on the platform that made the most sense for them and they weren't going to churn or leave or try too many other places out.",
+      "timestamp": "00:16:04)",
+      "timestamp_seconds": 0.0,
+      "content": "So I think the rush and the funding was to figure out is there room for any other new platforms,"
+    },
+    {
+      "speaker": "are there specific vertical that maybe there's an opportunity to create vertical specific features and tooling.",
+      "timestamp": "00:16:19)",
+      "timestamp_seconds": 0.0,
+      "content": "And actually, I think we saw a huge massive creation there in Twitch, right?"
+    },
+    {
+      "speaker": "I think TikTok is another one that came out of this era. Maybe they weren't positioned as creator economy type startups but effectively...",
+      "timestamp": "00:16:35)",
+      "timestamp_seconds": 0.0,
+      "content": "Did you see what happened in Union Square here with Kai, the gaming streamer?"
+    },
+    {
+      "speaker": "No.\n\nCamille Hearst",
+      "timestamp": "00:16:39)",
+      "timestamp_seconds": 0.0,
+      "content": "So I'm in New York and last week, there was a mob and a riot because a Twitch streamer announced that he was going to be giving away PlayStations and computer gear in Union Square and something like a million teenage boys showed up. I'm not making this up. And they had to shut down the center of New York City to clear what turned into protest, riot,"
+    },
+    {
+      "speaker": "Holy shit.\n\nCamille Hearst",
+      "timestamp": "00:17:08)",
+      "timestamp_seconds": 0.0,
+      "content": "..."
+    },
+    {
+      "speaker": "So I do think a lot of the predictions have come to bear. There are tons of people making money and making a living from creating content on the internet.",
+      "timestamp": "00:17:28)",
+      "timestamp_seconds": 0.0,
+      "content": "There have been studies too where they ask young people what they want to do and what they want to be when they grow up, we quote these at, excuse me, Patreon and over 60%"
+    },
+    {
+      "speaker": "want to create content for a living.",
+      "timestamp": "00:17:42)",
+      "timestamp_seconds": 0.0,
+      "content": "So those trends I don't think are going anywhere. Maybe it'll be supplemental income,"
+    },
+    {
+      "speaker": "maybe it'll be something you do for a period of your life. But I do think that this area continues to be untapped. I just don't see a world where...",
+      "timestamp": "00:17:58)",
+      "timestamp_seconds": 0.0,
+      "content": "I think of Michelle Phan, right? She's basically a mini Disney and when you think of it like that, she's created IP. What can you do with IP? Comic books, movies, TV shows, plushies, merch. How many millions of Michelle fans are we going to have seen? (00:18:16):"
+    },
+    {
+      "speaker": "Look at what's happening in China. There's tons of creators like this.",
+      "timestamp": "00:18:20)",
+      "timestamp_seconds": 0.0,
+      "content": "So whether or not the VCs have won or the startups have succeeded, there's no way that you can lower the cost of content creation and increase the scale of distribution and not see this emerge, this creator economy I think emerge. But I think that maybe there's still opportunity for more companies to blossom and to grow and certainly for more individuals maybe do this, figure it out on their own,"
+    },
+    {
+      "speaker": "and do it without too many big platforms getting paid off of their creative pursuit.\n\nLenny",
+      "timestamp": "00:18:58)",
+      "timestamp_seconds": 0.0,
+      "content": "Have you seen the NPC trend on TikTok/maybe Instagram Reels where people pretend to be NPCs, non-playable characters, from a video game?"
+    },
+    {
+      "speaker": "Okay. It's crazy. People just pretend to be a computer character and people pay them little gifts to do a thing.\n\nCamille Hearst",
+      "timestamp": "00:19:15)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh. Is this the... Yes. Have seen it. [inaudible 00:19:19] ice cream,"
+    },
+    {
+      "speaker": "ice cream.\n\nLenny",
+      "timestamp": "00:19:22)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny",
+      "timestamp": "00:19:30)",
+      "timestamp_seconds": 0.0,
+      "content": "On the thread of becoming a creator, you've seen a lot of creators try to do this on Patreon, back at Apple even with iTunes, I want to chat about that, at Spotify now, and even your startup. I'm curious what you've seen is important to success in the creator life, especially things that are maybe not obvious to people. What do people need to get right if they want to pursue that path?"
+    },
+    {
+      "speaker": "One of the things that I've seen that I don't know if people realize is consistency and predictability of content creation which is where this idea that we were talking about earlier of a hamster wheel kind of comes on.",
+      "timestamp": "00:20:08)",
+      "timestamp_seconds": 0.0,
+      "content": "But there is something to churning out consistent quality work and putting it out there for your audience to consume and respond and react to that goes a long way. It's almost like the 10,000 hours. You have to do 10,000"
+    },
+    {
+      "speaker": "hours of something in order to truly master it. But I've seen that time and again.",
+      "timestamp": "00:20:30)",
+      "timestamp_seconds": 0.0,
+      "content": "I started at YouTube in, let's see, how old am I? It must have been 2010. And that was when I really think this whole thing was just first getting going. And we used to put together these playbooks of what made a creator successful because a lot of the effort there was trying to support this burgeoning economy. And I remember even back then in 2010 and to this day,"
+    },
+    {
+      "speaker": "that continues to be one of the top pieces of advice.",
+      "timestamp": "00:20:57)",
+      "timestamp_seconds": 0.0,
+      "content": "Another one is collaboration. So working with other great creators, sharing audience, exposing one another to those audiences, and then this was something we tried to employ at my startup, Kit. We would actually host events for creators to get together to facilitate meeting and cross pollination in the hopes that it would just benefit their careers. If they were doing YouTube videos with someone they met at the party,"
+    },
+    {
+      "speaker": "then it would be great for all parties all around. So those are two things.",
+      "timestamp": "00:21:32)",
+      "timestamp_seconds": 0.0,
+      "content": "And then I do think in a world with all of this content, there continues to be a need and a space for the curator. And curators as creator's kind of an interesting concept. But a curator is almost like what the role at book publishing company plays or a record label plays or a radio station plays, right? (00:21:56): There is a degree of having a brand, having something you stand for, having a vibe or an ethos and that person being almost, not a gatekeeper in a bad way, but like, \"I, Camille, can't consume anywhere near all this content. You, I trust your vibe. Tell me what I should be listening to.\" And so that would be the third thing I would say is figure out who are those curators who you really can associate your content with who are on the same page as you,"
+    },
+    {
+      "speaker": "have an audience who you think would like your stuff and just try and get associated with them.\n\nLenny",
+      "timestamp": "00:22:30)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. The last piece is so... I totally see that all the time. If there's someone I super respect and they recommend something, I'm obviously going to value that recommendation highly. That's like we're influencing emerged from organically, right? People just, \"Here's something you should check out,\" and then, \"Oh, let's pay you to share things so that people try our product.\""
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:22:48)",
+      "timestamp_seconds": 0.0,
+      "content": "That was the exact concept behind my startup, Kit. It was all about curating, finding people who are great recommenders for gear, having them curate that gear, and then you could follow the curators you love who wants to go look on Amazon and see reviews from people you've never heard of. Oftentimes, if it's your brother-in-law who's a great cyclist and they say, \"Buy this,\""
+    },
+    {
+      "speaker": "you just buy it. You don't even care what the reviews say because you trust that person.\n\nLenny",
+      "timestamp": "00:23:14)",
+      "timestamp_seconds": 0.0,
+      "content": "What happened with the startup and what did you learn from that experience?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:23:17)",
+      "timestamp_seconds": 0.0,
+      "content": "I started working on the startup in 2015. We managed to raise some money, raised over $2 million, which is a huge accomplishment, especially if you know anything about venture capital. They have a horrible track record when it comes to funding people of color, women, people who are non-cisgender white male,"
+    },
+    {
+      "speaker": "just the track record.",
+      "timestamp": "00:23:43)",
+      "timestamp_seconds": 0.0,
+      "content": "And we had an amazing experience building this company over several years, grew a bunch of the key metrics up into the right and got to a point where we were trying to figure out what the next move was and should we get a bridge round. We were trying to raise Series A. We were, I think, early on the creator economy trend. Probably about a year and a half later, it would've been, I think, I hope a snap to raise money. But anyway, we were battling a bunch of different choices,"
+    },
+    {
+      "speaker": "And I actually did this startup accelerator called StartX that's run out of Stanford which is my alma mater. And we learned a lot about how to sell a company and what M&A looks like. So we started exploring that path.",
+      "timestamp": "00:24:34)",
+      "timestamp_seconds": 0.0,
+      "content": "And in the end, it made the most sense for us to have an exit and join forces with Patreon. And so that's what we ended up doing. Sold the company in 2018, joined Patreon, worked there a couple of years,"
+    },
+    {
+      "speaker": "and that's where I met Adam.\n\nLenny",
+      "timestamp": "00:24:49)",
+      "timestamp_seconds": 0.0,
+      "content": "Amazing. And I wanted to ask actually about that experience of selling a company. There's a lot of people listening right now who are thinking about selling their company or maybe you hope to sell their company someday, and I think there's a reality of it and then there's the idea of how it might go. I'm curious what you've taken away from that experience. And I guess specifically is there any advice you could share with folks that are thinking about selling their company someday? What you think maybe could have done earlier or also just share a glimpse of the reality of acquisitions?"
+    },
+    {
+      "speaker": "I think it's different for every company for sure. Some companies get souped in and get bought. And other companies actively sell themselves.",
+      "timestamp": "00:25:31)",
+      "timestamp_seconds": 0.0,
+      "content": "We are definitely in the latter camp which means that we manage a process. It's similar to how you manage a process for fundraising. Not every company just meets the VC and raises money on the first try. They go through a process and meet tons of VCs and put them through the funnel and end up on the other side hopefully with a successful round. So I think that's one takeaway is treat it like a process and manage it like a process if it is something you're interested in. It doesn't really just... For most companies,"
+    },
+    {
+      "speaker": "I would say it doesn't just happen.",
+      "timestamp": "00:26:04)",
+      "timestamp_seconds": 0.0,
+      "content": "And then the second piece of advice I would give I think we should have been talking to potential acquirers from the beginning and sharing our vision and what we were trying to accomplish because we started those quite late in our journey as a company and it just meant it took... When I met a potential CPO, who would acquire the company, who would end up being my boss or CEO, it was their first time meeting me whereas if it had been their fifth time, we would've had a relationship established and they would've known more about the vision and what we're trying to do and hopefully,"
+    },
+    {
+      "speaker": "would've had some more time to think about it.",
+      "timestamp": "00:26:42)",
+      "timestamp_seconds": 0.0,
+      "content": "So those would be my two pieces of advice. Start preparing to sell your company from the moment you found it which is a weird thing because obviously, if you're starting a company, for most founders, they want it to be the next big thing, they're not starting it in order to sell it,"
+    },
+    {
+      "speaker": "but it's a good thing to have on your radar because you never know what the future holds. And then two is to treat it like a process.\n\nLenny",
+      "timestamp": "00:27:07)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. On that piece of knowing people who may acquire you, I found that to be a thousand percent true. We sold our company the Airbnb and that's how it got to Airbnb and what I realized is you just need people who may buy you in the future to have you in their head when they have a problem so that they could be like, \"Oh,"
+    },
+    {
+      "speaker": "Exactly.\n\nLenny",
+      "timestamp": "00:27:28)",
+      "timestamp_seconds": 0.0,
+      "content": "... see if they're interested in acquisition.\" (00:27:31): And on the process piece too, 1000% resonates. We basically... When we started chatting with a company, we're just like, \"Okay, who else could potentially acquire us? Let's make a big list and who we can talk to at that company as soon as possible and then just explore.\" But it's more challenging there because it's you reaching out to them being like, \"Hey, you want to chat about buying our company,\" versus them reaching out to you. So to your point, always goes better if they reach out to you,"
+    },
+    {
+      "speaker": "but you can't always control that.\n\nCamille Hearst",
+      "timestamp": "00:27:54)",
+      "timestamp_seconds": 0.0,
+      "content": "Right. Or if the meeting is not under the context of buying it all, it's like, \"We're working on something cool. We have a great vision. It aligns with what you're doing. Maybe there's a partnership here,\" versus just tell you what we're doing and then when I contact you in 12 months about buying me,"
+    },
+    {
+      "speaker": "you've heard of me before.\n\nLenny",
+      "timestamp": "00:28:12)",
+      "timestamp_seconds": 0.0,
+      "content": "I find even when you're starting to chat about acquisitions, you never want to say directly, \"Hey, you want to buy us?\" It's like, \"Hey, you want to have a strategic partnership of some kind? You want to explore partnership?\""
+    },
+    {
+      "speaker": "Like dating.\n\nLenny",
+      "timestamp": "00:28:24)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "yeah. You can't just be too direct sometimes.",
+      "timestamp": "00:28:28)",
+      "timestamp_seconds": 0.0,
+      "content": "So when you got to Patreon, I don't know if it was immediate or eventually you ended up leading the creator side of the marketplace, and I find that looking at your background,"
+    },
+    {
+      "speaker": "you basically stayed on the supply side of marketplaces through your career mostly.",
+      "timestamp": "00:28:43)",
+      "timestamp_seconds": 0.0,
+      "content": "And I actually did the same thing. All I worked on at Airbnb especially, or mostly,"
+    },
+    {
+      "speaker": "was the host side.",
+      "timestamp": "00:28:48)",
+      "timestamp_seconds": 0.0,
+      "content": "And I think it takes a specific mindset in person to be excited about that side of the marketplace versus the consumer side which is where everyone always generally wants to go, to the customer side. So I'm curious what it is that's drawn you to that side of the business across all the places you work and then just what you found to be important to be successful in that role and on that side?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:29:09)",
+      "timestamp_seconds": 0.0,
+      "content": "What drew me to that side of the business probably was maybe accidental at the beginning. Just again, coming from this musical family and background,"
+    },
+    {
+      "speaker": "I always had a natural interest in helping artists make a living. So I think that interest was there.",
+      "timestamp": "00:29:29)",
+      "timestamp_seconds": 0.0,
+      "content": "At Apple,"
+    },
+    {
+      "speaker": "I did... There were only two PMs there. We did everything.",
+      "timestamp": "00:29:34)",
+      "timestamp_seconds": 0.0,
+      "content": "At YouTube,"
+    },
+    {
+      "speaker": "But where I started understanding deeply the dynamics of the marketplace was actually my experience and the one job I've had that not been in the creator or art or these big consumer platforms or creator economy which was at a startup called Hailo based out of London and at the time was a huge competitor to Uber and Lyft in the ride sharing and ride hailing space and I worked on the supply side making sure that there were enough cars to fuel the demand.",
+      "timestamp": "00:30:17)",
+      "timestamp_seconds": 0.0,
+      "content": "And in a marketplace like that where it's real time people trying to get a cab to go from uptown to downtown, you see the inexperience firsthand the impact to your business if you don't have suppliers, if your suppliers aren't happy, if they go on strike,"
+    },
+    {
+      "speaker": "if there's regulations that mean you can't use your service. And there I think I was...",
+      "timestamp": "00:30:44)",
+      "timestamp_seconds": 0.0,
+      "content": "So one of the projects that I worked on that I launched was the U.S. Uber competitor because Hailo in Europe was all about getting taxi cabs and did not play in the livery is what it's called in New York or the private rides. Basically,"
+    },
+    {
+      "speaker": "it's like your uncle or your aunt or your cousin who can switch on Lyft and go pick up whoever. That just was not a thing in Europe.",
+      "timestamp": "00:31:09)",
+      "timestamp_seconds": 0.0,
+      "content": "And so we had to figure out how to launch that in the U.S., how to get drivers on how to create this supply and it was like it doesn't matter how nice the user experience is, how great the marketing is, how much demand you can generate if when someone opens that app,"
+    },
+    {
+      "speaker": "there are no cars available.",
+      "timestamp": "00:31:31)",
+      "timestamp_seconds": 0.0,
+      "content": "So a lot of people talk about marketplaces as chicken and egg. I actually just think they're two-sided and you start with the supply and at the end of the day, you can optimize for the demand side or choose who you're going to prioritize in terms of if there's a conflict,"
+    },
+    {
+      "speaker": "we're going to pick this side or the other.",
+      "timestamp": "00:31:53)",
+      "timestamp_seconds": 0.0,
+      "content": "And yes,"
+    },
+    {
+      "speaker": "you won't be successful with one side or the other but I just experienced and lived firsthand the pain of having built this great operations back in that fed into this gray UI and then you open that app and you can't get a ride because there aren't enough cars available.",
+      "timestamp": "00:32:12)",
+      "timestamp_seconds": 0.0,
+      "content": "So I think that solidified my feeling that with marketplaces,"
+    },
+    {
+      "speaker": "you can't lose sight of the solving real pain points and needs for the supply side in order to make sure the entire business can operate.\n\nLenny",
+      "timestamp": "00:32:26)",
+      "timestamp_seconds": 0.0,
+      "content": "I've done a bunch of research into marketplaces and I found basically the same thing,"
+    },
+    {
+      "speaker": "Exactly.\n\nLenny",
+      "timestamp": "00:32:42)",
+      "timestamp_seconds": 0.0,
+      "content": "There's a few rare cases, I forget exactly which they were,"
+    },
+    {
+      "speaker": "where demand was actually the bigger challenge and supply is really easy.",
+      "timestamp": "00:32:47)",
+      "timestamp_seconds": 0.0,
+      "content": "You know what? It was Rover. Rover had no problem it turns out with supply because who wouldn't want to make 50"
+    },
+    {
+      "speaker": "bucks watching a dog for a few hours. It was a really easy sell and a lot of people could do it and wanted to do it so they actually found supply was not an issue.",
+      "timestamp": "00:33:01)",
+      "timestamp_seconds": 0.0,
+      "content": "But in most cases exactly how you said most 10"
+    },
+    {
+      "speaker": "Totally.",
+      "timestamp": "00:33:06)",
+      "timestamp_seconds": 0.0,
+      "content": "I find that the counter example I hear a lot is eBay, how they were so good at aggregating demand,"
+    },
+    {
+      "speaker": "Yeah. You got to have some good stuff on eBay. I wonder if Beanie Babies or whatever they started with.\n\nCamille Hearst",
+      "timestamp": "00:33:37)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "exactly.\n\nLenny",
+      "timestamp": "00:33:39)",
+      "timestamp_seconds": 0.0,
+      "content": "This episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, Comm, Quora, and Modern Treasury trust Vanta to help build, scale, manage, and demonstrate their security and compliance programs and get ready for audits in weeks,"
+    },
+    {
+      "speaker": "not months.",
+      "timestamp": "00:33:58)",
+      "timestamp_seconds": 0.0,
+      "content": "By offering the most in-demand security and privacy frameworks such as SOC 2, ISO 27001, GDPR, HIPAA, and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses,"
+    },
+    {
+      "speaker": "and build trust with external stakeholders.",
+      "timestamp": "00:34:16)",
+      "timestamp_seconds": 0.0,
+      "content": "Over 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2"
+    },
+    {
+      "speaker": "and these other frameworks.",
+      "timestamp": "00:34:23)",
+      "timestamp_seconds": 0.0,
+      "content": "For a limited time, Lenny's Podcast listeners get $1000 off Vanta. Go to vanta.com/lenny, that's V-A-N-T-A .com/lenny,"
+    },
+    {
+      "speaker": "to learn more and to claim your discounts. Get started today.",
+      "timestamp": "00:34:37)",
+      "timestamp_seconds": 0.0,
+      "content": "You mentioned Apple and I want to spend a little time there. So you said you were the second PM on iTunes back in the day and I'm curious what you learned from the experience you had working at Apple. I think I read somewhere you worked maybe closely with Steve Jobs and Jony Ive, but I don't know if that's true, but I'm curious just... No? Okay, but you do have a Steve Jobs story?"
+    },
+    {
+      "speaker": "Yes. So I was very early on in the iTunes days I started interning there when I came out of grad school and my internship was actually in label relation and then I started a full-time job doing product marketing.",
+      "timestamp": "00:35:17)",
+      "timestamp_seconds": 0.0,
+      "content": "And at Apple at the time, I think even to this day, they didn't have a product manager title, they had product marketing managers. And so one of my colleagues who remains good friends to this day, Steve was the first also named Steve,"
+    },
+    {
+      "speaker": "not Steve Jobs was the first PMM working on iTunes and he primarily was doing all the client stuff. He launched the store and everything. But I think I was the second person in the iTunes group with that title. So that was really cool.",
+      "timestamp": "00:35:44)",
+      "timestamp_seconds": 0.0,
+      "content": "And then as far as the Steve Jobs story, I would think I mentioned to you people like hearing this story, nothing happened, I just went up to him and said, \"Hi, I'll tell the story.\" (00:35:53):"
+    },
+    {
+      "speaker": "But I think the context of why people find it interesting is because of other stories about Steve. So let me give a little context.",
+      "timestamp": "00:36:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Those Steve Jobs lore was that if you were in an elevator with him, you better be prepared to talk about what you do at the company because he had a habit of getting in the elevator and looking at you and saying, \"What do you do? What do you do here?\""
+    },
+    {
+      "speaker": "And there were also rumors that people who had not given him a good answer that ended up being their last day at Apple.",
+      "timestamp": "00:36:24)",
+      "timestamp_seconds": 0.0,
+      "content": "So there was someone who I didn't know personally but worked in my department before I got there who got in an elevator and looked up and Steve was approaching him. And so he went to press the button to open the door and accidentally press the one to close the door and was doing this press... You can't see me if you're listening on podcast but frantically pressing the button, trying to open the door, but accidentally pressing the close door button and the elevator going to its destination. And apparently he got off and just bolted straight up,"
+    },
+    {
+      "speaker": "He'll never remember my face.\n\nCamille Hearst",
+      "timestamp": "00:37:03)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "So that's the context.",
+      "timestamp": "00:37:07)",
+      "timestamp_seconds": 0.0,
+      "content": "So in 2005, it's my first day of my internship at Apple and I had this situation where I attended graduation because I only had one semester left to go back to, so I just decided to attend the graduation. That happened basically the week before. And for those of you who are the job span, this is when he gave his really inspiring and famous Stanford commencement speech and it's an awesome,"
+    },
+    {
+      "speaker": "awesome thing to listen to.\n\nLenny",
+      "timestamp": "00:37:41)",
+      "timestamp_seconds": 0.0,
+      "content": "You were at that speech?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:37:42)",
+      "timestamp_seconds": 0.0,
+      "content": "I was there,"
+    },
+    {
+      "speaker": "It's a good one. It's really-\n\nLenny",
+      "timestamp": "00:37:48)",
+      "timestamp_seconds": 0.0,
+      "content": "What did you feel being there listening to it in the moment?"
+    },
+    {
+      "speaker": "Totally inspired.",
+      "timestamp": "00:37:54)",
+      "timestamp_seconds": 0.0,
+      "content": "Apple was not quite what it is today in terms of brand and influence and just it's at the peak. It's really come a long way. It was still when I met the recruiter at a conference, I was like, \"Apple? What do they do again? My roommate had a Mac, but what's iTunes? Oh, yeah, I think I've heard of that. I think...\" (00:38:19): The dancing iPod silhouette ads which really sent Apple over the top. Those hadn't even really dropped yet, but it was starting, right?"
+    },
+    {
+      "speaker": "And Steve's great at those. He was phenomenal storyteller.",
+      "timestamp": "00:38:44)",
+      "timestamp_seconds": 0.0,
+      "content": "So graduation is what? Saturday, I go home Sunday. The Monday I started my internship and here we are at Cafe Max with my new coworkers and Steve is sitting literally at the table next to me. And so I was like, \"Oh my gosh, there's Steve. I would love to say hi and introduce myself and everyone at the table.\" (00:39:09): Now mind you, I hadn't heard this story about the elevator button in the full yet because it was my first day, but they're all looking at each other. They're like, \"Yeah, go say hi to him if you want, but you're an intern.\" They say, \"Hopefully, he doesn't fire you on your first day.\" (00:39:22): But I've always, in my family and in my life,"
+    },
+    {
+      "speaker": "had this encouragement to say hi to people when you see them and let them know that you appreciate what they do and just thank them because it doesn't happen often.",
+      "timestamp": "00:39:39)",
+      "timestamp_seconds": 0.0,
+      "content": "A lot of times, people go and they ask for a picture or an autograph but this idea of just introducing yourself, saying hello, and thanking someone for something that they've done that impacted you to something that's been a way that my parents have encouraged me to behave in the world and something that I saw them do and saw them model because probably, again, coming from my dad being a musician and being fans of other musicians that like a thing in music,"
+    },
+    {
+      "speaker": "the artist culture that talked to one another about how something you created influenced you or whatnot.",
+      "timestamp": "00:40:09)",
+      "timestamp_seconds": 0.0,
+      "content": "So I went up to him and I got up from my lunch table and walked over and I said, \"Hi, my name's Camille. I'm interning here this summer. It's my first day. I was at graduation at Stanford on Saturday and your speech was amazing. I was really inspired. I'm so excited to be here and so excited to work on this company and I just wanted to say thank you for spending your time doing that speech for us on Saturday.\" (00:40:38): And he was like, \"Who are you? What? You're an intern? Well, what are you doing here?\" It was a little... We had a little bit of an exchange. I had to clarify like, \"Yeah, I graduated, but I'm interning and I have another semester left.\" And he was like, \"Oh, okay. Well, welcome to Apple and good luck and I hope you have a really great experience this summer.\""
+    },
+    {
+      "speaker": "And that was it. I didn't get fired and I said hello to Steve.",
+      "timestamp": "00:41:01)",
+      "timestamp_seconds": 0.0,
+      "content": "And after that, I felt like I knew him. Every time,"
+    },
+    {
+      "speaker": "I'd see him around campus I'd wave high and I think he had no idea who I was but he would look at me confused and then wave back hello.\n\nLenny",
+      "timestamp": "00:41:12)",
+      "timestamp_seconds": 0.0,
+      "content": "\"She's so friendly. Who's this person?\""
+    },
+    {
+      "speaker": "Yeah.\n\nLenny",
+      "timestamp": "00:41:15)",
+      "timestamp_seconds": 0.0,
+      "content": "Do you still remember how you would've described what you do? I have a feeling it's seared in your head, but if not,"
+    },
+    {
+      "speaker": "then never mind.\n\nCamille Hearst",
+      "timestamp": "00:41:21)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh, my statement, if he had asked me where [inaudible 00:41:23]."
+    },
+    {
+      "speaker": "Lenny",
+      "timestamp": "00:41:23)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "exactly.\n\nCamille Hearst",
+      "timestamp": "00:41:24)",
+      "timestamp_seconds": 0.0,
+      "content": "Well, yeah,"
+    },
+    {
+      "speaker": "I was lucky because one of the things that I did he would actually know exactly what it is which is I would manage press rooms whenever there was an iTunes launch. So this is very much grunt work.",
+      "timestamp": "00:41:38)",
+      "timestamp_seconds": 0.0,
+      "content": "But when there would be a press event for one of the new iTunes 6 launch or whatever, they would have interviews with Walter Isaacson or I don't know if Kara Swisher was working back then, but whoever the journalist and Steve would have a room set up with an iMac computer with an iTunes library full of track. There would be whatever the new iPod was synced to that computer and all of the track. And after every interview,"
+    },
+    {
+      "speaker": "everything would have to be reset.",
+      "timestamp": "00:42:10)",
+      "timestamp_seconds": 0.0,
+      "content": "Also, the library was crafted so he would give feedback for months on the content of the library because he would do demos. And so he wanted to know, \"Make sure all my favorite tracks are in there, my favorite Beatles records, my favorite Bob Dylan records, and who's this artist? Let me check them out. Okay, they don't cross the bar. Oh, what's this song? Oh, I love this song. Oh, add this.\""
+    },
+    {
+      "speaker": "So he was very involved in the entire presentation and someone had to go do all that.",
+      "timestamp": "00:42:38)",
+      "timestamp_seconds": 0.0,
+      "content": "So who better than the fresh out of masters of engineering in Stanford graduate student to go do all of the grunt work of making library? But those are the kinds of details that he paid attention to. And so I would've just told him that I did product marketing and one of my main responsibilities was fixing the press room for him and he would've been like, \"Oh, okay.\""
+    },
+    {
+      "speaker": "Lenny",
+      "timestamp": "00:43:01)",
+      "timestamp_seconds": 0.0,
+      "content": "You mentioned that your title is product marketing manager and there was a recent kind of a hubbub on Twitter where Brian Chesky at Airbnb shared that they shifted the role of product manager to essentially the Apple model. And I'm curious what your perspective is on that approach to product, the Apple kind of way versus a traditional product manager?"
+    },
+    {
+      "speaker": "Yeah. A lot of Apple people.\n\nCamille Hearst",
+      "timestamp": "00:43:31)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. And actually one of the new leaders they've hired, I don't know if you know Judson Coplan, dear friend of mine, we interned that same summer at Apple and he worked there for 15"
+    },
+    {
+      "speaker": "years before heading over to Airbnb.",
+      "timestamp": "00:43:45)",
+      "timestamp_seconds": 0.0,
+      "content": "But yeah, the Apple construct, it's much more of design and engineering led organizations,"
+    },
+    {
+      "speaker": "craftspeople I would say more so than strategy people. So that was one of the stark differences I saw in my transition from Apple to Google. There are a lot more like people from Coca-Cola and McKinsey and Bain at Google. I don't think any of those people even existed at Apple.",
+      "timestamp": "00:44:15)",
+      "timestamp_seconds": 0.0,
+      "content": "And it was very much like, \"Let's 3D chess our way into what our next move is going to be.\" Whereas at Apple it was, \"Let's tinker and let's craft and let's build and let's see what feels right.\" There's different approaches. As a result,"
+    },
+    {
+      "speaker": "So I think it makes sense. Brian Chesky's background is a designer so it probably resonates a bit more within the Apple way.",
+      "timestamp": "00:44:41)",
+      "timestamp_seconds": 0.0,
+      "content": "And then in terms of what it means for product managers on an individual level, so again, there weren't product managers, the closest thing would've been CPMs,"
+    },
+    {
+      "speaker": "technical program managers who help manage the sprints and manage the schedule and listing out what features would happen.",
+      "timestamp": "00:44:59)",
+      "timestamp_seconds": 0.0,
+      "content": "I spent a lot of my time with the incredibly talented design team and if I had ideas of product features or... We would think months ahead of time, like what's the anchor story or what are the three key messages for the launch of iTunes 10"
+    },
+    {
+      "speaker": "or whatever and we might have ideas for new features that would go in that.",
+      "timestamp": "00:45:19)",
+      "timestamp_seconds": 0.0,
+      "content": "But because we had that moment in time,"
+    },
+    {
+      "speaker": "Mm-hmm.\n\nLenny",
+      "timestamp": "00:45:54)",
+      "timestamp_seconds": 0.0,
+      "content": "I want to come back actually to the creator economy stuff. I feel like you've worked in the creator economy longer than most anyone, and so I wanted to use our time to spend a little more time there. What about on the platform side? If someone were thinking about starting a company to cater to creators, to build a new platform maybe for creators to make a living, do you have any advice for them? Where do you think maybe there's opportunity? Where do you think it's like, \"No, probably you don't want to spend time here?\""
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:46:24)",
+      "timestamp_seconds": 0.0,
+      "content": "I think with any company,"
+    },
+    {
+      "speaker": "solving a real problem is the most important thing. So creators have lots of challenges and things that can be solved. Some painful things are more acutely felt than others.",
+      "timestamp": "00:46:40)",
+      "timestamp_seconds": 0.0,
+      "content": "I think at the core, every creator needs two things. They need to grow an audience and they need to get paid so that they can make a living. And in some ways, I do think that growing an audience is more important because with that audience,"
+    },
+    {
+      "speaker": "it opens up opportunities in ways that you can monetize.",
+      "timestamp": "00:46:59)",
+      "timestamp_seconds": 0.0,
+      "content": "But there are all kinds of other things like we're talking about financing, health insurance, the list goes on, things we face as human beings,"
+    },
+    {
+      "speaker": "trying to be freelancers in the world often apply equally to people who are creative for a living.",
+      "timestamp": "00:47:14)",
+      "timestamp_seconds": 0.0,
+      "content": "And then there are unique things about the creator space like the spurts of energy,"
+    },
+    {
+      "speaker": "the spurts of creative flow that maybe don't apply in a salary job or an hourly job.",
+      "timestamp": "00:47:28)",
+      "timestamp_seconds": 0.0,
+      "content": "So there are lots of problems out there still to be solved for creators. I don't think that this space is nearly solved, done,"
+    },
+    {
+      "speaker": "Wise advice.",
+      "timestamp": "00:47:49)",
+      "timestamp_seconds": 0.0,
+      "content": "Have you seen this podcaster, Bobbi, I forget her last name, she rocketed up to the fourth biggest podcast in America with a few episodes of her podcast, she interviews Drake and a few comedians. Have you seen this person?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:48:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I feel like I should, but as we said at the beginning, I'm such a music head,"
+    },
+    {
+      "speaker": "I don't listen to any podcast.\n\nLenny",
+      "timestamp": "00:48:11)",
+      "timestamp_seconds": 0.0,
+      "content": "The reason I thought of her is I was watching a clip of her on an interview show and she hasn't made any money from this even though she's got the hottest podcast in America right now, and we're going to link to her in the show notes,"
+    },
+    {
+      "speaker": "Amazing.\n\nLenny",
+      "timestamp": "00:48:25)",
+      "timestamp_seconds": 0.0,
+      "content": "There's something about her that just is really fun to watch. But okay,"
+    },
+    {
+      "speaker": "There we go.",
+      "timestamp": "00:48:36)",
+      "timestamp_seconds": 0.0,
+      "content": "You've mentioned your parents and I was reading your Wikipedia page and the way your parents are described on there is radical Buddhist artists technologists. I'm curious what that means maybe and then also just is there a memory or moment of growing up that highlights that aspect of them?"
+    },
+    {
+      "speaker": "What's funny about this is I had no idea how to Wikipedia page until you sent that.\n\nLenny",
+      "timestamp": "00:48:56)",
+      "timestamp_seconds": 0.0,
+      "content": "What?"
+    },
+    {
+      "speaker": "I don't know where it came from.\n\nLenny",
+      "timestamp": "00:48:56)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh my God. Who made this?"
+    },
+    {
+      "speaker": "That's amazing.\n\nCamille Hearst",
+      "timestamp": "00:49:08)",
+      "timestamp_seconds": 0.0,
+      "content": "Like, \"What? I'm on Wikipedia?\""
+    },
+    {
+      "speaker": "Yeah.",
+      "timestamp": "00:49:13)",
+      "timestamp_seconds": 0.0,
+      "content": "So let's see. I grew up in San Francisco in the eighties and nineties. My parents started practicing Buddhism on the East Coast in the seventies. And my dad was, I mentioned he's a drummer and a musician,"
+    },
+    {
+      "speaker": "and he also had a studio. We had this closet under the stairs that he turned into a production studio and he was an artist.",
+      "timestamp": "00:49:43)",
+      "timestamp_seconds": 0.0,
+      "content": "He worked for the city. My mom worked for the city, didn't have a ton of money growing up, and so a lot of the computer equipment came from the street. He would find... Somebody put a PC out... He was building PCs before the gamers were doing it. And I remember he would come home with boxes and boards and chips and would literally go get a book from the library or the store and would figure out how to assemble these computers, keyboards that were broken. He would just fix them. Probably should have been a mechanical engineer,"
+    },
+    {
+      "speaker": "super talented at this stuff.",
+      "timestamp": "00:50:15)",
+      "timestamp_seconds": 0.0,
+      "content": "But basically he had this entire production studio with drum machines and all the equipment. And I was his helper. So I would help him solder stuff together and tinker and actually put these computers together. So that's probably... I don't know where that quote came from. I'll have to go click the link of what the reference is from,"
+    },
+    {
+      "speaker": "but that's some of the background there.",
+      "timestamp": "00:50:42)",
+      "timestamp_seconds": 0.0,
+      "content": "And the other thing that happened back in San Francisco in the eighties and nineties,"
+    },
+    {
+      "speaker": "we used to host Buddhist meetings in our house and back then there was a lot of what was called street propagation like the Hare Krishna used to be up and down Haight Street right around the corner for me.",
+      "timestamp": "00:51:01)",
+      "timestamp_seconds": 0.0,
+      "content": "The Nation of Islam, which my brother joined for a period of time,"
+    },
+    {
+      "speaker": "So The Final Call is the newspaper at the time for the Nation of Islam.",
+      "timestamp": "00:51:15)",
+      "timestamp_seconds": 0.0,
+      "content": "And so it was just a different era, completely different from today, and us practicing Nichiren Buddhism, we had pamphlet that said, \"Nam myoho renge kyo,\" on them, and I would stand on the steps of our house and... We had a gate. So I would stand behind the gate and I'm probably seven or eight years old, just ask people walking by, \"Hey, if you're a nam myoho renge kyo, here's a pamphlet. Learn a little more. We're having a meeting at our house.\" (00:51:40): I'd laugh with my mom now. She's like, \"I can't believe we're doing that.\" It seems totally crazy now but at the time, it was just, again, coming off of the seventies,"
+    },
+    {
+      "speaker": "it was a very different era.",
+      "timestamp": "00:51:49)",
+      "timestamp_seconds": 0.0,
+      "content": "If you've ever seen What's Love Got To Do With It, Tina Turner's probably... Who recently passed away, probably one of the more famous, more well-known practitioners of Nichiren Buddhism and she actually started practicing in the same kind of era,"
+    },
+    {
+      "speaker": "seventies and eighties... Or seventies probably.",
+      "timestamp": "00:52:05)",
+      "timestamp_seconds": 0.0,
+      "content": "So that's what that means. And those are a couple memories that illustrate that moment. But you can see, music, technology, helping creators get paid,"
+    },
+    {
+      "speaker": "it's certainly influenced everything about how I am today.\n\nLenny",
+      "timestamp": "00:52:20)",
+      "timestamp_seconds": 0.0,
+      "content": "That was a perfect description of your parents based on those stories. And it feels inevitable that you would've ended up doing what you're doing now. Product, technology, music, artists,"
+    },
+    {
+      "speaker": "creators. So that's amazing.",
+      "timestamp": "00:52:33)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm going to ask one more question before we get to our very exciting lightning round, and the question is just around frameworks. Is there just a favorite framework or process or system or approach to building product or teams that you come back to and/or to share often that you think might be useful to listeners?"
+    },
+    {
+      "speaker": "I have this great manager in my experience at Hailo who turned me on to Marty Cagan who I since befriended and learned a ton from. And I just love the way that-\n\nLenny",
+      "timestamp": "00:52:51)",
+      "timestamp_seconds": 0.0,
+      "content": "Really?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:53:03)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, he's awesome. Actually,"
+    },
+    {
+      "speaker": "But one of the things that I learned and that we really emphasized during that time is this idea of having dual track agile going where you're doing discovery and delivery simultaneously and doing it in a way that's not waterfall.",
+      "timestamp": "00:53:29)",
+      "timestamp_seconds": 0.0,
+      "content": "It's not like, \"All right, the designers are going to go over here and tinker for months, and then once we've figured it out, we'll lob it over the wall to the coders and cross our fingers and hope everything works.\""
+    },
+    {
+      "speaker": "So I think everyone knows an impact effort or risk reward two by two and can map out different opportunities and things you might do on that two by two.",
+      "timestamp": "00:54:16)",
+      "timestamp_seconds": 0.0,
+      "content": "But one of my favorite takeaways from that is that from this way of working around this dual track agile de-risking your riskiest ideas first approach is a concept of taking the things in the top, the biggest swing and actually prioritizing those first in terms of product discovery and figuring out what can you do to start de-risking because if you constantly put those off in favor of the lower risk or more predictable smaller swings,"
+    },
+    {
+      "speaker": "how are you ever going to truly innovate and get to the next level.",
+      "timestamp": "00:54:53)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a less safe choice. So it's someone that as a leader, you are in the hot seat and you can take accountability. So if some of these things don't pan out,"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny",
+      "timestamp": "00:55:30)",
+      "timestamp_seconds": 0.0,
+      "content": "I don't know why it's eat a frog,"
+    },
+    {
+      "speaker": "I don't know where that comes from.\n\nCamille Hearst",
+      "timestamp": "00:55:34)",
+      "timestamp_seconds": 0.0,
+      "content": "I don't know either. I like draw the owl. That's one of my favorite values,"
+    },
+    {
+      "speaker": "the Twilio ones.\n\nLenny",
+      "timestamp": "00:55:39)",
+      "timestamp_seconds": 0.0,
+      "content": "Say more. I would say more. What is that?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:55:44)",
+      "timestamp_seconds": 0.0,
+      "content": "Companies have their values. One of them is draw the owl. It's really draw the effing owl and the meme is how do you draw an owl and you draw some circles and then you draw a fucking owl. So it's like just do it. At some point,"
+    },
+    {
+      "speaker": "you got to just figure it out and figure out how to do it.",
+      "timestamp": "00:56:10)",
+      "timestamp_seconds": 0.0,
+      "content": "Excuse my language,"
+    },
+    {
+      "speaker": "but it's funnier when you say what the value actually is which is sometimes you got to just go for it. You're not going to know the exact path to get there and maybe you won't have de-risked everything but you start with some circles and then you get it done.\n\nLenny",
+      "timestamp": "00:56:27)",
+      "timestamp_seconds": 0.0,
+      "content": "I love it. Cursing is very loud on this podcast,"
+    },
+    {
+      "speaker": "so I'm glad you went there.",
+      "timestamp": "00:56:32)",
+      "timestamp_seconds": 0.0,
+      "content": "And with that, we've reached our very exciting lightning round. Are you ready?"
+    },
+    {
+      "speaker": "Great. Perfect.",
+      "timestamp": "00:56:41)",
+      "timestamp_seconds": 0.0,
+      "content": "What are two or three books that you recommended most to other people?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:56:46)",
+      "timestamp_seconds": 0.0,
+      "content": "Three-Body Problem, A Wrinkle in Time,"
+    },
+    {
+      "speaker": "I'm excited. Yeah.\n\nLenny",
+      "timestamp": "00:56:59)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm so excited. I've been watching Foundation which is also another series I've been excited to see, but it's like,"
+    },
+    {
+      "speaker": "I don't know what's going on. It's so complicated.\n\nCamille Hearst",
+      "timestamp": "00:57:07)",
+      "timestamp_seconds": 0.0,
+      "content": "How is it?"
+    },
+    {
+      "speaker": "Eh.\n\nCamille Hearst",
+      "timestamp": "00:57:08)",
+      "timestamp_seconds": 0.0,
+      "content": "So I'm a huge sci-fi head. I watched Battlestar Galactica. Classic. [inaudible 00:57:16]"
+    },
+    {
+      "speaker": "and so I've been waiting to see what happens with Foundation because I just don't have that kind of commitment in me these days.\n\nLenny",
+      "timestamp": "00:57:23)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. I don't know what to think of it. It's beautiful and there's a lot of interesting pieces but it just goes out... I think they're making a lot of stuff up. I don't know if you've read Silo. Have you read Silo?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:57:33)",
+      "timestamp_seconds": 0.0,
+      "content": "No. But I saw the preview for the show. Another one I'm going to [inaudible 00:57:36]"
+    },
+    {
+      "speaker": "season two.\n\nLenny",
+      "timestamp": "00:57:37)",
+      "timestamp_seconds": 0.0,
+      "content": "That's a good one to read because in the show... They're just making up stories. I don't know what they're doing. There's... Ninety percent of it,"
+    },
+    {
+      "speaker": "Okay. Cool. I didn't even know it was a book. I'll read it.\n\nLenny",
+      "timestamp": "00:57:51)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh, yeah. It's really good. There's three of them, but the first one's the only good one,"
+    },
+    {
+      "speaker": "Okay.\n\nLenny",
+      "timestamp": "00:57:55)",
+      "timestamp_seconds": 0.0,
+      "content": "Anyway, moving on. Speaking of this topic actually, any favorite recent movies or TV shows that you've really enjoyed?"
+    },
+    {
+      "speaker": "I've been watching Hijack over the last week with Idris Elba. So that's been fun. Got a couple episodes left there.",
+      "timestamp": "00:58:10)",
+      "timestamp_seconds": 0.0,
+      "content": "And then movies, I'm a huge Chris Nolan fan. So I haven't seen Oppenheimer yet, but can't wait to see it. Most of his movies I'm confused by,"
+    },
+    {
+      "speaker": "but the visuals are just so stunning if you let it go.\n\nLenny",
+      "timestamp": "00:58:24)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. I'm excited to see it too. I've not seen it either. Have a new child and it's harder to see movies [inaudible 00:58:30]."
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:58:30)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh,"
+    },
+    {
+      "speaker": "another good one. Shadow and Bone on Netflix.\n\nLenny",
+      "timestamp": "00:58:34)",
+      "timestamp_seconds": 0.0,
+      "content": "Shadow and Bone?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:58:35)",
+      "timestamp_seconds": 0.0,
+      "content": "Way better than the book I have to say. Well, I read one series, the Six of Crows. This is my young adult sci-fi fantasy streak. Again,"
+    },
+    {
+      "speaker": "coming to the forth. But the show is incredible. It is so good. So if you're into-\n\nLenny",
+      "timestamp": "00:58:35)",
+      "timestamp_seconds": 0.0,
+      "content": "Really?"
+    },
+    {
+      "speaker": "Never heard that.\n\nCamille Hearst",
+      "timestamp": "00:58:48)",
+      "timestamp_seconds": 0.0,
+      "content": "... this kind of vibe,"
+    },
+    {
+      "speaker": "Okay. I'm going to check that out.",
+      "timestamp": "00:58:52)",
+      "timestamp_seconds": 0.0,
+      "content": "What is a favorite interview question that you like to ask people when you're interviewing them?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "00:58:58)",
+      "timestamp_seconds": 0.0,
+      "content": "I like to ask people to tell me about something they're really proud of that they accomplished and take me through the process and talk to me about why they're proud of it. I find you can learn so much about a person's motivations, about their work ethic, about what they care about, what good looks like to them,"
+    },
+    {
+      "speaker": "and I think those are all really important things to understand about a person if you're going to work closely with them.\n\nLenny",
+      "timestamp": "00:59:23)",
+      "timestamp_seconds": 0.0,
+      "content": "What is a favorite life motto that you just really like to share or often come back to either in work or in life?"
+    },
+    {
+      "speaker": "I love that.\n\nCamille Hearst",
+      "timestamp": "00:59:55)",
+      "timestamp_seconds": 0.0,
+      "content": "I got a better one,"
+    },
+    {
+      "speaker": "sorry.\n\nLenny",
+      "timestamp": "00:59:57)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay,"
+    },
+    {
+      "speaker": "Sure. Tell me.\n\nCamille Hearst",
+      "timestamp": "01:00:00)",
+      "timestamp_seconds": 0.0,
+      "content": "I learned this one from someone at Patreon because someone was posting this around the streets of San Francisco. It's become more known recently. Apparently, it's a Chinese proverb. I don't know if it's true or not but it is that the best time to plant a tree was 20 years ago, the second best time is now. So this idea that don't delay,"
+    },
+    {
+      "speaker": "maybe you missed the prime opportunity but waiting any longer certainly isn't going to help.\n\nLenny",
+      "timestamp": "01:00:28)",
+      "timestamp_seconds": 0.0,
+      "content": "I heard that one actually I was at the park in San Francisco and there was this piano thing, I think it was called, it's a botanical garden and people play piano all throughout once a year. And there's a guy that was just playing incredibly well and I left and he left around the same time and I was standing next to him. I'm like, \"Man, I wish I studied piano when I was younger.\" And he's like, \"The best time to have studied piano is 10 years ago. The second best time is to start now.\""
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "01:00:51)",
+      "timestamp_seconds": 0.0,
+      "content": "Yep,"
+    },
+    {
+      "speaker": "he's right.\n\nLenny",
+      "timestamp": "01:00:53)",
+      "timestamp_seconds": 0.0,
+      "content": "And I couldn't get off the hook there. He is like, \"You're right. And you're still not going to do it I guess.\" (01:00:59): Final question, who's a favorite artist right now? Who are you liking?"
+    },
+    {
+      "speaker": "Camille Hearst",
+      "timestamp": "01:01:05)",
+      "timestamp_seconds": 0.0,
+      "content": "Ooh. So I've been for probably a good three years now really into Afrobeat and right now there's this artist called Rema, R-E-M-A, who I first heard a couple years ago, he's got this track called Dumebi. But he has a song out right now that is, my opinion, song of the summer called Calm Down. I think Ariana Grande, is it, came over and did a verse on it? But I've just been listening to Rema Radio,"
+    },
+    {
+      "speaker": "Calm Down radio on Spotify and tons of Afrobeats artists. So that's the vibe I'm on right now.\n\nLenny",
+      "timestamp": "01:01:42)",
+      "timestamp_seconds": 0.0,
+      "content": "I love it. I actually... Once someone suggested some music at the end of a podcast and I was just like, \"Hey, we're going to end the podcast with that tune.\" And it turned out we did that and then YouTube shut us down because it's copyrighted and so I'm not going to offer. Never going to do that again,"
+    },
+    {
+      "speaker": "so we're just ending with regular music but we'll link-\n\nCamille Hearst",
+      "timestamp": "01:01:59)",
+      "timestamp_seconds": 0.0,
+      "content": "[inaudible 01:01:59]"
+    },
+    {
+      "speaker": "I know. It's so tough. Come on. It's just like a few seconds. Give us a break.\n\nCamille Hearst",
+      "timestamp": "01:02:06)",
+      "timestamp_seconds": 0.0,
+      "content": "You should have 30 seconds for your play. Right?"
+    },
+    {
+      "speaker": "I don't know. Maybe we'll-\n\nCamille Hearst",
+      "timestamp": "01:02:07)",
+      "timestamp_seconds": 0.0,
+      "content": "Don't ask me,"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny",
+      "timestamp": "01:02:12)",
+      "timestamp_seconds": 0.0,
+      "content": "Camille,"
+    },
+    {
+      "speaker": "this was amazing. I think we're living the creator economy here. I really appreciate you making time for this.",
+      "timestamp": "01:02:17)",
+      "timestamp_seconds": 0.0,
+      "content": "Two final questions. Where can folks find you online if they want to reach out and maybe ask any additional questions? And then how can listeners be useful to you?"
+    },
+    {
+      "speaker": "It's X now.\n\nCamille Hearst",
+      "timestamp": "01:02:31)",
+      "timestamp_seconds": 0.0,
+      "content": "Yes, on X. Camillionz is my handle, C-A-M-I-L-L-I-O-N-Z. Also on Threads these days, trying that out,"
+    },
+    {
+      "speaker": "They do. Most people actually.\n\nCamille Hearst",
+      "timestamp": "01:02:48)",
+      "timestamp_seconds": 0.0,
+      "content": "Do they? Yeah?"
+    },
+    {
+      "speaker": "Okay.",
+      "timestamp": "01:02:52)",
+      "timestamp_seconds": 0.0,
+      "content": "And how can listeners be useful to me? Hey, go support your favorite creator. Find out, go to the show,"
+    },
+    {
+      "speaker": "Buy some merch. Yeah.\n\nLenny",
+      "timestamp": "01:03:12)",
+      "timestamp_seconds": 0.0,
+      "content": "Camille,"
+    },
+    {
+      "speaker": "thank you again for being here.\n\nCamille Hearst",
+      "timestamp": "01:03:13)",
+      "timestamp_seconds": 0.0,
+      "content": "Thanks,"
+    },
+    {
+      "speaker": "Lenny.\n\nLenny",
+      "timestamp": "01:03:15)",
+      "timestamp_seconds": 0.0,
+      "content": "Bye,"
+    },
+    {
+      "speaker": "everyone.",
+      "timestamp": "01:03:18)",
+      "timestamp_seconds": 0.0,
+      "content": "Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode."
+    }
+  ],
+  "num_segments": 202,
+  "full_text": "Camille Hearst (00:00:00):\n... those Steve Jobs' lore was that if you were in an elevator with him, you better be prepared to talk about what you do at the company because he had a habit of getting in the elevator and looking at you and saying, \"What do you do? What do you do here?\" And there were also rumors that people who had not given him a good answer, that ended up being their last day at Apple.\n\n(00:00:23):\nSo there was someone who I didn't know personally but worked in my department before I got there who got in an elevator and looked up and Steve was approaching him and so he went to press the button to open the door and accidentally pressed the one to close the door. And it was like doing this press... You can't see me if you're listening on podcast but frantically pressing the button, trying to open the door, but accidentally pressing the closed door button and the elevator going to its destination. And apparently he got off and just bolted straight up, ran down the hallway.\n\nLenny (00:01:00):\nHe'll never remember my face.\n\nCamille Hearst (00:01:02):\nYeah, exactly.\n\nLenny (00:01:02):\nI disappeared.\n\n(00:01:07):\nWelcome to Lenny's Podcast where I interview world-class product leaders and growth experts to learn from their hard win experiences building and growing today's most successful products.\n\n(00:01:15):\nToday my guest is Camille Hearst. Camille is head of fan monetization at Spotify. Before that, she was head of product for creators of Patreon. She was product marketing manager at YouTube and the second PM on iTunes. She's also a former founder. She started a company called Kit that she sold to Patreon.\n\n(00:01:31):\nAnd this episode is for anyone who's curious about the creator space, either from the creator side or the platform side, or if you'd just like to hear a bunch of fun stories from an awesome product leader.\n\n(00:01:42):\nWe chat about the future of creator platforms, how to be successful as a creator, and also as a new creator platform, the downsides of creator life plus frameworks, stories from Steve Jobs, ways to monetize being a creator and so much more.\n\n(00:01:56):\nEnjoy this episode with Camille Hearst after a short word from our sponsors.\n\n(00:02:02):\nThis episode is brought to you by Merge. Every product manager knows how slow product development can get when developers have to build and maintain integrations with other platforms.\n\n(00:02:12):\nMerge's unified API can fully remove this blocker from your roadmap. With one API, your team can add over 180 HR, accounting, ATS, ticketing, CRM, file storage and marketing automation integrations into your product. You can get your first integration into production in a matter of days and save countless weeks building custom integrations, letting you get back to building your core product.\n\n(00:02:36):\nMerge's integration speed up the product development process for customers like Ramp, Drata, and many of their fast growing and established companies, allowing them to test their features at scale without having to worry about a never ending integrations roadmap.\n\n(00:02:50):\nSave your engineers countless hours, hit your growth targets, and expedite your sales cycle by making integration offerings your competitive advantage with Merge.\n\n(00:02:58):\nVisit merge.dev/lenny to get started and integrate up to three customers for free.\n\n(00:03:05):\nThis episode is brought to you by Coda. You've heard me talk about how Coda is the doc that brings it all together and how it can help your team run smoother and be more efficient.\n\n(00:03:15):\nI know this firsthand because Coda does that for me. I use Coda every day to wrinkle my newsletter content calendar, my interview notes for podcasts, and to coordinate my sponsors.\n\n(00:03:25):\nMore recently, I actually wrote a whole post on how Coda's product team operates, and within that post, they shared a dozen templates that they use internally to run their product team, including managing the roadmap, their OKR process, getting internal feedback, and essentially their whole product development process is done within Coda.\n\n(00:03:43):\nIf your team's work is spread out across different documents and spreadsheets and a stack of workflow tools, that's why you need Coda. Coda puts data in one centralized location regardless of format, eliminating roadblocks that can slow your team down. Coda allows your team to operate on the same information and collaborate in one place.\n\n(00:04:01):\nTake advantage of the special limited time offer just for startups. Plan up today at coda.io/lenny and get a thousand dollars startup credit on your first statement. That's C-O-D-A .io/lenny to sign up and get a startup credit of $1000. coda.io/lenny.\n\n(00:04:24):\nCamille, thank you so much for being here. Welcome to the podcast.\n\nCamille Hearst (00:04:28):\nThank you so much for having me, Lenny.\n\nLenny (00:04:29):\nI first wanted to just give a big thank you to Adam Fishman for introducing us who had just so many nice things to say about you and so I'm really excited to be chatting.\n\n(00:04:38):\nI want to start with talking about your current role at Spotify and I believe your role is head of fan monetization. What does that actually entail and what are you responsible for within Spotify?\n\nCamille Hearst (00:04:49):\nAs head of fan monetization, I have a team of folks who are really passionate about figuring out new ways to help artists and fans connect and also figure out ways to make those connections result in new monetization opportunities for the artists.\n\n(00:05:08):\nSo one of the things that we all know and we've seen is how passionate fans are about the artists that they love. You've been following any of the latest bits about the Taylor Swift tour, the Beyoncé tour that's been happening this summer, and their effect on local economies. It's been pretty impressive.\n\n(00:05:28):\nBut one of the things that we also know is it's not just the big huge superstars who have those rabid and super engaged fan bases. People are really passionate just about supporting the artists that they love in general.\n\n(00:05:40):\nAnd on Spotify, we want to figure out ways we can help that result in more money that goes directly to the artist.\n\nLenny (00:05:48):\nWhat are some of those ways just to give people a sense of what might be happening?\n\nCamille Hearst (00:05:52):\nSo one of the ones that most mature is merch which is funny to say because most people probably don't realize that you can purchase merch on Spotify. That's one that's been around-\n\nLenny (00:06:03):\nI did not realize that.\n\nCamille Hearst (00:06:04):\n... for a bit of time and my team's recently been working on making it more prominent, giving artists more ways to offer that merch in the form of a reward for fans. So things like an exclusive discount or an exclusive design or early access because you're a top listener on Spotify, really thinking about thank yous and rewards for your Spotify listenership and fandom.\n\n(00:06:28):\nAnd then other things we've been looking at have been listening parties. We ran a few of those over the past year. I think I talked about it actually on a Spotify event a few years ago. We were running... Sorry, it wasn't a few years ago, it was last year.\n\n(00:06:45):\nBut listening parties is another way and then we've got some new ideas we're exploring.\n\nLenny (00:06:50):\nI've heard people do listening parties with this podcast actually and I hope that you roll that out to podcast too because that would be very cool.\n\nCamille Hearst (00:06:58):\nYeah. We have all kinds of ideas of really interesting ways we can bring groups of people together and get the monetization going.\n\nLenny (00:07:08):\nAll right.\n\nCamille Hearst (00:07:08):\nOne day.\n\nLenny (00:07:09):\nMysterious but exciting.\n\n(00:07:11):\nSpeaking of Taylor Swift, I was watching a TikTok the other day and they showed a video of someone inside the concert showing the whole concert and then they panned to the parking lot and there was just tens of thousands of people just standing around in the parking lot listening to the second order music out at the stadium. And I wonder how can you monetize that if there's an opportunity?\n\nCamille Hearst (00:07:34):\nYeah. I think they often have the merch trucks in those parking lots though one way-\n\nLenny (00:07:38):\nProbably unofficial merch.\n\nCamille Hearst (00:07:40):\nYeah.\n\nLenny (00:07:40):\nSo you work with artists and I actually wanted to ask this question. What's the best part about working with artists, musical artists, and what's the worst part?\n\nCamille Hearst (00:07:48):\nI think the best part is working with people who really lean into their creativity and their passion so much so that they do it for a living. And I think a lot of us have creative pursuit and passions and things we love to do and if we made millions of dollars and could retire, what would you do full time? Usually, it's one of these pursuits. But I think it takes an element of bravery, not to mention talent, but you really have to go out on a limb.\n\n(00:08:18):\nAnd so that's this equality that exists in this group of people and it's fun to be around and feel that rub off on you and think, \"Oh, maybe I could take the dive one day and I don't know, go do my calligraphy or learn my ukulele and then do it full time.\" But that's the best part.\n\n(00:08:35):\nAnd the thing I'm really... I grew up in a musical household. My dad's a drummer although his joke when we were growing up was real musicians have day jobs because he had to actually have a job with benefit to support the family and couldn't just be gigging full time.\n\n(00:08:55):\nWhich actually brings me to the flip side of the question which you asked what is the hardest part. I do think we saw this a lot at Patreon and I think you see it especially with musicians and artists, this feeling that you want to give your fans everything that you create and you want to do it for free because you're so enamored with this idea that people really love you and want to support you and they're really responding to your creativity and everything that you're making, you don't want to charge them. But what comes with that is, well, how are you going to make a living.\n\n(00:09:29):\nTo some degree, there has to be a value exchange that happens in order for a creative person to live from their art.\n\n(00:09:37):\nAnd I've found that that's much more pronounced with musicians, this starving artist ethos which makes what I'm trying to do actually quite difficult because a lot of the feedback we get is, \"Oh, that's awesome. I want to have a listening party and have everything be free and just have everyone show up and don't sell anything.\" And we're really looking at it as a way to fans want to support the artists they love, they want to open up their wallets.\n\n(00:10:04):\nYou've see nothing else from a Substack and Patreons that people are actually really happy to be a patron of the arts and they look at it as like a badge of honor.\n\n(00:10:12):\nBut musicians in particular I think tend to shy away from that which makes the kind of thing that I'm working on more difficult.\n\nLenny (00:10:20):\nThis's a great segue to an area I want to spend time on is the creator economy and creators and artists and things like that. And along these lines, I think I have this issue too. I feel bad charging people but there's also... I don't think my stuff is worth enough to charge for and why would anyone ever pay anything for it and so I imagine you see that too. It's just like, \"No one's going to pay for this. It's crazy.\"\n\nCamille Hearst (00:10:40):\nYeah. It's funny because we live in a very capitalist and market dictate the price kind of society, but on an individual level, particularly when the commodity so to speak is art, there's so many emotions and feelings involved in that that it's hard for someone who's the creator to disassociate themselves from it and see what the market will bear.\n\n(00:11:05):\nWhich is why I actually think it's great that there's platforms who have stepped in and said, \"Hey, we see an opportunity. Let us insert ourselves in the center, let us aggregate, and let us do the hard work of pricing and payment and tax and finance and actually create value where it would be really hard for an individual person who's a creator to do all of this work and facilitate that connection.\" It's almost like the perfect marketplace solution.\n\n(00:11:38):\nBut again, it's hard because if the supplier doesn't want to actually make money in some cases or shies away from optimizing or making money.\n\n(00:11:47):\nAnd then there's the creative process. Sometimes, you're in a flow mode and you're producing a lot and then other times, you're in a drought spell and these things ebb and flow which is why I think companies like Patreon and Substack are really cool because what they try to do is smooth out that revenue and make it so an artist can actually have a predictable... They're not even artist, a creator can have a predictable sustainable paycheck so that they aren't bouncing around from job to job and losing the ability to have that burst of creativity because they're worried about their bills.\n\nLenny (00:12:22):\nI have that experience myself with Substack which is a subscription newsletter and one of the big downsides people don't think about with this life is once you start charging, people start buying, say, an annual subscription and that means I have to at least go for another year and in reality, I never really want to stop it because the revenue would just stop and that would be really sad. So you get on the treadmill where you don't really have an exit path. And I'm not sure exactly where this all goes, but it's been great. But that's something people don't think a lot about is this never ending, keep creating, keep creating life.\n\nCamille Hearst (00:12:52):\nWe call it internally the hamster wheel of content creation. You get on because you love it and then how do you get off.\n\n(00:12:59):\nSo it's actually an interesting challenge again for platforms to think about where can they add value, are there ways to either make the content creation process that much easier and I don't want to say less of a burden because it's not a burden but sometimes, if you don't have time or you're just at a point in life where you can't do it, are there services or things that can be offered, are there things like financing that makes sense for creators that banks or traditional institutions wouldn't offer because of just the difference in the type of work that's being produced.\n\n(00:13:34):\nOr another potential solution is are there ways that platforms can create content. Maybe it's automated so that the creator can take a break. So maybe they're not AI necessarily, maybe it's more just aggregating data or doing summaries or maybe there's just other ideas that haven't been explored out there. But it's a real problem.\n\nLenny (00:13:56):\nSo I have this lennybot.com site which is an AI chatbot based on all my content including the podcast episodes and actually, an engineer who was listening to this podcast reached out and offered to help me build it and he did and it's awesome. And I'm curious if that becomes my retirement plan as the bot ends up just doing this and learns enough. I highly doubt it, but it's fun to experiment with.\n\nCamille Hearst (00:14:18):\nYeah. Use your own content as your large language model, right?\n\nLenny (00:14:22):\nExactly. That's exactly what it is. And I'm curious where this goes.\n\n(00:14:26):\nI want to follow the thread of the creator economy. It feels like there's this huge wave of the creator economies, the future of work, and all these platforms launched to allow creator to make money. But it feels like over the past couple of years, it feels like it faded away. And these very small number of platforms essentially one YouTube, Spotify, Instagram, TikTok, Patreon, maybe Substack, and there was also the sense that the future of work is freelance, everyone's going to be working for themselves, creating stuff, and it feels like people are still working regular jobs. A lot of these startups haven't done great.\n\n(00:15:01):\nSo I guess I'm just curious what you think happens maybe in the next five or 10 years from a perspective of platforms emerging and also just from creators, what... Do you think things stay the same? Do you think there's another wave? Where do you think things go?\n\nCamille Hearst (00:15:14):\nI think it was probably predictable to some degree that platforms would win because just of the nature of aggregation. Once you have either all of the supply or you've aggregated the demand, it's really a strong network effect. Why investors love to invest in these types of businesses, it's hard to break out.\n\n(00:15:37):\nI wouldn't underestimate the strategic ability either of some the big platforms. They were definitely thinking ahead and building features and thinking about whether or not they saw it as a monetization opportunity. It certainly is a great strategic play to make sure that creators felt like they were on the platform that made the most sense for them and they weren't going to churn or leave or try too many other places out.\n\n(00:16:04):\nSo I think the rush and the funding was to figure out is there room for any other new platforms, are there specific vertical that maybe there's an opportunity to create vertical specific features and tooling.\n\n(00:16:19):\nAnd actually, I think we saw a huge massive creation there in Twitch, right? Twitch did not exist and they're just a juggernaut.\n\n(00:16:26):\nI think TikTok is another one that came out of this era. Maybe they weren't positioned as creator economy type startups but effectively...\n\n(00:16:35):\nDid you see what happened in Union Square here with Kai, the gaming streamer?\n\nLenny (00:16:39):\nNo.\n\nCamille Hearst (00:16:39):\nSo I'm in New York and last week, there was a mob and a riot because a Twitch streamer announced that he was going to be giving away PlayStations and computer gear in Union Square and something like a million teenage boys showed up. I'm not making this up. And they had to shut down the center of New York City to clear what turned into protest, riot, mob-\n\nLenny (00:17:07):\nHoly shit.\n\nCamille Hearst (00:17:08):\n... of teenagers who came for this one creator that probably no one listening to me right now has even heard of.\n\nLenny (00:17:15):\nYeah.\n\nCamille Hearst (00:17:17):\nSo I do think a lot of the predictions have come to bear. There are tons of people making money and making a living from creating content on the internet.\n\n(00:17:28):\nThere have been studies too where they ask young people what they want to do and what they want to be when they grow up, we quote these at, excuse me, Patreon and over 60% want to create content for a living.\n\n(00:17:42):\nSo those trends I don't think are going anywhere. Maybe it'll be supplemental income, maybe it'll be something you do for a period of your life. But I do think that this area continues to be untapped. I just don't see a world where...\n\n(00:17:58):\nI think of Michelle Phan, right? She's basically a mini Disney and when you think of it like that, she's created IP. What can you do with IP? Comic books, movies, TV shows, plushies, merch. How many millions of Michelle fans are we going to have seen?\n\n(00:18:16):\nLook at what's happening in China. There's tons of creators like this.\n\n(00:18:20):\nSo whether or not the VCs have won or the startups have succeeded, there's no way that you can lower the cost of content creation and increase the scale of distribution and not see this emerge, this creator economy I think emerge. But I think that maybe there's still opportunity for more companies to blossom and to grow and certainly for more individuals maybe do this, figure it out on their own, and do it without too many big platforms getting paid off of their creative pursuit.\n\nLenny (00:18:58):\nHave you seen the NPC trend on TikTok/maybe Instagram Reels where people pretend to be NPCs, non-playable characters, from a video game?\n\nCamille Hearst (00:19:06):\nI have not.\n\nLenny (00:19:07):\nOkay. It's crazy. People just pretend to be a computer character and people pay them little gifts to do a thing.\n\nCamille Hearst (00:19:15):\nOh. Is this the... Yes. Have seen it. [inaudible 00:19:19] ice cream, ice cream.\n\nLenny (00:19:22):\nYeah, exactly.\n\nCamille Hearst (00:19:22):\nYes. I didn't realize.\n\nLenny (00:19:24):\nYou're making tens of thousands of dollars a day just... So that's one way to make a living.\n\nCamille Hearst (00:19:24):\nYeah.\n\nLenny (00:19:30):\nOn the thread of becoming a creator, you've seen a lot of creators try to do this on Patreon, back at Apple even with iTunes, I want to chat about that, at Spotify now, and even your startup. I'm curious what you've seen is important to success in the creator life, especially things that are maybe not obvious to people. What do people need to get right if they want to pursue that path?\n\nCamille Hearst (00:19:54):\nOne of the things that I've seen that I don't know if people realize is consistency and predictability of content creation which is where this idea that we were talking about earlier of a hamster wheel kind of comes on.\n\n(00:20:08):\nBut there is something to churning out consistent quality work and putting it out there for your audience to consume and respond and react to that goes a long way. It's almost like the 10,000 hours. You have to do 10,000 hours of something in order to truly master it. But I've seen that time and again.\n\n(00:20:30):\nI started at YouTube in, let's see, how old am I? It must have been 2010. And that was when I really think this whole thing was just first getting going. And we used to put together these playbooks of what made a creator successful because a lot of the effort there was trying to support this burgeoning economy. And I remember even back then in 2010 and to this day, that continues to be one of the top pieces of advice.\n\n(00:20:57):\nAnother one is collaboration. So working with other great creators, sharing audience, exposing one another to those audiences, and then this was something we tried to employ at my startup, Kit. We would actually host events for creators to get together to facilitate meeting and cross pollination in the hopes that it would just benefit their careers. If they were doing YouTube videos with someone they met at the party, then it would be great for all parties all around. So those are two things.\n\n(00:21:32):\nAnd then I do think in a world with all of this content, there continues to be a need and a space for the curator. And curators as creator's kind of an interesting concept. But a curator is almost like what the role at book publishing company plays or a record label plays or a radio station plays, right?\n\n(00:21:56):\nThere is a degree of having a brand, having something you stand for, having a vibe or an ethos and that person being almost, not a gatekeeper in a bad way, but like, \"I, Camille, can't consume anywhere near all this content. You, I trust your vibe. Tell me what I should be listening to.\" And so that would be the third thing I would say is figure out who are those curators who you really can associate your content with who are on the same page as you, have an audience who you think would like your stuff and just try and get associated with them.\n\nLenny (00:22:30):\nYeah. The last piece is so... I totally see that all the time. If there's someone I super respect and they recommend something, I'm obviously going to value that recommendation highly. That's like we're influencing emerged from organically, right? People just, \"Here's something you should check out,\" and then, \"Oh, let's pay you to share things so that people try our product.\"\n\nCamille Hearst (00:22:48):\nThat was the exact concept behind my startup, Kit. It was all about curating, finding people who are great recommenders for gear, having them curate that gear, and then you could follow the curators you love who wants to go look on Amazon and see reviews from people you've never heard of. Oftentimes, if it's your brother-in-law who's a great cyclist and they say, \"Buy this,\" you just buy it. You don't even care what the reviews say because you trust that person.\n\nLenny (00:23:14):\nWhat happened with the startup and what did you learn from that experience?\n\nCamille Hearst (00:23:17):\nI started working on the startup in 2015. We managed to raise some money, raised over $2 million, which is a huge accomplishment, especially if you know anything about venture capital. They have a horrible track record when it comes to funding people of color, women, people who are non-cisgender white male, just the track record.\n\n(00:23:43):\nAnd we had an amazing experience building this company over several years, grew a bunch of the key metrics up into the right and got to a point where we were trying to figure out what the next move was and should we get a bridge round. We were trying to raise Series A. We were, I think, early on the creator economy trend. Probably about a year and a half later, it would've been, I think, I hope a snap to raise money. But anyway, we were battling a bunch of different choices, different options.\n\n(00:24:19):\nAnd I actually did this startup accelerator called StartX that's run out of Stanford which is my alma mater. And we learned a lot about how to sell a company and what M&A looks like. So we started exploring that path.\n\n(00:24:34):\nAnd in the end, it made the most sense for us to have an exit and join forces with Patreon. And so that's what we ended up doing. Sold the company in 2018, joined Patreon, worked there a couple of years, and that's where I met Adam.\n\nLenny (00:24:49):\nAmazing. And I wanted to ask actually about that experience of selling a company. There's a lot of people listening right now who are thinking about selling their company or maybe you hope to sell their company someday, and I think there's a reality of it and then there's the idea of how it might go. I'm curious what you've taken away from that experience. And I guess specifically is there any advice you could share with folks that are thinking about selling their company someday? What you think maybe could have done earlier or also just share a glimpse of the reality of acquisitions?\n\nCamille Hearst (00:25:20):\nI think it's different for every company for sure. Some companies get souped in and get bought. And other companies actively sell themselves.\n\n(00:25:31):\nWe are definitely in the latter camp which means that we manage a process. It's similar to how you manage a process for fundraising. Not every company just meets the VC and raises money on the first try. They go through a process and meet tons of VCs and put them through the funnel and end up on the other side hopefully with a successful round. So I think that's one takeaway is treat it like a process and manage it like a process if it is something you're interested in. It doesn't really just... For most companies, I would say it doesn't just happen.\n\n(00:26:04):\nAnd then the second piece of advice I would give I think we should have been talking to potential acquirers from the beginning and sharing our vision and what we were trying to accomplish because we started those quite late in our journey as a company and it just meant it took... When I met a potential CPO, who would acquire the company, who would end up being my boss or CEO, it was their first time meeting me whereas if it had been their fifth time, we would've had a relationship established and they would've known more about the vision and what we're trying to do and hopefully, would've had some more time to think about it.\n\n(00:26:42):\nSo those would be my two pieces of advice. Start preparing to sell your company from the moment you found it which is a weird thing because obviously, if you're starting a company, for most founders, they want it to be the next big thing, they're not starting it in order to sell it, but it's a good thing to have on your radar because you never know what the future holds. And then two is to treat it like a process.\n\nLenny (00:27:07):\nYeah. On that piece of knowing people who may acquire you, I found that to be a thousand percent true. We sold our company the Airbnb and that's how it got to Airbnb and what I realized is you just need people who may buy you in the future to have you in their head when they have a problem so that they could be like, \"Oh, Camille and her team could solve this problem for us. Let's go chat with her and-\n\nCamille Hearst (00:27:28):\nExactly.\n\nLenny (00:27:28):\n... see if they're interested in acquisition.\"\n\n(00:27:31):\nAnd on the process piece too, 1000% resonates. We basically... When we started chatting with a company, we're just like, \"Okay, who else could potentially acquire us? Let's make a big list and who we can talk to at that company as soon as possible and then just explore.\" But it's more challenging there because it's you reaching out to them being like, \"Hey, you want to chat about buying our company,\" versus them reaching out to you. So to your point, always goes better if they reach out to you, but you can't always control that.\n\nCamille Hearst (00:27:54):\nRight. Or if the meeting is not under the context of buying it all, it's like, \"We're working on something cool. We have a great vision. It aligns with what you're doing. Maybe there's a partnership here,\" versus just tell you what we're doing and then when I contact you in 12 months about buying me, you've heard of me before.\n\nLenny (00:28:12):\nI find even when you're starting to chat about acquisitions, you never want to say directly, \"Hey, you want to buy us?\" It's like, \"Hey, you want to have a strategic partnership of some kind? You want to explore partnership?\" So funny.\n\nCamille Hearst (00:28:23):\nLike dating.\n\nLenny (00:28:24):\nYeah, yeah. You can't just be too direct sometimes.\n\n(00:28:28):\nSo when you got to Patreon, I don't know if it was immediate or eventually you ended up leading the creator side of the marketplace, and I find that looking at your background, you basically stayed on the supply side of marketplaces through your career mostly.\n\n(00:28:43):\nAnd I actually did the same thing. All I worked on at Airbnb especially, or mostly, was the host side.\n\n(00:28:48):\nAnd I think it takes a specific mindset in person to be excited about that side of the marketplace versus the consumer side which is where everyone always generally wants to go, to the customer side. So I'm curious what it is that's drawn you to that side of the business across all the places you work and then just what you found to be important to be successful in that role and on that side?\n\nCamille Hearst (00:29:09):\nWhat drew me to that side of the business probably was maybe accidental at the beginning. Just again, coming from this musical family and background, I always had a natural interest in helping artists make a living. So I think that interest was there.\n\n(00:29:29):\nAt Apple, I did... There were only two PMs there. We did everything.\n\n(00:29:34):\nAt YouTube, I accidentally ended up in creator.\n\n(00:29:39):\nBut where I started understanding deeply the dynamics of the marketplace was actually my experience and the one job I've had that not been in the creator or art or these big consumer platforms or creator economy which was at a startup called Hailo based out of London and at the time was a huge competitor to Uber and Lyft in the ride sharing and ride hailing space and I worked on the supply side making sure that there were enough cars to fuel the demand.\n\n(00:30:17):\nAnd in a marketplace like that where it's real time people trying to get a cab to go from uptown to downtown, you see the inexperience firsthand the impact to your business if you don't have suppliers, if your suppliers aren't happy, if they go on strike, if there's regulations that mean you can't use your service. And there I think I was...\n\n(00:30:44):\nSo one of the projects that I worked on that I launched was the U.S. Uber competitor because Hailo in Europe was all about getting taxi cabs and did not play in the livery is what it's called in New York or the private rides. Basically, it's like your uncle or your aunt or your cousin who can switch on Lyft and go pick up whoever. That just was not a thing in Europe.\n\n(00:31:09):\nAnd so we had to figure out how to launch that in the U.S., how to get drivers on how to create this supply and it was like it doesn't matter how nice the user experience is, how great the marketing is, how much demand you can generate if when someone opens that app, there are no cars available.\n\n(00:31:31):\nSo a lot of people talk about marketplaces as chicken and egg. I actually just think they're two-sided and you start with the supply and at the end of the day, you can optimize for the demand side or choose who you're going to prioritize in terms of if there's a conflict, we're going to pick this side or the other.\n\n(00:31:53):\nAnd yes, you won't be successful with one side or the other but I just experienced and lived firsthand the pain of having built this great operations back in that fed into this gray UI and then you open that app and you can't get a ride because there aren't enough cars available.\n\n(00:32:12):\nSo I think that solidified my feeling that with marketplaces, you can't lose sight of the solving real pain points and needs for the supply side in order to make sure the entire business can operate.\n\nLenny (00:32:26):\nI've done a bunch of research into marketplaces and I found basically the same thing, that supply is almost always where you need to focus almost all your time especially at the beginning.\n\n(00:32:34):\nThe way I think about it is that's if you have a store that's stuff on your shelves and you're not going to have a business if you don't have anything on the shelves.\n\nCamille Hearst (00:32:41):\nExactly.\n\nLenny (00:32:42):\nThere's a few rare cases, I forget exactly which they were, where demand was actually the bigger challenge and supply is really easy.\n\n(00:32:47):\nYou know what? It was Rover. Rover had no problem it turns out with supply because who wouldn't want to make 50 bucks watching a dog for a few hours. It was a really easy sell and a lot of people could do it and wanted to do it so they actually found supply was not an issue.\n\n(00:33:01):\nBut in most cases exactly how you said most 10 times supply is what people are looking for.\n\nCamille Hearst (00:33:05):\nTotally.\n\n(00:33:06):\nI find that the counter example I hear a lot is eBay, how they were so good at aggregating demand, they were basically able to force suppliers to the terms that they like. But I can't imagine... It'd be interesting to talk to some folks who were at eBay in their early days that the whole thing didn't start up without them going out and figuring out who are the key suppliers we need to get on this thing so that we can get aggregating demand.\n\nLenny (00:33:32):\nYeah. You got to have some good stuff on eBay. I wonder if Beanie Babies or whatever they started with.\n\nCamille Hearst (00:33:37):\nYeah, exactly.\n\nLenny (00:33:39):\nThis episode is brought to you by Vanta, helping you streamline your security compliance to accelerate your growth. Thousands of fast-growing companies like Gusto, Comm, Quora, and Modern Treasury trust Vanta to help build, scale, manage, and demonstrate their security and compliance programs and get ready for audits in weeks, not months.\n\n(00:33:58):\nBy offering the most in-demand security and privacy frameworks such as SOC 2, ISO 27001, GDPR, HIPAA, and many more, Vanta helps companies obtain the reports they need to accelerate growth, build efficient compliance processes, mitigate risks to their businesses, and build trust with external stakeholders.\n\n(00:34:16):\nOver 5,000 fast-growing companies use Vanta to automate up to 90% of the work involved with SOC 2 and these other frameworks.\n\n(00:34:23):\nFor a limited time, Lenny's Podcast listeners get $1000 off Vanta. Go to vanta.com/lenny, that's V-A-N-T-A .com/lenny, to learn more and to claim your discounts. Get started today.\n\n(00:34:37):\nYou mentioned Apple and I want to spend a little time there. So you said you were the second PM on iTunes back in the day and I'm curious what you learned from the experience you had working at Apple. I think I read somewhere you worked maybe closely with Steve Jobs and Jony Ive, but I don't know if that's true, but I'm curious just... No? Okay, but you do have a Steve Jobs story?\n\nCamille Hearst (00:34:57):\nYes.\n\nLenny (00:34:58):\nOkay.\n\nCamille Hearst (00:35:00):\nYes. So I was very early on in the iTunes days I started interning there when I came out of grad school and my internship was actually in label relation and then I started a full-time job doing product marketing.\n\n(00:35:17):\nAnd at Apple at the time, I think even to this day, they didn't have a product manager title, they had product marketing managers. And so one of my colleagues who remains good friends to this day, Steve was the first also named Steve, not Steve Jobs was the first PMM working on iTunes and he primarily was doing all the client stuff. He launched the store and everything. But I think I was the second person in the iTunes group with that title. So that was really cool.\n\n(00:35:44):\nAnd then as far as the Steve Jobs story, I would think I mentioned to you people like hearing this story, nothing happened, I just went up to him and said, \"Hi, I'll tell the story.\"\n\n(00:35:53):\nBut I think the context of why people find it interesting is because of other stories about Steve. So let me give a little context.\n\n(00:36:01):\nThose Steve Jobs lore was that if you were in an elevator with him, you better be prepared to talk about what you do at the company because he had a habit of getting in the elevator and looking at you and saying, \"What do you do? What do you do here?\" And there were also rumors that people who had not given him a good answer that ended up being their last day at Apple.\n\n(00:36:24):\nSo there was someone who I didn't know personally but worked in my department before I got there who got in an elevator and looked up and Steve was approaching him. And so he went to press the button to open the door and accidentally press the one to close the door and was doing this press... You can't see me if you're listening on podcast but frantically pressing the button, trying to open the door, but accidentally pressing the close door button and the elevator going to its destination. And apparently he got off and just bolted straight up, ran down the hallway.\n\nLenny (00:37:02):\nHe'll never remember my face.\n\nCamille Hearst (00:37:03):\nYeah, exactly.\n\nLenny (00:37:04):\nI disappeared.\n\nCamille Hearst (00:37:04):\nSo that's the context.\n\n(00:37:07):\nSo in 2005, it's my first day of my internship at Apple and I had this situation where I attended graduation because I only had one semester left to go back to, so I just decided to attend the graduation. That happened basically the week before. And for those of you who are the job span, this is when he gave his really inspiring and famous Stanford commencement speech and it's an awesome, awesome thing to listen to.\n\nLenny (00:37:41):\nYou were at that speech?\n\nCamille Hearst (00:37:42):\nI was there, yeah.\n\nLenny (00:37:42):\nWhoa. People love that speech.\n\nCamille Hearst (00:37:47):\nIt's a good one. It's really-\n\nLenny (00:37:48):\nWhat did you feel being there listening to it in the moment?\n\nCamille Hearst (00:37:51):\nTotally inspired.\n\n(00:37:54):\nApple was not quite what it is today in terms of brand and influence and just it's at the peak. It's really come a long way. It was still when I met the recruiter at a conference, I was like, \"Apple? What do they do again? My roommate had a Mac, but what's iTunes? Oh, yeah, I think I've heard of that. I think...\"\n\n(00:38:19):\nThe dancing iPod silhouette ads which really sent Apple over the top. Those hadn't even really dropped yet, but it was starting, right? It was starting to percolate and bubble and you heard more and more about it and just the association with music was making Apple more cool.\n\n(00:38:35):\nBut that speech is... Talk about a commencement speech. That is top-notch.\n\n(00:38:41):\nAnd Steve's great at those. He was phenomenal storyteller.\n\n(00:38:44):\nSo graduation is what? Saturday, I go home Sunday. The Monday I started my internship and here we are at Cafe Max with my new coworkers and Steve is sitting literally at the table next to me. And so I was like, \"Oh my gosh, there's Steve. I would love to say hi and introduce myself and everyone at the table.\"\n\n(00:39:09):\nNow mind you, I hadn't heard this story about the elevator button in the full yet because it was my first day, but they're all looking at each other. They're like, \"Yeah, go say hi to him if you want, but you're an intern.\" They say, \"Hopefully, he doesn't fire you on your first day.\"\n\n(00:39:22):\nBut I've always, in my family and in my life, had this encouragement to say hi to people when you see them and let them know that you appreciate what they do and just thank them because it doesn't happen often.\n\n(00:39:39):\nA lot of times, people go and they ask for a picture or an autograph but this idea of just introducing yourself, saying hello, and thanking someone for something that they've done that impacted you to something that's been a way that my parents have encouraged me to behave in the world and something that I saw them do and saw them model because probably, again, coming from my dad being a musician and being fans of other musicians that like a thing in music, the artist culture that talked to one another about how something you created influenced you or whatnot.\n\n(00:40:09):\nSo I went up to him and I got up from my lunch table and walked over and I said, \"Hi, my name's Camille. I'm interning here this summer. It's my first day. I was at graduation at Stanford on Saturday and your speech was amazing. I was really inspired. I'm so excited to be here and so excited to work on this company and I just wanted to say thank you for spending your time doing that speech for us on Saturday.\"\n\n(00:40:38):\nAnd he was like, \"Who are you? What? You're an intern? Well, what are you doing here?\" It was a little... We had a little bit of an exchange. I had to clarify like, \"Yeah, I graduated, but I'm interning and I have another semester left.\" And he was like, \"Oh, okay. Well, welcome to Apple and good luck and I hope you have a really great experience this summer.\" And that was it. I didn't get fired and I said hello to Steve.\n\n(00:41:01):\nAnd after that, I felt like I knew him. Every time, I'd see him around campus I'd wave high and I think he had no idea who I was but he would look at me confused and then wave back hello.\n\nLenny (00:41:12):\n\"She's so friendly. Who's this person?\"\n\nCamille Hearst (00:41:14):\nYeah.\n\nLenny (00:41:15):\nDo you still remember how you would've described what you do? I have a feeling it's seared in your head, but if not, then never mind.\n\nCamille Hearst (00:41:21):\nOh, my statement, if he had asked me where [inaudible 00:41:23].\n\nLenny (00:41:23):\nYeah, exactly.\n\nCamille Hearst (00:41:24):\nWell, yeah, I was lucky because one of the things that I did he would actually know exactly what it is which is I would manage press rooms whenever there was an iTunes launch. So this is very much grunt work.\n\n(00:41:38):\nBut when there would be a press event for one of the new iTunes 6 launch or whatever, they would have interviews with Walter Isaacson or I don't know if Kara Swisher was working back then, but whoever the journalist and Steve would have a room set up with an iMac computer with an iTunes library full of track. There would be whatever the new iPod was synced to that computer and all of the track. And after every interview, everything would have to be reset.\n\n(00:42:10):\nAlso, the library was crafted so he would give feedback for months on the content of the library because he would do demos. And so he wanted to know, \"Make sure all my favorite tracks are in there, my favorite Beatles records, my favorite Bob Dylan records, and who's this artist? Let me check them out. Okay, they don't cross the bar. Oh, what's this song? Oh, I love this song. Oh, add this.\" So he was very involved in the entire presentation and someone had to go do all that.\n\n(00:42:38):\nSo who better than the fresh out of masters of engineering in Stanford graduate student to go do all of the grunt work of making library? But those are the kinds of details that he paid attention to. And so I would've just told him that I did product marketing and one of my main responsibilities was fixing the press room for him and he would've been like, \"Oh, okay.\"\n\nLenny (00:43:01):\nYou mentioned that your title is product marketing manager and there was a recent kind of a hubbub on Twitter where Brian Chesky at Airbnb shared that they shifted the role of product manager to essentially the Apple model. And I'm curious what your perspective is on that approach to product, the Apple kind of way versus a traditional product manager?\n\nCamille Hearst (00:43:21):\nThey have done this very intentionally from what I've seen. I know they hired Hiroki actually from Apple-\n\nLenny (00:43:29):\nYeah. A lot of Apple people.\n\nCamille Hearst (00:43:31):\nYeah. And actually one of the new leaders they've hired, I don't know if you know Judson Coplan, dear friend of mine, we interned that same summer at Apple and he worked there for 15 years before heading over to Airbnb.\n\n(00:43:45):\nBut yeah, the Apple construct, it's much more of design and engineering led organizations, craftspeople I would say more so than strategy people. So that was one of the stark differences I saw in my transition from Apple to Google. There are a lot more like people from Coca-Cola and McKinsey and Bain at Google. I don't think any of those people even existed at Apple.\n\n(00:44:15):\nAnd it was very much like, \"Let's 3D chess our way into what our next move is going to be.\" Whereas at Apple it was, \"Let's tinker and let's craft and let's build and let's see what feels right.\" There's different approaches. As a result, the approach to product management was quite different.\n\n(00:44:33):\nSo I think it makes sense. Brian Chesky's background is a designer so it probably resonates a bit more within the Apple way.\n\n(00:44:41):\nAnd then in terms of what it means for product managers on an individual level, so again, there weren't product managers, the closest thing would've been CPMs, technical program managers who help manage the sprints and manage the schedule and listing out what features would happen.\n\n(00:44:59):\nI spent a lot of my time with the incredibly talented design team and if I had ideas of product features or... We would think months ahead of time, like what's the anchor story or what are the three key messages for the launch of iTunes 10 or whatever and we might have ideas for new features that would go in that.\n\n(00:45:19):\nBut because we had that moment in time, we knew well ahead we were planning for and you were working on the messaging and working on the consumer positioning again while in advance of anything actually being live or built. That was what framed what features you wanted to build and what problems you would put on the table to be solved as opposed to as clear cut metric you're trying to drive forward which is how product management has evolved in another capacity.\n\nLenny (00:45:52):\nAnd that's how it works at most companies.\n\nCamille Hearst (00:45:52):\nMm-hmm.\n\nLenny (00:45:54):\nI want to come back actually to the creator economy stuff. I feel like you've worked in the creator economy longer than most anyone, and so I wanted to use our time to spend a little more time there. What about on the platform side? If someone were thinking about starting a company to cater to creators, to build a new platform maybe for creators to make a living, do you have any advice for them? Where do you think maybe there's opportunity? Where do you think it's like, \"No, probably you don't want to spend time here?\"\n\nCamille Hearst (00:46:24):\nI think with any company, solving a real problem is the most important thing. So creators have lots of challenges and things that can be solved. Some painful things are more acutely felt than others.\n\n(00:46:40):\nI think at the core, every creator needs two things. They need to grow an audience and they need to get paid so that they can make a living. And in some ways, I do think that growing an audience is more important because with that audience, it opens up opportunities in ways that you can monetize.\n\n(00:46:59):\nBut there are all kinds of other things like we're talking about financing, health insurance, the list goes on, things we face as human beings, trying to be freelancers in the world often apply equally to people who are creative for a living.\n\n(00:47:14):\nAnd then there are unique things about the creator space like the spurts of energy, the spurts of creative flow that maybe don't apply in a salary job or an hourly job.\n\n(00:47:28):\nSo there are lots of problems out there still to be solved for creators. I don't think that this space is nearly solved, done, stick a fork in it. So my advice would be to look at the problems that exist and pick a real one and go for it.\n\nLenny (00:47:47):\nWise advice.\n\n(00:47:49):\nHave you seen this podcaster, Bobbi, I forget her last name, she rocketed up to the fourth biggest podcast in America with a few episodes of her podcast, she interviews Drake and a few comedians. Have you seen this person?\n\nCamille Hearst (00:48:05):\nI feel like I should, but as we said at the beginning, I'm such a music head, I don't listen to any podcast.\n\nLenny (00:48:11):\nThe reason I thought of her is I was watching a clip of her on an interview show and she hasn't made any money from this even though she's got the hottest podcast in America right now, and we're going to link to her in the show notes, but she's hilarious.\n\nCamille Hearst (00:48:25):\nAmazing.\n\nLenny (00:48:25):\nThere's something about her that just is really fun to watch. But okay, no podcast for you right now. We'll get you on a podcast. You're on the podcast.\n\nCamille Hearst (00:48:32):\nI'm on a podcast now.\n\nLenny (00:48:34):\nThere we go.\n\n(00:48:36):\nYou've mentioned your parents and I was reading your Wikipedia page and the way your parents are described on there is radical Buddhist artists technologists. I'm curious what that means maybe and then also just is there a memory or moment of growing up that highlights that aspect of them?\n\nCamille Hearst (00:48:56):\nWhat's funny about this is I had no idea how to Wikipedia page until you sent that.\n\nLenny (00:48:56):\nWhat?\n\nCamille Hearst (00:48:56):\nI don't know where it came from.\n\nLenny (00:48:56):\nOh my God. Who made this?\n\nCamille Hearst (00:48:56):\nExactly.\n\nLenny (00:48:56):\nThat's amazing.\n\nCamille Hearst (00:49:08):\nLike, \"What? I'm on Wikipedia?\" So that was funny.\n\nLenny (00:49:08):\nThat's crazy.\n\nCamille Hearst (00:49:13):\nYeah.\n\n(00:49:13):\nSo let's see. I grew up in San Francisco in the eighties and nineties. My parents started practicing Buddhism on the East Coast in the seventies. And my dad was, I mentioned he's a drummer and a musician, and he also had a studio. We had this closet under the stairs that he turned into a production studio and he was an artist.\n\n(00:49:43):\nHe worked for the city. My mom worked for the city, didn't have a ton of money growing up, and so a lot of the computer equipment came from the street. He would find... Somebody put a PC out... He was building PCs before the gamers were doing it. And I remember he would come home with boxes and boards and chips and would literally go get a book from the library or the store and would figure out how to assemble these computers, keyboards that were broken. He would just fix them. Probably should have been a mechanical engineer, super talented at this stuff.\n\n(00:50:15):\nBut basically he had this entire production studio with drum machines and all the equipment. And I was his helper. So I would help him solder stuff together and tinker and actually put these computers together. So that's probably... I don't know where that quote came from. I'll have to go click the link of what the reference is from, but that's some of the background there.\n\n(00:50:42):\nAnd the other thing that happened back in San Francisco in the eighties and nineties, we used to host Buddhist meetings in our house and back then there was a lot of what was called street propagation like the Hare Krishna used to be up and down Haight Street right around the corner for me.\n\n(00:51:01):\nThe Nation of Islam, which my brother joined for a period of time, would be selling Final Calls and bean pie brothers on the corners.\n\nLenny (00:51:09):\nYes.\n\nCamille Hearst (00:51:10):\nSo The Final Call is the newspaper at the time for the Nation of Islam.\n\n(00:51:15):\nAnd so it was just a different era, completely different from today, and us practicing Nichiren Buddhism, we had pamphlet that said, \"Nam myoho renge kyo,\" on them, and I would stand on the steps of our house and... We had a gate. So I would stand behind the gate and I'm probably seven or eight years old, just ask people walking by, \"Hey, if you're a nam myoho renge kyo, here's a pamphlet. Learn a little more. We're having a meeting at our house.\"\n\n(00:51:40):\nI'd laugh with my mom now. She's like, \"I can't believe we're doing that.\" It seems totally crazy now but at the time, it was just, again, coming off of the seventies, it was a very different era.\n\n(00:51:49):\nIf you've ever seen What's Love Got To Do With It, Tina Turner's probably... Who recently passed away, probably one of the more famous, more well-known practitioners of Nichiren Buddhism and she actually started practicing in the same kind of era, seventies and eighties... Or seventies probably.\n\n(00:52:05):\nSo that's what that means. And those are a couple memories that illustrate that moment. But you can see, music, technology, helping creators get paid, it's certainly influenced everything about how I am today.\n\nLenny (00:52:20):\nThat was a perfect description of your parents based on those stories. And it feels inevitable that you would've ended up doing what you're doing now. Product, technology, music, artists, creators. So that's amazing.\n\n(00:52:33):\nI'm going to ask one more question before we get to our very exciting lightning round, and the question is just around frameworks. Is there just a favorite framework or process or system or approach to building product or teams that you come back to and/or to share often that you think might be useful to listeners?\n\nCamille Hearst (00:52:51):\nI have this great manager in my experience at Hailo who turned me on to Marty Cagan who I since befriended and learned a ton from. And I just love the way that-\n\nLenny (00:52:51):\nReally?\n\nCamille Hearst (00:53:03):\nYeah, he's awesome. Actually, I should ask him about early days at eBay because I think he was there probably one of the people who got off the ground.\n\n(00:53:12):\nBut one of the things that I learned and that we really emphasized during that time is this idea of having dual track agile going where you're doing discovery and delivery simultaneously and doing it in a way that's not waterfall.\n\n(00:53:29):\nIt's not like, \"All right, the designers are going to go over here and tinker for months, and then once we've figured it out, we'll lob it over the wall to the coders and cross our fingers and hope everything works.\" But rather having this continuous cycle of essentially de-risking your assumption and getting to a point where you're able to do that with speed so that you can chart your way to new paths and to innovation by constantly figuring out where the errors are in your thinking or where things that you didn't expect to happen were going to happen.\n\n(00:54:04):\nSo I think everyone knows an impact effort or risk reward two by two and can map out different opportunities and things you might do on that two by two.\n\n(00:54:16):\nBut one of my favorite takeaways from that is that from this way of working around this dual track agile de-risking your riskiest ideas first approach is a concept of taking the things in the top, the biggest swing and actually prioritizing those first in terms of product discovery and figuring out what can you do to start de-risking because if you constantly put those off in favor of the lower risk or more predictable smaller swings, how are you ever going to truly innovate and get to the next level.\n\n(00:54:53):\nIt's a less safe choice. So it's someone that as a leader, you are in the hot seat and you can take accountability. So if some of these things don't pan out, it's on you and not on your team and give your team permission to fail and try things and de-risk those risky assumptions and get them to a point where they become low risk and they become predictable and you can just put them in the delivery column and execute them.\n\nLenny (00:55:18):\nIt reminds me of this piece of advice that people call eat the frog which is first thing in the morning eat the frog which essentially is do the hardest thing first and then there's the day becomes easier.\n\nCamille Hearst (00:55:30):\nYeah.\n\nLenny (00:55:30):\nI don't know why it's eat a frog, I don't know where that comes from.\n\nCamille Hearst (00:55:34):\nI don't know either. I like draw the owl. That's one of my favorite values, the Twilio ones.\n\nLenny (00:55:39):\nSay more. I would say more. What is that?\n\nCamille Hearst (00:55:44):\nCompanies have their values. One of them is draw the owl. It's really draw the effing owl and the meme is how do you draw an owl and you draw some circles and then you draw a fucking owl. So it's like just do it. At some point, you got to just figure it out and figure out how to do it.\n\n(00:56:10):\nExcuse my language, but it's funnier when you say what the value actually is which is sometimes you got to just go for it. You're not going to know the exact path to get there and maybe you won't have de-risked everything but you start with some circles and then you get it done.\n\nLenny (00:56:27):\nI love it. Cursing is very loud on this podcast, so I'm glad you went there.\n\n(00:56:32):\nAnd with that, we've reached our very exciting lightning round. Are you ready?\n\nCamille Hearst (00:56:36):\nI hope so. I didn't prepare this. I thought I'd figured out on the spot.\n\nLenny (00:56:40):\nGreat. Perfect.\n\n(00:56:41):\nWhat are two or three books that you recommended most to other people?\n\nCamille Hearst (00:56:46):\nThree-Body Problem, A Wrinkle in Time, and Octavia Butler's Kindred.\n\nLenny (00:56:53):\nThree-Body Problem's come up a number of times recently and there's a show coming out actually based on the book.\n\nCamille Hearst (00:56:58):\nI'm excited. Yeah.\n\nLenny (00:56:59):\nI'm so excited. I've been watching Foundation which is also another series I've been excited to see, but it's like, I don't know what's going on. It's so complicated.\n\nCamille Hearst (00:57:07):\nHow is it? I've been waiting...\n\nLenny (00:57:08):\nEh.\n\nCamille Hearst (00:57:08):\nSo I'm a huge sci-fi head. I watched Battlestar Galactica. Classic. [inaudible 00:57:16] and so I've been waiting to see what happens with Foundation because I just don't have that kind of commitment in me these days.\n\nLenny (00:57:23):\nYeah. I don't know what to think of it. It's beautiful and there's a lot of interesting pieces but it just goes out... I think they're making a lot of stuff up. I don't know if you've read Silo. Have you read Silo?\n\nCamille Hearst (00:57:33):\nNo. But I saw the preview for the show. Another one I'm going to [inaudible 00:57:36] season two.\n\nLenny (00:57:37):\nThat's a good one to read because in the show... They're just making up stories. I don't know what they're doing. There's... Ninety percent of it, they just totally invent for the show and then there's a little bit that's connected to the story so I don't know what's going on.\n\nCamille Hearst (00:57:49):\nOkay. Cool. I didn't even know it was a book. I'll read it.\n\nLenny (00:57:51):\nOh, yeah. It's really good. There's three of them, but the first one's the only good one, so I found.\n\nCamille Hearst (00:57:54):\nOkay.\n\nLenny (00:57:55):\nAnyway, moving on. Speaking of this topic actually, any favorite recent movies or TV shows that you've really enjoyed?\n\nCamille Hearst (00:58:02):\nI've been watching Hijack over the last week with Idris Elba. So that's been fun. Got a couple episodes left there.\n\n(00:58:10):\nAnd then movies, I'm a huge Chris Nolan fan. So I haven't seen Oppenheimer yet, but can't wait to see it. Most of his movies I'm confused by, but the visuals are just so stunning if you let it go.\n\nLenny (00:58:24):\nYeah. I'm excited to see it too. I've not seen it either. Have a new child and it's harder to see movies [inaudible 00:58:30].\n\nCamille Hearst (00:58:30):\nOh, another good one. Shadow and Bone on Netflix.\n\nLenny (00:58:34):\nShadow and Bone?\n\nCamille Hearst (00:58:35):\nWay better than the book I have to say. Well, I read one series, the Six of Crows. This is my young adult sci-fi fantasy streak. Again, coming to the forth. But the show is incredible. It is so good. So if you're into-\n\nLenny (00:58:35):\nReally? Never heard that.\n\nCamille Hearst (00:58:48):\n... this kind of vibe, go for it.\n\nLenny (00:58:51):\nOkay. I'm going to check that out.\n\n(00:58:52):\nWhat is a favorite interview question that you like to ask people when you're interviewing them?\n\nCamille Hearst (00:58:58):\nI like to ask people to tell me about something they're really proud of that they accomplished and take me through the process and talk to me about why they're proud of it. I find you can learn so much about a person's motivations, about their work ethic, about what they care about, what good looks like to them, and I think those are all really important things to understand about a person if you're going to work closely with them.\n\nLenny (00:59:23):\nWhat is a favorite life motto that you just really like to share or often come back to either in work or in life?\n\nCamille Hearst (00:59:31):\nYeah. So there's one which is actually a Japanese proverb. I took Japanese in high school and college but this phrase is a frog in a well cannot know the ocean. And so the idea is to push yourself to expand your limits and your horizons and get out of the well so that you can experience the ocean.\n\nLenny (00:59:31):\nI love that.\n\nCamille Hearst (00:59:55):\nI got a better one, sorry.\n\nLenny (00:59:57):\nOkay, great. Go.\n\nCamille Hearst (00:59:58):\nAnother one.\n\nLenny (00:59:58):\nSure. Tell me.\n\nCamille Hearst (01:00:00):\nI learned this one from someone at Patreon because someone was posting this around the streets of San Francisco. It's become more known recently. Apparently, it's a Chinese proverb. I don't know if it's true or not but it is that the best time to plant a tree was 20 years ago, the second best time is now. So this idea that don't delay, maybe you missed the prime opportunity but waiting any longer certainly isn't going to help.\n\nLenny (01:00:28):\nI heard that one actually I was at the park in San Francisco and there was this piano thing, I think it was called, it's a botanical garden and people play piano all throughout once a year. And there's a guy that was just playing incredibly well and I left and he left around the same time and I was standing next to him. I'm like, \"Man, I wish I studied piano when I was younger.\" And he's like, \"The best time to have studied piano is 10 years ago. The second best time is to start now.\"\n\nCamille Hearst (01:00:51):\nYep, he's right.\n\nLenny (01:00:53):\nAnd I couldn't get off the hook there. He is like, \"You're right. And you're still not going to do it I guess.\"\n\n(01:00:59):\nFinal question, who's a favorite artist right now? Who are you liking?\n\nCamille Hearst (01:01:05):\nOoh. So I've been for probably a good three years now really into Afrobeat and right now there's this artist called Rema, R-E-M-A, who I first heard a couple years ago, he's got this track called Dumebi. But he has a song out right now that is, my opinion, song of the summer called Calm Down. I think Ariana Grande, is it, came over and did a verse on it? But I've just been listening to Rema Radio, Calm Down radio on Spotify and tons of Afrobeats artists. So that's the vibe I'm on right now.\n\nLenny (01:01:42):\nI love it. I actually... Once someone suggested some music at the end of a podcast and I was just like, \"Hey, we're going to end the podcast with that tune.\" And it turned out we did that and then YouTube shut us down because it's copyrighted and so I'm not going to offer. Never going to do that again, so we're just ending with regular music but we'll link-\n\nCamille Hearst (01:01:59):\n[inaudible 01:01:59] it's hard.\n\nLenny (01:02:00):\nI know. It's so tough. Come on. It's just like a few seconds. Give us a break.\n\nCamille Hearst (01:02:06):\nYou should have 30 seconds for your play. Right?\n\nLenny (01:02:06):\nI don't know. Maybe we'll-\n\nCamille Hearst (01:02:07):\nDon't ask me, I'm not a lawyer.\n\nLenny (01:02:10):\nWe'll send you the bill.\n\nCamille Hearst (01:02:11):\nYeah.\n\nLenny (01:02:12):\nCamille, this was amazing. I think we're living the creator economy here. I really appreciate you making time for this.\n\n(01:02:17):\nTwo final questions. Where can folks find you online if they want to reach out and maybe ask any additional questions? And then how can listeners be useful to you?\n\nCamille Hearst (01:02:24):\nI used to be real big on Twitter but that ship has sailed. I'm still on there. You can find me-\n\nLenny (01:02:30):\nIt's X now.\n\nCamille Hearst (01:02:31):\nYes, on X. Camillionz is my handle, C-A-M-I-L-L-I-O-N-Z. Also on Threads these days, trying that out, seeing if that sticks. So probably LinkedIn. You could find me on LinkedIn. I don't think anyone ever promotes that.\n\nLenny (01:02:31):\nThey do. Most people actually.\n\nCamille Hearst (01:02:48):\nDo they? Yeah?\n\nLenny (01:02:48):\nYeah.\n\nCamille Hearst (01:02:52):\nOkay.\n\n(01:02:52):\nAnd how can listeners be useful to me? Hey, go support your favorite creator. Find out, go to the show, find out if they have a Patreon. I would love to see more and more people feeling like they are patrons of the arts.\n\nLenny (01:03:08):\nAmazing. Maybe buy some merch.\n\nCamille Hearst (01:03:09):\nBuy some merch. Yeah.\n\nLenny (01:03:12):\nCamille, thank you again for being here.\n\nCamille Hearst (01:03:13):\nThanks, Lenny.\n\nLenny (01:03:15):\nBye, everyone.\n\n(01:03:18):\nThank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.\n\n",
+  "companies": [
+    "Bolt",
+    "Google",
+    "Box",
+    "Twitter",
+    "Instagram",
+    "Amazon",
+    "Uber",
+    "Lyft",
+    "Square",
+    "LinkedIn",
+    "Apple",
+    "Airbnb",
+    "Netflix"
+  ]
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "behavioral",
+    "name": "行为面试",
+    "questions": [
+      "Tell me about a time you failed. What did you learn?",
+      "Describe a controversial product decision you were part of.",
+      "Tell me about a time you had to work with ambiguity.",
+      "What's the hardest thing you've ever done?",
+      "Describe a time you changed your mind based on data."
+    ]
+  },
+  {
+    "id": "problem_solving",
+    "name": "问题解决",
+    "questions": [
+      "How would you improve our product?",
+      "Walk me through how you'd launch a new feature.",
+      "How would you decide between two competing priorities?",
+      "How do you prioritize when everything is important?"
+    ]
+  },
+  {
+    "id": "technical",
+    "name": "技术能力",
+    "questions": [
+      "How would you work with engineering on a technical roadmap?",
+      "Describe how you'd collaborate with design.",
+      "How do you evaluate technical feasibility?"
+    ]
+  },
+  {
+    "id": "leadership",
+    "name": "领导力",
+    "questions": [
+      "How do you influence without authority?",
+      "Describe a time you had to influence stakeholders.",
+      "How do you handle conflict on your team?"
+    ]
+  },
+  {
+    "id": "values_fit",
+    "name": "价值观匹配",
+    "questions": [
+      "Why do you want to work here?",
+      "What are you most proud of?",
+      "What's your leadership philosophy?",
+      "What's your favorite interview question to ask?"
+    ]
+  }
+]

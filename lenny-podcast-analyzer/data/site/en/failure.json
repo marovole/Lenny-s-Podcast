@@ -1,0 +1,64 @@
+[
+  {
+    "id": "product",
+    "name": "产品失败",
+    "examples": [
+      "building something nobody wants",
+      "feature creep",
+      "ignoring user feedback",
+      "premature scaling",
+      "technical debt",
+      "solving the wrong problem"
+    ],
+    "episodes": []
+  },
+  {
+    "id": "organizational",
+    "name": "组织失败",
+    "examples": [
+      "misaligned incentives",
+      "poor communication",
+      "lack of clarity",
+      "political infighting",
+      "unclear ownership",
+      "resistance to change"
+    ],
+    "episodes": []
+  },
+  {
+    "id": "market",
+    "name": "市场失败",
+    "examples": [
+      "wrong timing",
+      "market not ready",
+      "competition outpaced",
+      "regulatory issues",
+      "market size miscalculation"
+    ],
+    "episodes": []
+  },
+  {
+    "id": "technical",
+    "name": "技术失败",
+    "examples": [
+      "technical debt accumulation",
+      "over-engineering",
+      "underestimating complexity",
+      "security issues",
+      "scaling bottlenecks"
+    ],
+    "episodes": []
+  },
+  {
+    "id": "personal",
+    "name": "个人失败",
+    "examples": [
+      "burnout",
+      "poor work-life balance",
+      "ego-driven decisions",
+      "fear of failure",
+      "not asking for help"
+    ],
+    "episodes": []
+  }
+]
