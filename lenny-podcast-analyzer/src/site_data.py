@@ -246,7 +246,11 @@ def build_search_index(episodes: List[Dict]) -> Dict:
 
 
 def write_locale_payload(
-    locale_dir: Path, public_dir: Path, locale: str, episodes: List[Dict]
+    locale_dir: Path,
+    public_dir: Path,
+    locale: str,
+    episodes: List[Dict],
+    search_payload: Dict,
 ):
     episodes_dir = locale_dir / "episodes"
     episodes_dir.mkdir(parents=True, exist_ok=True)
@@ -340,7 +344,6 @@ def write_locale_payload(
     with open(locale_dir / "interviews.json", "w", encoding="utf-8") as file:
         json.dump(interviews_payload, file, ensure_ascii=False, indent=2)
 
-    search_payload = build_search_index(episodes)
     with open(locale_dir / "search.json", "w", encoding="utf-8") as file:
         json.dump(search_payload, file, ensure_ascii=False, indent=2)
 
@@ -383,6 +386,12 @@ def build_site(
         "TRANSLATION_MODEL", "anthropic/claude-3-5-sonnet"
     )
 
+    search_index_locales = {
+        locale.strip()
+        for locale in os.getenv("SEARCH_INDEX_LOCALES", DEFAULT_LOCALE).split(",")
+        if locale.strip()
+    }
+
     for locale in locales:
         locale_dir = output_dir / locale
         locale_dir.mkdir(parents=True, exist_ok=True)
@@ -404,7 +413,14 @@ def build_site(
                     for episode in base_dataset
                 ]
 
-        write_locale_payload(locale_dir, public_dir, locale, locale_dataset)
+        if locale in search_index_locales:
+            search_payload = build_search_index(locale_dataset)
+        else:
+            search_payload = {"documents": [], "fallback_locale": DEFAULT_LOCALE}
+
+        write_locale_payload(
+            locale_dir, public_dir, locale, locale_dataset, search_payload
+        )
 
         site_metadata = {
             "locale": locale,

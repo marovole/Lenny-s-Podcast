@@ -14,6 +14,7 @@ type SearchDoc = {
 
 type SearchIndex = {
   documents: SearchDoc[];
+  fallback_locale?: string;
 };
 
 export default function SearchClient({ locale }: { locale: string }) {
@@ -21,10 +22,38 @@ export default function SearchClient({ locale }: { locale: string }) {
   const [index, setIndex] = useState<SearchIndex | null>(null);
 
   useEffect(() => {
-    fetch(`/data/${locale}/search.json`)
-      .then((res) => res.json())
-      .then((data) => setIndex(data))
-      .catch(() => setIndex({ documents: [] }));
+    let isActive = true;
+
+    const loadIndex = async () => {
+      try {
+        const response = await fetch(`/data/${locale}/search.json`);
+        const data = (await response.json()) as SearchIndex;
+        if (!isActive) return;
+
+        if (data.fallback_locale && data.fallback_locale !== locale) {
+          const fallbackResponse = await fetch(
+            `/data/${data.fallback_locale}/search.json`
+          );
+          const fallbackData = (await fallbackResponse.json()) as SearchIndex;
+          if (isActive) {
+            setIndex(fallbackData);
+          }
+          return;
+        }
+
+        setIndex(data);
+      } catch (error) {
+        if (isActive) {
+          setIndex({ documents: [] });
+        }
+      }
+    };
+
+    loadIndex();
+
+    return () => {
+      isActive = false;
+    };
   }, [locale]);
 
   const results = useMemo(() => {
