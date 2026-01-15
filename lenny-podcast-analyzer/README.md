@@ -68,7 +68,10 @@ npm install
 # 生成站点数据（可选 RSS、翻译）
 python3 src/site_data.py --rss <rss-url-or-path>
 
-# 静态导出站点
+# Cloudflare Pages 构建（推荐）
+npm run build:pages
+
+# 本地构建（不包含适配器）
 npm run build:site
 ```
 
@@ -78,6 +81,12 @@ npm run build:site
 - `RSS_TIMEOUT`：RSS 请求超时秒数
 - `TRANSLATION_MODEL` 或 `--translation-model`：翻译模型
 - `TRANSLATION_BATCH_SIZE`：每批翻译段落数量
+
+### Cloudflare Pages 配置
+- Root directory: `lenny-podcast-analyzer`
+- Build command: `npm run build:pages`
+- Output directory: `.vercel/output/static`
+- 环境变量（至少设置 `RSS_URL`）
 
 ## 项目结构
 
