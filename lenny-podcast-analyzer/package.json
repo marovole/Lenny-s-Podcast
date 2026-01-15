@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build:data": "python3 src/site_data.py",
     "build": "next build",
-    "build:site": "npm run build:data && next build"
+    "build:site": "npm run build:data && next build",
+    "build:pages": "python3 src/site_data.py --rss $RSS_URL && next build && npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -14,6 +15,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.12.0",
     "@types/node": "25.0.8",
     "@types/react": "19.2.8",
     "typescript": "5.9.3"
