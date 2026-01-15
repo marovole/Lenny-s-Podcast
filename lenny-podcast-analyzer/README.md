@@ -71,6 +71,9 @@ python3 src/site_data.py --rss <rss-url-or-path>
 # Cloudflare Pages 构建（推荐）
 npm run build:pages
 
+# 部署到 Cloudflare Pages（避免重新打包 _worker.js）
+npm run deploy:pages
+
 # 本地构建（不包含适配器）
 npm run build:site
 ```
@@ -89,6 +92,7 @@ npm run build:site
 - Root directory: `lenny-podcast-analyzer`
 - Build command: `npm run build:pages`
 - Output directory: `.vercel/output/static`
+- CLI 部署请使用 `npm run deploy:pages`（包含 `--no-bundle`）
 - 环境变量（至少设置 `RSS_URL`）
 
 ## 项目结构
