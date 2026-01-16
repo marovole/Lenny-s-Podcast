@@ -305,3 +305,208 @@ input:focus-visible {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }
 }
+
+.landing-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 5vw, 3.5rem);
+}
+
+.landing-hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+
+.landing-badge {
+  display: inline-block;
+  align-self: center;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+}
+
+.landing-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--color-ink);
+}
+
+.landing-title-accent {
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+.landing-tagline {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: var(--color-muted);
+  margin: 0 auto;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+.landing-description {
+  text-align: center;
+  padding: var(--space-md) 0;
+}
+
+.landing-summary {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  color: var(--color-muted);
+  margin: 0 auto;
+  max-width: 620px;
+  line-height: 1.75;
+}
+
+.landing-language {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.landing-section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-ink);
+}
+
+.landing-language-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-sm);
+}
+
+.landing-lang-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-paper-strong);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.landing-lang-card:hover,
+.landing-lang-card:focus-visible {
+  border-color: var(--color-accent);
+  box-shadow: 0 14px 32px rgba(178, 74, 63, 0.12);
+  transform: translateY(-2px);
+}
+
+.landing-lang-default {
+  border-color: var(--color-accent);
+  background: linear-gradient(
+    to bottom right,
+    var(--color-paper-strong),
+    var(--color-accent-soft)
+  );
+}
+
+.landing-lang-label {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.landing-lang-badge {
+  font-family: var(--font-body);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+.landing-features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.landing-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-md);
+}
+
+.landing-feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  background: var(--color-paper-strong);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease;
+}
+
+.landing-feature-card:hover,
+.landing-feature-card:focus-visible {
+  border-color: var(--color-accent);
+  box-shadow: 0 12px 28px rgba(178, 74, 63, 0.1);
+  transform: translateY(-2px);
+}
+
+.landing-feature-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.landing-feature-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.landing-feature-desc {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .landing-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .landing-language-grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+
+  .landing-features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
