@@ -1,0 +1,1470 @@
+{
+  "episode_name": "Raaz Herzberg",
+  "title": "Raaz Herzberg",
+  "slug": "raaz-herzberg",
+  "num_segments": 239,
+  "segments": [
+    {
+      "speaker": "Lenny Rachitsky",
+      "timestamp": "00:00:00)",
+      "timestamp_seconds": 0.0,
+      "content": "You're one of the first 10 employees, you're the first product manager. It was when you joined, the founders didn't really have an idea figured out yet. When they landed on an idea, and then ended up being wrong, ended up not working. Six weeks after you joined,"
+    },
+    {
+      "speaker": "there was a pivot.\n\nRaaz Herzberg",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "At the time, we didn't really have a solid product yet. We would have 10 to 15"
+    },
+    {
+      "speaker": "meetings every day with potential customers. I was hired as the first product manager. I sat in on those calls.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "I still did not exactly understand what we were going to build, which was confusing, because I was a product manager, so I was supposed to start building it, and so, at some point, it was like, \"I have to ask, what exactly are we doing here?\""
+    },
+    {
+      "speaker": "And that ended up pivoting us around to cloud security.\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "So things started to click a little bit more, you started seeing enthusiasm. Can you talk about just what that phase was like?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "We really felt the type of questions change, right? Silly. The call sounded like, again, \"How are you pricing this, or when can we start doing a POV?\" I think naturally, as human beings, you have a bias to look for affirmation,"
+    },
+    {
+      "speaker": "versus a bias for what you don't want to hear.\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "You started as an engineer, you moved into product, and now you're marketing,"
+    },
+    {
+      "speaker": "which is not a traditional path.\n\nRaaz Herzberg",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "I had a ton to learn about marketing, with what I knew really well,"
+    },
+    {
+      "speaker": "with ...\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Today, my guest is Raaz Herzberg. Raaz is chief marketing officer and VP of product strategy at Wiz. Before moving into marketing, Raaz was an engineer, and then, for most of her career, was a product manager. Prior to Wiz, Raaz led security products in Microsoft, including Azure Sentinel, and with Wiz,"
+    },
+    {
+      "speaker": "moved from VP of product to CMO.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "If you haven't heard of Wiz, it's not only the world's fastest growing security company, it's also the fastest growing software company in history, hitting 100 million ARR, just 18 months after founding, and then, just under five years after founding, was rumored to be exploring an acquisition by Google for over $23"
+    },
+    {
+      "speaker": "billion.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Even more wild, as you'll hear in our conversation, the team initially went in circles on what they wanted to build. And it took them awhile to actually land on the idea that is basically the most intense product market fit of any B2"
+    },
+    {
+      "speaker": "B company ever.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "In our conversation, Raaz shares what signals told her and the team that the original idea wasn't going to work, and that what changed in their conversations, when they finally found product market fit, why she moved into marketing, and what she wished she knew as a product leader from her new marketing lens, also, her perspective on marketing, and what marketing people often get wrong,"
+    },
+    {
+      "speaker": "and why CMOs often fail. Also something she calls the dummy explanation. Why you need to pay attention to where the heat is within the organization.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "She shares her most contrarian take on leadership, and so much more. This was such a fun episode, and there's so much to learn here for product leaders, for marketing leaders,"
+    },
+    {
+      "speaker": "and for founders.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes, and helps the podcast tremendously. With that,"
+    },
+    {
+      "speaker": "I bring you Raaz Herzberg.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Raaz,"
+    },
+    {
+      "speaker": "Thank you for me.\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "So I want to start by giving a little context on Wiz, for folks that aren't super familiar with the company. You launched just under five years ago, at this point. Within 18 months, you all hit a hundred million ARR, which is the fastest growth rate in history of any software company. It's faster than the two other companies I've had on the podcast, that also claim to be the fastest growing software companies,"
+    },
+    {
+      "speaker": "Deal and Ramp. You guys grew even faster.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "I read that you are at over 500 million ARR now. I know it's also not confirmed, but a certain company that rhymes with Loogle, offered to buy you guys for $23 billion, and y'all turned that down, decided to stay private. And also, something like 50% of Fortune 100"
+    },
+    {
+      "speaker": "companies are customers of Wiz.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Is there anything I missed? Anything I got wrong?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Never heard of that Loogle company, but other than that,"
+    },
+    {
+      "speaker": "yeah.\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay. Okay, great. We're going to come back to that. What's even crazier is in spite of that, when you joined the company, you were employee, something like, number seven?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, we kind of started, I feel like, the founders, and the first six, seven employees,"
+    },
+    {
+      "speaker": "we just started at once.\n\nLenny Rachitsky",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "This episode is brought to you by WorkOS. If you're building a SaaS app, at some point, your customers will start asking for enterprise features like SAML authentication,"
+    },
+    {
+      "speaker": "and SCIM provisioning.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "That's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand, so that you can ship quickly,"
+    },
+    {
+      "speaker": "and get back to building other features.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Today, hundreds of companies are already powered by WorkOS, including ones you probably know, like Vercel, Webflow, and Loom. WorkOS also recently acquired Warrant, the fine grain authorization service. Warrant's product is based on a groundbreaking authorization system called Zanzibar, which was originally designed for Google,"
+    },
+    {
+      "speaker": "to power Google Docs and YouTube.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "This enables fast authorization checks at enormous scale, while maintaining a flexible model that can be adapted, to even the most complex use cases. If you're currently looking to build role-based access control, or other enterprise features, like single sign-on SCIM or user management,"
+    },
+    {
+      "speaker": "you should consider WorkOS.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a drop-in replacement for Auth-Zero,"
+    },
+    {
+      "speaker": "and supports up to one million monthly active users for free. Check it out at workok.com to learn more. That's workos.com.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "This episode is brought to you by Rippling, a single platform to build and scale your startup on. Rippling handles all the \"can't get it wrong\" admin work of payroll and benefits, giving you back hours every week, but it does a lot more than that. Rippling is a game-changer for the entire company, with tools for HR, IT and spend, all built from the ground up,"
+    },
+    {
+      "speaker": "and designed to work together seamlessly.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Just hired someone? Rippling makes onboarding easy, whether your new hire's sitting next to you, or halfway across the world. In just a few clicks, Rippling automatically generates an offer letter, ships a laptop with the necessary apps and permissions,"
+    },
+    {
+      "speaker": "and even delivers a corporate card.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "An employee needs to update their benefits contribution? When they do it in Rippling, that change automatically syncs to payroll. CTO forgot her laptop in an Uber? Lock it remotely,"
+    },
+    {
+      "speaker": "with Rippling.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Many startups I've invested in, like Sprig, Elemy and ClassDojo, use Rippling, because it's a force multiplier for lean teams, helping them eliminate major headaches, and operate their business more efficiently. For a limited time,"
+    },
+    {
+      "speaker": "Rippling is giving Lenny's listeners three months off.",
+      "timestamp": "00:07:01)",
+      "timestamp_seconds": 0.0,
+      "content": "To redeem, visit rippling.com/lenny. That's rippling.com/lenny. Okay, so for one of the first 10 employees,"
+    },
+    {
+      "speaker": "Yeah. Yeah.\n\nLenny Rachitsky",
+      "timestamp": "00:07:02)",
+      "timestamp_seconds": 0.0,
+      "content": "And what I read is that when you joined, the founders didn't really have an idea figured out yet, when they landed on an idea, and it ended up being wrong, ended up not working. Six weeks after you joined,"
+    },
+    {
+      "speaker": "there was a pivot.",
+      "timestamp": "00:07:02)",
+      "timestamp_seconds": 0.0,
+      "content": "So the fact that that was true, and you went from this, \"This isn't working,\" to boom, $100 million dollars AR, I want to spend some time here,"
+    },
+    {
+      "speaker": "because I think there's a lot people can learn here.",
+      "timestamp": "00:07:13)",
+      "timestamp_seconds": 0.0,
+      "content": "So let me just ask, looking back at that point when the idea wasn't working to realizing, \"Hey, maybe this is a better idea,\" what do you remember are some signals that told you this isn't working, and okay, maybe this is, because a lot of founders are in that stage with their products?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:07:31)",
+      "timestamp_seconds": 0.0,
+      "content": "When we started, it wasn't even Wiz. The company was literally officially founded as Beyond Networks, because there was this idea of, \"Hey, we want to do something in the network security space.\" (00:07:43): Actually, myself and the founding team, and also, the other five engineers that started with us, we actually all came from a background of building cloud security products before, but this time it was like, \"Okay, we actually don't want to do cloud security, we want to do network security.\" (00:08:00): What happened was in those initial few weeks, it also, we started was literally, exactly, Wiz was founded together with COVID. It was that March when the whole world shut down. Suddenly, everything went terribly,"
+    },
+    {
+      "speaker": "terribly strange on all of us. That's when Wiz started.",
+      "timestamp": "00:08:19)",
+      "timestamp_seconds": 0.0,
+      "content": "So it was like, our days looked like talking to 10, 15 customers. Wiz is a B2B product, the buyer is the CISO, the people, the person that owns basically security for the entire company. So we would have 10 to 15 meetings every day,"
+    },
+    {
+      "speaker": "with potential customers.",
+      "timestamp": "00:08:39)",
+      "timestamp_seconds": 0.0,
+      "content": "At the time, we didn't really have a solid product yet, but we had an idea, and the deck explaining our idea, and what we're going to build, and why. We were all a very technical group of people, and especially, our founding team, a staff, our CEO at Wiz. Before Wiz, he led the entire division of all of the Microsoft cloud security products. So they're very, very impressive, very technical,"
+    },
+    {
+      "speaker": "very well known and respected in the industry.",
+      "timestamp": "00:09:09)",
+      "timestamp_seconds": 0.0,
+      "content": "And so, we would join a call, and kind of present and walk through our idea, and the person on the other end would be like, \"Oh, it sounds interesting. Oh yes, sounds interesting, we'd love to hear more. Yes, perfect. Sounds interesting, we'd love to hear more.\" And you finished calls with a good feeling, like the person said, \"Oh yes, interesting, interesting.\" (00:09:32): But like you said, I was hired as a first product manager. I sat in on those calls, sometimes officially participating, sometimes, even, not officially participating, but listening on all of the calls, and I finished a couple of weeks of that, which is a lot of calls, I think, two weeks or something. I still did not exactly understand what we were going to build, which was confusing, because I was a product manager, so I was supposed to start building it, in some ways, go to the dev team and start building it. And that was a point where I felt like, \"I don't know what we are talking about exactly.\" (00:10:10): Now, I really thought, \"I don't know what we're talking about. I thought they all understood what we're building, and I thought every customer we had in the call, understood that we were building.\""
+    },
+    {
+      "speaker": "It's just that I did not understand what we were building.",
+      "timestamp": "00:10:24)",
+      "timestamp_seconds": 0.0,
+      "content": "At some point, it was like, \"Okay, I have to ask. What exactly are we,\" like, In the details, right? Not in describing a big problem, in a high level, big potential approach to solving it, but what exactly are we doing here? (00:10:44): And I think that that ended up opening a really deep discussion of, \"Okay, wait, maybe we are telling a bit of a broad story, and maybe the person on the other end is not going to tell you.\" They're not incentivized to tell you, \"You know what? I don't know what you're talking about.\" (00:11:02): It's really, I guess they felt a bit like me in some ways, and they were like, \"Oh, it's a really smart group of people. I'm sure they're building something interesting.\" So yeah, interesting. They're not incentivized to really dig, deep dive into the problems, right? (00:11:14): So I think that opened up a discussion for us, and we kind of understood that we were listening in the wrong way, maybe, that we were looking for positive reinforcements, but not really listening intently to signs of deep enthusiasm,"
+    },
+    {
+      "speaker": "and that ended up pivoting us around to cloud security.\n\nLenny Rachitsky",
+      "timestamp": "00:11:31)",
+      "timestamp_seconds": 0.0,
+      "content": "There's so much to learn, just from the short story, and I want to get into what you started hearing that made it sound like, \"Okay, wait, maybe this is a better idea.\" But first of all, just the fact that you're doing 10 to 15 calls a day, you said?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:11:41)",
+      "timestamp_seconds": 0.0,
+      "content": "That was a bit of, in some weird way ... Again, Wiz was founded in that terrible March, where the world closed down. It seemed, at the time, a really bad time to start a company. Markets were frozen,"
+    },
+    {
+      "speaker": "and everything.",
+      "timestamp": "00:11:55)",
+      "timestamp_seconds": 0.0,
+      "content": "Even my mom, which knows nothing about what exactly I do or why, I mean, I left Microsoft to join Wiz, even my mom was calling me and telling me, \"This is not a good time to join a startup.\" But it ended up being in some ways, like an advantage, because everybody were home. Suddenly, everybody were home, no meetings,"
+    },
+    {
+      "speaker": "no travel.",
+      "timestamp": "00:12:15)",
+      "timestamp_seconds": 0.0,
+      "content": "So suddenly, C-Sales, which are busy people, and we started, originally based in Tel Aviv, so we couldn't even fly, but suddenly, it didn't matter. Because, I mean, everybody's home. So yeah, we took 10-15 calls a day,"
+    },
+    {
+      "speaker": "back to back to back.\n\nLenny Rachitsky",
+      "timestamp": "00:12:30)",
+      "timestamp_seconds": 0.0,
+      "content": "I think that alone is a really important lesson of just, that's how you discover something that isn't working/find the thing that is working is, do many,"
+    },
+    {
+      "speaker": "many calls.",
+      "timestamp": "00:12:38)",
+      "timestamp_seconds": 0.0,
+      "content": "That is a lot of calls. I don't even know how someone has time to do 10 to 15 calls a day. But again,"
+    },
+    {
+      "speaker": "I think that's how you do this. So I think that alone is a really important lesson for folks to take away.",
+      "timestamp": "00:12:46)",
+      "timestamp_seconds": 0.0,
+      "content": "I love this point, that people are going to try to be nice to you, especially if they think you're really smart, and especially if you're describing things that might be helpful to them, but what you're sharing is, you need to not trust,"
+    },
+    {
+      "speaker": "that often is deceiving.",
+      "timestamp": "00:13:03)",
+      "timestamp_seconds": 0.0,
+      "content": "Talk about what it felt when it moved from just, \"Oh, this is cool, this is nice, and maybe let's talk more,\" to, \"Oh, maybe this is actually something they'll buy.\""
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:13:12)",
+      "timestamp_seconds": 0.0,
+      "content": "We really felt the type of questions change. Suddenly, the call didn't end, was like, \"Oh, this sounds super interesting. Sure, please update me. I'd love to hear more.\" Certainly, the call sounded like, \"Wait, again, how are you pricing this? How much will this cost?\" Or, \"Wait? When can we start doing a POV? How long is a POV?\" Or somebody would finish the call, and be like, \"Okay, I know exactly who I need to connect you to in my team.\" (00:13:35): Those are really strong indications that are the type of indications we learned to look for. Although there's something I think, at the beginning of a company, it's very scary. I think naturally, as human beings,"
+    },
+    {
+      "speaker": "you want to get affirmation from the other side.",
+      "timestamp": "00:13:53)",
+      "timestamp_seconds": 0.0,
+      "content": "So you're actually, you have a bias to look for affirmation, versus a bias to look for what you don't want to hear. That's just natural,"
+    },
+    {
+      "speaker": "being a person.",
+      "timestamp": "00:14:04)",
+      "timestamp_seconds": 0.0,
+      "content": "So I felt like, that is what we ended up really being in tune with. \"No, I have to understand. They're intently interested. They want to connect me to somebody. They want to know how much this costs.\" (00:14:15): If somebody just tells you, like you said, \"Oh, super cool, yeah, I want to take this as a good sign, but I shouldn't.\""
+    },
+    {
+      "speaker": "Lenny Rachitsky",
+      "timestamp": "00:14:23)",
+      "timestamp_seconds": 0.0,
+      "content": "It's almost like you need to see them pushing for the next step is what I'm hearing is, \"Let's do a POV, what's the next step to do this? I want to connect you to this person, to talk further about this,\" versus just, \"Oh yeah, this is awesome. Thank you.\" And then, okay,"
+    },
+    {
+      "speaker": "bye.\n\nRaaz Herzberg",
+      "timestamp": "00:14:34)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, exactly. And also, in B2B, that is really the process you have to take, after you have to get connected to the actual team that will test the tools, will deploy it. There needs to be real passion about doing something, and I guess that is the difference. It's real passion about, \"Hey, I want this right now.\""
+    },
+    {
+      "speaker": "Lenny Rachitsky",
+      "timestamp": "00:14:54)",
+      "timestamp_seconds": 0.0,
+      "content": "The other point you made is that you were the person, nobody was saying this thing that was this elephant in the room, almost of, \"What are we even building? I don't understand what's happening here.\" (00:15:05): I read somewhere that you were like, you told, \"I need to quit. I don't understand what this is, and I'm not the right person for this role,\" and it turned out, nobody understood exactly what was going on. Can you share that story?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:15:17)",
+      "timestamp_seconds": 0.0,
+      "content": "It's funny, because it's a story that some of the founders tell, and they tell differently. They tell, \"She came to us, and she was like, we have to rethink,\" but that was not my perspective at all, right? My perspective was genuinely, \"Okay, I have to confess, that was my perspective.\" (00:15:38): I was sure that I was the only one not understanding. It's hard to get the courage, I guess. Sometimes, it's hard to get the courage to say, \"Actually, I don't understand.\" But I think by now, in my career,"
+    },
+    {
+      "speaker": "it's my favorite question.",
+      "timestamp": "00:15:56)",
+      "timestamp_seconds": 0.0,
+      "content": "I feel like I say, \"I don't understand,\" a lot of times a day. I think, if you build a company with the right type of culture, in a sense, then it's not a shame to say, \"I don't understand, or please explain again.\" (00:16:14): It's having that culture in place that enables it. And I also have to say, when I think of the founding team, and the founding team in Wiz, Wiz is a very flat organization, in some ways. It's not about seniority, it's really about driving impact, and everybody can have a seat on the table,"
+    },
+    {
+      "speaker": "and voices are heard.",
+      "timestamp": "00:16:32)",
+      "timestamp_seconds": 0.0,
+      "content": "And I think it also reflects really highly about them, just giving me the seat at the table, in a sense, to be even able to say, \"I don't understand.\" (00:16:41): Then, when I'm saying I don't understand, not actually being open to, \"Oh, maybe we have to also think again.\" I think that tells a lot about the culture, even,"
+    },
+    {
+      "speaker": "to this day.",
+      "timestamp": "00:16:52)",
+      "timestamp_seconds": 0.0,
+      "content": "But it's definitely, for me, it's a very learned quality over my progression of my career, actually allowing myself to be more vulnerable, more easier in saying, \"I don't understand, or I don't know.\""
+    },
+    {
+      "speaker": "Lenny Rachitsky",
+      "timestamp": "00:17:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I love this lesson so much. One, partly because you said it's really scary to be the person that's like, \"I don't understand,\" right? (00:17:12): That puts you, that's a very vulnerable thing to say, because you're like, \"What? She doesn't get it. Maybe she is not as smart as we thought.\" That can't be easy,"
+    },
+    {
+      "speaker": "to be the person doing that.",
+      "timestamp": "00:17:22)",
+      "timestamp_seconds": 0.0,
+      "content": "The other thing is this reminds me of Tomer Cohen, LinkedIn CPO, has this really great phrase, \"We may be wrong, but we're not confused.\""
+    },
+    {
+      "speaker": "I feel like that's exactly what you're saying here.\n\nRaaz Herzberg",
+      "timestamp": "00:17:31)",
+      "timestamp_seconds": 0.0,
+      "content": "Exactly, which is why I love this question to this day. I love it. I do think that if something is not easy to understand,"
+    },
+    {
+      "speaker": "then maybe it needs a bit more chewing on it.\n\nLenny Rachitsky",
+      "timestamp": "00:17:46)",
+      "timestamp_seconds": 0.0,
+      "content": "I love that. Okay, so things started to click a little bit more. You started seeing enthusiasm. Can you talk about just what that phase was like, and any lessons from just that turn to, things are actually working?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:17:59)",
+      "timestamp_seconds": 0.0,
+      "content": "I have to say, I think the feeling, after we made that switch, what ended up happening is that after that big conversation that we know, I don't understand, we ended up having, and this never happens, I don't think it's ever happened since. It was almost a long, five-hour discussion, with all of the founders, where we decided to move away from that pivot to cloud security, which is what we really, in some ways,"
+    },
+    {
+      "speaker": "know best.",
+      "timestamp": "00:18:25)",
+      "timestamp_seconds": 0.0,
+      "content": "That's our background, that's what we did before, and we felt the problems there was so big and so strong, and once we started having the conversations with the new pivot to cloud security, the room felt so different. I mean, it was all over Zoom, but our room,"
+    },
+    {
+      "speaker": "it felt very different.",
+      "timestamp": "00:18:49)",
+      "timestamp_seconds": 0.0,
+      "content": "Once we found the right path, it was so easy to distinguish it from the wrong path, in some ways, because we did start getting those strong signals. And in some ways,"
+    },
+    {
+      "speaker": "they pushed us forward.",
+      "timestamp": "00:19:02)",
+      "timestamp_seconds": 0.0,
+      "content": "A customer was like, \"Okay, I want to start a POV,\" and we're like, \"Oh, okay. Of course. Let's schedule for Thursday next week, or something. We tried to even postpone it a bit, because we had to run fast.\" (00:19:15): Another learning I have from that phase was, I explicitly remember that first conversation, where it was like, \"Okay, let's do a POV.\" It was a Fortune 10 company, a really big company, and we had a beginning of a product. We wanted to buy some time,"
+    },
+    {
+      "speaker": "until we actually started the POV.",
+      "timestamp": "00:19:33)",
+      "timestamp_seconds": 0.0,
+      "content": "Just because of that, we said, \"Okay, also we want to really understand exactly what they will connect to us as part of the POV,\" because everything was so initial. So we put this long list of technical questions, \"What are you using for this? What are you doing here? What are you [inaudible 00:19:47]?\" On the one hand, because we needed to know, to actually build a thing, on the other end, just because we wanted to buy time,"
+    },
+    {
+      "speaker": "and I was super scared.",
+      "timestamp": "00:19:55)",
+      "timestamp_seconds": 0.0,
+      "content": "I remember studying that e-mail, and being like, \"Ugh, they want a POV. And now, I'm going to scare them away, with this list of things they have to do, and list of questions, like it's counterintuitive.\" (00:20:06): But actually, it came back filled a day later, and I remember my lesson being, \"You know what? This is actually good. I want to make sure they're committed, right? I don't want to push somebody into a POV, if he is not committed to me at this stage.\" I mean, it's not a well-built product. It's going to be a journey we take together,"
+    },
+    {
+      "speaker": "so they need to really want it. I need that commitment from the other side.",
+      "timestamp": "00:20:32)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm not trying to push something on someone, especially not at this point, and my opinion, not ever, not even today, not even when you sell at large scales. I'm not trying to push anybody to anything,"
+    },
+    {
+      "speaker": "I really want to make sure they want it. I have to feel that want back. So that was another learning for me.",
+      "timestamp": "00:20:49)",
+      "timestamp_seconds": 0.0,
+      "content": "It's like, first of all, when it works, it works, and you do know when it works. And the second is, \"Don't be too afraid to get the pull from the customer.\" It's okay. You need that pull from the other end,"
+    },
+    {
+      "speaker": "as well. Don't push too hard.\n\nLenny Rachitsky",
+      "timestamp": "00:21:03)",
+      "timestamp_seconds": 0.0,
+      "content": "I know people always talk about, \"Look for pull,\" and I love that you're describing what pull looks like. Somebody's next day, filling out a really complicated annoying questionnaire,"
+    },
+    {
+      "speaker": "because they just want this product they've never heard of before you chatted with them.",
+      "timestamp": "00:21:14)",
+      "timestamp_seconds": 0.0,
+      "content": "Now, they're like, \"Just give it to me now. I'm going to do anything you need.\" Is there anything else along these lines, before we move into your current role and learnings there?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:21:23)",
+      "timestamp_seconds": 0.0,
+      "content": "I also think that one of the things we did very, almost uniquely, it was, was that, because things started rolling so fast for us, once we found the right path,"
+    },
+    {
+      "speaker": "we ended up selling before we had a seller's team.",
+      "timestamp": "00:21:37)",
+      "timestamp_seconds": 0.0,
+      "content": "We ended up, almost in some ways, always being behind, right? Okay, I'm closing contracts with people, I haven't hired my first salespersons, I don't know what we're doing here,"
+    },
+    {
+      "speaker": "I don't know how to have the conversations.",
+      "timestamp": "00:21:49)",
+      "timestamp_seconds": 0.0,
+      "content": "But we ended up learning so much from that, from us, ourselves, us being the founders, myself, closing the deals, actually going all the way to contracts and everything, by ourselves. We learned a lot,"
+    },
+    {
+      "speaker": "we learned a lot.",
+      "timestamp": "00:22:04)",
+      "timestamp_seconds": 0.0,
+      "content": "And then, when we hired our first sales hire, it was also like, \"Look, we sold a couple million of this, so you, for sure, as a salesperson, you kind of give that confidence.\" (00:22:14): So I felt like there was multiple places where that ended up happening, just by accident, because of how fast things ended up happening for us. Actually, it was a really good learning experience to do it for the first time yourselves. I think, sometimes, when you start building a company, you have this wish that if you can't do something, you're going to hire the right person,"
+    },
+    {
+      "speaker": "and he will be able to do it.",
+      "timestamp": "00:22:36)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay, I feel like my message is not clear enough, and we just started this company, it's okay, I'm going to hire my first product marketer, and that's going to be it. Or I feel, we can't close a deal, because I need to hire my first salesperson,"
+    },
+    {
+      "speaker": "and that will be it.",
+      "timestamp": "00:22:49)",
+      "timestamp_seconds": 0.0,
+      "content": "I hardly find that, I don't think we've ever had that work for us, honestly. It's like, if you can't do it one time end to end, and you're the core, core group, the chances of just bringing somebody from the outside to solve that problem, it's wishful, in some ways,"
+    },
+    {
+      "speaker": "but it never ends up that way.\n\nLenny Rachitsky",
+      "timestamp": "00:23:08)",
+      "timestamp_seconds": 0.0,
+      "content": "I love this advice so much. There's kind of two parallels here. If the founder can't do it, who has the most context and passion and motivation? It's unlikely an employee's going to be able to do it. And it's similar to the selling point, that if your early customers aren't pulling from you, later customers are not going to have a good time, right? (00:23:27): It's like, the most passion comes early. How long did you all stay, doing sales as a founding team? How many millions ARR, roughly, do you remember?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:23:39)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh,"
+    },
+    {
+      "speaker": "a couple million. I don't remember the exact-\n\nLenny Rachitsky",
+      "timestamp": "00:23:41)",
+      "timestamp_seconds": 0.0,
+      "content": "A couple million?"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny Rachitsky",
+      "timestamp": "00:23:43)",
+      "timestamp_seconds": 0.0,
+      "content": "Awesome. That's incredible. Often, the heuristic I hear is, one or two million ARR, and then you start to hire salespeople. Okay,"
+    },
+    {
+      "speaker": "that was an awesome lesson. I love that.",
+      "timestamp": "00:23:53)",
+      "timestamp_seconds": 0.0,
+      "content": "I want to talk about your current role. So currently, you're CMO, and also, VP of product strategy at Wiz. You started as an engineer, you moved into product, and now you're in marketing, which is not a traditional path, especially for product people. First of all, why did you decide to move into marketing, from product?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:24:11)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, it's not a traditional path for anyone, I think, also not one I would have necessarily expected myself to be on. First of all, it's not like I had this plan, right? (00:24:22): In general, I myself, people sometimes ask me about career progression, and I never had a plan for anything. That is just,"
+    },
+    {
+      "speaker": "the only thing I did was follow good people around. That's it. I never had a plan for anything I do.",
+      "timestamp": "00:24:36)",
+      "timestamp_seconds": 0.0,
+      "content": "So myself, coming to Wiz was following Assaf and Ynon in the founding team. And two and a half years into Wiz, at that time, Wiz was already,"
+    },
+    {
+      "speaker": "it was a very clear product market fit.",
+      "timestamp": "00:24:50)",
+      "timestamp_seconds": 0.0,
+      "content": "Our revenues were already there. We had a sales team that was fully functioning, but at that point at Wiz, we felt marketing was still something we didn't fully figure out. It wasn't working super well for us. We were at this stage where, yes, if there was a POV, a proof of value happening, we would win it,"
+    },
+    {
+      "speaker": "versus competition.",
+      "timestamp": "00:25:13)",
+      "timestamp_seconds": 0.0,
+      "content": "But many times, we would come to a customer, and they would be like, \"Oh, I wish we heard of Wiz, we just signed with a competitor,\" which it breaks your heart, because I know they would have chosen me, had they heard about me in time. So you started feeling that challenge around awareness and marketing. So two and a half years into the company, basically Assaf, our CEO,"
+    },
+    {
+      "speaker": "asked me if I was willing to take on marketing.",
+      "timestamp": "00:25:42)",
+      "timestamp_seconds": 0.0,
+      "content": "Originally, I thought it was, I remember, he knocked on my, bothered me while I was working on my computer, and we went into this super cold room. It was like, when you were a fast-growing startup, all of the rooms are always full, you know what I mean? (00:25:58): We went into this server room, which is freezing cold, and I was in the middle of something, and he told me, \"I think you should lead the marketing org now.\" I told him, \"Okay.\" I was like, \"Assaf, I'm cold, I'm going back to work. I have a lot to do.\""
+    },
+    {
+      "speaker": "It sounded that bizarre to me.",
+      "timestamp": "00:26:12)",
+      "timestamp_seconds": 0.0,
+      "content": "It's not only, do they not know marketing, I spent my life in engineering, and in any product, it's not the go to market side, even. I was never part of the go to market, or I have never heard of a lead in my life. I did not know the word \"pipeline.\" (00:26:26): All of those things were very remote to me, very. It sounded like such a bizarre motion. But that was on a Thursday, and then, I spent the weekend, because he asked me to, and again, I just follow good people,"
+    },
+    {
+      "speaker": "and do what they tell me to do.",
+      "timestamp": "00:26:42)",
+      "timestamp_seconds": 0.0,
+      "content": "So I spent the weekend listening to a ton of podcasts, talking to CMOs, just to even understand what do CMOs do, what do marketing orgs do in B2B companies? (00:26:51): Then I ended up deciding to just give it a try, and we did not know if it was going to work. I also don't know if it's going to work forever,"
+    },
+    {
+      "speaker": "but we ended up deciding to give it a try.",
+      "timestamp": "00:27:04)",
+      "timestamp_seconds": 0.0,
+      "content": "I think the thing that's convinced me to do it was that, in some ways, I really felt like if, in the early days of the company, finding product market fit is a major block for the company. And then,"
+    },
+    {
+      "speaker": "building a sales organization becomes a major block for the company.",
+      "timestamp": "00:27:19)",
+      "timestamp_seconds": 0.0,
+      "content": "I felt like we were at the point, where you have to figure it out to scale. At some point, of every product, people start looking really heavily at brand, whether we think that way, or we don't. When I buy my iPhone,"
+    },
+    {
+      "speaker": "I have no idea how it really is compared to an Android phone. I did not look at the specs. I truly have no idea.",
+      "timestamp": "00:27:39)",
+      "timestamp_seconds": 0.0,
+      "content": "So why do I buy an iPhone? I just know it's the thing to buy. B2B products, even the most complex products, people are still people. They still buy it,"
+    },
+    {
+      "speaker": "because brand matters a lot.",
+      "timestamp": "00:27:53)",
+      "timestamp_seconds": 0.0,
+      "content": "That was part of what convinced me that this is super important. So if I'm asked to attempt, at least try,"
+    },
+    {
+      "speaker": "because I do think it's really important.\n\nLenny Rachitsky",
+      "timestamp": "00:28:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I love this. I love the detail of the cold room, by the way. Speaking of cold, when we were chatting earlier, you had this really beautiful metaphor of heat. And where heat is within an organization and how it shifts, as the company grows. Can you share that?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:28:19)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, it's exactly that. It's like that in the early, early days when we just started with, I remember, I felt like the heat was in the product kitchen. Because it's like, everybody's waiting to have something, people want to start doing something, right? (00:28:34): Then they felt like, \"Okay, you start understanding it,\" and now, the heat moves a bit to the engineering side like, \"Okay, build it. Somebody wants it, build it, make it work.\" (00:28:44): Then I felt, \"Okay, so we close a couple of deals now,\" right? We had our first couple of clients. Now you bring in sales, and the heat moves to sales, because they're like, \"Okay, we have this thing, now go sell it.\" And then, the heat starts moving to marketing, in my opinion, where it's like, \"Okay, we have a product market fit. Salespeople can sell it, but they're saying, 'Give me more pipeline like, 'Hey, nobody heard of Wiz. Give me more.'\" (00:29:09): So the heat moves to marketing, at that point. That's kind of, I've always felt like, yeah, in some ways, I also naturally, I guess,"
+    },
+    {
+      "speaker": "follow the heat.\n\nLenny Rachitsky",
+      "timestamp": "00:29:18)",
+      "timestamp_seconds": 0.0,
+      "content": "And I think it's actually more so, that they put the best people in the places that need the most help. Clearly, that was you,"
+    },
+    {
+      "speaker": "when they did that.",
+      "timestamp": "00:29:27)",
+      "timestamp_seconds": 0.0,
+      "content": "This episode is brought to you by Cloudinary, the foundational technology for all images and video on the internet, trusted by over two million developers,"
+    },
+    {
+      "speaker": "and many of the world's leading brands.",
+      "timestamp": "00:29:39)",
+      "timestamp_seconds": 0.0,
+      "content": "Cloudinary is the API-first image and video management platform built for product leaders, who rely on visual storytelling to express their unique product value, who are building engaging web and app experiences,"
+    },
+    {
+      "speaker": "and who understand that harnessing the power of AI to automate is the only way forward.",
+      "timestamp": "00:29:56)",
+      "timestamp_seconds": 0.0,
+      "content": "Gil Grossman, engineering team lead at Fiverr, says that \"our users share billions of images, video and audio files. Cloudinary's ability to automate our post-production work at scale amounts to a savings of up to 92,000 work days per month.\" Think bold, build big ship fast. Let Cloudinary handle your media needs. Start your free plan today,"
+    },
+    {
+      "speaker": "at cloudinary.com/lenny.",
+      "timestamp": "00:30:22)",
+      "timestamp_seconds": 0.0,
+      "content": "I asked one of your board members, Shardul Shah, what to ask you. He's a partner at Index Ventures, and here's what he told me,"
+    },
+    {
+      "speaker": "speaking of this move to marketing.",
+      "timestamp": "00:30:32)",
+      "timestamp_seconds": 0.0,
+      "content": "He said that when you were in your first board meeting, the Wiz board meeting, presenting marketing, and sharing your plan, and you asked him, \"Hey, can you introduce me to all these marketing leaders, so I can learn from them,\""
+    },
+    {
+      "speaker": "he basically did the opposite.",
+      "timestamp": "00:30:44)",
+      "timestamp_seconds": 0.0,
+      "content": "He's like, \"No, I'm going to introduce all my marketing leaders to you, because I think they need to learn from you.\" Why do you think that's the case?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:30:51)",
+      "timestamp_seconds": 0.0,
+      "content": "I think Shardul is very kind. I deeply remember that meeting, because funny enough, it was my first board meeting ever. That is a funny thing by itself, because Wiz's board, we have Shardul on our board, we have Doug Leon,"
+    },
+    {
+      "speaker": "and we have Jeff from Insights.",
+      "timestamp": "00:31:09)",
+      "timestamp_seconds": 0.0,
+      "content": "It's almost like, it's very humbling to sit down in front of those people, period. And since I decided to take marketing, and I took to the CMO role,"
+    },
+    {
+      "speaker": "this was also my first board meeting ever.",
+      "timestamp": "00:31:23)",
+      "timestamp_seconds": 0.0,
+      "content": "And also, it was the meeting where it's, in some ways, I was not that. I was like, \"Okay, we took our product manager person, she was never a CMO at any company, and now she has a CMO here.\" So it was just very,"
+    },
+    {
+      "speaker": "the whole setting was very stressful for me.",
+      "timestamp": "00:31:43)",
+      "timestamp_seconds": 0.0,
+      "content": "I just ended up, it was like, I think we just had the meeting two months after I took over marketing. So it was more of an update of, \"Hey, those are the changes I've made, and this is how I'm thinking of approaching this, and this is all the things I've done in the past two months.\" (00:31:59): It's funny, because I'm a very non-traditional marketer, just because I really don't know marketing. At this point, I kind of know already, because I've been doing it for two years, and I read a lot, but at that point, I generally did not know. I could not even explain to you how untraditional my approach was,"
+    },
+    {
+      "speaker": "in some ways.",
+      "timestamp": "00:32:16)",
+      "timestamp_seconds": 0.0,
+      "content": "I just really did what I thought. I mean, I had a ton to learn about marketing, but what I knew really well was the problem we solved,"
+    },
+    {
+      "speaker": "and I really knew our audience.",
+      "timestamp": "00:32:28)",
+      "timestamp_seconds": 0.0,
+      "content": "I myself, I come from security, I come from cloud security, I read all of the right Twitters, and I follow all of the right people on Twitter,"
+    },
+    {
+      "speaker": "and I read all of the right blogs.",
+      "timestamp": "00:32:36)",
+      "timestamp_seconds": 0.0,
+      "content": "I know it's funny, I know what matters, I know it's interesting right now, generally because, this is my space. I mean, I live in that space, truly, as a customer. So I was just thinking, \"Okay, what are things I could do, to start fixing the problem that mattered most?\" And that was,"
+    },
+    {
+      "speaker": "nobody heard of Wiz at that time.",
+      "timestamp": "00:32:59)",
+      "timestamp_seconds": 0.0,
+      "content": "Those were just, I was saying, \"Okay, I think, in order to do that, I'm willing to take chances, I'll just focus on making a lot of noise.\" And I think, even in that short time of two months, we saw changes happening already,"
+    },
+    {
+      "speaker": "in some ways.",
+      "timestamp": "00:33:16)",
+      "timestamp_seconds": 0.0,
+      "content": "So I think, that what's Shardul meant by that, of course, although I do think he's being very, very kind, and I have learned a lot from many, many marketing people, including my own team, by the way, which is another interesting thing., right? (00:33:28): I took over a large team, of people who are marketers, and I'm this person knows nothing about marketing, but will now manage this. So I learned a lot from many marketers,"
+    },
+    {
+      "speaker": "including my own exceptional team.",
+      "timestamp": "00:33:41)",
+      "timestamp_seconds": 0.0,
+      "content": "But I think he meant, really looking at it differently, just thinking, \"Okay, what is the end to the goal of having the right people hear the right thing about my company, ASAP,\" versus a ton of traditional aspects, of building pipelines and different things they really did not know how to do,"
+    },
+    {
+      "speaker": "at that time.\n\nLenny Rachitsky",
+      "timestamp": "00:34:01)",
+      "timestamp_seconds": 0.0,
+      "content": "So following that thread, I'm curious, what is it that you think CMOs mistake, or often do wrong? Why do you think CMOs often don't work out, and they brought in someone like you, with this very fresh perspective? Where do you think folks often go wrong?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:34:16)",
+      "timestamp_seconds": 0.0,
+      "content": "First of all, I think CMO is a very, very hard role. And also, I think it's a role that is very hard to do without a lot of trust, and without a deep connection to the founding team. Everything you do in marketing is very visible, and you're kind of touching something that matters so deeply to the founding team,"
+    },
+    {
+      "speaker": "and you are the one representing it to the world.",
+      "timestamp": "00:34:43)",
+      "timestamp_seconds": 0.0,
+      "content": "So it's very hard to build that trust, and it's very easy to break it, because one bad ad, or something that one of the founding team will say, \"Oh, this is not us, this is not what I mean, this is not the right thing,\""
+    },
+    {
+      "speaker": "it breaks the trust really easily.",
+      "timestamp": "00:35:00)",
+      "timestamp_seconds": 0.0,
+      "content": "And I think it's especially challenging. I mean, I really don't know how somebody that does not come from from a security background could be successful deeply, in this type of a role, for a company like Wiz, because it is really about understanding your customers, and it is really about understanding your product. I think that's very,"
+    },
+    {
+      "speaker": "very hard to gain.",
+      "timestamp": "00:35:21)",
+      "timestamp_seconds": 0.0,
+      "content": "So I guess I would say, I think it's the deep trust you need with the founding team, and the really deep connection you need to the product, and to the market. I think both of that, when you come from the outside, in a way, because you are not part of the founding team, and also, you maybe come from outside the market, sometimes, because it's a very technical market or it's a very different domain,"
+    },
+    {
+      "speaker": "then I think it's two really big challenges.",
+      "timestamp": "00:35:47)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm not saying you can't come over them, but I think, it's just a very, very hard job. On top of that, it's a very diverse job. When I was a product manager, I managed product managers. I know exactly what they like, what they don't like. That's my audience, I know who to hire. I have the best network,"
+    },
+    {
+      "speaker": "I know every single PM and security around me. It's so different.",
+      "timestamp": "00:36:05)",
+      "timestamp_seconds": 0.0,
+      "content": "When you are a marketing leader, you manage performance marketing, which is a numbers game. You manage designers and brand, and then you manage events and field. There's nothing in between those things that is deeply correlated. Sp it's just a very,"
+    },
+    {
+      "speaker": "very challenging and very interesting role.\n\nLenny Rachitsky",
+      "timestamp": "00:36:23)",
+      "timestamp_seconds": 0.0,
+      "content": "This trust point is so interesting, especially based on what you said earlier, where what you want it to do is create noise, take some risks. That's extra hard,"
+    },
+    {
+      "speaker": "if you're not someone that the founding team trusts.",
+      "timestamp": "00:36:35)",
+      "timestamp_seconds": 0.0,
+      "content": "Can you share some of the things you did that helped create noise, and get the Wiz name out there, that might inspire folks of like, \"Oh, that was really cool, we should do something like that?\""
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:36:43)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah. Another insight I had about marketing in the early days was how different it is from product. As a product manager, I was always, and still believe,"
+    },
+    {
+      "speaker": "it's so important to think really hard about everything you add. Less is more.",
+      "timestamp": "00:36:59)",
+      "timestamp_seconds": 0.0,
+      "content": "If you decide to build a feature in a product, then A, you're taking engineering time, which is the most valuable resource in every company, in my opinion, and B, in some ways, you can never take it back. It's complicated your product. Even if one customer likes it and uses it, at least at B2B,"
+    },
+    {
+      "speaker": "you're never going to be able to suddenly take it away.",
+      "timestamp": "00:37:19)",
+      "timestamp_seconds": 0.0,
+      "content": "Every new feature you add to your product, you'll have to think about, \"Okay, how does it work with that feature?\" So it's like making a mistake, adding something to the product that is not the right thing, or that is not truly, truly what your customer needed, even if it's what they asked for. But if it's not what they truly needed,"
+    },
+    {
+      "speaker": "it has a huge cost associated with it.",
+      "timestamp": "00:37:40)",
+      "timestamp_seconds": 0.0,
+      "content": "Marketing is quite the opposite, in my opinion. There's no cost to anything, no maintenance to anything, no technical depth, no anything. If tomorrow I post a video on Wiz's LinkedIn page, and I think that video is super funny, and nobody likes that video,"
+    },
+    {
+      "speaker": "nothing happened.",
+      "timestamp": "00:37:54)",
+      "timestamp_seconds": 0.0,
+      "content": "Tomorrow, I'll post a different video, no maintenance, bye-bye, forgot it ever happened. In some ways, it dawned on me how opposite those things were, and I was like, \"Okay, we have to just use it to our advantage. Let's try everything, let's try everything. I'm trying to make noise.\" (00:38:11): It was right before, when I took over, it was before RSA. RSA is the Super Bowl of security companies. So it's where every vendor's come to showcase, and all of our buyers are there, and you know how those conferences go. You pay for having a space assigned to you,"
+    },
+    {
+      "speaker": "and it's a very expensive space to assign to yourself.",
+      "timestamp": "00:38:33)",
+      "timestamp_seconds": 0.0,
+      "content": "And we had the exact same spot we had the year before. I said, \"Okay, it's a booth at a conference. I'll just make it the weirdest booth ever, because my goal is just having people look and be like, 'Oh, what is Wiz, right? Because they've never heard of me.\" (00:38:48): Instead of doing a classical cyber booth, I decided to say, \"Okay, let's scrap our booth, and do a Wiz of Oz booth,\" which literally looked like a Wiz of Oz booth, and we had actors, like Dorothy,"
+    },
+    {
+      "speaker": "and all those things hanging around there.",
+      "timestamp": "00:39:03)",
+      "timestamp_seconds": 0.0,
+      "content": "It looked nothing like any booths in the show, which is a cybersecurity show, things are red and black,"
+    },
+    {
+      "speaker": "and people with hoodies. And we decided to take a completely opposite approach.",
+      "timestamp": "00:39:14)",
+      "timestamp_seconds": 0.0,
+      "content": "In general, I also decided that we're going to take a completely opposite approach was brand. I wanted Wiz's brand to, again, my first motive,"
+    },
+    {
+      "speaker": "stand out.",
+      "timestamp": "00:39:23)",
+      "timestamp_seconds": 0.0,
+      "content": "I wanted Wiz to have a very positive, optimistic type of brand. So I went all in on, \"Scrap whatever we were doing before, which was dark, and go pink, go bright blue, always go optimistic, and focused on magic, not scaring people from the facts, but magic.\" And that ended up, and it was scary,"
+    },
+    {
+      "speaker": "don't get me wrong.",
+      "timestamp": "00:39:45)",
+      "timestamp_seconds": 0.0,
+      "content": "Half of me was like, I remember feeling so scared walking to the show, to the floor trade. Because I was like, \"Is this going to be the most terrible, bizarre? Are people going to be like, 'What is she thinking?'\" So I knew it could either be a failure,"
+    },
+    {
+      "speaker": "or a hit.",
+      "timestamp": "00:40:04)",
+      "timestamp_seconds": 0.0,
+      "content": "And it ended up, the amount of people that stopped by our booth was five times the amount of people that stopped by the year before. It's the exact same space, the exact same investment,"
+    },
+    {
+      "speaker": "because you invest in the space.",
+      "timestamp": "00:40:16)",
+      "timestamp_seconds": 0.0,
+      "content": "But also, ever since we do themed booths, every time, we change themes to keep it fun. At this point, you won't see other cyber companies even doing themes. We were just, \"Okay, we'll do whatever it takes to make noise,\""
+    },
+    {
+      "speaker": "and this is just one example.\n\nLenny Rachitsky",
+      "timestamp": "00:40:29)",
+      "timestamp_seconds": 0.0,
+      "content": "That is an amazing story. You said that other companies now try to do something similar, right? Oh, man. So along these lines, when we were chatting earlier, you shared that you kind of have this mindset of being very okay with failing,"
+    },
+    {
+      "speaker": "that's a core part of you.",
+      "timestamp": "00:40:46)",
+      "timestamp_seconds": 0.0,
+      "content": "And it feels like, that comes up again and again in the stories you share, where you just try stuff, and you're okay if it doesn't work out. Can you just talk about that part, and why that's so important?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:40:54)",
+      "timestamp_seconds": 0.0,
+      "content": "Almost every single thing I've done in my career, in some ways, even before, I never thought I was going to be successful in it. I guess there's a lot of times, it's a lot of talk about being more confident than yourself. I don't know, at least for me, I don't really know if that's a real option, okay? (00:41:17): I just know that I'm kind of okay with being pretty sure I'm going to fail at something, and still attempting it. That is the thing that has grown in me where, when I took the job, it was, I was sure, I was sure they got confused,"
+    },
+    {
+      "speaker": "that they offered to take me with him.",
+      "timestamp": "00:41:36)",
+      "timestamp_seconds": 0.0,
+      "content": "I was certain that it's going to be like, \"Okay, they're going to figure out that I'm not the right fit for that super smart and talented group of people,\" who have all worked together before, by the way,"
+    },
+    {
+      "speaker": "I was sure they're going to find me out.",
+      "timestamp": "00:41:48)",
+      "timestamp_seconds": 0.0,
+      "content": "And I was pretty sure I was going to fail, but I will still take it. I thought I was going to fill the product manager role, too,"
+    },
+    {
+      "speaker": "although I did have the experience.",
+      "timestamp": "00:41:58)",
+      "timestamp_seconds": 0.0,
+      "content": "So that also makes it easier to move, in some ways. If I think I'm going to fail with anything, I'm like, \"Okay, whatever, I'll try,\" and I think over time, yeah, it releases you a bit. Sure,"
+    },
+    {
+      "speaker": "I might fail.",
+      "timestamp": "00:42:09)",
+      "timestamp_seconds": 0.0,
+      "content": "By the way, I might still fail. It's also fine. Even in my current role, probably not for every scale, it'll make sense for me to do it,"
+    },
+    {
+      "speaker": "but that's also fine. It's still just giving yourself the opportunity to fail.\n\nLenny Rachitsky",
+      "timestamp": "00:42:23)",
+      "timestamp_seconds": 0.0,
+      "content": "That is really empowering. Is there anything that helps you build that skill, that's not natural to a lot of people, being okay with failure, and leaning into things that they think they'll probably fail at? Where did that come from, for you?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:42:34)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, depending on what you believe in, everything comes from childhood. In some ways, I do think it has to do with, I think the way my mom raised me, my mom really believed that if you're good at something, so that's not where you should invest your energy. She really believed in pushing us to the places where we were less confident in,"
+    },
+    {
+      "speaker": "I guess.",
+      "timestamp": "00:43:00)",
+      "timestamp_seconds": 0.0,
+      "content": "I mean, I was a very shy kid. My natural inclination, as a young kid, was to close the door in my room, read a book. I had no interest in meeting other kids or doing sports or nothing, nothing, really super, super shy. And I think, also slightly unsocial by nature,"
+    },
+    {
+      "speaker": "really.",
+      "timestamp": "00:43:18)",
+      "timestamp_seconds": 0.0,
+      "content": "But for my mom, she could have been like, \"Oh, so she's really good was books and math, so let's focus. Perfect. Let her build up the skill, and be really good with that.\" But no, she would make me go swimming,"
+    },
+    {
+      "speaker": "and make me go meet other kids.",
+      "timestamp": "00:43:32)",
+      "timestamp_seconds": 0.0,
+      "content": "In some ways, I feel, she always used to say that friction is good. If you brush your teeth, and there's a bit of blood somewhere, then you need to brush harder there. It's that idea,"
+    },
+    {
+      "speaker": "that friction is kind of good.",
+      "timestamp": "00:43:46)",
+      "timestamp_seconds": 0.0,
+      "content": "If you're good at something already, then you're good at something already. So it's a bit more about learning how to learn,"
+    },
+    {
+      "speaker": "how to push yourself in other areas.",
+      "timestamp": "00:43:54)",
+      "timestamp_seconds": 0.0,
+      "content": "I think she put hard work and courage, in some ways, or friction, mostly, above talent. Talent only gets you so far,"
+    },
+    {
+      "speaker": "but that hard work in the friction gets you more.\n\nLenny Rachitsky",
+      "timestamp": "00:44:09)",
+      "timestamp_seconds": 0.0,
+      "content": "That is an awesome story. It's interesting that friction is good circles back to the story you shared about creating hurdles for potential prospects early on, and creating, looking for enthusiasm, where they're filling out these long surveys. How about that?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:44:24)",
+      "timestamp_seconds": 0.0,
+      "content": "No, it's true. You're right. It shows something. It shows if you do, it's always easier to be in inertia, right? (00:44:32): That's why I also say, sometimes, it's like breakup advice I give my girlfriends over the years, where it's like, \"Well, if you decide to break up with somebody, it's for sure the right decision, right?\" (00:44:43): Because not breaking up with somebody is much easier. It's so hard to break up. So that makes it, by default, the right decision. So it's like, yes, where there's friction,"
+    },
+    {
+      "speaker": "it means that you put something extra in.\n\nLenny Rachitsky",
+      "timestamp": "00:44:53)",
+      "timestamp_seconds": 0.0,
+      "content": "I want to circle back to marketing/product advice, going back full circle a little bit. So folks that are in product, now that you're in the marketing world, thinking about marketing, what do you think you wish you knew as a product leader, that you think a product leader should be thinking more of, or maybe you miss, that you now see as a marketing leader?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:45:12)",
+      "timestamp_seconds": 0.0,
+      "content": "Having done products for many years, I really did not understand the criticality of marketing, and even of product marketing. I really did not understand deeply enough that sometimes even gap, between when you're in the product,"
+    },
+    {
+      "speaker": "and you really live inside the product.",
+      "timestamp": "00:45:30)",
+      "timestamp_seconds": 0.0,
+      "content": "In the technical domain, you can sometimes not understand how far you are from a common person in your market, or a seller in your market. And marketing, in a lot of ways,"
+    },
+    {
+      "speaker": "bridges that gap.",
+      "timestamp": "00:45:44)",
+      "timestamp_seconds": 0.0,
+      "content": "It's like a multiplier, but the further you get away from the core engineer, than product, then in order for the messages to move correctly, they have to be crystal clear. That is something I understood only when looking at it from the other side. If you're on the product side, you can often work with things that are fluffy or blurry or gray, okay? (00:46:10): Somebody will ask you, \"Can the product do this?\" You'll be like, \"Yeah, not exactly, but it can do, blah, blah, blah,\" kind of work around something, right? It doesn't have to be crystal clear, because you can kind of go around things, in a way, that when you try to scale your message, you can't. It gets lost in translation. You have to be crystal clear,"
+    },
+    {
+      "speaker": "black and white.",
+      "timestamp": "00:46:29)",
+      "timestamp_seconds": 0.0,
+      "content": "You have to communicate very clearly, especially as an organization scales, you have to communicate very clearly. Suddenly, you're looking at the product org from the outside, in the company that scales fast. And you said, \"Whoa, product marketing, in marketing, plays a really important role, in being able to take that message and amplify it.\" (00:46:51): And if you are giving signals that are even a bit gray, fuzzy, then it's not going to work, and you can't expect them to do a good job with it, in some ways. I really, by understanding the go to market perspective, and the user perspective, and the seller perspective, I suddenly understood how things that can look simple on the inside of that side, are very complex, when you cross over to the go to market side. And I think learning the difference is so, so important for product people to understand,"
+    },
+    {
+      "speaker": "that they have to deliver those crystal clear messages about the product.\n\nLenny Rachitsky",
+      "timestamp": "00:47:25)",
+      "timestamp_seconds": 0.0,
+      "content": "Is there an example of that, where you're like, \"Oh, wow, I thought this was good, but no, nobody understands what we're talking about?\""
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:47:30)",
+      "timestamp_seconds": 0.0,
+      "content": "There's so much. I think, for example, in our domain, it's very, almost custom, to talk in a lot of initials, and a lot of things in security are, \"Use initials for them.\" You say CSPM, for Cloud Security Poster Management, and you use a lot of those types of initials,"
+    },
+    {
+      "speaker": "and you keep assuming that the world knows what you mean.",
+      "timestamp": "00:47:51)",
+      "timestamp_seconds": 0.0,
+      "content": "But then, when actually looked at things over, from the marketing side, if you ask our product people, engineers, \"Where does our product fall in terms of category,\" it would be CNAP, Cloud Native Application Protection. But if you go over and you look at Google, people are not Googling that word. They're Googling, \"Cloud security solution,\" right? (00:48:13): So that's just a simple and silly example, but it's that example, that when you live inside something very technically inside your market, inside domain, you're very remote, sometimes, by accident from the buyer. So a lot of those learnings clicked for me,"
+    },
+    {
+      "speaker": "only once they saw everything from the marketing side.\n\nLenny Rachitsky",
+      "timestamp": "00:48:32)",
+      "timestamp_seconds": 0.0,
+      "content": "You have this concept that you described as a dummy explanation, when someone, you just need it to feel really, really simple. Can you add some color to that?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:48:40)",
+      "timestamp_seconds": 0.0,
+      "content": "Yes. It's when I, now in marketing, and in everything we write, and everything our team produces in terms of anything, anything written by Wiz, I keep going back to,"
+    },
+    {
+      "speaker": "I don't want us to forget that we are inside our own bubble.",
+      "timestamp": "00:48:56)",
+      "timestamp_seconds": 0.0,
+      "content": "We go to work at Wiz every day. Wiz is a cloud security company. We live inside our own bubble, but reminding ourselves that customers don't live in that bubble,"
+    },
+    {
+      "speaker": "they're people in the world. Their life is not Wiz.",
+      "timestamp": "00:49:11)",
+      "timestamp_seconds": 0.0,
+      "content": "So every time you write something, I wanted to not assume knowledge about Wiz, or knowledge about the product,"
+    },
+    {
+      "speaker": "or deep knowledge about the market. I'll give just a simple example.",
+      "timestamp": "00:49:23)",
+      "timestamp_seconds": 0.0,
+      "content": "Wiz itself is based on, part of the deep innovation that Wiz brought to the market that enabled the scale, was a very high correlated signal that's based on a graph database. So inside Wiz, we have the Wiz graph database,"
+    },
+    {
+      "speaker": "for security.",
+      "timestamp": "00:49:37)",
+      "timestamp_seconds": 0.0,
+      "content": "If you write something that says, the Wiz Graph Database, I don't like it. Because why would a common person know it is the Wiz Graph Database, right? So it's making sure that every single thing you say is understandable by anybody. There's no reason to use complex terminology,"
+    },
+    {
+      "speaker": "when you can keep things straight and simple.\n\nLenny Rachitsky",
+      "timestamp": "00:49:59)",
+      "timestamp_seconds": 0.0,
+      "content": "Easier said than done, but such a good reminder to always be, is there a framework here? Are you just trying to remember, people outside don't understand anything we are talking about, and simplify it further? (00:50:10): How do you actually practice that? Because I imagine everyone's, \"Yeah, yeah, yeah, I know. I know all this stuff,\" but they don't actually do it. Is there any tips there, for how to actually practice this?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:50:18)",
+      "timestamp_seconds": 0.0,
+      "content": "I constantly remind myself about the bubble. Every time somebody says, \"Oh, we haven't changed our color for so long, or a website's headline,\" a lot of those things, for me, it's like,"
+    },
+    {
+      "speaker": "you are the only one that is sick of it.",
+      "timestamp": "00:50:33)",
+      "timestamp_seconds": 0.0,
+      "content": "Your customers are just learning what you put there 10 months ago. You are the only one looking at this thing, day after day after day after day after day. You're actually going to change it, only they're just starting to grasp it,"
+    },
+    {
+      "speaker": "and you're changing it under their feet.",
+      "timestamp": "00:50:46)",
+      "timestamp_seconds": 0.0,
+      "content": "It's living in that bubble, and constantly reminding myself, it is a bubble. I'm in that Wiz bubble, right, but my audience is not. So yeah,"
+    },
+    {
+      "speaker": "it's a daily reminder. It's a hard daily reminder.\n\nLenny Rachitsky",
+      "timestamp": "00:51:00)",
+      "timestamp_seconds": 0.0,
+      "content": "That is so funny. Okay, just a few more questions. One is, so there's four co-founders of Wiz. That right?"
+    },
+    {
+      "speaker": "Yeah.\n\nLenny Rachitsky",
+      "timestamp": "00:51:09)",
+      "timestamp_seconds": 0.0,
+      "content": "What your relationship with them, how has that changed over the years, and over time? I imagine it's very difficult being, not a founder, trying to have a lot of influence on strategy and vision,"
+    },
+    {
+      "speaker": "and all these things.",
+      "timestamp": "00:51:23)",
+      "timestamp_seconds": 0.0,
+      "content": "Just, I guess, how has that relationship changed over the years? Anything there that might be helpful to folks, and any advice for people in a similar boat, to work well with founders who are also very product-oriented, and very opinionated about everything?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:51:38)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, I think the Wiz founding team is a truly incredible team. They also have a very unique story. Wiz is actually their second company together. So before Whiz, they founded Adallom,"
+    },
+    {
+      "speaker": "which sold to Microsoft.",
+      "timestamp": "00:51:51)",
+      "timestamp_seconds": 0.0,
+      "content": "That's how they all ended up in Microsoft in the first place. Even before that, they all worked together in the Israeli army, so they've known each other for, they've been working together for 30 years, right?"
+    },
+    {
+      "speaker": "Wow.\n\nRaaz Herzberg",
+      "timestamp": "00:52:02)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a long, long time. Well, not 30, I made them older, like 20, 22, 22 years. It's a very, very, very unique team, where there is complete trust between the team members. Each has his own clear domain, and that's why decisions are made super fast, super fast, because, the complete trust,"
+    },
+    {
+      "speaker": "and everybody has their clearly own domain.",
+      "timestamp": "00:52:31)",
+      "timestamp_seconds": 0.0,
+      "content": "I think the unique thing about Wiz, and I truly think it defines their company's culture to this day, is exactly that they did not have to work hard, to be able to impact strategy,"
+    },
+    {
+      "speaker": "and get a seat at the table.",
+      "timestamp": "00:52:45)",
+      "timestamp_seconds": 0.0,
+      "content": "I think that it's open, it's a very open culture, and an open company, that goes back to the beginning of being able to say, \"I don't understand.\" (00:52:53): They really believe in employees, and they really believe in giving everybody a chance to have impact. Regardless of title or experience or anything, if you want to drive more impact,"
+    },
+    {
+      "speaker": "you will get the chance. I think it's something I really learned to adore in that team.",
+      "timestamp": "00:53:10)",
+      "timestamp_seconds": 0.0,
+      "content": "It's like, they will give their trust to someone, and they will allow you to try. And I think it also causes employees to have a lot of loyalty, because you are given those opportunities,"
+    },
+    {
+      "speaker": "and you are given that chance.",
+      "timestamp": "00:53:24)",
+      "timestamp_seconds": 0.0,
+      "content": "It builds a very, very healthy culture, and I think, also,"
+    },
+    {
+      "speaker": "a culture that's very loyal. Everybody feels part of what's being built here.\n\nLenny Rachitsky",
+      "timestamp": "00:53:32)",
+      "timestamp_seconds": 0.0,
+      "content": "Incredible. And how many employees are there? How large is Wiz at this point? Just for folks to get a sense, if they want to potentially join Wiz, some day?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:53:39)",
+      "timestamp_seconds": 0.0,
+      "content": "Around 1,000 through 500,"
+    },
+    {
+      "speaker": "probably.\n\nLenny Rachitsky",
+      "timestamp": "00:53:46)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay,"
+    },
+    {
+      "speaker": "awesome. Amazing.",
+      "timestamp": "00:53:47)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay, well, potentially final question. I want to take us to Contrarian Corner. I'm curious if there's something you have a very contrarian opinion about, something that you believe, that a lot of other people don't believe? (00:53:59): We've already covered a number of things, I think, like that, but is there anything else that comes to mind?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:54:03)",
+      "timestamp_seconds": 0.0,
+      "content": "It's so funny,"
+    },
+    {
+      "speaker": "Okay.\n\nRaaz Herzberg",
+      "timestamp": "00:54:09)",
+      "timestamp_seconds": 0.0,
+      "content": "I think one thing is, maybe goes back to what I was talking about before, but it was failing in confidence. I think at least, being a woman in tech, you get talked to a lot about imposter syndrome, and building up her confidence. I actually do think that my approach to it, at least for me,"
+    },
+    {
+      "speaker": "has been just more effective. I won't be able to build that confidence.",
+      "timestamp": "00:54:30)",
+      "timestamp_seconds": 0.0,
+      "content": "I do feel like an imposter, and I know there's always those statistics about many people feeling that way. So I think, maybe just, \"Let's embrace it. I feel like an imposter, you feel like an imposter, everybody feels like an imposter,\" It's kind of, maybe embrace it,"
+    },
+    {
+      "speaker": "but don't let that stop you from making a decision.",
+      "timestamp": "00:54:49)",
+      "timestamp_seconds": 0.0,
+      "content": "Maybe they will find out you're an imposter, maybe let them find out. It's fine. If you think about trying to go to an interview for a company, and you start thinking, \"Oh no, I won't get accepted, they won't take me,\""
+    },
+    {
+      "speaker": "perfect.",
+      "timestamp": "00:55:03)",
+      "timestamp_seconds": 0.0,
+      "content": "Let them not accept you. You think you're not good enough? Perfect. That's on them, to not accept you, right?"
+    },
+    {
+      "speaker": "Give yourself that opportunity.",
+      "timestamp": "00:55:10)",
+      "timestamp_seconds": 0.0,
+      "content": "And I think, for me, maybe less talking about the imposter syndrome, more talking about just, \"Okay, but ignore it. You will never know your limit if you don't try.\""
+    },
+    {
+      "speaker": "Lenny Rachitsky",
+      "timestamp": "00:55:20)",
+      "timestamp_seconds": 0.0,
+      "content": "The best advice I've heard along these lines, which is basically what you're saying, is that when you take on a new role, you actually are an imposter. You've never done this before, and that's okay,"
+    },
+    {
+      "speaker": "and that's very normal.",
+      "timestamp": "00:55:32)",
+      "timestamp_seconds": 0.0,
+      "content": "Most people in a new role, when they're promoted, given a big opportunity, yeah, you are an imposter in many ways,"
+    },
+    {
+      "speaker": "but that's okay. And that's exactly what you're saying.\n\nRaaz Herzberg",
+      "timestamp": "00:55:39)",
+      "timestamp_seconds": 0.0,
+      "content": "I never heard it,"
+    },
+    {
+      "speaker": "but I love it.\n\nLenny Rachitsky",
+      "timestamp": "00:55:42)",
+      "timestamp_seconds": 0.0,
+      "content": "Raaz, is there anything else you wanted to share, anything else that we haven't touched on, that you think might be helpful to folks, before we get to our very exciting lightning round?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:55:49)",
+      "timestamp_seconds": 0.0,
+      "content": "I deeply, deeply believe that we're doing something super special in Wiz, and I think the company is in such an interesting place of hyperscaling, but still keeping that authentic, and I think,"
+    },
+    {
+      "speaker": "flat and enabling culture.",
+      "timestamp": "00:56:02)",
+      "timestamp_seconds": 0.0,
+      "content": "I think there's literally interesting opportunities across every domain. So yeah, just to say that we are always hiring for great people,"
+    },
+    {
+      "speaker": "trying to make an impact.\n\nLenny Rachitsky",
+      "timestamp": "00:56:13)",
+      "timestamp_seconds": 0.0,
+      "content": "Are there any roles or areas you're specifically most focused on hiring now, in case folks are listening, you're like, \"Oh, shit, I'm going to apply?\""
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:56:19)",
+      "timestamp_seconds": 0.0,
+      "content": "Truly, the beauty of hypersaling is, we are hiring across everything, but also, if you feel super strongly about joining, and you don't find the right role, we'd still love to talk to you. There's many,"
+    },
+    {
+      "speaker": "many things for passionate people to do here.\n\nLenny Rachitsky",
+      "timestamp": "00:56:34)",
+      "timestamp_seconds": 0.0,
+      "content": "Awesome. We'll link to the Career page in the show notes. And with that, Raaz, we've reached our very exciting lightning round. Are you ready?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:56:41)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm ready,"
+    },
+    {
+      "speaker": "I hope.\n\nLenny Rachitsky",
+      "timestamp": "00:56:43)",
+      "timestamp_seconds": 0.0,
+      "content": "First question, what are two or three books that you find yourself recommending most to other people?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:56:48)",
+      "timestamp_seconds": 0.0,
+      "content": "So I focus like it was on the product side of things. We mentioned the heat in the kitchen. Actually, one of my most favorite business books, and I've read a lot of them, is probably Setting the Table, by Danny Meyer, which is, he owns Shake Shack,"
+    },
+    {
+      "speaker": "and a chain of really great restaurants in New York.",
+      "timestamp": "00:57:07)",
+      "timestamp_seconds": 0.0,
+      "content": "And it's such an interesting business perspective, from a different domain, than obviously tech or SaaS. But there's so many applicable lessons there, from the deep connection to hosting, focusing and obsessing over your customer. Shake Shack, unlike other chains, where they optimize for you not to sit down, they optimize for you to sit down there. It's a very, very unique culture and unique vision,"
+    },
+    {
+      "speaker": "and I've learned a lot. Some of the most memorable lessons come from his management thoughts.",
+      "timestamp": "00:57:39)",
+      "timestamp_seconds": 0.0,
+      "content": "Imagine huge chains, but also very high-end restaurants. I think it's a very, very inspiring, inspiring book, and different, just different from my domain, but very applicable in my domain,"
+    },
+    {
+      "speaker": "as well.",
+      "timestamp": "00:57:50)",
+      "timestamp_seconds": 0.0,
+      "content": "And then, a second book I really like, I read it early on in Wiz, and so did the entire founding team, I think, the book by Netflix co-founder Reed Hastings, No Rules Rules, which also, I think, talks very clearly. Netflix has a super unique culture and story, right? (00:58:11): Talk about pivots, they sold cassettes over mail, and somehow pivoted to what it is today. That's an insane story. Think about pivoting from a tech company, to a company that has production to do, and produces reality TV. Talk about the type of culture you would need to truly pivot,"
+    },
+    {
+      "speaker": "I think it's a super interesting read for anybody thinking about putting strong culture in place.\n\nLenny Rachitsky",
+      "timestamp": "00:58:34)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm going to call an audible, and ask about marketing, specifically. You said that early on, you read some marketing books, and listened to marketing podcasts. Is there anything else that you recall was very helpful, in helping you ramp up in this world, and do marketing?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:58:48)",
+      "timestamp_seconds": 0.0,
+      "content": "Honestly, I think, at the end, for me, I just ended up saying, \"What are the companies I feel do things really well? What are the brands I love, and what do I love about them?\" (00:59:04): And then, really obsessing about, what did they do, what are their team doings? And then, also, obsessing about the people behind them. For example, I think Gong does an amazing job in marketing, for a B2"
+    },
+    {
+      "speaker": "B product.",
+      "timestamp": "00:59:22)",
+      "timestamp_seconds": 0.0,
+      "content": "So it was like, \"Okay, so what are all the things Gong did?\" Then I would look up every single talk their CMO gave. So it's like,"
+    },
+    {
+      "speaker": "I always backed up into it. I did not care if it's a security company or not a security company.",
+      "timestamp": "00:59:35)",
+      "timestamp_seconds": 0.0,
+      "content": "I actually don't like the way most security companies market things. It's mostly by frightening and fear, and I don't like it. For me, it was just looking at brands I love,"
+    },
+    {
+      "speaker": "and then backtracking from there.\n\nLenny Rachitsky",
+      "timestamp": "00:59:49)",
+      "timestamp_seconds": 0.0,
+      "content": "I love that. We have the CPO of Gong and co-founder coming on the podcast very soon,"
+    },
+    {
+      "speaker": "so I'll ask him about this.\n\nRaaz Herzberg",
+      "timestamp": "00:59:53)",
+      "timestamp_seconds": 0.0,
+      "content": "Oh,"
+    },
+    {
+      "speaker": "cool.\n\nLenny Rachitsky",
+      "timestamp": "00:59:55)",
+      "timestamp_seconds": 0.0,
+      "content": "All right, next question. Do you have a favorite recent movie or TV show you really enjoyed?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "00:59:59)",
+      "timestamp_seconds": 0.0,
+      "content": "Honestly, I hardly,"
+    },
+    {
+      "speaker": "hardly watch anything. I think The Wire is the best show ever created.",
+      "timestamp": "01:00:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I will take that fight with anybody. But yeah,"
+    },
+    {
+      "speaker": "I haven't really watched anything super recent.\n\nLenny Rachitsky",
+      "timestamp": "01:00:11)",
+      "timestamp_seconds": 0.0,
+      "content": "The only problem with the Wire is it's so long to watch. I've watched, I've seen it, I love it, but it's a large commitment. It's an hour times 22 episodes times, I think, five seasons,"
+    },
+    {
+      "speaker": "Worth it.\n\nLenny Rachitsky",
+      "timestamp": "01:00:24)",
+      "timestamp_seconds": 0.0,
+      "content": "Next question, do you have a favorite product you've recently discovered, that you really love?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "01:00:28)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a funny question, in the world we live in,"
+    },
+    {
+      "speaker": "where there's just so many similar things.\n\nLenny Rachitsky",
+      "timestamp": "01:00:32)",
+      "timestamp_seconds": 0.0,
+      "content": "That's why. Which one should we pay attention to?"
+    },
+    {
+      "speaker": "I'll answer a pretty random answer.\n\nLenny Rachitsky",
+      "timestamp": "01:00:38)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah,"
+    },
+    {
+      "speaker": "okay.\n\nRaaz Herzberg",
+      "timestamp": "01:00:38)",
+      "timestamp_seconds": 0.0,
+      "content": "Recently, I always go around with a notebook and a pen, still that type of person. I mean, I constantly walk around with them, across office rooms, blah, blah blah,"
+    },
+    {
+      "speaker": "and I always care deeply about the notebook and the pen.",
+      "timestamp": "01:00:50)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm a very picky person. I pick pens, I pick notebooks, and I often lose my pens, which is sad. I recently bought this cute something, it's very geeky, like,"
+    },
+    {
+      "speaker": "a pen holder for a notebook. I did not know they existed.",
+      "timestamp": "01:01:04)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a very nice feature. It's small, magnetic, and it claps into your notebook,"
+    },
+    {
+      "speaker": "and then you can put the pen in it. Really nice feature.\n\nLenny Rachitsky",
+      "timestamp": "01:01:10)",
+      "timestamp_seconds": 0.0,
+      "content": "How does one find this? Is there a brand, or a name, or something?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "01:01:14)",
+      "timestamp_seconds": 0.0,
+      "content": "I'll send you a link, but if you look, \"notebook pen holder,\""
+    },
+    {
+      "speaker": "you'll find a ton.\n\nLenny Rachitsky",
+      "timestamp": "01:01:18)",
+      "timestamp_seconds": 0.0,
+      "content": "Okay, cool. We'll link to in the show notes,"
+    },
+    {
+      "speaker": "whatever one you recommend.",
+      "timestamp": "01:01:22)",
+      "timestamp_seconds": 0.0,
+      "content": "Just a couple more questions. Do you have a favorite life motto that you often come back to and find helpful, in work or in life?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "01:01:29)",
+      "timestamp_seconds": 0.0,
+      "content": "I think, keeping it simple. If you start feeling like something is too complex, or an answer is too complex, or something you're building in the product is too complex probably, or something in your life feels too complex, probably, it does mean something. But sometimes, you just have to maybe take two steps back, leave it there, until you come back to it again,"
+    },
+    {
+      "speaker": "and you find a simple way out.",
+      "timestamp": "01:01:50)",
+      "timestamp_seconds": 0.0,
+      "content": "Whether it's a private feature or anything, I feel like, if something starts getting too complex, and you don't know how to design it, or how to find end from start, it does mean it's not the right solution. It's too complex, it's not the right solution, but sometimes, I take two steps back, and you find it applicable to anything in life,"
+    },
+    {
+      "speaker": "almost.\n\nLenny Rachitsky",
+      "timestamp": "01:02:08)",
+      "timestamp_seconds": 0.0,
+      "content": "Reminds me of the story when you were trying to sell the initial version of Wiz/beyond whatever it was called, early on, and it was just too complicated. No one understood what the hell's going on,"
+    },
+    {
+      "speaker": "and so I love how that circles back.",
+      "timestamp": "01:02:20)",
+      "timestamp_seconds": 0.0,
+      "content": "Final question. I know you can't talk too much about this, but I'm also just curious what you're able to share. As I said, allegedly, a company whose name rhymes with Loogle, wanted to buy you guys for many billions, and you all decided to decline that, and stay private. Anything you could share there, about maybe why you decided to do that, if that was true at all?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "01:02:40)",
+      "timestamp_seconds": 0.0,
+      "content": "Yeah, I mean, I can't address any specific offers. Obviously, Wiz over the years has gotten many acquisition offers. I can share, that I think for us, us being the founding team, the employees, the customers, the board, staying on an independent path,"
+    },
+    {
+      "speaker": "we all really believe that Wiz can become one of the biggest security companies in the world.",
+      "timestamp": "01:03:06)",
+      "timestamp_seconds": 0.0,
+      "content": "When you look at Wiz today, and I mean, we spoke about the unconventional growth, when you think about it, in some ways, Wiz addresses the biggest growing market of security. Cloud security, cloud is the fastest growing, cloud is such a fast-growing market. Cloud grows 20, 30%,"
+    },
+    {
+      "speaker": "year over year.",
+      "timestamp": "01:03:25)",
+      "timestamp_seconds": 0.0,
+      "content": "We feel like everything is in the cloud, but in reality, by estimation, only 20%, 15 to 20% of the infra today, is in cloud. It's a really, really fast-growing state,"
+    },
+    {
+      "speaker": "in a fast-growing market. And security by nature is a bit of a market of leaders.",
+      "timestamp": "01:03:42)",
+      "timestamp_seconds": 0.0,
+      "content": "I mean, it's a bit like buying insurance for something. You want to buy it from the best, from the leader in this domain. And today, Wiz really is that leader, because it's a new space. Wiz is considered, I think, in many ways, and that is also what makes marketing and brand, not just marketing, but truly,"
+    },
+    {
+      "speaker": "brand so important.",
+      "timestamp": "01:04:01)",
+      "timestamp_seconds": 0.0,
+      "content": "Wiz is considered, I think, the cloud security company, in a lot of ways. Still, of course, it's our to lose. There's a ton of work ahead of us, but that is a huge opportunity in front of us, becoming the cloud security company. And I think nobody thinks we are anywhere near ready to give it up,"
+    },
+    {
+      "speaker": "in a way.\n\nLenny Rachitsky",
+      "timestamp": "01:04:21)",
+      "timestamp_seconds": 0.0,
+      "content": "I totally understand that, and again, Wiz is hiring,"
+    },
+    {
+      "speaker": "in case you are inspired by what you're hearing.",
+      "timestamp": "01:04:27)",
+      "timestamp_seconds": 0.0,
+      "content": "Raaz,"
+    },
+    {
+      "speaker": "this was incredible. I'm so happy that you did this. Thank you so much for being here.",
+      "timestamp": "01:04:32)",
+      "timestamp_seconds": 0.0,
+      "content": "Two final questions. Where can folks find you online, if they want to reach out, and maybe follow up on stuff? And how can listeners be useful to you?"
+    },
+    {
+      "speaker": "Raaz Herzberg",
+      "timestamp": "01:04:37)",
+      "timestamp_seconds": 0.0,
+      "content": "Find me on LinkedIn, and yeah, no apply. We'd love great people who are learners, which I think is what this podcast is all about. So definitely,"
+    },
+    {
+      "speaker": "the right place to find the right people.\n\nLenny Rachitsky",
+      "timestamp": "01:04:48)",
+      "timestamp_seconds": 0.0,
+      "content": "Awesome. Raaz,"
+    },
+    {
+      "speaker": "Thank you so much for having me.\n\nLenny Rachitsky",
+      "timestamp": "01:04:52)",
+      "timestamp_seconds": 0.0,
+      "content": "Bye,"
+    },
+    {
+      "speaker": "everyone. Thank you so much for listening.",
+      "timestamp": "01:04:56)",
+      "timestamp_seconds": 0.0,
+      "content": "If you found this valuable, you can subscribe to the show on Apple Podcasts Spotify, or your favorite podcast app. Also, please consider giving us a rating, or leaving a review,"
+    },
+    {
+      "speaker": "as that really helps other listeners find the podcast.",
+      "timestamp": "01:05:09)",
+      "timestamp_seconds": 0.0,
+      "content": "You can find all past episodes, or learn more about the show at lennysodcasts.com. See you in the next episode."
+    }
+  ],
+  "full_text": "Lenny Rachitsky (00:00:00):\nYou're one of the first 10 employees, you're the first product manager. It was when you joined, the founders didn't really have an idea figured out yet. When they landed on an idea, and then ended up being wrong, ended up not working. Six weeks after you joined, there was a pivot.\n\nRaaz Herzberg (00:07:01):\nAt the time, we didn't really have a solid product yet. We would have 10 to 15 meetings every day with potential customers. I was hired as the first product manager. I sat in on those calls.\n\n(00:07:01):\nI still did not exactly understand what we were going to build, which was confusing, because I was a product manager, so I was supposed to start building it, and so, at some point, it was like, \"I have to ask, what exactly are we doing here?\" And that ended up pivoting us around to cloud security.\n\nLenny Rachitsky (00:07:01):\nSo things started to click a little bit more, you started seeing enthusiasm. Can you talk about just what that phase was like?\n\nRaaz Herzberg (00:07:01):\nWe really felt the type of questions change, right? Silly. The call sounded like, again, \"How are you pricing this, or when can we start doing a POV?\" I think naturally, as human beings, you have a bias to look for affirmation, versus a bias for what you don't want to hear.\n\nLenny Rachitsky (00:07:01):\nYou started as an engineer, you moved into product, and now you're marketing, which is not a traditional path.\n\nRaaz Herzberg (00:07:01):\nI had a ton to learn about marketing, with what I knew really well, with ...\n\nLenny Rachitsky (00:07:01):\nToday, my guest is Raaz Herzberg. Raaz is chief marketing officer and VP of product strategy at Wiz. Before moving into marketing, Raaz was an engineer, and then, for most of her career, was a product manager. Prior to Wiz, Raaz led security products in Microsoft, including Azure Sentinel, and with Wiz, moved from VP of product to CMO.\n\n(00:07:01):\nIf you haven't heard of Wiz, it's not only the world's fastest growing security company, it's also the fastest growing software company in history, hitting 100 million ARR, just 18 months after founding, and then, just under five years after founding, was rumored to be exploring an acquisition by Google for over $23 billion.\n\n(00:07:01):\nEven more wild, as you'll hear in our conversation, the team initially went in circles on what they wanted to build. And it took them awhile to actually land on the idea that is basically the most intense product market fit of any B2B company ever.\n\n(00:07:01):\nIn our conversation, Raaz shares what signals told her and the team that the original idea wasn't going to work, and that what changed in their conversations, when they finally found product market fit, why she moved into marketing, and what she wished she knew as a product leader from her new marketing lens, also, her perspective on marketing, and what marketing people often get wrong, and why CMOs often fail. Also something she calls the dummy explanation. Why you need to pay attention to where the heat is within the organization.\n\n(00:07:01):\nShe shares her most contrarian take on leadership, and so much more. This was such a fun episode, and there's so much to learn here for product leaders, for marketing leaders, and for founders.\n\n(00:07:01):\nIf you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes, and helps the podcast tremendously. With that, I bring you Raaz Herzberg.\n\n(00:07:01):\nRaaz, thank you so much for being here. Welcome to the podcast.\n\nRaaz Herzberg (00:07:01):\nThank you for me.\n\nLenny Rachitsky (00:07:01):\nSo I want to start by giving a little context on Wiz, for folks that aren't super familiar with the company. You launched just under five years ago, at this point. Within 18 months, you all hit a hundred million ARR, which is the fastest growth rate in history of any software company. It's faster than the two other companies I've had on the podcast, that also claim to be the fastest growing software companies, Deal and Ramp. You guys grew even faster.\n\n(00:07:01):\nI read that you are at over 500 million ARR now. I know it's also not confirmed, but a certain company that rhymes with Loogle, offered to buy you guys for $23 billion, and y'all turned that down, decided to stay private. And also, something like 50% of Fortune 100 companies are customers of Wiz.\n\n(00:07:01):\nIs there anything I missed? Anything I got wrong?\n\nRaaz Herzberg (00:07:01):\nNever heard of that Loogle company, but other than that, yeah.\n\nLenny Rachitsky (00:07:01):\nOkay. Okay, great. We're going to come back to that. What's even crazier is in spite of that, when you joined the company, you were employee, something like, number seven?\n\nRaaz Herzberg (00:07:01):\nYeah, we kind of started, I feel like, the founders, and the first six, seven employees, we just started at once.\n\nLenny Rachitsky (00:07:01):\nThis episode is brought to you by WorkOS. If you're building a SaaS app, at some point, your customers will start asking for enterprise features like SAML authentication, and SCIM provisioning.\n\n(00:07:01):\nThat's where WorkOS comes in, making it fast and painless to add enterprise features to your app. Their APIs are easy to understand, so that you can ship quickly, and get back to building other features.\n\n(00:07:01):\nToday, hundreds of companies are already powered by WorkOS, including ones you probably know, like Vercel, Webflow, and Loom. WorkOS also recently acquired Warrant, the fine grain authorization service. Warrant's product is based on a groundbreaking authorization system called Zanzibar, which was originally designed for Google, to power Google Docs and YouTube.\n\n(00:07:01):\nThis enables fast authorization checks at enormous scale, while maintaining a flexible model that can be adapted, to even the most complex use cases. If you're currently looking to build role-based access control, or other enterprise features, like single sign-on SCIM or user management, you should consider WorkOS.\n\n(00:07:01):\nIt's a drop-in replacement for Auth-Zero, and supports up to one million monthly active users for free. Check it out at workok.com to learn more. That's workos.com.\n\n(00:07:01):\nThis episode is brought to you by Rippling, a single platform to build and scale your startup on. Rippling handles all the \"can't get it wrong\" admin work of payroll and benefits, giving you back hours every week, but it does a lot more than that. Rippling is a game-changer for the entire company, with tools for HR, IT and spend, all built from the ground up, and designed to work together seamlessly.\n\n(00:07:01):\nJust hired someone? Rippling makes onboarding easy, whether your new hire's sitting next to you, or halfway across the world. In just a few clicks, Rippling automatically generates an offer letter, ships a laptop with the necessary apps and permissions, and even delivers a corporate card.\n\n(00:07:01):\nAn employee needs to update their benefits contribution? When they do it in Rippling, that change automatically syncs to payroll. CTO forgot her laptop in an Uber? Lock it remotely, with Rippling.\n\n(00:07:01):\nMany startups I've invested in, like Sprig, Elemy and ClassDojo, use Rippling, because it's a force multiplier for lean teams, helping them eliminate major headaches, and operate their business more efficiently. For a limited time, Rippling is giving Lenny's listeners three months off.\n\n(00:07:01):\nTo redeem, visit rippling.com/lenny. That's rippling.com/lenny. Okay, so for one of the first 10 employees, you're the first product manager at Wiz.\n\nRaaz Herzberg (00:07:01):\nYeah. Yeah.\n\nLenny Rachitsky (00:07:02):\nAnd what I read is that when you joined, the founders didn't really have an idea figured out yet, when they landed on an idea, and it ended up being wrong, ended up not working. Six weeks after you joined, there was a pivot.\n\n(00:07:02):\nSo the fact that that was true, and you went from this, \"This isn't working,\" to boom, $100 million dollars AR, I want to spend some time here, because I think there's a lot people can learn here.\n\n(00:07:13):\nSo let me just ask, looking back at that point when the idea wasn't working to realizing, \"Hey, maybe this is a better idea,\" what do you remember are some signals that told you this isn't working, and okay, maybe this is, because a lot of founders are in that stage with their products?\n\nRaaz Herzberg (00:07:31):\nWhen we started, it wasn't even Wiz. The company was literally officially founded as Beyond Networks, because there was this idea of, \"Hey, we want to do something in the network security space.\"\n\n(00:07:43):\nActually, myself and the founding team, and also, the other five engineers that started with us, we actually all came from a background of building cloud security products before, but this time it was like, \"Okay, we actually don't want to do cloud security, we want to do network security.\"\n\n(00:08:00):\nWhat happened was in those initial few weeks, it also, we started was literally, exactly, Wiz was founded together with COVID. It was that March when the whole world shut down. Suddenly, everything went terribly, terribly strange on all of us. That's when Wiz started.\n\n(00:08:19):\nSo it was like, our days looked like talking to 10, 15 customers. Wiz is a B2B product, the buyer is the CISO, the people, the person that owns basically security for the entire company. So we would have 10 to 15 meetings every day, with potential customers.\n\n(00:08:39):\nAt the time, we didn't really have a solid product yet, but we had an idea, and the deck explaining our idea, and what we're going to build, and why. We were all a very technical group of people, and especially, our founding team, a staff, our CEO at Wiz. Before Wiz, he led the entire division of all of the Microsoft cloud security products. So they're very, very impressive, very technical, very well known and respected in the industry.\n\n(00:09:09):\nAnd so, we would join a call, and kind of present and walk through our idea, and the person on the other end would be like, \"Oh, it sounds interesting. Oh yes, sounds interesting, we'd love to hear more. Yes, perfect. Sounds interesting, we'd love to hear more.\" And you finished calls with a good feeling, like the person said, \"Oh yes, interesting, interesting.\"\n\n(00:09:32):\nBut like you said, I was hired as a first product manager. I sat in on those calls, sometimes officially participating, sometimes, even, not officially participating, but listening on all of the calls, and I finished a couple of weeks of that, which is a lot of calls, I think, two weeks or something. I still did not exactly understand what we were going to build, which was confusing, because I was a product manager, so I was supposed to start building it, in some ways, go to the dev team and start building it. And that was a point where I felt like, \"I don't know what we are talking about exactly.\"\n\n(00:10:10):\nNow, I really thought, \"I don't know what we're talking about. I thought they all understood what we're building, and I thought every customer we had in the call, understood that we were building.\" It's just that I did not understand what we were building.\n\n(00:10:24):\nAt some point, it was like, \"Okay, I have to ask. What exactly are we,\" like, In the details, right? Not in describing a big problem, in a high level, big potential approach to solving it, but what exactly are we doing here?\n\n(00:10:44):\nAnd I think that that ended up opening a really deep discussion of, \"Okay, wait, maybe we are telling a bit of a broad story, and maybe the person on the other end is not going to tell you.\" They're not incentivized to tell you, \"You know what? I don't know what you're talking about.\"\n\n(00:11:02):\nIt's really, I guess they felt a bit like me in some ways, and they were like, \"Oh, it's a really smart group of people. I'm sure they're building something interesting.\" So yeah, interesting. They're not incentivized to really dig, deep dive into the problems, right?\n\n(00:11:14):\nSo I think that opened up a discussion for us, and we kind of understood that we were listening in the wrong way, maybe, that we were looking for positive reinforcements, but not really listening intently to signs of deep enthusiasm, and that ended up pivoting us around to cloud security.\n\nLenny Rachitsky (00:11:31):\nThere's so much to learn, just from the short story, and I want to get into what you started hearing that made it sound like, \"Okay, wait, maybe this is a better idea.\" But first of all, just the fact that you're doing 10 to 15 calls a day, you said?\n\nRaaz Herzberg (00:11:41):\nThat was a bit of, in some weird way ... Again, Wiz was founded in that terrible March, where the world closed down. It seemed, at the time, a really bad time to start a company. Markets were frozen, and everything.\n\n(00:11:55):\nEven my mom, which knows nothing about what exactly I do or why, I mean, I left Microsoft to join Wiz, even my mom was calling me and telling me, \"This is not a good time to join a startup.\" But it ended up being in some ways, like an advantage, because everybody were home. Suddenly, everybody were home, no meetings, no travel.\n\n(00:12:15):\nSo suddenly, C-Sales, which are busy people, and we started, originally based in Tel Aviv, so we couldn't even fly, but suddenly, it didn't matter. Because, I mean, everybody's home. So yeah, we took 10-15 calls a day, back to back to back.\n\nLenny Rachitsky (00:12:30):\nI think that alone is a really important lesson of just, that's how you discover something that isn't working/find the thing that is working is, do many, many calls.\n\n(00:12:38):\nThat is a lot of calls. I don't even know how someone has time to do 10 to 15 calls a day. But again, I think that's how you do this. So I think that alone is a really important lesson for folks to take away.\n\n(00:12:46):\nI love this point, that people are going to try to be nice to you, especially if they think you're really smart, and especially if you're describing things that might be helpful to them, but what you're sharing is, you need to not trust, that often is deceiving.\n\n(00:13:03):\nTalk about what it felt when it moved from just, \"Oh, this is cool, this is nice, and maybe let's talk more,\" to, \"Oh, maybe this is actually something they'll buy.\"\n\nRaaz Herzberg (00:13:12):\nWe really felt the type of questions change. Suddenly, the call didn't end, was like, \"Oh, this sounds super interesting. Sure, please update me. I'd love to hear more.\" Certainly, the call sounded like, \"Wait, again, how are you pricing this? How much will this cost?\" Or, \"Wait? When can we start doing a POV? How long is a POV?\" Or somebody would finish the call, and be like, \"Okay, I know exactly who I need to connect you to in my team.\"\n\n(00:13:35):\nThose are really strong indications that are the type of indications we learned to look for. Although there's something I think, at the beginning of a company, it's very scary. I think naturally, as human beings, you want to get affirmation from the other side.\n\n(00:13:53):\nSo you're actually, you have a bias to look for affirmation, versus a bias to look for what you don't want to hear. That's just natural, being a person.\n\n(00:14:04):\nSo I felt like, that is what we ended up really being in tune with. \"No, I have to understand. They're intently interested. They want to connect me to somebody. They want to know how much this costs.\"\n\n(00:14:15):\nIf somebody just tells you, like you said, \"Oh, super cool, yeah, I want to take this as a good sign, but I shouldn't.\"\n\nLenny Rachitsky (00:14:23):\nIt's almost like you need to see them pushing for the next step is what I'm hearing is, \"Let's do a POV, what's the next step to do this? I want to connect you to this person, to talk further about this,\" versus just, \"Oh yeah, this is awesome. Thank you.\" And then, okay, bye.\n\nRaaz Herzberg (00:14:34):\nYeah, exactly. And also, in B2B, that is really the process you have to take, after you have to get connected to the actual team that will test the tools, will deploy it. There needs to be real passion about doing something, and I guess that is the difference. It's real passion about, \"Hey, I want this right now.\"\n\nLenny Rachitsky (00:14:54):\nThe other point you made is that you were the person, nobody was saying this thing that was this elephant in the room, almost of, \"What are we even building? I don't understand what's happening here.\"\n\n(00:15:05):\nI read somewhere that you were like, you told, \"I need to quit. I don't understand what this is, and I'm not the right person for this role,\" and it turned out, nobody understood exactly what was going on. Can you share that story?\n\nRaaz Herzberg (00:15:17):\nIt's funny, because it's a story that some of the founders tell, and they tell differently. They tell, \"She came to us, and she was like, we have to rethink,\" but that was not my perspective at all, right? My perspective was genuinely, \"Okay, I have to confess, that was my perspective.\"\n\n(00:15:38):\nI was sure that I was the only one not understanding. It's hard to get the courage, I guess. Sometimes, it's hard to get the courage to say, \"Actually, I don't understand.\" But I think by now, in my career, it's my favorite question.\n\n(00:15:56):\nI feel like I say, \"I don't understand,\" a lot of times a day. I think, if you build a company with the right type of culture, in a sense, then it's not a shame to say, \"I don't understand, or please explain again.\"\n\n(00:16:14):\nIt's having that culture in place that enables it. And I also have to say, when I think of the founding team, and the founding team in Wiz, Wiz is a very flat organization, in some ways. It's not about seniority, it's really about driving impact, and everybody can have a seat on the table, and voices are heard.\n\n(00:16:32):\nAnd I think it also reflects really highly about them, just giving me the seat at the table, in a sense, to be even able to say, \"I don't understand.\"\n\n(00:16:41):\nThen, when I'm saying I don't understand, not actually being open to, \"Oh, maybe we have to also think again.\" I think that tells a lot about the culture, even, to this day.\n\n(00:16:52):\nBut it's definitely, for me, it's a very learned quality over my progression of my career, actually allowing myself to be more vulnerable, more easier in saying, \"I don't understand, or I don't know.\"\n\nLenny Rachitsky (00:17:05):\nI love this lesson so much. One, partly because you said it's really scary to be the person that's like, \"I don't understand,\" right?\n\n(00:17:12):\nThat puts you, that's a very vulnerable thing to say, because you're like, \"What? She doesn't get it. Maybe she is not as smart as we thought.\" That can't be easy, to be the person doing that.\n\n(00:17:22):\nThe other thing is this reminds me of Tomer Cohen, LinkedIn CPO, has this really great phrase, \"We may be wrong, but we're not confused.\" I feel like that's exactly what you're saying here.\n\nRaaz Herzberg (00:17:31):\nExactly, which is why I love this question to this day. I love it. I do think that if something is not easy to understand, then maybe it needs a bit more chewing on it.\n\nLenny Rachitsky (00:17:46):\nI love that. Okay, so things started to click a little bit more. You started seeing enthusiasm. Can you talk about just what that phase was like, and any lessons from just that turn to, things are actually working?\n\nRaaz Herzberg (00:17:59):\nI have to say, I think the feeling, after we made that switch, what ended up happening is that after that big conversation that we know, I don't understand, we ended up having, and this never happens, I don't think it's ever happened since. It was almost a long, five-hour discussion, with all of the founders, where we decided to move away from that pivot to cloud security, which is what we really, in some ways, know best.\n\n(00:18:25):\nThat's our background, that's what we did before, and we felt the problems there was so big and so strong, and once we started having the conversations with the new pivot to cloud security, the room felt so different. I mean, it was all over Zoom, but our room, it felt very different.\n\n(00:18:49):\nOnce we found the right path, it was so easy to distinguish it from the wrong path, in some ways, because we did start getting those strong signals. And in some ways, they pushed us forward.\n\n(00:19:02):\nA customer was like, \"Okay, I want to start a POV,\" and we're like, \"Oh, okay. Of course. Let's schedule for Thursday next week, or something. We tried to even postpone it a bit, because we had to run fast.\"\n\n(00:19:15):\nAnother learning I have from that phase was, I explicitly remember that first conversation, where it was like, \"Okay, let's do a POV.\" It was a Fortune 10 company, a really big company, and we had a beginning of a product. We wanted to buy some time, until we actually started the POV.\n\n(00:19:33):\nJust because of that, we said, \"Okay, also we want to really understand exactly what they will connect to us as part of the POV,\" because everything was so initial. So we put this long list of technical questions, \"What are you using for this? What are you doing here? What are you [inaudible 00:19:47]?\" On the one hand, because we needed to know, to actually build a thing, on the other end, just because we wanted to buy time, and I was super scared.\n\n(00:19:55):\nI remember studying that e-mail, and being like, \"Ugh, they want a POV. And now, I'm going to scare them away, with this list of things they have to do, and list of questions, like it's counterintuitive.\"\n\n(00:20:06):\nBut actually, it came back filled a day later, and I remember my lesson being, \"You know what? This is actually good. I want to make sure they're committed, right? I don't want to push somebody into a POV, if he is not committed to me at this stage.\" I mean, it's not a well-built product. It's going to be a journey we take together, so they need to really want it. I need that commitment from the other side.\n\n(00:20:32):\nI'm not trying to push something on someone, especially not at this point, and my opinion, not ever, not even today, not even when you sell at large scales. I'm not trying to push anybody to anything, I really want to make sure they want it. I have to feel that want back. So that was another learning for me.\n\n(00:20:49):\nIt's like, first of all, when it works, it works, and you do know when it works. And the second is, \"Don't be too afraid to get the pull from the customer.\" It's okay. You need that pull from the other end, as well. Don't push too hard.\n\nLenny Rachitsky (00:21:03):\nI know people always talk about, \"Look for pull,\" and I love that you're describing what pull looks like. Somebody's next day, filling out a really complicated annoying questionnaire, because they just want this product they've never heard of before you chatted with them.\n\n(00:21:14):\nNow, they're like, \"Just give it to me now. I'm going to do anything you need.\" Is there anything else along these lines, before we move into your current role and learnings there?\n\nRaaz Herzberg (00:21:23):\nI also think that one of the things we did very, almost uniquely, it was, was that, because things started rolling so fast for us, once we found the right path, we ended up selling before we had a seller's team.\n\n(00:21:37):\nWe ended up, almost in some ways, always being behind, right? Okay, I'm closing contracts with people, I haven't hired my first salespersons, I don't know what we're doing here, I don't know how to have the conversations.\n\n(00:21:49):\nBut we ended up learning so much from that, from us, ourselves, us being the founders, myself, closing the deals, actually going all the way to contracts and everything, by ourselves. We learned a lot, we learned a lot.\n\n(00:22:04):\nAnd then, when we hired our first sales hire, it was also like, \"Look, we sold a couple million of this, so you, for sure, as a salesperson, you kind of give that confidence.\"\n\n(00:22:14):\nSo I felt like there was multiple places where that ended up happening, just by accident, because of how fast things ended up happening for us. Actually, it was a really good learning experience to do it for the first time yourselves. I think, sometimes, when you start building a company, you have this wish that if you can't do something, you're going to hire the right person, and he will be able to do it.\n\n(00:22:36):\nOkay, I feel like my message is not clear enough, and we just started this company, it's okay, I'm going to hire my first product marketer, and that's going to be it. Or I feel, we can't close a deal, because I need to hire my first salesperson, and that will be it.\n\n(00:22:49):\nI hardly find that, I don't think we've ever had that work for us, honestly. It's like, if you can't do it one time end to end, and you're the core, core group, the chances of just bringing somebody from the outside to solve that problem, it's wishful, in some ways, but it never ends up that way.\n\nLenny Rachitsky (00:23:08):\nI love this advice so much. There's kind of two parallels here. If the founder can't do it, who has the most context and passion and motivation? It's unlikely an employee's going to be able to do it. And it's similar to the selling point, that if your early customers aren't pulling from you, later customers are not going to have a good time, right?\n\n(00:23:27):\nIt's like, the most passion comes early. How long did you all stay, doing sales as a founding team? How many millions ARR, roughly, do you remember?\n\nRaaz Herzberg (00:23:39):\nOh, a couple million. I don't remember the exact-\n\nLenny Rachitsky (00:23:41):\nA couple million?\n\nRaaz Herzberg (00:23:41):\nYeah.\n\nLenny Rachitsky (00:23:43):\nAwesome. That's incredible. Often, the heuristic I hear is, one or two million ARR, and then you start to hire salespeople. Okay, that was an awesome lesson. I love that.\n\n(00:23:53):\nI want to talk about your current role. So currently, you're CMO, and also, VP of product strategy at Wiz. You started as an engineer, you moved into product, and now you're in marketing, which is not a traditional path, especially for product people. First of all, why did you decide to move into marketing, from product?\n\nRaaz Herzberg (00:24:11):\nYeah, it's not a traditional path for anyone, I think, also not one I would have necessarily expected myself to be on. First of all, it's not like I had this plan, right?\n\n(00:24:22):\nIn general, I myself, people sometimes ask me about career progression, and I never had a plan for anything. That is just, the only thing I did was follow good people around. That's it. I never had a plan for anything I do.\n\n(00:24:36):\nSo myself, coming to Wiz was following Assaf and Ynon in the founding team. And two and a half years into Wiz, at that time, Wiz was already, it was a very clear product market fit.\n\n(00:24:50):\nOur revenues were already there. We had a sales team that was fully functioning, but at that point at Wiz, we felt marketing was still something we didn't fully figure out. It wasn't working super well for us. We were at this stage where, yes, if there was a POV, a proof of value happening, we would win it, versus competition.\n\n(00:25:13):\nBut many times, we would come to a customer, and they would be like, \"Oh, I wish we heard of Wiz, we just signed with a competitor,\" which it breaks your heart, because I know they would have chosen me, had they heard about me in time. So you started feeling that challenge around awareness and marketing. So two and a half years into the company, basically Assaf, our CEO, asked me if I was willing to take on marketing.\n\n(00:25:42):\nOriginally, I thought it was, I remember, he knocked on my, bothered me while I was working on my computer, and we went into this super cold room. It was like, when you were a fast-growing startup, all of the rooms are always full, you know what I mean?\n\n(00:25:58):\nWe went into this server room, which is freezing cold, and I was in the middle of something, and he told me, \"I think you should lead the marketing org now.\" I told him, \"Okay.\" I was like, \"Assaf, I'm cold, I'm going back to work. I have a lot to do.\" It sounded that bizarre to me.\n\n(00:26:12):\nIt's not only, do they not know marketing, I spent my life in engineering, and in any product, it's not the go to market side, even. I was never part of the go to market, or I have never heard of a lead in my life. I did not know the word \"pipeline.\"\n\n(00:26:26):\nAll of those things were very remote to me, very. It sounded like such a bizarre motion. But that was on a Thursday, and then, I spent the weekend, because he asked me to, and again, I just follow good people, and do what they tell me to do.\n\n(00:26:42):\nSo I spent the weekend listening to a ton of podcasts, talking to CMOs, just to even understand what do CMOs do, what do marketing orgs do in B2B companies?\n\n(00:26:51):\nThen I ended up deciding to just give it a try, and we did not know if it was going to work. I also don't know if it's going to work forever, but we ended up deciding to give it a try.\n\n(00:27:04):\nI think the thing that's convinced me to do it was that, in some ways, I really felt like if, in the early days of the company, finding product market fit is a major block for the company. And then, building a sales organization becomes a major block for the company.\n\n(00:27:19):\nI felt like we were at the point, where you have to figure it out to scale. At some point, of every product, people start looking really heavily at brand, whether we think that way, or we don't. When I buy my iPhone, I have no idea how it really is compared to an Android phone. I did not look at the specs. I truly have no idea.\n\n(00:27:39):\nSo why do I buy an iPhone? I just know it's the thing to buy. B2B products, even the most complex products, people are still people. They still buy it, because brand matters a lot.\n\n(00:27:53):\nThat was part of what convinced me that this is super important. So if I'm asked to attempt, at least try, because I do think it's really important.\n\nLenny Rachitsky (00:28:05):\nI love this. I love the detail of the cold room, by the way. Speaking of cold, when we were chatting earlier, you had this really beautiful metaphor of heat. And where heat is within an organization and how it shifts, as the company grows. Can you share that?\n\nRaaz Herzberg (00:28:19):\nYeah, it's exactly that. It's like that in the early, early days when we just started with, I remember, I felt like the heat was in the product kitchen. Because it's like, everybody's waiting to have something, people want to start doing something, right?\n\n(00:28:34):\nThen they felt like, \"Okay, you start understanding it,\" and now, the heat moves a bit to the engineering side like, \"Okay, build it. Somebody wants it, build it, make it work.\"\n\n(00:28:44):\nThen I felt, \"Okay, so we close a couple of deals now,\" right? We had our first couple of clients. Now you bring in sales, and the heat moves to sales, because they're like, \"Okay, we have this thing, now go sell it.\" And then, the heat starts moving to marketing, in my opinion, where it's like, \"Okay, we have a product market fit. Salespeople can sell it, but they're saying, 'Give me more pipeline like, 'Hey, nobody heard of Wiz. Give me more.'\"\n\n(00:29:09):\nSo the heat moves to marketing, at that point. That's kind of, I've always felt like, yeah, in some ways, I also naturally, I guess, follow the heat.\n\nLenny Rachitsky (00:29:18):\nAnd I think it's actually more so, that they put the best people in the places that need the most help. Clearly, that was you, when they did that.\n\n(00:29:27):\nThis episode is brought to you by Cloudinary, the foundational technology for all images and video on the internet, trusted by over two million developers, and many of the world's leading brands.\n\n(00:29:39):\nCloudinary is the API-first image and video management platform built for product leaders, who rely on visual storytelling to express their unique product value, who are building engaging web and app experiences, and who understand that harnessing the power of AI to automate is the only way forward.\n\n(00:29:56):\nGil Grossman, engineering team lead at Fiverr, says that \"our users share billions of images, video and audio files. Cloudinary's ability to automate our post-production work at scale amounts to a savings of up to 92,000 work days per month.\" Think bold, build big ship fast. Let Cloudinary handle your media needs. Start your free plan today, at cloudinary.com/lenny.\n\n(00:30:22):\nI asked one of your board members, Shardul Shah, what to ask you. He's a partner at Index Ventures, and here's what he told me, speaking of this move to marketing.\n\n(00:30:32):\nHe said that when you were in your first board meeting, the Wiz board meeting, presenting marketing, and sharing your plan, and you asked him, \"Hey, can you introduce me to all these marketing leaders, so I can learn from them,\" he basically did the opposite.\n\n(00:30:44):\nHe's like, \"No, I'm going to introduce all my marketing leaders to you, because I think they need to learn from you.\" Why do you think that's the case?\n\nRaaz Herzberg (00:30:51):\nI think Shardul is very kind. I deeply remember that meeting, because funny enough, it was my first board meeting ever. That is a funny thing by itself, because Wiz's board, we have Shardul on our board, we have Doug Leon, and we have Jeff from Insights.\n\n(00:31:09):\nIt's almost like, it's very humbling to sit down in front of those people, period. And since I decided to take marketing, and I took to the CMO role, this was also my first board meeting ever.\n\n(00:31:23):\nAnd also, it was the meeting where it's, in some ways, I was not that. I was like, \"Okay, we took our product manager person, she was never a CMO at any company, and now she has a CMO here.\" So it was just very, the whole setting was very stressful for me.\n\n(00:31:43):\nI just ended up, it was like, I think we just had the meeting two months after I took over marketing. So it was more of an update of, \"Hey, those are the changes I've made, and this is how I'm thinking of approaching this, and this is all the things I've done in the past two months.\"\n\n(00:31:59):\nIt's funny, because I'm a very non-traditional marketer, just because I really don't know marketing. At this point, I kind of know already, because I've been doing it for two years, and I read a lot, but at that point, I generally did not know. I could not even explain to you how untraditional my approach was, in some ways.\n\n(00:32:16):\nI just really did what I thought. I mean, I had a ton to learn about marketing, but what I knew really well was the problem we solved, and I really knew our audience.\n\n(00:32:28):\nI myself, I come from security, I come from cloud security, I read all of the right Twitters, and I follow all of the right people on Twitter, and I read all of the right blogs.\n\n(00:32:36):\nI know it's funny, I know what matters, I know it's interesting right now, generally because, this is my space. I mean, I live in that space, truly, as a customer. So I was just thinking, \"Okay, what are things I could do, to start fixing the problem that mattered most?\" And that was, nobody heard of Wiz at that time.\n\n(00:32:59):\nThose were just, I was saying, \"Okay, I think, in order to do that, I'm willing to take chances, I'll just focus on making a lot of noise.\" And I think, even in that short time of two months, we saw changes happening already, in some ways.\n\n(00:33:16):\nSo I think, that what's Shardul meant by that, of course, although I do think he's being very, very kind, and I have learned a lot from many, many marketing people, including my own team, by the way, which is another interesting thing., right?\n\n(00:33:28):\nI took over a large team, of people who are marketers, and I'm this person knows nothing about marketing, but will now manage this. So I learned a lot from many marketers, including my own exceptional team.\n\n(00:33:41):\nBut I think he meant, really looking at it differently, just thinking, \"Okay, what is the end to the goal of having the right people hear the right thing about my company, ASAP,\" versus a ton of traditional aspects, of building pipelines and different things they really did not know how to do, at that time.\n\nLenny Rachitsky (00:34:01):\nSo following that thread, I'm curious, what is it that you think CMOs mistake, or often do wrong? Why do you think CMOs often don't work out, and they brought in someone like you, with this very fresh perspective? Where do you think folks often go wrong?\n\nRaaz Herzberg (00:34:16):\nFirst of all, I think CMO is a very, very hard role. And also, I think it's a role that is very hard to do without a lot of trust, and without a deep connection to the founding team. Everything you do in marketing is very visible, and you're kind of touching something that matters so deeply to the founding team, and you are the one representing it to the world.\n\n(00:34:43):\nSo it's very hard to build that trust, and it's very easy to break it, because one bad ad, or something that one of the founding team will say, \"Oh, this is not us, this is not what I mean, this is not the right thing,\" it breaks the trust really easily.\n\n(00:35:00):\nAnd I think it's especially challenging. I mean, I really don't know how somebody that does not come from from a security background could be successful deeply, in this type of a role, for a company like Wiz, because it is really about understanding your customers, and it is really about understanding your product. I think that's very, very hard to gain.\n\n(00:35:21):\nSo I guess I would say, I think it's the deep trust you need with the founding team, and the really deep connection you need to the product, and to the market. I think both of that, when you come from the outside, in a way, because you are not part of the founding team, and also, you maybe come from outside the market, sometimes, because it's a very technical market or it's a very different domain, then I think it's two really big challenges.\n\n(00:35:47):\nI'm not saying you can't come over them, but I think, it's just a very, very hard job. On top of that, it's a very diverse job. When I was a product manager, I managed product managers. I know exactly what they like, what they don't like. That's my audience, I know who to hire. I have the best network, I know every single PM and security around me. It's so different.\n\n(00:36:05):\nWhen you are a marketing leader, you manage performance marketing, which is a numbers game. You manage designers and brand, and then you manage events and field. There's nothing in between those things that is deeply correlated. Sp it's just a very, very challenging and very interesting role.\n\nLenny Rachitsky (00:36:23):\nThis trust point is so interesting, especially based on what you said earlier, where what you want it to do is create noise, take some risks. That's extra hard, if you're not someone that the founding team trusts.\n\n(00:36:35):\nCan you share some of the things you did that helped create noise, and get the Wiz name out there, that might inspire folks of like, \"Oh, that was really cool, we should do something like that?\"\n\nRaaz Herzberg (00:36:43):\nYeah. Another insight I had about marketing in the early days was how different it is from product. As a product manager, I was always, and still believe, it's so important to think really hard about everything you add. Less is more.\n\n(00:36:59):\nIf you decide to build a feature in a product, then A, you're taking engineering time, which is the most valuable resource in every company, in my opinion, and B, in some ways, you can never take it back. It's complicated your product. Even if one customer likes it and uses it, at least at B2B, you're never going to be able to suddenly take it away.\n\n(00:37:19):\nEvery new feature you add to your product, you'll have to think about, \"Okay, how does it work with that feature?\" So it's like making a mistake, adding something to the product that is not the right thing, or that is not truly, truly what your customer needed, even if it's what they asked for. But if it's not what they truly needed, it has a huge cost associated with it.\n\n(00:37:40):\nMarketing is quite the opposite, in my opinion. There's no cost to anything, no maintenance to anything, no technical depth, no anything. If tomorrow I post a video on Wiz's LinkedIn page, and I think that video is super funny, and nobody likes that video, nothing happened.\n\n(00:37:54):\nTomorrow, I'll post a different video, no maintenance, bye-bye, forgot it ever happened. In some ways, it dawned on me how opposite those things were, and I was like, \"Okay, we have to just use it to our advantage. Let's try everything, let's try everything. I'm trying to make noise.\"\n\n(00:38:11):\nIt was right before, when I took over, it was before RSA. RSA is the Super Bowl of security companies. So it's where every vendor's come to showcase, and all of our buyers are there, and you know how those conferences go. You pay for having a space assigned to you, and it's a very expensive space to assign to yourself.\n\n(00:38:33):\nAnd we had the exact same spot we had the year before. I said, \"Okay, it's a booth at a conference. I'll just make it the weirdest booth ever, because my goal is just having people look and be like, 'Oh, what is Wiz, right? Because they've never heard of me.\"\n\n(00:38:48):\nInstead of doing a classical cyber booth, I decided to say, \"Okay, let's scrap our booth, and do a Wiz of Oz booth,\" which literally looked like a Wiz of Oz booth, and we had actors, like Dorothy, and all those things hanging around there.\n\n(00:39:03):\nIt looked nothing like any booths in the show, which is a cybersecurity show, things are red and black, and people with hoodies. And we decided to take a completely opposite approach.\n\n(00:39:14):\nIn general, I also decided that we're going to take a completely opposite approach was brand. I wanted Wiz's brand to, again, my first motive, stand out.\n\n(00:39:23):\nI wanted Wiz to have a very positive, optimistic type of brand. So I went all in on, \"Scrap whatever we were doing before, which was dark, and go pink, go bright blue, always go optimistic, and focused on magic, not scaring people from the facts, but magic.\" And that ended up, and it was scary, don't get me wrong.\n\n(00:39:45):\nHalf of me was like, I remember feeling so scared walking to the show, to the floor trade. Because I was like, \"Is this going to be the most terrible, bizarre? Are people going to be like, 'What is she thinking?'\" So I knew it could either be a failure, or a hit.\n\n(00:40:04):\nAnd it ended up, the amount of people that stopped by our booth was five times the amount of people that stopped by the year before. It's the exact same space, the exact same investment, because you invest in the space.\n\n(00:40:16):\nBut also, ever since we do themed booths, every time, we change themes to keep it fun. At this point, you won't see other cyber companies even doing themes. We were just, \"Okay, we'll do whatever it takes to make noise,\" and this is just one example.\n\nLenny Rachitsky (00:40:29):\nThat is an amazing story. You said that other companies now try to do something similar, right? Oh, man. So along these lines, when we were chatting earlier, you shared that you kind of have this mindset of being very okay with failing, that's a core part of you.\n\n(00:40:46):\nAnd it feels like, that comes up again and again in the stories you share, where you just try stuff, and you're okay if it doesn't work out. Can you just talk about that part, and why that's so important?\n\nRaaz Herzberg (00:40:54):\nAlmost every single thing I've done in my career, in some ways, even before, I never thought I was going to be successful in it. I guess there's a lot of times, it's a lot of talk about being more confident than yourself. I don't know, at least for me, I don't really know if that's a real option, okay?\n\n(00:41:17):\nI just know that I'm kind of okay with being pretty sure I'm going to fail at something, and still attempting it. That is the thing that has grown in me where, when I took the job, it was, I was sure, I was sure they got confused, that they offered to take me with him.\n\n(00:41:36):\nI was certain that it's going to be like, \"Okay, they're going to figure out that I'm not the right fit for that super smart and talented group of people,\" who have all worked together before, by the way, I was sure they're going to find me out.\n\n(00:41:48):\nAnd I was pretty sure I was going to fail, but I will still take it. I thought I was going to fill the product manager role, too, although I did have the experience.\n\n(00:41:58):\nSo that also makes it easier to move, in some ways. If I think I'm going to fail with anything, I'm like, \"Okay, whatever, I'll try,\" and I think over time, yeah, it releases you a bit. Sure, I might fail.\n\n(00:42:09):\nBy the way, I might still fail. It's also fine. Even in my current role, probably not for every scale, it'll make sense for me to do it, but that's also fine. It's still just giving yourself the opportunity to fail.\n\nLenny Rachitsky (00:42:23):\nThat is really empowering. Is there anything that helps you build that skill, that's not natural to a lot of people, being okay with failure, and leaning into things that they think they'll probably fail at? Where did that come from, for you?\n\nRaaz Herzberg (00:42:34):\nYeah, depending on what you believe in, everything comes from childhood. In some ways, I do think it has to do with, I think the way my mom raised me, my mom really believed that if you're good at something, so that's not where you should invest your energy. She really believed in pushing us to the places where we were less confident in, I guess.\n\n(00:43:00):\nI mean, I was a very shy kid. My natural inclination, as a young kid, was to close the door in my room, read a book. I had no interest in meeting other kids or doing sports or nothing, nothing, really super, super shy. And I think, also slightly unsocial by nature, really.\n\n(00:43:18):\nBut for my mom, she could have been like, \"Oh, so she's really good was books and math, so let's focus. Perfect. Let her build up the skill, and be really good with that.\" But no, she would make me go swimming, and make me go meet other kids.\n\n(00:43:32):\nIn some ways, I feel, she always used to say that friction is good. If you brush your teeth, and there's a bit of blood somewhere, then you need to brush harder there. It's that idea, that friction is kind of good.\n\n(00:43:46):\nIf you're good at something already, then you're good at something already. So it's a bit more about learning how to learn, how to push yourself in other areas.\n\n(00:43:54):\nI think she put hard work and courage, in some ways, or friction, mostly, above talent. Talent only gets you so far, but that hard work in the friction gets you more.\n\nLenny Rachitsky (00:44:09):\nThat is an awesome story. It's interesting that friction is good circles back to the story you shared about creating hurdles for potential prospects early on, and creating, looking for enthusiasm, where they're filling out these long surveys. How about that?\n\nRaaz Herzberg (00:44:24):\nNo, it's true. You're right. It shows something. It shows if you do, it's always easier to be in inertia, right?\n\n(00:44:32):\nThat's why I also say, sometimes, it's like breakup advice I give my girlfriends over the years, where it's like, \"Well, if you decide to break up with somebody, it's for sure the right decision, right?\"\n\n(00:44:43):\nBecause not breaking up with somebody is much easier. It's so hard to break up. So that makes it, by default, the right decision. So it's like, yes, where there's friction, it means that you put something extra in.\n\nLenny Rachitsky (00:44:53):\nI want to circle back to marketing/product advice, going back full circle a little bit. So folks that are in product, now that you're in the marketing world, thinking about marketing, what do you think you wish you knew as a product leader, that you think a product leader should be thinking more of, or maybe you miss, that you now see as a marketing leader?\n\nRaaz Herzberg (00:45:12):\nHaving done products for many years, I really did not understand the criticality of marketing, and even of product marketing. I really did not understand deeply enough that sometimes even gap, between when you're in the product, and you really live inside the product.\n\n(00:45:30):\nIn the technical domain, you can sometimes not understand how far you are from a common person in your market, or a seller in your market. And marketing, in a lot of ways, bridges that gap.\n\n(00:45:44):\nIt's like a multiplier, but the further you get away from the core engineer, than product, then in order for the messages to move correctly, they have to be crystal clear. That is something I understood only when looking at it from the other side. If you're on the product side, you can often work with things that are fluffy or blurry or gray, okay?\n\n(00:46:10):\nSomebody will ask you, \"Can the product do this?\" You'll be like, \"Yeah, not exactly, but it can do, blah, blah, blah,\" kind of work around something, right? It doesn't have to be crystal clear, because you can kind of go around things, in a way, that when you try to scale your message, you can't. It gets lost in translation. You have to be crystal clear, black and white.\n\n(00:46:29):\nYou have to communicate very clearly, especially as an organization scales, you have to communicate very clearly. Suddenly, you're looking at the product org from the outside, in the company that scales fast. And you said, \"Whoa, product marketing, in marketing, plays a really important role, in being able to take that message and amplify it.\"\n\n(00:46:51):\nAnd if you are giving signals that are even a bit gray, fuzzy, then it's not going to work, and you can't expect them to do a good job with it, in some ways. I really, by understanding the go to market perspective, and the user perspective, and the seller perspective, I suddenly understood how things that can look simple on the inside of that side, are very complex, when you cross over to the go to market side. And I think learning the difference is so, so important for product people to understand, that they have to deliver those crystal clear messages about the product.\n\nLenny Rachitsky (00:47:25):\nIs there an example of that, where you're like, \"Oh, wow, I thought this was good, but no, nobody understands what we're talking about?\"\n\nRaaz Herzberg (00:47:30):\nThere's so much. I think, for example, in our domain, it's very, almost custom, to talk in a lot of initials, and a lot of things in security are, \"Use initials for them.\" You say CSPM, for Cloud Security Poster Management, and you use a lot of those types of initials, and you keep assuming that the world knows what you mean.\n\n(00:47:51):\nBut then, when actually looked at things over, from the marketing side, if you ask our product people, engineers, \"Where does our product fall in terms of category,\" it would be CNAP, Cloud Native Application Protection. But if you go over and you look at Google, people are not Googling that word. They're Googling, \"Cloud security solution,\" right?\n\n(00:48:13):\nSo that's just a simple and silly example, but it's that example, that when you live inside something very technically inside your market, inside domain, you're very remote, sometimes, by accident from the buyer. So a lot of those learnings clicked for me, only once they saw everything from the marketing side.\n\nLenny Rachitsky (00:48:32):\nYou have this concept that you described as a dummy explanation, when someone, you just need it to feel really, really simple. Can you add some color to that?\n\nRaaz Herzberg (00:48:40):\nYes. It's when I, now in marketing, and in everything we write, and everything our team produces in terms of anything, anything written by Wiz, I keep going back to, I don't want us to forget that we are inside our own bubble.\n\n(00:48:56):\nWe go to work at Wiz every day. Wiz is a cloud security company. We live inside our own bubble, but reminding ourselves that customers don't live in that bubble, they're people in the world. Their life is not Wiz.\n\n(00:49:11):\nSo every time you write something, I wanted to not assume knowledge about Wiz, or knowledge about the product, or deep knowledge about the market. I'll give just a simple example.\n\n(00:49:23):\nWiz itself is based on, part of the deep innovation that Wiz brought to the market that enabled the scale, was a very high correlated signal that's based on a graph database. So inside Wiz, we have the Wiz graph database, for security.\n\n(00:49:37):\nIf you write something that says, the Wiz Graph Database, I don't like it. Because why would a common person know it is the Wiz Graph Database, right? So it's making sure that every single thing you say is understandable by anybody. There's no reason to use complex terminology, when you can keep things straight and simple.\n\nLenny Rachitsky (00:49:59):\nEasier said than done, but such a good reminder to always be, is there a framework here? Are you just trying to remember, people outside don't understand anything we are talking about, and simplify it further?\n\n(00:50:10):\nHow do you actually practice that? Because I imagine everyone's, \"Yeah, yeah, yeah, I know. I know all this stuff,\" but they don't actually do it. Is there any tips there, for how to actually practice this?\n\nRaaz Herzberg (00:50:18):\nI constantly remind myself about the bubble. Every time somebody says, \"Oh, we haven't changed our color for so long, or a website's headline,\" a lot of those things, for me, it's like, you are the only one that is sick of it.\n\n(00:50:33):\nYour customers are just learning what you put there 10 months ago. You are the only one looking at this thing, day after day after day after day after day. You're actually going to change it, only they're just starting to grasp it, and you're changing it under their feet.\n\n(00:50:46):\nIt's living in that bubble, and constantly reminding myself, it is a bubble. I'm in that Wiz bubble, right, but my audience is not. So yeah, it's a daily reminder. It's a hard daily reminder.\n\nLenny Rachitsky (00:51:00):\nThat is so funny. Okay, just a few more questions. One is, so there's four co-founders of Wiz. That right?\n\nRaaz Herzberg (00:51:08):\nYeah.\n\nLenny Rachitsky (00:51:09):\nWhat your relationship with them, how has that changed over the years, and over time? I imagine it's very difficult being, not a founder, trying to have a lot of influence on strategy and vision, and all these things.\n\n(00:51:23):\nJust, I guess, how has that relationship changed over the years? Anything there that might be helpful to folks, and any advice for people in a similar boat, to work well with founders who are also very product-oriented, and very opinionated about everything?\n\nRaaz Herzberg (00:51:38):\nYeah, I think the Wiz founding team is a truly incredible team. They also have a very unique story. Wiz is actually their second company together. So before Whiz, they founded Adallom, which sold to Microsoft.\n\n(00:51:51):\nThat's how they all ended up in Microsoft in the first place. Even before that, they all worked together in the Israeli army, so they've known each other for, they've been working together for 30 years, right?\n\nLenny Rachitsky (00:52:02):\nWow.\n\nRaaz Herzberg (00:52:02):\nIt's a long, long time. Well, not 30, I made them older, like 20, 22, 22 years. It's a very, very, very unique team, where there is complete trust between the team members. Each has his own clear domain, and that's why decisions are made super fast, super fast, because, the complete trust, and everybody has their clearly own domain.\n\n(00:52:31):\nI think the unique thing about Wiz, and I truly think it defines their company's culture to this day, is exactly that they did not have to work hard, to be able to impact strategy, and get a seat at the table.\n\n(00:52:45):\nI think that it's open, it's a very open culture, and an open company, that goes back to the beginning of being able to say, \"I don't understand.\"\n\n(00:52:53):\nThey really believe in employees, and they really believe in giving everybody a chance to have impact. Regardless of title or experience or anything, if you want to drive more impact, you will get the chance. I think it's something I really learned to adore in that team.\n\n(00:53:10):\nIt's like, they will give their trust to someone, and they will allow you to try. And I think it also causes employees to have a lot of loyalty, because you are given those opportunities, and you are given that chance.\n\n(00:53:24):\nIt builds a very, very healthy culture, and I think, also, a culture that's very loyal. Everybody feels part of what's being built here.\n\nLenny Rachitsky (00:53:32):\nIncredible. And how many employees are there? How large is Wiz at this point? Just for folks to get a sense, if they want to potentially join Wiz, some day?\n\nRaaz Herzberg (00:53:39):\nAround 1,000 through 500, probably.\n\nLenny Rachitsky (00:53:46):\nOkay, awesome. Amazing.\n\n(00:53:47):\nOkay, well, potentially final question. I want to take us to Contrarian Corner. I'm curious if there's something you have a very contrarian opinion about, something that you believe, that a lot of other people don't believe?\n\n(00:53:59):\nWe've already covered a number of things, I think, like that, but is there anything else that comes to mind?\n\nRaaz Herzberg (00:54:03):\nIt's so funny, because I don't think we've covered anything contrarian.\n\nLenny Rachitsky (00:54:05):\nOkay.\n\nRaaz Herzberg (00:54:09):\nI think one thing is, maybe goes back to what I was talking about before, but it was failing in confidence. I think at least, being a woman in tech, you get talked to a lot about imposter syndrome, and building up her confidence. I actually do think that my approach to it, at least for me, has been just more effective. I won't be able to build that confidence.\n\n(00:54:30):\nI do feel like an imposter, and I know there's always those statistics about many people feeling that way. So I think, maybe just, \"Let's embrace it. I feel like an imposter, you feel like an imposter, everybody feels like an imposter,\" It's kind of, maybe embrace it, but don't let that stop you from making a decision.\n\n(00:54:49):\nMaybe they will find out you're an imposter, maybe let them find out. It's fine. If you think about trying to go to an interview for a company, and you start thinking, \"Oh no, I won't get accepted, they won't take me,\" perfect.\n\n(00:55:03):\nLet them not accept you. You think you're not good enough? Perfect. That's on them, to not accept you, right? Give yourself that opportunity.\n\n(00:55:10):\nAnd I think, for me, maybe less talking about the imposter syndrome, more talking about just, \"Okay, but ignore it. You will never know your limit if you don't try.\"\n\nLenny Rachitsky (00:55:20):\nThe best advice I've heard along these lines, which is basically what you're saying, is that when you take on a new role, you actually are an imposter. You've never done this before, and that's okay, and that's very normal.\n\n(00:55:32):\nMost people in a new role, when they're promoted, given a big opportunity, yeah, you are an imposter in many ways, but that's okay. And that's exactly what you're saying.\n\nRaaz Herzberg (00:55:39):\nI never heard it, but I love it.\n\nLenny Rachitsky (00:55:42):\nRaaz, is there anything else you wanted to share, anything else that we haven't touched on, that you think might be helpful to folks, before we get to our very exciting lightning round?\n\nRaaz Herzberg (00:55:49):\nI deeply, deeply believe that we're doing something super special in Wiz, and I think the company is in such an interesting place of hyperscaling, but still keeping that authentic, and I think, flat and enabling culture.\n\n(00:56:02):\nI think there's literally interesting opportunities across every domain. So yeah, just to say that we are always hiring for great people, trying to make an impact.\n\nLenny Rachitsky (00:56:13):\nAre there any roles or areas you're specifically most focused on hiring now, in case folks are listening, you're like, \"Oh, shit, I'm going to apply?\"\n\nRaaz Herzberg (00:56:19):\nTruly, the beauty of hypersaling is, we are hiring across everything, but also, if you feel super strongly about joining, and you don't find the right role, we'd still love to talk to you. There's many, many things for passionate people to do here.\n\nLenny Rachitsky (00:56:34):\nAwesome. We'll link to the Career page in the show notes. And with that, Raaz, we've reached our very exciting lightning round. Are you ready?\n\nRaaz Herzberg (00:56:41):\nI'm ready, I hope.\n\nLenny Rachitsky (00:56:43):\nFirst question, what are two or three books that you find yourself recommending most to other people?\n\nRaaz Herzberg (00:56:48):\nSo I focus like it was on the product side of things. We mentioned the heat in the kitchen. Actually, one of my most favorite business books, and I've read a lot of them, is probably Setting the Table, by Danny Meyer, which is, he owns Shake Shack, and a chain of really great restaurants in New York.\n\n(00:57:07):\nAnd it's such an interesting business perspective, from a different domain, than obviously tech or SaaS. But there's so many applicable lessons there, from the deep connection to hosting, focusing and obsessing over your customer. Shake Shack, unlike other chains, where they optimize for you not to sit down, they optimize for you to sit down there. It's a very, very unique culture and unique vision, and I've learned a lot. Some of the most memorable lessons come from his management thoughts.\n\n(00:57:39):\nImagine huge chains, but also very high-end restaurants. I think it's a very, very inspiring, inspiring book, and different, just different from my domain, but very applicable in my domain, as well.\n\n(00:57:50):\nAnd then, a second book I really like, I read it early on in Wiz, and so did the entire founding team, I think, the book by Netflix co-founder Reed Hastings, No Rules Rules, which also, I think, talks very clearly. Netflix has a super unique culture and story, right?\n\n(00:58:11):\nTalk about pivots, they sold cassettes over mail, and somehow pivoted to what it is today. That's an insane story. Think about pivoting from a tech company, to a company that has production to do, and produces reality TV. Talk about the type of culture you would need to truly pivot, I think it's a super interesting read for anybody thinking about putting strong culture in place.\n\nLenny Rachitsky (00:58:34):\nI'm going to call an audible, and ask about marketing, specifically. You said that early on, you read some marketing books, and listened to marketing podcasts. Is there anything else that you recall was very helpful, in helping you ramp up in this world, and do marketing?\n\nRaaz Herzberg (00:58:48):\nHonestly, I think, at the end, for me, I just ended up saying, \"What are the companies I feel do things really well? What are the brands I love, and what do I love about them?\"\n\n(00:59:04):\nAnd then, really obsessing about, what did they do, what are their team doings? And then, also, obsessing about the people behind them. For example, I think Gong does an amazing job in marketing, for a B2B product.\n\n(00:59:22):\nSo it was like, \"Okay, so what are all the things Gong did?\" Then I would look up every single talk their CMO gave. So it's like, I always backed up into it. I did not care if it's a security company or not a security company.\n\n(00:59:35):\nI actually don't like the way most security companies market things. It's mostly by frightening and fear, and I don't like it. For me, it was just looking at brands I love, and then backtracking from there.\n\nLenny Rachitsky (00:59:49):\nI love that. We have the CPO of Gong and co-founder coming on the podcast very soon, so I'll ask him about this.\n\nRaaz Herzberg (00:59:53):\nOh, cool.\n\nLenny Rachitsky (00:59:55):\nAll right, next question. Do you have a favorite recent movie or TV show you really enjoyed?\n\nRaaz Herzberg (00:59:59):\nHonestly, I hardly, hardly watch anything. I think The Wire is the best show ever created.\n\n(01:00:05):\nI will take that fight with anybody. But yeah, I haven't really watched anything super recent.\n\nLenny Rachitsky (01:00:11):\nThe only problem with the Wire is it's so long to watch. I've watched, I've seen it, I love it, but it's a large commitment. It's an hour times 22 episodes times, I think, five seasons, but worth it.\n\nRaaz Herzberg (01:00:22):\nWorth it.\n\nLenny Rachitsky (01:00:24):\nNext question, do you have a favorite product you've recently discovered, that you really love?\n\nRaaz Herzberg (01:00:28):\nIt's a funny question, in the world we live in, where there's just so many similar things.\n\nLenny Rachitsky (01:00:32):\nThat's why. Which one should we pay attention to? That's the question.\n\nRaaz Herzberg (01:00:36):\nI'll answer a pretty random answer.\n\nLenny Rachitsky (01:00:38):\nYeah, okay.\n\nRaaz Herzberg (01:00:38):\nRecently, I always go around with a notebook and a pen, still that type of person. I mean, I constantly walk around with them, across office rooms, blah, blah blah, and I always care deeply about the notebook and the pen.\n\n(01:00:50):\nI'm a very picky person. I pick pens, I pick notebooks, and I often lose my pens, which is sad. I recently bought this cute something, it's very geeky, like, a pen holder for a notebook. I did not know they existed.\n\n(01:01:04):\nIt's a very nice feature. It's small, magnetic, and it claps into your notebook, and then you can put the pen in it. Really nice feature.\n\nLenny Rachitsky (01:01:10):\nHow does one find this? Is there a brand, or a name, or something?\n\nRaaz Herzberg (01:01:14):\nI'll send you a link, but if you look, \"notebook pen holder,\" you'll find a ton.\n\nLenny Rachitsky (01:01:18):\nOkay, cool. We'll link to in the show notes, whatever one you recommend.\n\n(01:01:22):\nJust a couple more questions. Do you have a favorite life motto that you often come back to and find helpful, in work or in life?\n\nRaaz Herzberg (01:01:29):\nI think, keeping it simple. If you start feeling like something is too complex, or an answer is too complex, or something you're building in the product is too complex probably, or something in your life feels too complex, probably, it does mean something. But sometimes, you just have to maybe take two steps back, leave it there, until you come back to it again, and you find a simple way out.\n\n(01:01:50):\nWhether it's a private feature or anything, I feel like, if something starts getting too complex, and you don't know how to design it, or how to find end from start, it does mean it's not the right solution. It's too complex, it's not the right solution, but sometimes, I take two steps back, and you find it applicable to anything in life, almost.\n\nLenny Rachitsky (01:02:08):\nReminds me of the story when you were trying to sell the initial version of Wiz/beyond whatever it was called, early on, and it was just too complicated. No one understood what the hell's going on, and so I love how that circles back.\n\n(01:02:20):\nFinal question. I know you can't talk too much about this, but I'm also just curious what you're able to share. As I said, allegedly, a company whose name rhymes with Loogle, wanted to buy you guys for many billions, and you all decided to decline that, and stay private. Anything you could share there, about maybe why you decided to do that, if that was true at all?\n\nRaaz Herzberg (01:02:40):\nYeah, I mean, I can't address any specific offers. Obviously, Wiz over the years has gotten many acquisition offers. I can share, that I think for us, us being the founding team, the employees, the customers, the board, staying on an independent path, we all really believe that Wiz can become one of the biggest security companies in the world.\n\n(01:03:06):\nWhen you look at Wiz today, and I mean, we spoke about the unconventional growth, when you think about it, in some ways, Wiz addresses the biggest growing market of security. Cloud security, cloud is the fastest growing, cloud is such a fast-growing market. Cloud grows 20, 30%, year over year.\n\n(01:03:25):\nWe feel like everything is in the cloud, but in reality, by estimation, only 20%, 15 to 20% of the infra today, is in cloud. It's a really, really fast-growing state, in a fast-growing market. And security by nature is a bit of a market of leaders.\n\n(01:03:42):\nI mean, it's a bit like buying insurance for something. You want to buy it from the best, from the leader in this domain. And today, Wiz really is that leader, because it's a new space. Wiz is considered, I think, in many ways, and that is also what makes marketing and brand, not just marketing, but truly, brand so important.\n\n(01:04:01):\nWiz is considered, I think, the cloud security company, in a lot of ways. Still, of course, it's our to lose. There's a ton of work ahead of us, but that is a huge opportunity in front of us, becoming the cloud security company. And I think nobody thinks we are anywhere near ready to give it up, in a way.\n\nLenny Rachitsky (01:04:21):\nI totally understand that, and again, Wiz is hiring, in case you are inspired by what you're hearing.\n\n(01:04:27):\nRaaz, this was incredible. I'm so happy that you did this. Thank you so much for being here.\n\n(01:04:32):\nTwo final questions. Where can folks find you online, if they want to reach out, and maybe follow up on stuff? And how can listeners be useful to you?\n\nRaaz Herzberg (01:04:37):\nFind me on LinkedIn, and yeah, no apply. We'd love great people who are learners, which I think is what this podcast is all about. So definitely, the right place to find the right people.\n\nLenny Rachitsky (01:04:48):\nAwesome. Raaz, thank you so much.\n\nRaaz Herzberg (01:04:49):\nThank you so much for having me.\n\nLenny Rachitsky (01:04:52):\nBye, everyone. Thank you so much for listening.\n\n(01:04:56):\nIf you found this valuable, you can subscribe to the show on Apple Podcasts Spotify, or your favorite podcast app. Also, please consider giving us a rating, or leaving a review, as that really helps other listeners find the podcast.\n\n(01:05:09):\nYou can find all past episodes, or learn more about the show at lennysodcasts.com. See you in the next episode.\n\n",
+  "companies": [
+    "Microsoft",
+    "Google",
+    "Twitter",
+    "Uber",
+    "Meta",
+    "LinkedIn",
+    "Apple",
+    "Vercel",
+    "Zoom",
+    "Netflix"
+  ],
+  "topics": [
+    "product",
+    "design",
+    "growth",
+    "tech_ai",
+    "career",
+    "operations",
+    "finance",
+    "culture",
+    "hiring",
+    "leadership"
+  ],
+  "failure_patterns": [],
+  "episode_url": null,
+  "audio_url": null
+}

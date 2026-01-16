@@ -1,0 +1,340 @@
+{
+  "episode_name": "Interview Q Compilation",
+  "title": "Interview Q Compilation",
+  "slug": "interview-q-compilation",
+  "num_segments": 50,
+  "segments": [
+    {
+      "speaker": "Lenny",
+      "timestamp": "00:03)",
+      "timestamp_seconds": 0.0,
+      "content": "Welcome to a very special episode of the podcast. Ever since I started this podcast, one of people's favorite segments continues to be the lightning round, and in particular, a question I ask guests around their favorite interview question that they like to ask candidates and what they look for in a good answer. What we've done is we've picked my favorite interview questions that guests have shared. Out of over a hundred guests on the podcast, we've got 17 of my favorite interview questions all combined in this one episode. You can use this episode anytime you are preparing to interview candidates, if you want to improve your existing interview questions,"
+    },
+    {
+      "speaker": "or if you're about to get interviewed and you want to prepare for the kinds of questions that you might get in the interview process.",
+      "timestamp": "00:47)",
+      "timestamp_seconds": 0.0,
+      "content": "Before we dive in, let me tell you about our product called Sendbird. The all-in-one communications API platform designed for both web and mobile apps. In a world saturated with multi-channel communication, product teams are discovering the effectiveness of in-app communication. With Sendbird, businesses can elevate their in-app experience with decluttered and branded communication featuring AI powered chatbots, one-way messages, chat, video calls and livestream capabilities, all tailored for commerce, marketing and top-tier support. Forward-thinking companies such as Hinge, Patreon, Yahoo, Accolade, and more use Sendbird to build in-app communication experiences that drive engagement, conversion and retention. In-app communication has the highest conversion, highest engagement and highest satisfaction of any communication channel. And when it comes to investing in this channel, trust Sendbird to take your in-app communication experience to the next level. Start today with Sendbird's free plan, and as a listener of Lenny's Podcast, you'll get an additional two months of unlimited usage and access to all premium features,"
+    },
+    {
+      "speaker": "including creating your very own generative AI chatbot. Visit sendbird.com/lenny to begin your free journey. That's sendbird.com/lenny.",
+      "timestamp": "02:04)",
+      "timestamp_seconds": 0.0,
+      "content": "This episode is brought to you by ePO. ePO is a next generation AB testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on ePO to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features, and ePO helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues and analyze performance all on my own. ePO does all that and more with advanced statistical methods that can help you shave weeks off experiment time, an accessible UI for diving deeper into performance, and out-of-the-box reporting that helps you avoid annoying, prolonged analytic cycles. ePO also makes it easy for you to share experiment insights with your team, sparking new ideas for the AB testing flywheel. ePO powers experimentation across every use case, including product, growth, machine learning, monetization and email marketing. Check out ePO at getepo.com/lenny and 10"
+    },
+    {
+      "speaker": "x your experiment velocity. That's getepo.com/lenny.",
+      "timestamp": "03:22)",
+      "timestamp_seconds": 0.0,
+      "content": "First up, we've got Eeke De Miliano. Eeke was head of product at Retool. She was also a PM at Stripe. Currently,"
+    },
+    {
+      "speaker": "she's actually starting her own company. Here's Eeke sharing her favorite interview question.\n\nEeke De Miliano",
+      "timestamp": "03:36)",
+      "timestamp_seconds": 0.0,
+      "content": "\"To what do you attribute your success?\" And you can't say \"luck\". Because I think humble people will always say \"luck\" in some way, and I always kind of want to know, how self-aware are you, basically, and how curious are you?"
+    },
+    {
+      "speaker": "I think people have really sort of gone back and reflected on why are they where they are today really says a lot about how they think about the world.\n\nLenny",
+      "timestamp": "03:58)",
+      "timestamp_seconds": 0.0,
+      "content": "Next up, we've got Geoff Charles, Head of Product at Ramp,"
+    },
+    {
+      "speaker": "and also just happens to be one of the most popular episodes of the podcast.\n\nGeoff Charles",
+      "timestamp": "04:06)",
+      "timestamp_seconds": 0.0,
+      "content": "I ask, \"What's the hardest thing you've ever done?\" I ask that because working at Ramp is hard, and I want to understand what hard means for them. I want to understand why it was hard. I want to understand how they overcame that difficulty, how they worked with other people to overcome that difficulty,"
+    },
+    {
+      "speaker": "and how much agency they had in overcoming that. So it's a really good sign around what is difficulty to them and how much work they put into overcoming that.\n\nLenny",
+      "timestamp": "04:31)",
+      "timestamp_seconds": 0.0,
+      "content": "Next up we've got Shishir Mehrotra CEO, and Co-founder of Coda. Funny enough, we posted this exact clip to TikTok and Instagram Reels, and it blew up. It's one of the most popular clips we've ever put on our channels. By the way, did you know I have a TikTok and an Instagram channel? Just look up Lenny's Podcast on TikTok or Instagram. Anyway, with that,"
+    },
+    {
+      "speaker": "here's Shishir Mehrotra sharing his favorite interview question.\n\nShishir Mehrotra",
+      "timestamp": "04:56)",
+      "timestamp_seconds": 0.0,
+      "content": "It's a very simple question, and it's a coded Eigenquestion test. The question is, \"A group of scientists have invented a teleportation device. They've hired you, Lenny, to be their business counterpart, bring this to market, product [inaudible 00:05:14].\" This question will actually work well for any role. But say, \"You could be a product manager for this thing, bring it to market. What do you do?\""
+    },
+    {
+      "speaker": "That's the whole question.",
+      "timestamp": "05:23)",
+      "timestamp_seconds": 0.0,
+      "content": "Usually people will start asking a bunch of questions and say, \"Well, tell me more about this device. What does it do? How does it work? Is it big? Is it small? Is it vast? Does it disintegrate things or not? Does it need a receiver and a sender? Is it safe?\""
+    },
+    {
+      "speaker": "All these different questions come out.",
+      "timestamp": "05:39)",
+      "timestamp_seconds": 0.0,
+      "content": "I'll just let those questions come out, and at some point I'll say, \"Okay, nice job generating all the questions. Turns out these scientists, they hate talking to people and they're kind of annoyed by all your questions. And so they've decided that they will answer only two of your questions, and after that they expect a plan. What two questions do you ask?\" (05:59): Interestingly, all of a sudden the sharp product managers, engineers, basically every role, they very quickly find what are the one or two Eigenquestions on this topic. There's no right answer, but I'll tell you one of my favorite ones, because the product manager said, \"Okay, if I had to ask two questions, the two questions I would ask, one, is it safe enough for humans or not?\" That was a very crisp way to get to just safety. How reliable is it? They didn't ask how reliable it is, how many bits in the middle of this. \"Just tell me, is it safe enough for humans or not?\" (06:31): The second one is, \"Is it more expensive CapEx or OpEx? Is it more expensive to buy them or to run them?\" (06:37): And then he took those two questions, and he said, \"Just with those two questions, I can form these quadrants.\" You can say, \"Oh, it's safe enough for humans and they're very cheap to buy, but expensive to run.\" Then you probably run them like human fax machines. You put them everywhere you can and you say, \"Hey, look, it's expensive to use, but you all have the ability to teleport anywhere you want and this is how we're going to run it.\" (06:59): On the other hand, they're very expensive to buy, but cheap to run, you'd probably have to place them very strategically,"
+    },
+    {
+      "speaker": "in which case what you'd probably do is replace airports. Because airports are pretty strategically placed in places where people are trying to get around places.",
+      "timestamp": "07:12)",
+      "timestamp_seconds": 0.0,
+      "content": "If it's not safe enough for humans, then you've got a whole different class of use cases where you go value what goods are transported in very costly ways? And people come up with, \"Do you do the most expensive things? Is teleporting people's replacement [inaudible 00:07:29], is that a really demanding thing?\" (07:32): But these two questions kind of get to the heart of it. The question is totally made up. No teleportation device exists,"
+    },
+    {
+      "speaker": "at least not yet. I find that people's ability to learn the method is significantly higher if it's low stakes.",
+      "timestamp": "07:45)",
+      "timestamp_seconds": 0.0,
+      "content": "That question, by the way, if you ask a kid that question, the new teleportation device, you get to ask two questions, almost every kid will quickly get to two pretty good Eigenquestions. Again, kids are incredibly good at simplifying these things down. It's actually a skill we remove from ourselves. A lot of your candidates tell me things like, \"I guess I would ask them what size it is.\" I'm like, \"Why would you ask them? What decision is that going to allow you to make, to know what size it is?\" Sometimes they can explain it,"
+    },
+    {
+      "speaker": "but sometimes not. They don't get hired.",
+      "timestamp": "08:16)",
+      "timestamp_seconds": 0.0,
+      "content": "But then, actually, the thing I'd say about it is, there are Eigenquestion kind of everywhere. You could take any product out there. I'll do it with my kids a lot. I was just riding with with my younger daughter, and she said, \"How come there's three gas stations in the same corner? Why do people do that?\" That's a really insightful observation. What's the Eigenquestion? How do you place a gas station? You can almost take anything and say, \"What is the question that really drives this answer?\""
+    },
+    {
+      "speaker": "Lenny",
+      "timestamp": "08:45)",
+      "timestamp_seconds": 0.0,
+      "content": "This next interview question comes from Yuhki Yamashita, Chief Product Officer at Figma,"
+    },
+    {
+      "speaker": "also a former Head of Design at Uber.\n\nYuhki Yamashita",
+      "timestamp": "08:53)",
+      "timestamp_seconds": 0.0,
+      "content": "\"Describe to me a time when you were part of a controversial product decision. What did you do?\" All those things. I think it's really revealing, because if they can set up this conflict and understand why this problem was really important and represent both sides and such that you can understand why that conflict existed in the first place, and they can do it in this kind of even-keeled way where you realize that they can take on these different perspectives, you start to learn a lot about that person,"
+    },
+    {
+      "speaker": "I think.",
+      "timestamp": "09:25)",
+      "timestamp_seconds": 0.0,
+      "content": "Or sometimes I just ask them for basic things like, \"Okay, talk about a big problem that you worked on.\" The thought experiment for me is always, coming out of that, do I feel compelled to work on that problem? Right? No matter how boring it sounds on the surface, I think a really great product manager kind of casts something. It's like, \"Well, this is why it's so existential and this is why it's so interesting, and really rallied the troops up. That's kind of one big thing of storytelling and communication, because at the end of the day,"
+    },
+    {
+      "speaker": "so much of our job is around that.\n\nLenny",
+      "timestamp": "09:57)",
+      "timestamp_seconds": 0.0,
+      "content": "Next you'll hear from Katie Dill, Head of Design at Stripe; Karri Saarine, CEO of Linear; and Camille Hearst, Product Leader at Spotify, former Product Leader at Patreon;"
+    },
+    {
+      "speaker": "who all share the same favorite interview question.\n\nKatie Dill",
+      "timestamp": "10:12)",
+      "timestamp_seconds": 0.0,
+      "content": "\"Tell me what work you are most proud of?\" The reason I ask that is because, well, it helps me understand their taste and their judgment, what motivates them,"
+    },
+    {
+      "speaker": "what work they view as good and as a good outcome. It also helps me understand a little bit about what they like to do and where their gravity pulls them.\n\nKarri Saarinen",
+      "timestamp": "10:36)",
+      "timestamp_seconds": 0.0,
+      "content": "I think usually I like to ask what is the candidate most proud of and why on their professional life or otherwise. What they're most proud of and why? But I think it's gives you a little bit of indication of what the person values and how they think about things. Also, I think it's always nice that people can share something they think they did really well, and we can spend time on it,"
+    },
+    {
+      "speaker": "versus just asking something more negative things.\n\nCamille Hearst",
+      "timestamp": "11:04)",
+      "timestamp_seconds": 0.0,
+      "content": "I like to ask people to tell me about something they're really proud of that they accomplished, take me through the process, and talk to me about why they're proud of it. I find you can learn so much about a person's motivations, about their work ethic, about what they care about, what good looks like to them,"
+    },
+    {
+      "speaker": "and I think those are all really important things to understand about a person if you're going to work closely with them.\n\nLenny",
+      "timestamp": "11:29)",
+      "timestamp_seconds": 0.0,
+      "content": "Next is JZ, Head of Product at Webflow, former Airbnb colleague,"
+    },
+    {
+      "speaker": "sharing her favorite interview question.\n\nJiaona Zhang",
+      "timestamp": "11:35)",
+      "timestamp_seconds": 0.0,
+      "content": "I do like to do behavioral questions. Just really understanding, when they've been in challenging situations, when they've been in ambiguous situations, how do they navigate? (11:44): Ambiguity is a big one for me, because at the end of the day, the PM job is really ambiguous. It's really hard to describe on a piece of paper all the things that you're going to encounter. Good answers are people who put structure and a way forward through the ambiguity. That's what you look for. You want your PM to not just be like, \"Oh no, we're swimming in ambiguity,\""
+    },
+    {
+      "speaker": "but actually put a path forward.",
+      "timestamp": "12:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I think, also, looking for people who are seeking help, seeking those inputs, as opposed to being like, \"Yep, this is the way. This is very clear.\" Because, again, the chances of whatever path you chart out for any product, for anything that you're doing, is the right path from the first time that you do it, so rare. And so I want to see someone be able to get those inputs, be able to say, \"This is the path. This is how I learned why I put this path together.\" And then going back to a lot of the stuff I think we touched upon in this podcast is like, what are the little milestones that make you say, \"Hey, is this working? Is this not working?\""
+    },
+    {
+      "speaker": "And then make you either make a different decision. Seeing people do that really well is a big thing I look for.\n\nLenny",
+      "timestamp": "12:44)",
+      "timestamp_seconds": 0.0,
+      "content": "Next up is Noah Weiss,"
+    },
+    {
+      "speaker": "Chief Product Officer at Slack.\n\nNoah Weiss",
+      "timestamp": "12:49)",
+      "timestamp_seconds": 0.0,
+      "content": "\"What unfair secrets have you learned to improve the velocity and energy level of a product team?\" When I say \"unfair\" or \"secret\", I usually mean not something that you probably read on a media [inaudible 00:13:02]. \"What did you learn? How did you learn it? How does it work, and how do you apply it?\" You also just get amazing,"
+    },
+    {
+      "speaker": "interesting bits of inspiration from asking that.\n\nLenny",
+      "timestamp": "13:11)",
+      "timestamp_seconds": 0.0,
+      "content": "This next question comes from the very sultry voice of Ben Williams,"
+    },
+    {
+      "speaker": "former VP of Product at Snyk and now an advisor to product-led growth startups.\n\nBen Williams",
+      "timestamp": "13:22)",
+      "timestamp_seconds": 0.0,
+      "content": "\"Fast forward three years, what's different about you then?\" A lot of people will default to telling you where they aspire to be in terms of role or title, but what I'm really looking for is signals of humility, of self-awareness,"
+    },
+    {
+      "speaker": "around areas of personal and professional growth. People who can be open about where they think they need to work on to grow themselves as people. I love that.",
+      "timestamp": "13:49)",
+      "timestamp_seconds": 0.0,
+      "content": "Also, just generally throughout interviews, I'm looking for curiosity. Day-to-day, good PMs will be asking \"why\" as much as my six-year-old son does, which is a lot, so I'll try and discern that through the course of the conversation. It's not really a question,"
+    },
+    {
+      "speaker": "but something I'm looking for.",
+      "timestamp": "14:08)",
+      "timestamp_seconds": 0.0,
+      "content": "And then maybe I want to flip it, because building on something that Adam Fishman was saying, his theme of evaluating the people dimension of folks you are potentially going to work with when you're interviewing with a company. This was a question I got asked myself recently by a candidate, which I just thought was brilliant, and that was, \"Tell me about the diversity, equity, inclusion and belonging initiatives that you've recently personally been involved with?\" It just felt like a really great way for them to be able to test alignment of their personal values with those of someone they'd be working with really closely,"
+    },
+    {
+      "speaker": "so I love that.\n\nLenny",
+      "timestamp": "14:42)",
+      "timestamp_seconds": 0.0,
+      "content": "Next up is Meltem Kuran Berkowitz,"
+    },
+    {
+      "speaker": "Head of Growth and a very early employee at Deel.\n\nMeltem Kuran Berkowitz",
+      "timestamp": "14:48)",
+      "timestamp_seconds": 0.0,
+      "content": "\"What would your siblings say about you?\" It's very telling. If they have siblings; if they don't, I will say, \"What will your parents say about you?\""
+    },
+    {
+      "speaker": "But it's very telling what you think other people think of you.\n\nLenny",
+      "timestamp": "15:00)",
+      "timestamp_seconds": 0.0,
+      "content": "What do you look for in their answer that gives you a sign that they're a good candidate or not?"
+    },
+    {
+      "speaker": "Meltem Kuran Berkowitz",
+      "timestamp": "15:05)",
+      "timestamp_seconds": 0.0,
+      "content": "I look for sincerity and self-awareness. Your siblings are never ... I mean, I love my sister, but she'll call me. She'll talk to me a lot. Being aware of that is very important. If someone was like, \"My siblings will say I'm very organized and that I'm the one that brings our family together,\" that's probably a bullshit answer. But if they're like, \"Oh, yeah, they'll say these weird things about me,\""
+    },
+    {
+      "speaker": "that shows a little bit of self-awareness and humbleness that I want to see in a person.\n\nLenny",
+      "timestamp": "15:30)",
+      "timestamp_seconds": 0.0,
+      "content": "Next is Paige Costello, Co-Head of Product Management,"
+    },
+    {
+      "speaker": "and also Head of AI at Asana.\n\nPaige Costello",
+      "timestamp": "15:36)",
+      "timestamp_seconds": 0.0,
+      "content": "I like to ask, \"Tell me about a time something went wrong. What was it? What did you do about it?\" Yada, yada. Effectively, the question gets at, when the product failed, when something about the team didn't work, just things that go wrong because that's what happens when you're doing this work. Evaluating people's mindset, the way they talk about it, and the way they relate to evaluating the situation,"
+    },
+    {
+      "speaker": "I think it's a great question. It really tells you a lot about how people think and how they perceive themselves when things are not working well.\n\nLenny",
+      "timestamp": "16:15)",
+      "timestamp_seconds": 0.0,
+      "content": "We are in the final stretch now. There's only five more interview questions to go. Next up is Nikhyl Singhal, VP of Product at Facebook,"
+    },
+    {
+      "speaker": "also one of the most popular episodes of the podcast.\n\nNikhyl Singhal",
+      "timestamp": "16:25)",
+      "timestamp_seconds": 0.0,
+      "content": "\"What's something that everyone takes for granted that you think is essentially hogwash or inaccurate?\" Sometimes I'll ask a manager, \"Look, you've managed hundreds of people in your career. What's conventional wisdom that you bet against, that you have found is actually inaccurate?\" And you could do that for, \"What do people think about AI that's inaccurate, that everyone believes?\""
+    },
+    {
+      "speaker": "You could do that for domains. You can do all kinds of things.",
+      "timestamp": "16:53)",
+      "timestamp_seconds": 0.0,
+      "content": "I'm always looking for people to break this sort of interview mindset. Everyone always prepares for interviews, and then their entire conversation is predicting what you think you want me to say. As a result, you can have high-quality people that you dismiss,"
+    },
+    {
+      "speaker": "because they weren't genuine.",
+      "timestamp": "17:19)",
+      "timestamp_seconds": 0.0,
+      "content": "There's no way to answer that question without being genuinely opinionated. Because it starts with, 'What is the thing that you think ...? I want to sit here and then tell me why it's inaccurate.\" When I break that wall, I'm testing, is this person authentic? Because sometimes I'm dismissing them because they told me nothing new. But I don't want the interview process to penalize them,"
+    },
+    {
+      "speaker": "and this was my save question.\n\nLenny",
+      "timestamp": "17:52)",
+      "timestamp_seconds": 0.0,
+      "content": "This next question comes from Ayo Omojola, Chief Product Officer at Carbon Health, former Product Lead at Square,"
+    },
+    {
+      "speaker": "and also a former founder.\n\nAyo Omojola",
+      "timestamp": "18:01)",
+      "timestamp_seconds": 0.0,
+      "content": "\"Tell me something you did that worked out, but not for the reason that you thought it would work,\" or, \"Tell me something you did that was a good decision that didn't work.\" A lot of my process is just teasing out introspection. It's just like, \"Are you a person who is reflective about the decisions you've made, and why they worked and why they did not, and incorporating that into your model so you make different decisions next time?\""
+    },
+    {
+      "speaker": "Lenny",
+      "timestamp": "18:21)",
+      "timestamp_seconds": 0.0,
+      "content": "Next up is Scott Belsky, Chief Strategy Officer at Adobe, former Chief Product Officer of Adobe,"
+    },
+    {
+      "speaker": "also former Founder of Behance.\n\nScott Belsky",
+      "timestamp": "18:31)",
+      "timestamp_seconds": 0.0,
+      "content": "I like asking about something people have learned about themselves that reveal the limitation in how they work. It's a way to test introspection, and once this person hits their limits or struggles, can they be open and introspective, or are they going to blame and point fingers?"
+    },
+    {
+      "speaker": "So I do ask that.",
+      "timestamp": "18:49)",
+      "timestamp_seconds": 0.0,
+      "content": "I also like the question, \"Do you consider yourself lucky?\" I think it's a fascinating question, because some people who are super-insecure about where they are and how they got there and might decline admitting luck. Those who are comfortable should admit that they were lucky. I mean, I think the truth is, we're all very lucky and certainly privileged,"
+    },
+    {
+      "speaker": "and I just think that that's always an interesting conversation.\n\nLenny",
+      "timestamp": "19:18)",
+      "timestamp_seconds": 0.0,
+      "content": "Our penultimate interview question comes from Lauryn Isford, Head of Growth at Notion,"
+    },
+    {
+      "speaker": "former Head of Growth at Airtable.\n\nLauryn Isford",
+      "timestamp": "19:26)",
+      "timestamp_seconds": 0.0,
+      "content": "\"Tell me about a time that you delivered something that was impactful.\""
+    },
+    {
+      "speaker": "I'm looking for someone to help me understand how they define impact and what it means to them. I think a good answer for a growth practitioner is intrinsic motivation about having an impact on the business.\n\nLenny",
+      "timestamp": "19:46)",
+      "timestamp_seconds": 0.0,
+      "content": "Our final interview question is actually advice for doing reference calls, which comes after finding someone great through your interview process. This comes from Paul Adams, Chief Product Officer at Intercom,"
+    },
+    {
+      "speaker": "with a killer Irish accent.\n\nPaul Adams",
+      "timestamp": "20:00)",
+      "timestamp_seconds": 0.0,
+      "content": "I have to do referral calls. You're interviewing someone, you want to give them the job, and they've got referees. Of course, the referees they have are the best people that they ever worked with and their favorite managers. This question is, \"What feedback will I be giving this person in their first performance review?\" It's an amazing question, because the person can't dodge it. There's an answer,"
+    },
+    {
+      "speaker": "and it's incredibly enlightening.\n\nLenny",
+      "timestamp": "20:23)",
+      "timestamp_seconds": 0.0,
+      "content": "And it's a wrap. Thank you so much for listening. I hope you found this valuable. Leave a comment either on the newsletter post, or in the YouTube comments, or even on Twitter. Let me know what you think. If there's a great response, we'll continue to do this. If not, we'll never do this again. All right, thank you. Enjoy."
+    }
+  ],
+  "full_text": "Lenny (00:03):\nWelcome to a very special episode of the podcast. Ever since I started this podcast, one of people's favorite segments continues to be the lightning round, and in particular, a question I ask guests around their favorite interview question that they like to ask candidates and what they look for in a good answer. What we've done is we've picked my favorite interview questions that guests have shared. Out of over a hundred guests on the podcast, we've got 17 of my favorite interview questions all combined in this one episode. You can use this episode anytime you are preparing to interview candidates, if you want to improve your existing interview questions, or if you're about to get interviewed and you want to prepare for the kinds of questions that you might get in the interview process.\n\n(00:47):\nBefore we dive in, let me tell you about our product called Sendbird. The all-in-one communications API platform designed for both web and mobile apps. In a world saturated with multi-channel communication, product teams are discovering the effectiveness of in-app communication. With Sendbird, businesses can elevate their in-app experience with decluttered and branded communication featuring AI powered chatbots, one-way messages, chat, video calls and livestream capabilities, all tailored for commerce, marketing and top-tier support. Forward-thinking companies such as Hinge, Patreon, Yahoo, Accolade, and more use Sendbird to build in-app communication experiences that drive engagement, conversion and retention. In-app communication has the highest conversion, highest engagement and highest satisfaction of any communication channel. And when it comes to investing in this channel, trust Sendbird to take your in-app communication experience to the next level. Start today with Sendbird's free plan, and as a listener of Lenny's Podcast, you'll get an additional two months of unlimited usage and access to all premium features, including creating your very own generative AI chatbot. Visit sendbird.com/lenny to begin your free journey. That's sendbird.com/lenny.\n\n(02:04):\nThis episode is brought to you by ePO. ePO is a next generation AB testing and feature management platform built by alums of Airbnb and Snowflake for modern growth teams. Companies like Twitch, Miro, ClickUp and DraftKings rely on ePO to power their experiments. Experimentation is increasingly essential for driving growth and for understanding the performance of new features, and ePO helps you increase experimentation velocity while unlocking rigorous deep analysis in a way that no other commercial tool does. When I was at Airbnb, one of the things that I loved most was our experimentation platform where I could set up experiments easily, troubleshoot issues and analyze performance all on my own. ePO does all that and more with advanced statistical methods that can help you shave weeks off experiment time, an accessible UI for diving deeper into performance, and out-of-the-box reporting that helps you avoid annoying, prolonged analytic cycles. ePO also makes it easy for you to share experiment insights with your team, sparking new ideas for the AB testing flywheel. ePO powers experimentation across every use case, including product, growth, machine learning, monetization and email marketing. Check out ePO at getepo.com/lenny and 10 x your experiment velocity. That's getepo.com/lenny.\n\n(03:22):\nFirst up, we've got Eeke De Miliano. Eeke was head of product at Retool. She was also a PM at Stripe. Currently, she's actually starting her own company. Here's Eeke sharing her favorite interview question.\n\nEeke De Miliano (03:36):\n\"To what do you attribute your success?\" And you can't say \"luck\". Because I think humble people will always say \"luck\" in some way, and I always kind of want to know, how self-aware are you, basically, and how curious are you? I think people have really sort of gone back and reflected on why are they where they are today really says a lot about how they think about the world.\n\nLenny (03:58):\nNext up, we've got Geoff Charles, Head of Product at Ramp, and also just happens to be one of the most popular episodes of the podcast.\n\nGeoff Charles (04:06):\nI ask, \"What's the hardest thing you've ever done?\" I ask that because working at Ramp is hard, and I want to understand what hard means for them. I want to understand why it was hard. I want to understand how they overcame that difficulty, how they worked with other people to overcome that difficulty, and how much agency they had in overcoming that. So it's a really good sign around what is difficulty to them and how much work they put into overcoming that.\n\nLenny (04:31):\nNext up we've got Shishir Mehrotra CEO, and Co-founder of Coda. Funny enough, we posted this exact clip to TikTok and Instagram Reels, and it blew up. It's one of the most popular clips we've ever put on our channels. By the way, did you know I have a TikTok and an Instagram channel? Just look up Lenny's Podcast on TikTok or Instagram. Anyway, with that, here's Shishir Mehrotra sharing his favorite interview question.\n\nShishir Mehrotra (04:56):\nIt's a very simple question, and it's a coded Eigenquestion test. The question is, \"A group of scientists have invented a teleportation device. They've hired you, Lenny, to be their business counterpart, bring this to market, product [inaudible 00:05:14].\" This question will actually work well for any role. But say, \"You could be a product manager for this thing, bring it to market. What do you do?\" That's the whole question.\n\n(05:23):\nUsually people will start asking a bunch of questions and say, \"Well, tell me more about this device. What does it do? How does it work? Is it big? Is it small? Is it vast? Does it disintegrate things or not? Does it need a receiver and a sender? Is it safe?\" All these different questions come out.\n\n(05:39):\nI'll just let those questions come out, and at some point I'll say, \"Okay, nice job generating all the questions. Turns out these scientists, they hate talking to people and they're kind of annoyed by all your questions. And so they've decided that they will answer only two of your questions, and after that they expect a plan. What two questions do you ask?\"\n\n(05:59):\nInterestingly, all of a sudden the sharp product managers, engineers, basically every role, they very quickly find what are the one or two Eigenquestions on this topic. There's no right answer, but I'll tell you one of my favorite ones, because the product manager said, \"Okay, if I had to ask two questions, the two questions I would ask, one, is it safe enough for humans or not?\" That was a very crisp way to get to just safety. How reliable is it? They didn't ask how reliable it is, how many bits in the middle of this. \"Just tell me, is it safe enough for humans or not?\"\n\n(06:31):\nThe second one is, \"Is it more expensive CapEx or OpEx? Is it more expensive to buy them or to run them?\"\n\n(06:37):\nAnd then he took those two questions, and he said, \"Just with those two questions, I can form these quadrants.\" You can say, \"Oh, it's safe enough for humans and they're very cheap to buy, but expensive to run.\" Then you probably run them like human fax machines. You put them everywhere you can and you say, \"Hey, look, it's expensive to use, but you all have the ability to teleport anywhere you want and this is how we're going to run it.\"\n\n(06:59):\nOn the other hand, they're very expensive to buy, but cheap to run, you'd probably have to place them very strategically, in which case what you'd probably do is replace airports. Because airports are pretty strategically placed in places where people are trying to get around places.\n\n(07:12):\nIf it's not safe enough for humans, then you've got a whole different class of use cases where you go value what goods are transported in very costly ways? And people come up with, \"Do you do the most expensive things? Is teleporting people's replacement [inaudible 00:07:29], is that a really demanding thing?\"\n\n(07:32):\nBut these two questions kind of get to the heart of it. The question is totally made up. No teleportation device exists, at least not yet. I find that people's ability to learn the method is significantly higher if it's low stakes.\n\n(07:45):\nThat question, by the way, if you ask a kid that question, the new teleportation device, you get to ask two questions, almost every kid will quickly get to two pretty good Eigenquestions. Again, kids are incredibly good at simplifying these things down. It's actually a skill we remove from ourselves. A lot of your candidates tell me things like, \"I guess I would ask them what size it is.\" I'm like, \"Why would you ask them? What decision is that going to allow you to make, to know what size it is?\" Sometimes they can explain it, but sometimes not. They don't get hired.\n\n(08:16):\nBut then, actually, the thing I'd say about it is, there are Eigenquestion kind of everywhere. You could take any product out there. I'll do it with my kids a lot. I was just riding with with my younger daughter, and she said, \"How come there's three gas stations in the same corner? Why do people do that?\" That's a really insightful observation. What's the Eigenquestion? How do you place a gas station? You can almost take anything and say, \"What is the question that really drives this answer?\"\n\nLenny (08:45):\nThis next interview question comes from Yuhki Yamashita, Chief Product Officer at Figma, also a former Head of Design at Uber.\n\nYuhki Yamashita (08:53):\n\"Describe to me a time when you were part of a controversial product decision. What did you do?\" All those things. I think it's really revealing, because if they can set up this conflict and understand why this problem was really important and represent both sides and such that you can understand why that conflict existed in the first place, and they can do it in this kind of even-keeled way where you realize that they can take on these different perspectives, you start to learn a lot about that person, I think.\n\n(09:25):\nOr sometimes I just ask them for basic things like, \"Okay, talk about a big problem that you worked on.\" The thought experiment for me is always, coming out of that, do I feel compelled to work on that problem? Right? No matter how boring it sounds on the surface, I think a really great product manager kind of casts something. It's like, \"Well, this is why it's so existential and this is why it's so interesting, and really rallied the troops up. That's kind of one big thing of storytelling and communication, because at the end of the day, so much of our job is around that.\n\nLenny (09:57):\nNext you'll hear from Katie Dill, Head of Design at Stripe; Karri Saarine, CEO of Linear; and Camille Hearst, Product Leader at Spotify, former Product Leader at Patreon; who all share the same favorite interview question.\n\nKatie Dill (10:12):\n\"Tell me what work you are most proud of?\" The reason I ask that is because, well, it helps me understand their taste and their judgment, what motivates them, what work they view as good and as a good outcome. It also helps me understand a little bit about what they like to do and where their gravity pulls them.\n\nKarri Saarinen (10:36):\nI think usually I like to ask what is the candidate most proud of and why on their professional life or otherwise. What they're most proud of and why? But I think it's gives you a little bit of indication of what the person values and how they think about things. Also, I think it's always nice that people can share something they think they did really well, and we can spend time on it, versus just asking something more negative things.\n\nCamille Hearst (11:04):\nI like to ask people to tell me about something they're really proud of that they accomplished, take me through the process, and talk to me about why they're proud of it. I find you can learn so much about a person's motivations, about their work ethic, about what they care about, what good looks like to them, and I think those are all really important things to understand about a person if you're going to work closely with them.\n\nLenny (11:29):\nNext is JZ, Head of Product at Webflow, former Airbnb colleague, sharing her favorite interview question.\n\nJiaona Zhang (11:35):\nI do like to do behavioral questions. Just really understanding, when they've been in challenging situations, when they've been in ambiguous situations, how do they navigate?\n\n(11:44):\nAmbiguity is a big one for me, because at the end of the day, the PM job is really ambiguous. It's really hard to describe on a piece of paper all the things that you're going to encounter. Good answers are people who put structure and a way forward through the ambiguity. That's what you look for. You want your PM to not just be like, \"Oh no, we're swimming in ambiguity,\" but actually put a path forward.\n\n(12:05):\nI think, also, looking for people who are seeking help, seeking those inputs, as opposed to being like, \"Yep, this is the way. This is very clear.\" Because, again, the chances of whatever path you chart out for any product, for anything that you're doing, is the right path from the first time that you do it, so rare. And so I want to see someone be able to get those inputs, be able to say, \"This is the path. This is how I learned why I put this path together.\" And then going back to a lot of the stuff I think we touched upon in this podcast is like, what are the little milestones that make you say, \"Hey, is this working? Is this not working?\" And then make you either make a different decision. Seeing people do that really well is a big thing I look for.\n\nLenny (12:44):\nNext up is Noah Weiss, Chief Product Officer at Slack.\n\nNoah Weiss (12:49):\n\"What unfair secrets have you learned to improve the velocity and energy level of a product team?\" When I say \"unfair\" or \"secret\", I usually mean not something that you probably read on a media [inaudible 00:13:02]. \"What did you learn? How did you learn it? How does it work, and how do you apply it?\" You also just get amazing, interesting bits of inspiration from asking that.\n\nLenny (13:11):\nThis next question comes from the very sultry voice of Ben Williams, former VP of Product at Snyk and now an advisor to product-led growth startups.\n\nBen Williams (13:22):\n\"Fast forward three years, what's different about you then?\" A lot of people will default to telling you where they aspire to be in terms of role or title, but what I'm really looking for is signals of humility, of self-awareness, around areas of personal and professional growth. People who can be open about where they think they need to work on to grow themselves as people. I love that.\n\n(13:49):\nAlso, just generally throughout interviews, I'm looking for curiosity. Day-to-day, good PMs will be asking \"why\" as much as my six-year-old son does, which is a lot, so I'll try and discern that through the course of the conversation. It's not really a question, but something I'm looking for.\n\n(14:08):\nAnd then maybe I want to flip it, because building on something that Adam Fishman was saying, his theme of evaluating the people dimension of folks you are potentially going to work with when you're interviewing with a company. This was a question I got asked myself recently by a candidate, which I just thought was brilliant, and that was, \"Tell me about the diversity, equity, inclusion and belonging initiatives that you've recently personally been involved with?\" It just felt like a really great way for them to be able to test alignment of their personal values with those of someone they'd be working with really closely, so I love that.\n\nLenny (14:42):\nNext up is Meltem Kuran Berkowitz, Head of Growth and a very early employee at Deel.\n\nMeltem Kuran Berkowitz (14:48):\n\"What would your siblings say about you?\" It's very telling. If they have siblings; if they don't, I will say, \"What will your parents say about you?\" But it's very telling what you think other people think of you.\n\nLenny (15:00):\nWhat do you look for in their answer that gives you a sign that they're a good candidate or not?\n\nMeltem Kuran Berkowitz (15:05):\nI look for sincerity and self-awareness. Your siblings are never ... I mean, I love my sister, but she'll call me. She'll talk to me a lot. Being aware of that is very important. If someone was like, \"My siblings will say I'm very organized and that I'm the one that brings our family together,\" that's probably a bullshit answer. But if they're like, \"Oh, yeah, they'll say these weird things about me,\" that shows a little bit of self-awareness and humbleness that I want to see in a person.\n\nLenny (15:30):\nNext is Paige Costello, Co-Head of Product Management, and also Head of AI at Asana.\n\nPaige Costello (15:36):\nI like to ask, \"Tell me about a time something went wrong. What was it? What did you do about it?\" Yada, yada. Effectively, the question gets at, when the product failed, when something about the team didn't work, just things that go wrong because that's what happens when you're doing this work. Evaluating people's mindset, the way they talk about it, and the way they relate to evaluating the situation, I think it's a great question. It really tells you a lot about how people think and how they perceive themselves when things are not working well.\n\nLenny (16:15):\nWe are in the final stretch now. There's only five more interview questions to go. Next up is Nikhyl Singhal, VP of Product at Facebook, also one of the most popular episodes of the podcast.\n\nNikhyl Singhal (16:25):\n\"What's something that everyone takes for granted that you think is essentially hogwash or inaccurate?\" Sometimes I'll ask a manager, \"Look, you've managed hundreds of people in your career. What's conventional wisdom that you bet against, that you have found is actually inaccurate?\" And you could do that for, \"What do people think about AI that's inaccurate, that everyone believes?\" You could do that for domains. You can do all kinds of things.\n\n(16:53):\nI'm always looking for people to break this sort of interview mindset. Everyone always prepares for interviews, and then their entire conversation is predicting what you think you want me to say. As a result, you can have high-quality people that you dismiss, because they weren't genuine.\n\n(17:19):\nThere's no way to answer that question without being genuinely opinionated. Because it starts with, 'What is the thing that you think ...? I want to sit here and then tell me why it's inaccurate.\" When I break that wall, I'm testing, is this person authentic? Because sometimes I'm dismissing them because they told me nothing new. But I don't want the interview process to penalize them, and this was my save question.\n\nLenny (17:52):\nThis next question comes from Ayo Omojola, Chief Product Officer at Carbon Health, former Product Lead at Square, and also a former founder.\n\nAyo Omojola (18:01):\n\"Tell me something you did that worked out, but not for the reason that you thought it would work,\" or, \"Tell me something you did that was a good decision that didn't work.\" A lot of my process is just teasing out introspection. It's just like, \"Are you a person who is reflective about the decisions you've made, and why they worked and why they did not, and incorporating that into your model so you make different decisions next time?\"\n\nLenny (18:21):\nNext up is Scott Belsky, Chief Strategy Officer at Adobe, former Chief Product Officer of Adobe, also former Founder of Behance.\n\nScott Belsky (18:31):\nI like asking about something people have learned about themselves that reveal the limitation in how they work. It's a way to test introspection, and once this person hits their limits or struggles, can they be open and introspective, or are they going to blame and point fingers? So I do ask that.\n\n(18:49):\nI also like the question, \"Do you consider yourself lucky?\" I think it's a fascinating question, because some people who are super-insecure about where they are and how they got there and might decline admitting luck. Those who are comfortable should admit that they were lucky. I mean, I think the truth is, we're all very lucky and certainly privileged, and I just think that that's always an interesting conversation.\n\nLenny (19:18):\nOur penultimate interview question comes from Lauryn Isford, Head of Growth at Notion, former Head of Growth at Airtable.\n\nLauryn Isford (19:26):\n\"Tell me about a time that you delivered something that was impactful.\" I'm looking for someone to help me understand how they define impact and what it means to them. I think a good answer for a growth practitioner is intrinsic motivation about having an impact on the business.\n\nLenny (19:46):\nOur final interview question is actually advice for doing reference calls, which comes after finding someone great through your interview process. This comes from Paul Adams, Chief Product Officer at Intercom, with a killer Irish accent.\n\nPaul Adams (20:00):\nI have to do referral calls. You're interviewing someone, you want to give them the job, and they've got referees. Of course, the referees they have are the best people that they ever worked with and their favorite managers. This question is, \"What feedback will I be giving this person in their first performance review?\" It's an amazing question, because the person can't dodge it. There's an answer, and it's incredibly enlightening.\n\nLenny (20:23):\nAnd it's a wrap. Thank you so much for listening. I hope you found this valuable. Leave a comment either on the newsletter post, or in the YouTube comments, or even on Twitter. Let me know what you think. If there's a great response, we'll continue to do this. If not, we'll never do this again. All right, thank you. Enjoy.\n\n",
+  "companies": [
+    "Intercom",
+    "Box",
+    "Twitter",
+    "Slack",
+    "Instagram",
+    "Snowflake",
+    "Uber",
+    "Figma",
+    "Facebook",
+    "Square",
+    "Segment",
+    "Notion",
+    "Airbnb",
+    "Stripe",
+    "Linear"
+  ],
+  "topics": [
+    "product",
+    "design",
+    "growth",
+    "tech_ai",
+    "career",
+    "operations",
+    "culture",
+    "hiring",
+    "leadership"
+  ],
+  "failure_patterns": [],
+  "episode_url": null,
+  "audio_url": null
+}

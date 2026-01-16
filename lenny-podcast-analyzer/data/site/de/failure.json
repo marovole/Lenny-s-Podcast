@@ -10,7 +10,20 @@
       "technical debt",
       "solving the wrong problem"
     ],
-    "episodes": []
+    "episodes": [
+      "brian-chesky",
+      "carilu-dietrich",
+      "casey-winters",
+      "fareed-mosavat",
+      "gaurav-misra",
+      "john-cutler",
+      "jonny-miller",
+      "matt-mullenweg",
+      "nicole-forsgren-20",
+      "phyl-terry",
+      "ryan-singer",
+      "vijay"
+    ]
   },
   {
     "id": "organizational",
@@ -23,7 +36,11 @@
       "unclear ownership",
       "resistance to change"
     ],
-    "episodes": []
+    "episodes": [
+      "ben-williams",
+      "dylan-field-20",
+      "ryan-singer"
+    ]
   },
   {
     "id": "market",
@@ -35,7 +52,10 @@
       "regulatory issues",
       "market size miscalculation"
     ],
-    "episodes": []
+    "episodes": [
+      "gina-gotthilf",
+      "jag-duggal"
+    ]
   },
   {
     "id": "technical",
@@ -47,7 +67,14 @@
       "security issues",
       "scaling bottlenecks"
     ],
-    "episodes": []
+    "episodes": [
+      "ben-williams",
+      "camille-fournier",
+      "eoy-review",
+      "howie-liu",
+      "marty-cagan",
+      "matt-mullenweg"
+    ]
   },
   {
     "id": "personal",
@@ -59,6 +86,35 @@
       "fear of failure",
       "not asking for help"
     ],
-    "episodes": []
+    "episodes": [
+      "adam-grenier",
+      "alex-hardimen",
+      "andy-johns",
+      "annie-pearl",
+      "ayo-omojola",
+      "brian-chesky",
+      "dalton-caldwell",
+      "drew-houston",
+      "eeke-de-milliano",
+      "elena-verna-40",
+      "elizabeth-stone",
+      "eric-ries",
+      "geoff-charles",
+      "gergely",
+      "gia-laudi",
+      "graham-weaver",
+      "hilary-gridley",
+      "jake-knapp-john-zeratsky",
+      "jason-m-lemkin",
+      "jonny-miller",
+      "ken-norton",
+      "kenneth-berger",
+      "matt-dixon",
+      "meltem-kuran",
+      "nicole-forsgren",
+      "rachel-lockett",
+      "sri-batchu",
+      "tom-conrad"
+    ]
   }
 ]
