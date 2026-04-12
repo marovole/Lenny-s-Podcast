@@ -1108,16 +1108,16 @@
     "Meta"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "operations",
-    "finance",
-    "culture",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "operations",
+    "product",
+    "career",
+    "culture",
+    "finance"
   ],
   "failure_patterns": [],
   "episode_url": null,

@@ -1297,20 +1297,20 @@
     "Linear"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "operations",
-    "finance",
-    "culture",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "operations",
+    "product",
+    "career",
+    "culture",
+    "finance"
   ],
   "failure_patterns": [
-    "product",
-    "organizational"
+    "organizational",
+    "product"
   ],
   "episode_url": null,
   "audio_url": null

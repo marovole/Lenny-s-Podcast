@@ -650,18 +650,18 @@
     "Stripe"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "operations",
-    "finance",
-    "culture",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "operations",
+    "product",
+    "career",
+    "culture",
+    "finance"
   ],
   "failure_patterns": [],
-  "episode_url": "https://www.lennysnewsletter.com/p/failure",
-  "audio_url": "https://api.substack.com/feed/podcast/139448408/7dcbbc453162b40a6ce7a637ba30490e.mp3"
+  "episode_url": null,
+  "audio_url": null
 }

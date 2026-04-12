@@ -833,15 +833,15 @@
     "Salesforce"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "operations",
-    "finance",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "operations",
+    "product",
+    "career",
+    "finance"
   ],
   "failure_patterns": [],
   "episode_url": null,

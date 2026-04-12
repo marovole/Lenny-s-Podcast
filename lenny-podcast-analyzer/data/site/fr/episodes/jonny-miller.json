@@ -975,15 +975,15 @@
     "Zoom"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "operations",
-    "culture",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "operations",
+    "product",
+    "career",
+    "culture"
   ],
   "failure_patterns": [
     "product",

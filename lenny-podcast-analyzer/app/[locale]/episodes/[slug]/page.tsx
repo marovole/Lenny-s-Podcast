@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getEpisode, getEpisodes } from "../../../../lib/site-data";
 import { LOCALE_CODES } from "../../../../lib/locales";
+import { EpisodeContext } from "./EpisodeContext";
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -30,6 +31,7 @@ export default function EpisodePage({
 
   return (
     <article className="episode-article">
+      <EpisodeContext slug={params.slug} title={episode.title} />
       <header className="episode-header">
         <h2 className="episode-title">{episode.title}</h2>
         <div className="episode-actions">
@@ -48,7 +50,7 @@ export default function EpisodePage({
         </div>
         <div className="episode-actions">
           {episode.audio_url ? (
-            <audio controls src={episode.audio_url} className="episode-audio">
+            <audio id="main-episode-player" controls src={episode.audio_url} className="episode-audio">
               Your browser does not support the audio element.
             </audio>
           ) : (

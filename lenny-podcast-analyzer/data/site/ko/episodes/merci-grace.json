@@ -719,15 +719,15 @@
     "Salesforce"
   ],
   "topics": [
-    "product",
-    "design",
     "growth",
-    "tech_ai",
-    "career",
-    "finance",
-    "culture",
     "hiring",
-    "leadership"
+    "leadership",
+    "tech_ai",
+    "design",
+    "product",
+    "career",
+    "culture",
+    "finance"
   ],
   "failure_patterns": [],
   "episode_url": null,
