@@ -180,6 +180,7 @@ export async function POST(request: NextRequest) {
     const chatResponse = await fetch(endpoint, {
       method: 'POST',
       headers,
+      signal: AbortSignal.timeout(25000), // 25s timeout before CF 30s limit
       body: JSON.stringify({
         model: env.OPENAI_CHAT_MODEL,
         messages,
@@ -268,6 +269,12 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Chat API error:', error);
+    // Handle timeout specifically
+    if (error instanceof Error && error.name === 'TimeoutError') {
+      return errorResponse('AI service timed out. Please try again.', 504, {
+        'X-RateLimit-Remaining': String(rateLimit?.remaining ?? 30),
+      });
+    }
     return errorResponse('Internal server error', 500);
   }
 }
