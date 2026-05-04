@@ -70,8 +70,10 @@ export async function POST(request: NextRequest) {
     const rateLimit = await checkRateLimit(env.RATE_LIMIT_KV, clientIp, windowSeconds, maxRequests);
     if (!rateLimit.allowed) {
       return errorResponse('Rate limit exceeded', 429, {
-        'Retry-After': String(rateLimit.resetAt - Math.floor(Date.now() / 1000)),
+        'Retry-After': String(Math.max(0, rateLimit.resetAt - Math.floor(Date.now() / 1000))),
+        'X-RateLimit-Limit': String(maxRequests),
         'X-RateLimit-Remaining': '0',
+        'X-RateLimit-Reset': String(rateLimit.resetAt),
       });
     }
 
@@ -268,7 +270,9 @@ export async function POST(request: NextRequest) {
         'Content-Type': 'text/event-stream',
         'Cache-Control': 'no-cache',
         'Connection': 'keep-alive',
+        'X-RateLimit-Limit': String(maxRequests),
         'X-RateLimit-Remaining': String(rateLimit.remaining),
+        'X-RateLimit-Reset': String(rateLimit.resetAt),
       },
     });
   } catch (error) {
@@ -276,7 +280,9 @@ export async function POST(request: NextRequest) {
     // Handle timeout specifically
     if (error instanceof Error && error.name === 'TimeoutError') {
       return errorResponse('AI service timed out. Please try again.', 504, {
-        'X-RateLimit-Remaining': String(rateLimit?.remaining ?? 30),
+        'X-RateLimit-Limit': String(maxRequests),
+        'X-RateLimit-Remaining': String(rateLimit?.remaining ?? maxRequests),
+        'X-RateLimit-Reset': String(rateLimit?.resetAt ?? Math.floor(Date.now() / 1000) + windowSeconds),
       });
     }
     return errorResponse('Internal server error', 500);
