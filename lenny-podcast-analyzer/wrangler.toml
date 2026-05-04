@@ -3,7 +3,19 @@ compatibility_date = "2024-06-20"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
-# AI Chat Configuration
+# =============================================================================
+# Environment Variables — Source of Truth Notes
+#
+# LOCAL DEVELOPMENT (never set in wrangler.toml — use .env instead):
+#   OPENROUTER_API_KEY — from https://openrouter.ai/ (free tier available)
+#   LLM_MODEL           — e.g., "deepseek/deepseek-r1:free"
+#   EMBEDDING_MODEL     — e.g., "all-MiniLM-L6-v2"
+#
+# CLOUDFLARE DEPLOYMENT (set here OR via `npx wrangler secret put`):
+#   Secrets: OPENROUTER_API_KEY (set via `wrangler secret put`)
+#   Config vars below: model names and rate limits
+# =============================================================================
+
 [vars]
 # Using OpenRouter compatible models (free tier available)
 OPENAI_CHAT_MODEL = "openrouter/mistralai/mistral-7b-instruct"
