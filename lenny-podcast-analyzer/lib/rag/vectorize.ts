@@ -136,19 +136,4 @@ export async function queryVectorize(
   }));
 }
 
-/**
- * Convert vector matches to citations.
- */
-export function matchesToCitations(
-  matches: VectorMatch[],
-  contentMap?: Map<string, string>
-): Citation[] {
-  return matches.map((match) => ({
-    episode_slug: match.metadata.episode_slug,
-    episode_title: match.metadata.episode_title,
-    speaker: match.metadata.speaker || 'Unknown',
-    timestamp: match.metadata.timestamp || '00:00:00',
-    segment_index: match.metadata.segment_index,
-    content: contentMap?.get(match.id) || '',
-  }));
-}
+

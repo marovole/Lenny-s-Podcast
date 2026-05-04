@@ -57,15 +57,4 @@ export function buildPrompt(
   ];
 }
 
-/**
- * Format citations for output.
- */
-export function formatCitationsForOutput(citations: Citation[]): string {
-  if (citations.length === 0) return '';
 
-  const formatted = citations.map((c, i) => {
-    return `[${i + 1}] ${c.episode_title} (${c.timestamp}) - ${c.speaker}`;
-  });
-
-  return `\n\nSources:\n${formatted.join('\n')}`;
-}
