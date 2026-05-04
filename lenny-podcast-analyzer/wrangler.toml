@@ -2,3 +2,41 @@ name = "lenny-s-podcast"
 compatibility_date = "2024-06-20"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
+
+# AI Chat Configuration
+[vars]
+# Using OpenRouter compatible models (free tier available)
+OPENAI_CHAT_MODEL = "openrouter/mistralai/mistral-7b-instruct"
+OPENAI_EMBEDDING_MODEL = "text-embedding-3-small"
+VECTORIZE_INDEX_NAME = "lenny-podcast"
+RATE_LIMIT_WINDOW_SECONDS = "60"
+RATE_LIMIT_MAX = "30"
+
+# Ollama local embedding (optional - for local development)
+# Uncomment to use Ollama instead of OpenRouter/OpenAI for embeddings
+# OLLAMA_HOST = "http://localhost:11434"
+# OLLAMA_MODEL = "nomic-embed-text"
+
+# Vectorize Index Binding
+[[vectorize]]
+binding = "VECTORIZE_INDEX"
+index_name = "lenny-podcast"
+
+# R2 Bucket for Segment Content
+[[r2_buckets]]
+binding = "R2_SEGMENTS"
+bucket_name = "lenny-segments"
+
+# KV Namespace for Rate Limiting
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "67731499db874005a2b41fcf8066abd7"
+
+# Secrets (set via: npx wrangler secret put SECRET_NAME)
+# Required secrets:
+# - OPENROUTER_API_KEY (recommended - free tier available)
+# - OR OPENAI_API_KEY (alternative)
+#
+# Set secrets with:
+# npx wrangler secret put OPENROUTER_API_KEY
+# npx wrangler secret put OPENAI_API_KEY (if not using OpenRouter)
