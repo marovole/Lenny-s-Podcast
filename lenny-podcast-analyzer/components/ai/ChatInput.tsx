@@ -4,17 +4,35 @@
 
 'use client';
 
-import { useState, useRef, useCallback, type KeyboardEvent, type FormEvent } from 'react';
+import { useState, useRef, useCallback, useEffect, type KeyboardEvent, type FormEvent } from 'react';
 import { useChat, type ChatMessage, type Citation } from './ChatProvider';
 
 export function ChatInput() {
   const [input, setInput] = useState('');
   const { addMessage, updateLastMessage, setIsLoading, isLoading, currentContext, messages } = useChat();
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const abortController = useRef<AbortController | null>(null);
+  const messagesRef = useRef<ChatMessage[]>(messages);
+
+  // Keep messagesRef in sync
+  messagesRef.current = messages;
+
+  // Cleanup: abort any in-flight request on unmount
+  useEffect(() => {
+    return () => {
+      abortController.current?.abort();
+    };
+  }, []);
 
   const sendMessage = useCallback(async () => {
     const content = input.trim();
     if (!content || isLoading) return;
+
+    // Abort any in-flight request
+    if (abortController.current) {
+      abortController.current.abort();
+    }
+    abortController.current = new AbortController();
 
     // Add user message
     const userMessage: ChatMessage = {
@@ -36,8 +54,8 @@ export function ChatInput() {
     addMessage(assistantMessage);
 
     try {
-      // Build request
-      const requestMessages = [...messages.filter(m => m.id !== 'welcome'), userMessage].map(m => ({
+      // Build request using messagesRef to avoid stale closure
+      const requestMessages = [...messagesRef.current.filter(m => m.id !== 'welcome'), userMessage].map(m => ({
         role: m.role,
         content: m.content,
       }));
@@ -50,6 +68,7 @@ export function ChatInput() {
           filters: currentContext?.slug ? { episode_slug: currentContext.slug } : undefined,
           top_k: 8,
         }),
+        signal: abortController.current.signal,
       });
 
       if (!response.ok) {
@@ -101,12 +120,20 @@ export function ChatInput() {
         updateLastMessage(fullContent, citations);
       }
     } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') {
+        // User aborted - silently exit
+        return;
+      }
       console.error('Chat error:', error);
       updateLastMessage('Sorry, I encountered an error. Please try again.');
     } finally {
       setIsLoading(false);
+      // Clear abort controller on completion
+      if (abortController.current && !abortController.current.signal.aborted) {
+        abortController.current = null;
+      }
     }
-  }, [input, isLoading, addMessage, updateLastMessage, setIsLoading, currentContext, messages]);
+  }, [input, isLoading, addMessage, updateLastMessage, setIsLoading, currentContext]);
 
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
