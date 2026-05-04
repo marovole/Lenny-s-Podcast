@@ -4,23 +4,44 @@
 
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useCallback } from 'react';
 import { useChat, type ChatMessage } from './ChatProvider';
 import { CitationCard } from './CitationCard';
+
+// Distance from bottom threshold for auto-scroll (px)
+const AUTO_SCROLL_THRESHOLD = 100;
 
 export function MessageList() {
   const { messages, isLoading } = useChat();
   const listRef = useRef<HTMLDivElement>(null);
+  const userScrolledUp = useRef(false);
 
-  // Auto-scroll to bottom
+  // Check if user is near bottom
+  const isNearBottom = useCallback(() => {
+    const container = listRef.current;
+    if (!container) return true;
+    
+    const distanceFromBottom = container.scrollHeight - container.scrollTop - container.clientHeight;
+    return distanceFromBottom < AUTO_SCROLL_THRESHOLD;
+  }, []);
+
+  // Handle scroll events
+  const handleScroll = useCallback(() => {
+    userScrolledUp.current = !isNearBottom();
+  }, [isNearBottom]);
+
+  // Smart auto-scroll: only if user is near bottom
   useEffect(() => {
-    if (listRef.current) {
-      listRef.current.scrollTop = listRef.current.scrollHeight;
+    if (userScrolledUp.current) return;
+    
+    const container = listRef.current;
+    if (container) {
+      container.scrollTop = container.scrollHeight;
     }
   }, [messages]);
 
   return (
-    <div className="ai-messages" ref={listRef}>
+    <div className="ai-messages" ref={listRef} onScroll={handleScroll}>
       {messages.map((message) => (
         <MessageItem key={message.id} message={message} />
       ))}
