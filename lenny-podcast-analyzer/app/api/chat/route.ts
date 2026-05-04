@@ -215,13 +215,17 @@ export async function POST(request: NextRequest) {
             if (done) break;
 
             buffer += decoder.decode(value, { stream: true });
+            // Split on \n, handling both \n and \r\n line endings
             const lines = buffer.split('\n');
             buffer = lines.pop() || '';
 
-            for (const line of lines) {
-              if (line.startsWith('data: ')) {
-                const data = line.slice(6).trim();
-                if (data === '[DONE]') {
+            for (const rawLine of lines) {
+              // Remove potential \r at end (for \r\n endings)
+              const line = rawLine.replace(/\r$/, '');
+              if (!line.startsWith('data: ')) continue;
+              
+              const data = line.slice(6).trim();
+              if (data === '[DONE]') {
                   // Send citations at the end
                   const citationEvent: StreamEvent = {
                     type: 'citations',
