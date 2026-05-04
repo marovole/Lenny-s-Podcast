@@ -4,6 +4,10 @@
 
 import type { Citation, ChatMessage } from './types';
 
+// Token limits to prevent context overflow
+const MAX_PROMPT_TOKENS = 6000;  // Conservative limit for model context window
+const CHARS_PER_TOKEN = 4;        // Approximate: 4 chars ≈ 1 token for English text
+
 const SYSTEM_PROMPT = `You are Lenny's AI assistant, helping users explore insights from Lenny's Podcast episodes.
 
 IMPORTANT RULES:
@@ -33,6 +37,50 @@ Content: ${c.content}`;
 }
 
 /**
+ * Estimate token count from text.
+ */
+function estimateTokens(text: string): number {
+  return Math.ceil(text.length / CHARS_PER_TOKEN);
+}
+
+/**
+ * Build context section with token limit enforcement.
+ * Truncates citations if needed to stay within budget.
+ */
+function buildContextSectionWithLimit(
+  citations: Citation[],
+  tokenBudget: number
+): string {
+  if (citations.length === 0) {
+    return 'No relevant context found.';
+  }
+
+  const header = 'RELEVANT PODCAST SEGMENTS:\n\n';
+  let usedTokens = estimateTokens(header);
+  const sections: string[] = [];
+
+  for (const [i, citation] of citations.entries()) {
+    const section = `[${i + 1}] Episode: "${citation.episode_title}" | Speaker: ${citation.speaker} | Time: ${citation.timestamp}
+Content: ${citation.content}`;
+    
+    const sectionTokens = estimateTokens(section);
+    
+    if (usedTokens + sectionTokens > tokenBudget) {
+      // Add truncated indicator if we've hit the limit
+      if (sections.length > 0) {
+        sections.push(`[... ${citations.length - i} more segments omitted due to length]`);
+      }
+      break;
+    }
+    
+    sections.push(section);
+    usedTokens += sectionTokens;
+  }
+
+  return header + sections.join('\n\n');
+}
+
+/**
  * Build the full prompt for OpenAI.
  */
 export function buildPrompt(
@@ -40,7 +88,19 @@ export function buildPrompt(
   citations: Citation[],
   currentContext?: { episode_slug?: string; episode_title?: string }
 ): ChatMessage[] {
-  const contextSection = buildContextSection(citations);
+  // Calculate remaining token budget for context
+  const systemPromptTokens = estimateTokens(SYSTEM_PROMPT);
+  const userMessagesTokens = userMessages.reduce((sum, m) => sum + estimateTokens(m.content), 0);
+  const contextHeaderTokens = currentContext?.episode_title 
+    ? estimateTokens(`\n\nThe user is currently reading the episode: "${currentContext.episode_title}". Prioritize information from this episode when relevant.`)
+    : 0;
+  
+  // Reserve 1000 tokens for response
+  const reservedTokens = 1000;
+  const contextTokenBudget = MAX_PROMPT_TOKENS - systemPromptTokens - userMessagesTokens - contextHeaderTokens - reservedTokens;
+  
+  // Build context section within token budget
+  const contextSection = buildContextSectionWithLimit(citations, Math.max(contextTokenBudget, 500));
 
   let systemContent = SYSTEM_PROMPT;
 
