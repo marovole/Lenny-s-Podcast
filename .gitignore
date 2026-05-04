@@ -4,8 +4,8 @@
 **/node_modules/
 **/.next/
 **/.vercel/
-# Ignore build outputs except for static export (uncomment below to stop tracking out/)
-# lenny-podcast-analyzer/out/
+# Ignore build outputs
+lenny-podcast-analyzer/out/
 
 # Data artifacts
 lenny-podcast-analyzer/data/vectorize/

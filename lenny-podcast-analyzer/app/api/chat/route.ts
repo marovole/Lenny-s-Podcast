@@ -45,6 +45,11 @@ interface CloudflareEnv {
 }
 
 export async function POST(request: NextRequest) {
+  // Rate limit config (needed in catch block)
+  const windowSeconds = parseInt(process.env.RATE_LIMIT_WINDOW_SECONDS || '60', 10);
+  const maxRequests = parseInt(process.env.RATE_LIMIT_MAX || '30', 10);
+  let rateLimit: { remaining: number; resetAt: number } | undefined;
+
   try {
     const ctx = getRequestContext();
     const env = ctx.env as unknown as CloudflareEnv;
@@ -64,16 +69,14 @@ export async function POST(request: NextRequest) {
 
     // Rate limiting
     const clientIp = getClientIp(request);
-    const windowSeconds = parseInt(env.RATE_LIMIT_WINDOW_SECONDS || '60', 10);
-    const maxRequests = parseInt(env.RATE_LIMIT_MAX || '30', 10);
-
-    const rateLimit = await checkRateLimit(env.RATE_LIMIT_KV, clientIp, windowSeconds, maxRequests);
-    if (!rateLimit.allowed) {
+    const rateLimitResult = await checkRateLimit(env.RATE_LIMIT_KV, clientIp, windowSeconds, maxRequests);
+    rateLimit = { remaining: rateLimitResult.remaining, resetAt: rateLimitResult.resetAt };
+    if (!rateLimitResult.allowed) {
       return errorResponse('Rate limit exceeded', 429, {
-        'Retry-After': String(Math.max(0, rateLimit.resetAt - Math.floor(Date.now() / 1000))),
+        'Retry-After': String(Math.max(0, rateLimitResult.resetAt - Math.floor(Date.now() / 1000))),
         'X-RateLimit-Limit': String(maxRequests),
         'X-RateLimit-Remaining': '0',
-        'X-RateLimit-Reset': String(rateLimit.resetAt),
+        'X-RateLimit-Reset': String(rateLimitResult.resetAt),
       });
     }
 
@@ -250,7 +253,6 @@ export async function POST(request: NextRequest) {
                 } catch {
                   // Skip invalid JSON
                 }
-              }
             }
           }
         } catch (error) {
@@ -271,8 +273,8 @@ export async function POST(request: NextRequest) {
         'Cache-Control': 'no-cache',
         'Connection': 'keep-alive',
         'X-RateLimit-Limit': String(maxRequests),
-        'X-RateLimit-Remaining': String(rateLimit.remaining),
-        'X-RateLimit-Reset': String(rateLimit.resetAt),
+        'X-RateLimit-Remaining': String(rateLimit?.remaining ?? maxRequests),
+        'X-RateLimit-Reset': String(rateLimit?.resetAt ?? Math.floor(Date.now() / 1000) + windowSeconds),
       },
     });
   } catch (error) {
