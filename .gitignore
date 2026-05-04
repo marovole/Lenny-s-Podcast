@@ -4,4 +4,10 @@
 **/node_modules/
 **/.next/
 **/.vercel/
-**/out/
+# Ignore build outputs except for static export (uncomment below to stop tracking out/)
+# lenny-podcast-analyzer/out/
+
+# Data artifacts
+lenny-podcast-analyzer/data/vectorize/
+lenny-podcast-analyzer/*.log
+lenny-podcast-analyzer/tsconfig.tsbuildinfo
