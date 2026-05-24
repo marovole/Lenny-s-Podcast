@@ -89,13 +89,16 @@ export async function POST(request: NextRequest) {
       return errorResponse('No user message found', 400);
     }
 
-    // Determine API provider (prefer OpenRouter for free tier)
+    // Chat provider: prefer OpenRouter (free tier)
     const useOpenRouter = !!env.OPENROUTER_API_KEY;
     const apiKey = useOpenRouter ? env.OPENROUTER_API_KEY : env.OPENAI_API_KEY;
 
     if (!apiKey) {
       return errorResponse('No API key configured', 500);
     }
+
+    // Embeddings always go through OpenAI; OpenRouter has no embedding models.
+    const embeddingKey = env.OPENAI_API_KEY;
 
     // Check if Ollama is configured for local embeddings
     const useOllama = !!env.OLLAMA_HOST;
@@ -112,12 +115,15 @@ export async function POST(request: NextRequest) {
           'ollama'
         );
       } else {
-        // Use OpenRouter or OpenAI
+        // Embeddings always via OpenAI
+        if (!embeddingKey) {
+          return errorResponse('OPENAI_API_KEY required for query embeddings', 500);
+        }
         embedding = await createQueryEmbedding(
           lastUserMessage.content,
-          apiKey,
+          embeddingKey,
           env.OPENAI_EMBEDDING_MODEL,
-          useOpenRouter ? 'openrouter' : 'openai'
+          'openai'
         );
       }
     } catch (error) {
