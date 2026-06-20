@@ -1,12 +1,13 @@
 /**
  * Vectorize query utilities.
- * Supports OpenRouter, OpenAI, and Ollama (local) APIs.
+ * Embeddings come from OpenAI or Ollama (local) — never OpenRouter, which has
+ * no embeddings endpoint. Keeping 'openrouter' out of the provider type makes
+ * the "openrouter embedding failed" bug impossible to reintroduce.
  */
 
 import type { VectorMatch, Citation } from './types';
 
 const OPENAI_EMBEDDING_URL = 'https://api.openai.com/v1/embeddings';
-const OPENROUTER_EMBEDDING_URL = 'https://openrouter.ai/api/v1/embeddings';
 const OLLAMA_EMBEDDING_URL = process.env.OLLAMA_HOST || 'http://localhost:11434';
 
 // Generic Vectorize index interface
@@ -23,13 +24,13 @@ interface VectorizeIndexLike {
 
 /**
  * Create embedding for a query string.
- * Supports OpenRouter, OpenAI, and Ollama APIs.
+ * Supports OpenAI and Ollama (local) APIs.
  */
 export async function createQueryEmbedding(
   query: string,
   apiKey: string,
   model: string = 'text-embedding-3-small',
-  provider: 'openrouter' | 'openai' | 'ollama' = 'openai'
+  provider: 'openai' | 'ollama' = 'openai'
 ): Promise<number[]> {
   // Ollama local embedding
   if (provider === 'ollama') {
@@ -61,23 +62,13 @@ export async function createQueryEmbedding(
     return embedding;
   }
 
-  // OpenRouter or OpenAI
-  const endpoint = provider === 'openrouter' ? OPENROUTER_EMBEDDING_URL : OPENAI_EMBEDDING_URL;
-
-  const headers: Record<string, string> = {
-    'Authorization': `Bearer ${apiKey}`,
-    'Content-Type': 'application/json',
-  };
-
-  // Add OpenRouter specific headers
-  if (provider === 'openrouter') {
-    headers['HTTP-Referer'] = 'https://lennypodcast.com';
-    headers['X-Title'] = 'Lenny Podcast AI Chat';
-  }
-
-  const response = await fetch(endpoint, {
+  // OpenAI embeddings (OpenRouter has no embeddings endpoint).
+  const response = await fetch(OPENAI_EMBEDDING_URL, {
     method: 'POST',
-    headers,
+    headers: {
+      'Authorization': `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+    },
     body: JSON.stringify({
       model,
       input: query,
@@ -86,7 +77,7 @@ export async function createQueryEmbedding(
 
   if (!response.ok) {
     const error = await response.text();
-    throw new Error(`${provider} embedding failed: ${error}`);
+    throw new Error(`OpenAI embedding failed: ${error}`);
   }
 
   const data = await response.json() as {

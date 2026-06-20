@@ -12,7 +12,8 @@ pages_build_output_dir = ".vercel/output/static"
 #   EMBEDDING_MODEL     — e.g., "all-MiniLM-L6-v2"
 #
 # CLOUDFLARE DEPLOYMENT (set here OR via `npx wrangler secret put`):
-#   Secrets: OPENROUTER_API_KEY (set via `wrangler secret put`)
+#   Secrets: OPENAI_API_KEY (embeddings, REQUIRED) + OPENROUTER_API_KEY (chat, free)
+#   Embedding and chat use INDEPENDENT providers — see the Secrets block below.
 #   Config vars below: model names and rate limits
 # =============================================================================
 
@@ -25,7 +26,7 @@ RATE_LIMIT_WINDOW_SECONDS = "60"
 RATE_LIMIT_MAX = "30"
 
 # Ollama local embedding (optional - for local development)
-# Uncomment to use Ollama instead of OpenRouter/OpenAI for embeddings
+# Uncomment to use Ollama instead of OpenAI for embeddings (OpenRouter cannot embed)
 # OLLAMA_HOST = "http://localhost:11434"
 # OLLAMA_MODEL = "nomic-embed-text"
 
@@ -45,10 +46,16 @@ binding = "RATE_LIMIT_KV"
 id = "67731499db874005a2b41fcf8066abd7"
 
 # Secrets (set via: npx wrangler secret put SECRET_NAME)
-# Required secrets:
-# - OPENROUTER_API_KEY (recommended - free tier available)
-# - OR OPENAI_API_KEY (alternative)
 #
-# Set secrets with:
-# npx wrangler secret put OPENROUTER_API_KEY
-# npx wrangler secret put OPENAI_API_KEY (if not using OpenRouter)
+# Embedding and chat use INDEPENDENT providers — do NOT treat these as "either/or":
+#   OPENAI_API_KEY     — REQUIRED for query embeddings. OpenRouter has no
+#                        embeddings endpoint, and query vectors must match the
+#                        corpus (embedded with OpenAI text-embedding-3-small).
+#   OPENROUTER_API_KEY — used for chat completions (free tier). Optional: if
+#                        unset, chat falls back to OPENAI_API_KEY — in that case
+#                        also change OPENAI_CHAT_MODEL above to a real OpenAI
+#                        model (e.g. "gpt-4o-mini"), not the "openrouter/*" one.
+#
+# Recommended cloud setup (working embeddings + free chat):
+#   npx wrangler secret put OPENAI_API_KEY      # embeddings (required)
+#   npx wrangler secret put OPENROUTER_API_KEY  # chat (free)

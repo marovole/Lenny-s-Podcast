@@ -14,11 +14,11 @@ import { checkRateLimit, getClientIp } from '../../../lib/rag/rate-limit';
 
 export const runtime = 'edge';
 
-// Support both OpenRouter (recommended, free) and OpenAI
+// Chat can use OpenRouter (recommended, free) or OpenAI.
+// Embeddings are handled separately in lib/rag/vectorize (OpenAI or Ollama) —
+// OpenRouter has no embeddings endpoint, so no embedding URL belongs here.
 const OPENROUTER_CHAT_URL = 'https://openrouter.ai/api/v1/chat/completions';
 const OPENAI_CHAT_URL = 'https://api.openai.com/v1/chat/completions';
-const OPENROUTER_EMBEDDING_URL = 'https://openrouter.ai/api/v1/embeddings';
-const OPENAI_EMBEDDING_URL = 'https://api.openai.com/v1/embeddings';
 
 // Type for Cloudflare env (using local interfaces to avoid strict type conflicts)
 interface KVNamespaceLike {
@@ -89,37 +89,38 @@ export async function POST(request: NextRequest) {
       return errorResponse('No user message found', 400);
     }
 
-    // Determine API provider (prefer OpenRouter for free tier)
-    const useOpenRouter = !!env.OPENROUTER_API_KEY;
-    const apiKey = useOpenRouter ? env.OPENROUTER_API_KEY : env.OPENAI_API_KEY;
+    // ========================================================================
+    // Provider selection — embedding and chat are INDEPENDENT axes.
+    //   Embedding: Ollama (if configured) else OpenAI. Never OpenRouter:
+    //              OpenRouter has no embeddings endpoint, and the query vector
+    //              must share the corpus space (OpenAI text-embedding-3-small).
+    //   Chat:      OpenRouter (free, preferred) else OpenAI.
+    // Coupling these two onto one flag was the bug: setting OPENROUTER_API_KEY
+    // for free chat also hijacked embeddings → "openrouter embedding failed".
+    // ========================================================================
 
-    if (!apiKey) {
-      return errorResponse('No API key configured', 500);
+    // Chat provider: prefer OpenRouter free tier, fall back to OpenAI.
+    const useOpenRouter = !!env.OPENROUTER_API_KEY;
+    const chatApiKey = useOpenRouter ? env.OPENROUTER_API_KEY : env.OPENAI_API_KEY;
+    if (!chatApiKey) {
+      return errorResponse('No chat API key configured', 500);
     }
 
-    // Check if Ollama is configured for local embeddings
+    // Embedding provider: Ollama (local) if set, otherwise OpenAI.
     const useOllama = !!env.OLLAMA_HOST;
-    
-    // Create query embedding
+    if (!useOllama && !env.OPENAI_API_KEY) {
+      return errorResponse('No embedding API key configured (OPENAI_API_KEY required)', 500);
+    }
+
+    // Create query embedding (single call; provider chosen as data, not branches)
     let embedding: number[];
     try {
-      if (useOllama) {
-        // Use Ollama for local embeddings
-        embedding = await createQueryEmbedding(
-          lastUserMessage.content,
-          '', // No API key needed for Ollama
-          env.OLLAMA_MODEL || 'nomic-embed-text',
-          'ollama'
-        );
-      } else {
-        // Use OpenRouter or OpenAI
-        embedding = await createQueryEmbedding(
-          lastUserMessage.content,
-          apiKey,
-          env.OPENAI_EMBEDDING_MODEL,
-          useOpenRouter ? 'openrouter' : 'openai'
-        );
-      }
+      embedding = await createQueryEmbedding(
+        lastUserMessage.content,
+        env.OPENAI_API_KEY ?? '', // ignored by the Ollama path
+        useOllama ? (env.OLLAMA_MODEL || 'nomic-embed-text') : env.OPENAI_EMBEDDING_MODEL,
+        useOllama ? 'ollama' : 'openai'
+      );
     } catch (error) {
       console.error('Embedding error:', error);
       return errorResponse('Failed to create query embedding', 500);
@@ -172,7 +173,7 @@ export async function POST(request: NextRequest) {
     const endpoint = useOpenRouter ? OPENROUTER_CHAT_URL : OPENAI_CHAT_URL;
 
     const headers: Record<string, string> = {
-      'Authorization': `Bearer ${apiKey}`,
+      'Authorization': `Bearer ${chatApiKey}`,
       'Content-Type': 'application/json',
     };
 
