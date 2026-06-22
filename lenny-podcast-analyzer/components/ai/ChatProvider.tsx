@@ -20,6 +20,7 @@ export interface Citation {
   episode_title: string;
   speaker: string;
   timestamp: string;
+  timestamp_seconds: number;
   content: string;
 }
 
@@ -27,6 +28,7 @@ export interface PageContext {
   type: 'episode' | 'page';
   slug?: string;
   title?: string;
+  locale?: string;
 }
 
 interface ChatState {

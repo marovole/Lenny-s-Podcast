@@ -8,6 +8,7 @@ const sampleCitations: Citation[] = [
     episode_title: 'Brian Chesky on Airbnb',
     speaker: 'Brian Chesky',
     timestamp: '00:12:34',
+    timestamp_seconds: 754,
     content: 'The best way to scale is...',
     segment_index: 0,
   },
@@ -16,6 +17,7 @@ const sampleCitations: Citation[] = [
     episode_title: 'Marty Cagan on Product',
     speaker: 'Marty Cagan',
     timestamp: '00:45:00',
+    timestamp_seconds: 2700,
     content: 'Product teams need empowered leaders.',
     segment_index: 0,
   },
@@ -27,18 +29,16 @@ describe('buildContextSection', () => {
     expect(result).toBe('No relevant context found.');
   });
 
-  it('formats citations with header', () => {
+  it('formats citations with guest attribution tags', () => {
     const result = buildContextSection(sampleCitations);
     expect(result).toContain('RELEVANT PODCAST SEGMENTS:');
-    expect(result).toContain('[1] Episode: "Brian Chesky on Airbnb"');
-    expect(result).toContain('[2] Episode: "Marty Cagan on Product"');
-    expect(result).toContain('Speaker: Brian Chesky');
-    expect(result).toContain('Speaker: Marty Cagan');
+    expect(result).toContain('[1] [Brian Chesky | Brian Chesky on Airbnb] @ 00:12:34');
+    expect(result).toContain('[2] [Marty Cagan | Marty Cagan on Product] @ 00:45:00');
   });
 
   it('includes timestamp and content for each citation', () => {
     const result = buildContextSection(sampleCitations);
-    expect(result).toContain('Time: 00:12:34');
+    expect(result).toContain('@ 00:12:34');
     expect(result).toContain('Content: The best way to scale is...');
   });
 });
@@ -55,11 +55,11 @@ describe('buildPrompt', () => {
     expect(result[0].content).toContain("You are Lenny's AI assistant");
   });
 
-  it('includes context in system prompt', () => {
+  it('requires guest attribution in system prompt', () => {
     const result = buildPrompt(userMessages, sampleCitations);
     const systemContent = result[0].content;
-    expect(systemContent).toContain('RELEVANT PODCAST SEGMENTS:');
-    expect(systemContent).toContain('Brian Chesky on Airbnb');
+    expect(systemContent).toContain('Attribute every insight to a specific guest by name');
+    expect(systemContent).toContain('Marty Cagan argues');
   });
 
   it('appends user messages after system', () => {
@@ -85,6 +85,7 @@ describe('buildPrompt', () => {
       episode_title: `Episode ${i}: A very long title that takes up tokens in the context window`,
       speaker: `Speaker ${i}`,
       timestamp: '00:00:00',
+      timestamp_seconds: 0,
       content: 'x'.repeat(300),
       segment_index: i,
     }));
@@ -92,7 +93,7 @@ describe('buildPrompt', () => {
     const result = buildPrompt(userMessages, manyCitations);
     const systemContent = result[0].content;
     expect(systemContent).toContain('omitted due to length');
-    const citationCount = (systemContent.match(/\[\d+\] Episode:/g) || []).length;
+    const citationCount = (systemContent.match(/\[\d+\] \[/g) || []).length;
     expect(citationCount).toBeLessThan(100);
   });
 

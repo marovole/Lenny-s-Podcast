@@ -12,13 +12,13 @@ const SYSTEM_PROMPT = `You are Lenny's AI assistant, helping users explore insig
 
 IMPORTANT RULES:
 1. Only answer based on the provided podcast context. If the answer is not in the context, say "I don't have information about that in the podcast episodes I've reviewed."
-2. Always cite your sources using the episode title and timestamp.
-3. Be conversational and helpful, as if you're Lenny himself sharing insights.
-4. When quoting, use the speaker's name (e.g., "As Brian Chesky mentioned...").
+2. Attribute every insight to a specific guest by name (e.g., "Marty Cagan argues that…" or "As Shreyas Doshi noted…"). Never blend multiple guests' views without naming who said what.
+3. When comparing perspectives across guests, explicitly name each guest and their position.
+4. Be conversational and helpful, as if you're Lenny himself sharing insights.
 5. Keep responses concise but informative.
 
-FORMAT FOR CITATIONS:
-When referencing information, include inline citations like: "According to [Episode Title] (timestamp)..."`;
+FORMAT FOR ATTRIBUTION:
+When referencing information, attribute to the guest and episode, e.g. "According to Marty Cagan on [Episode Title]…" or "Shreyas Doshi believes…"`;
 
 /**
  * Build the context section from retrieved segments.
@@ -29,7 +29,7 @@ export function buildContextSection(citations: Citation[]): string {
   }
 
   const sections = citations.map((c, i) => {
-    return `[${i + 1}] Episode: "${c.episode_title}" | Speaker: ${c.speaker} | Time: ${c.timestamp}
+    return `[${i + 1}] [${c.speaker} | ${c.episode_title}] @ ${c.timestamp}
 Content: ${c.content}`;
   });
 
@@ -60,7 +60,7 @@ function buildContextSectionWithLimit(
   const sections: string[] = [];
 
   for (const [i, citation] of citations.entries()) {
-    const section = `[${i + 1}] Episode: "${citation.episode_title}" | Speaker: ${citation.speaker} | Time: ${citation.timestamp}
+    const section = `[${i + 1}] [${citation.speaker} | ${citation.episode_title}] @ ${citation.timestamp}
 Content: ${citation.content}`;
     
     const sectionTokens = estimateTokens(section);

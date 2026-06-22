@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getEpisode, getEpisodes } from "../../../../lib/site-data";
 import { LOCALE_CODES } from "../../../../lib/locales";
 import { EpisodeContext } from "./EpisodeContext";
+import { EpisodeTimestampAnchor } from "./EpisodeTimestampAnchor";
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
@@ -31,7 +32,8 @@ export default function EpisodePage({
 
   return (
     <article className="episode-article">
-      <EpisodeContext slug={params.slug} title={episode.title} />
+      <EpisodeContext slug={params.slug} title={episode.title} locale={params.locale} />
+      <EpisodeTimestampAnchor />
       <header className="episode-header">
         <h2 className="episode-title">{episode.title}</h2>
         <div className="episode-actions">

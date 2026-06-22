@@ -22,6 +22,7 @@ export interface Citation {
   episode_title: string;
   speaker: string;
   timestamp: string;
+  timestamp_seconds: number;
   content: string;
   segment_index: number;
 }
@@ -34,6 +35,7 @@ export interface VectorMatch {
     episode_title: string;
     speaker: string;
     timestamp: string;
+    timestamp_seconds?: number | string;
     segment_index: number;
     content_key: string;
   };
