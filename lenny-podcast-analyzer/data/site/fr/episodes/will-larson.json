@@ -1042,18 +1042,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-engineering-mindset-will-larson",
+  "audio_url": "https://api.substack.com/feed/podcast/139739689/f055f9d4eb1ea02bd5519b3dbe1d729e.mp3"
 }

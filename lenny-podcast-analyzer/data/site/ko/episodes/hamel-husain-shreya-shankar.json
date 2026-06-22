@@ -1760,17 +1760,17 @@
     "Anthropic"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
+  "audio_url": "https://api.substack.com/feed/podcast/173871171/7bdfb70fc57c74b9c056af79747dc9ac.mp3"
 }

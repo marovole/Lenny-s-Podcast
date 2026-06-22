@@ -990,17 +990,17 @@
     "Discord"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/an-inside-look-at-how-figma-builds",
+  "audio_url": "https://api.substack.com/feed/podcast/94678211/fdff39208320c6e786eafd3d4a04acf8.mp3"
 }

@@ -556,20 +556,20 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "technical"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-nature-of-product-marty-cagan",
+  "audio_url": "https://api.substack.com/feed/podcast/69245324/fa7283aebe161d8369de3ef103f83ca8.mp3"
 }

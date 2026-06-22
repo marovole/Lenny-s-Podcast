@@ -933,18 +933,18 @@
     "Coinbase"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-substack-sachin-monga-substack",
+  "audio_url": "https://api.substack.com/feed/podcast/80600913/1fe993cc8c13895db9533a0073222255.mp3"
 }

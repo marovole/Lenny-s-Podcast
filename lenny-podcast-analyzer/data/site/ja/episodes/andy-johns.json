@@ -837,20 +837,20 @@
     "Apple"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/when-enough-is-enough-andy-johns",
+  "audio_url": "https://api.substack.com/feed/podcast/136612424/1cb8041fb7169876e28d9128805e4dde.mp3"
 }

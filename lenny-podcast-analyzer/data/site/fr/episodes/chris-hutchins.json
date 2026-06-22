@@ -844,18 +844,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/launching-and-growing-a-podcast-chris",
+  "audio_url": "https://api.substack.com/feed/podcast/90478001/c987c9d6f6e773be59ac2a9e31acea02.mp3"
 }

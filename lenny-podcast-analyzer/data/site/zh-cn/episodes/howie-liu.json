@@ -1287,20 +1287,20 @@
     "Shopify"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "technical"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-we-restructured-airtables-entire-org-for-ai",
+  "audio_url": "https://api.substack.com/feed/podcast/171904193/67ff088a3784f75ac57ebf2437cf0e58.mp3"
 }

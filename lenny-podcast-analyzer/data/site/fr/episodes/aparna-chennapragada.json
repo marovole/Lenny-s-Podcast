@@ -811,16 +811,16 @@
     "Shopify"
   ],
   "topics": [
-    "growth",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
     "product",
     "career",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/microsoft-cpo-on-ai",
+  "audio_url": "https://api.substack.com/feed/podcast/162914299/5768011c106cb25731e7e1737436f936.mp3"
 }

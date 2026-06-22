@@ -889,20 +889,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-establish-credibility-and",
+  "audio_url": "https://api.substack.com/feed/podcast/79412267/d2fdbc1f42dc2e616d76264c386a4486.mp3"
 }

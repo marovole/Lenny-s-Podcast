@@ -1256,21 +1256,21 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
-    "organizational",
-    "technical"
+    "technical",
+    "organizational"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-snyk-built-a-product-led-growth",
+  "audio_url": "https://api.substack.com/feed/podcast/82032607/0f5e14ecaa7b4a3eeb2a2292148ddf4d.mp3"
 }

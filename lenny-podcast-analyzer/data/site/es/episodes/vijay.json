@@ -702,20 +702,20 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/an-inside-look-at-mixpanels-product",
+  "audio_url": "https://api.substack.com/feed/podcast/98595638/d5a81b04a0f7143c7101a538bb992a8e.mp3"
 }

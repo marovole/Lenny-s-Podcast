@@ -996,18 +996,18 @@
     "Discord"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-lovable-anton-osika",
+  "audio_url": "https://api.substack.com/feed/podcast/158145804/fb2a8aea55b4844279cd542728dbb383.mp3"
 }

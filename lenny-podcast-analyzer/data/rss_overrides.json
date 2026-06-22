@@ -1,4 +1,7 @@
 {
-  "title_overrides": {},
+  "title_overrides": {
+    "Interview Q Compilation": "My favorite interview questions from 100+ guests",
+    "Shreyas Doshi Live": "Shreyas Doshi on pre-mortems, the LNO framework, the three levels of product work, why most execution problems are strategy problems, and ROI vs. opportunity cost thinking"
+  },
   "episode_overrides": {}
 }

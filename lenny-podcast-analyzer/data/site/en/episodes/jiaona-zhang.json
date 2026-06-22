@@ -827,18 +827,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-minimum-lovable-products",
+  "audio_url": "https://api.substack.com/feed/podcast/128825265/fc1e17d3e116fd0b3ea82521e9dca852.mp3"
 }

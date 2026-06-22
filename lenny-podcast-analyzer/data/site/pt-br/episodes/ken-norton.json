@@ -1192,20 +1192,20 @@
     "DoorDash"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-unlock-your-product-leadership",
+  "audio_url": "https://api.substack.com/feed/podcast/65112557/dc7e1bcddf5f06191fc98a65f11bac3e.mp3"
 }

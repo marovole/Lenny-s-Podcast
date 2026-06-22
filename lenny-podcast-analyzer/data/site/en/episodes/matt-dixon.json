@@ -883,20 +883,20 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/close-more-deals-matt-dixon",
+  "audio_url": "https://api.substack.com/feed/podcast/144810114/8679e2a5e8663520b17457cd8d544dc0.mp3"
 }

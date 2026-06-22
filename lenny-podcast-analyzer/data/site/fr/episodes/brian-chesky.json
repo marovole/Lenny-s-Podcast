@@ -600,21 +600,21 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
-    "product",
-    "personal"
+    "personal",
+    "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach",
+  "audio_url": "https://api.substack.com/feed/podcast/138737183/f92513704302b5bb8b50a625b5105be3.mp3"
 }

@@ -1117,17 +1117,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-speak-more-confidently-and",
+  "audio_url": "https://api.substack.com/feed/podcast/142845644/64cad026ad1602d7031500f93fcf6aa6.mp3"
 }

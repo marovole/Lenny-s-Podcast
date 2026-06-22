@@ -1176,19 +1176,19 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-measure-and-improve-developer",
+  "audio_url": "https://api.substack.com/feed/podcast/135451566/a6c93f68234f95cb09a7111fdf28ea90.mp3"
 }

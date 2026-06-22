@@ -1798,20 +1798,20 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-build-a-team-that-can-take-a-punch",
+  "audio_url": "https://api.substack.com/feed/podcast/165476093/a04bbbe5e7075c9bf541eaa8fb124782.mp3"
 }

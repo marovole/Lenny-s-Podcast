@@ -1302,20 +1302,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/what-differentiates-the-highest-performing",
+  "audio_url": "https://api.substack.com/feed/podcast/96080211/443104572bcece8d34f085ff64afcd08.mp3"
 }

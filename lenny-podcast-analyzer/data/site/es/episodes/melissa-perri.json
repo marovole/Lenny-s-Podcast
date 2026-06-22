@@ -750,17 +750,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-create-a-winning-product-strategy",
+  "audio_url": "https://api.substack.com/feed/podcast/65964108/57010a17dab429f0ac13b6b222c86c38.mp3"
 }

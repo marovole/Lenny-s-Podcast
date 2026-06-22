@@ -1238,20 +1238,20 @@
     "Confluence"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/behind-the-scenes-of-calendlys-rapid",
+  "audio_url": "https://api.substack.com/feed/podcast/104363058/c0cca18a9e231ff3fa54712c76bba68c.mp3"
 }

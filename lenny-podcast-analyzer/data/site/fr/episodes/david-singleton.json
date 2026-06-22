@@ -1115,18 +1115,18 @@
     "Discord"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-a-culture-of-excellence",
+  "audio_url": "https://api.substack.com/feed/podcast/117928083/e0781ae5f1ecd4e0f4569811dfcfc4a6.mp3"
 }

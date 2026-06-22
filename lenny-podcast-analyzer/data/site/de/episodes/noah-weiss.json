@@ -1419,18 +1419,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-10-traits-of-great-pms-how-ai",
+  "audio_url": "https://api.substack.com/feed/podcast/134529251/6f7c82ff6ac7505fef192ff23f333646.mp3"
 }

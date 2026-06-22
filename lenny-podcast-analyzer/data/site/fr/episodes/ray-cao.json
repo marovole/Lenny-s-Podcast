@@ -810,18 +810,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/inside-tiktok-culture-strategy-monetization",
+  "audio_url": "https://api.substack.com/feed/podcast/141911503/14f14806c2ad5e93a340b4465e6a96c6.mp3"
 }

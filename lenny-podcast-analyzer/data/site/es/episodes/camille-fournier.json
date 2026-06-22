@@ -1056,20 +1056,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "technical"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/engineering-leadership-camille-fournier",
+  "audio_url": "https://api.substack.com/feed/podcast/148459937/f97371895450476010c4afa7debc8f26.mp3"
 }

@@ -911,18 +911,18 @@
     "Coinbase"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-fire-people-with-grace-work",
+  "audio_url": "https://api.substack.com/feed/podcast/83121286/c0b2f7ccd5a21368aa10b643a147a750.mp3"
 }

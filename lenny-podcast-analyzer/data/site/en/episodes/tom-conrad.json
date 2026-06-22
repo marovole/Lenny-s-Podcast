@@ -1142,20 +1142,20 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture",
-    "finance"
+    "operations"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/billion-dollar-failures-and-billion",
+  "audio_url": "https://api.substack.com/feed/podcast/138957279/8deb0a476b4c7728000ca0258d88778a.mp3"
 }

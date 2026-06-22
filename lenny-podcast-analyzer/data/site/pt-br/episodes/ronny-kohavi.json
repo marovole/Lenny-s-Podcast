@@ -1328,17 +1328,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "finance",
+    "growth",
     "tech_ai",
     "design",
-    "product",
-    "career",
     "culture",
-    "finance"
+    "hiring",
+    "product",
+    "career"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-ab-testing",
+  "audio_url": "https://api.substack.com/feed/podcast/135345099/8b2547ea40acdba92b7fab59efc66e6e.mp3"
 }

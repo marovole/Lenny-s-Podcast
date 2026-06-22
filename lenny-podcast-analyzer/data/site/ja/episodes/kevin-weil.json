@@ -1243,17 +1243,17 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
     "leadership",
+    "growth",
     "tech_ai",
     "design",
-    "operations",
+    "culture",
+    "hiring",
     "product",
     "career",
-    "culture"
+    "operations"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/kevin-weil-open-ai",
+  "audio_url": "https://api.substack.com/feed/podcast/160459836/d35639974fa953a9aa74f21024aaadb1.mp3"
 }

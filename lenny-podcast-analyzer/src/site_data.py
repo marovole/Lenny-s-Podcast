@@ -3,11 +3,14 @@ import json
 import os
 import re
 import sys
+import unicodedata
 import urllib.request
 import xml.etree.ElementTree as ET
+from collections import defaultdict
 from datetime import datetime
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
@@ -29,6 +32,19 @@ except ImportError:
 
 DEFAULT_LOCALE = "en"
 DEFAULT_LOCALES = ["en", "es", "fr", "de", "pt-br", "ja", "ko", "zh-cn"]
+DEFAULT_RSS_URL = "https://api.substack.com/feed/podcast/10845.rss"
+
+GUEST_ALIASES = {
+    "gia laudi": "georgiana laudi",
+    "cam adams": "cameron adams",
+    "jason m lemkin": "jason lemkin",
+    "yuhki yamashata": "yuhki yamashita",
+    "alex hardimen": "alex hardiman",
+    "benjamin mann": "ben mann",
+    "jeanne grosser": "jeanne dewitt grosser",
+    "melissa": "melissa perri",
+    "shreyas doshi live": "shreyas doshi",
+}
 
 
 def slugify(value: str) -> str:
@@ -40,9 +56,96 @@ def slugify(value: str) -> str:
 
 
 def normalize_title(value: str) -> str:
+    value = value.replace("\u2019", "'").replace("\u2018", "'")
     cleaned = re.sub(r"[^a-z0-9\s]", " ", value.lower())
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
     return cleaned
+
+
+def fold_accents(value: str) -> str:
+    value = value.replace("\u2019", "'").replace("\u2018", "'")
+    value = unicodedata.normalize("NFD", value)
+    return "".join(char for char in value if unicodedata.category(char) != "Mn")
+
+
+def norm_key(value: str) -> str:
+    return normalize_title(fold_accents(value))
+
+
+def guest_match_key(value: str) -> str:
+    key = norm_key(normalize_guest_name(value))
+    key = re.sub(r"\band\b", " ", key)
+    return re.sub(r"\s+", " ", key).strip()
+
+
+def normalize_guest_name(value: str) -> str:
+    value = re.sub(r"\s*&\s*", " and ", value)
+    value = value.replace("+", " and ")
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def strip_guest_suffix(guest: str) -> str:
+    guest = re.sub(r"\([^)]*\)", "", guest)
+    if "," in guest:
+        guest = guest.split(",", 1)[0].strip()
+    return re.sub(r"\s+", " ", guest).strip()
+
+
+def parse_episode_version(episode_name: str) -> int:
+    match = re.search(r"\s+(\d+)\.0\s*$", episode_name)
+    return int(match.group(1)) if match else 1
+
+
+def episode_base_name(episode_name: str) -> str:
+    return re.sub(r"\s+\d+\.0\s*$", "", episode_name).strip()
+
+
+def extract_guest_keys(title: str) -> List[str]:
+    title = title.replace("\u2019", "'").replace("\u2018", "'")
+    keys: List[str] = []
+    if "|" in title:
+        guest = strip_guest_suffix(title.split("|")[-1].strip())
+        if guest:
+            keys.append(guest_match_key(guest))
+
+    prefix_match = re.match(r"^([^|]+?)(?:\s+on\s+|\s+live\b|'s\b)", title.strip())
+    if prefix_match:
+        guest = strip_guest_suffix(prefix_match.group(1).strip())
+        if guest:
+            keys.append(guest_match_key(guest))
+
+    embedded_match = re.search(
+        r":\s*([^:|]+?)\s+on\s+(?:the|a|an)\b", title, flags=re.IGNORECASE
+    )
+    if embedded_match:
+        guest = strip_guest_suffix(embedded_match.group(1).strip())
+        if guest:
+            keys.append(guest_match_key(guest))
+
+    from_match = re.search(r"from\s+([^:]+):", title, flags=re.IGNORECASE)
+    if from_match:
+        guest = strip_guest_suffix(from_match.group(1).strip())
+        if guest:
+            keys.append(guest_match_key(guest))
+
+    seen = set()
+    unique_keys = []
+    for key in keys:
+        if key and key not in seen:
+            seen.add(key)
+            unique_keys.append(key)
+    return unique_keys
+
+
+def resolve_guest_lookup_keys(episode_name: str) -> List[str]:
+    base_name = normalize_guest_name(episode_base_name(episode_name))
+    keys = [guest_match_key(base_name)]
+
+    alias = GUEST_ALIASES.get(norm_key(base_name))
+    if alias:
+        keys.append(guest_match_key(alias))
+
+    return keys
 
 
 def read_json(path: Path) -> Dict:
@@ -74,50 +177,135 @@ def load_rss(rss_source: Optional[str]) -> Optional[ET.Element]:
     return ET.fromstring(data)
 
 
-def build_rss_map(root: Optional[ET.Element]) -> Dict[str, Dict[str, str]]:
+def build_rss_index(
+    root: Optional[ET.Element],
+) -> Tuple[
+    Dict[str, List[Dict[str, str]]],
+    Dict[str, Dict[str, str]],
+    List[Dict[str, str]],
+]:
     if root is None:
-        return {}
+        return {}, {}, []
 
     namespace = {"itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd"}
-    items = root.findall("./channel/item")
-    rss_map: Dict[str, Dict[str, str]] = {}
+    guest_index: Dict[str, List[Dict[str, str]]] = defaultdict(list)
+    title_index: Dict[str, Dict[str, str]] = {}
+    all_entries: List[Dict[str, str]] = []
 
-    def add_entry(raw_title: str, link: str, audio_url: str) -> None:
-        if not raw_title:
-            return
+    def add_title_entry(raw_title: str, entry: Dict[str, str]) -> None:
         trimmed = raw_title.strip()
         if not trimmed:
             return
-        entry = {"episode_url": link.strip(), "audio_url": audio_url.strip()}
-        rss_map.setdefault(trimmed, entry)
+        title_index.setdefault(trimmed, entry)
         normalized = normalize_title(trimmed)
         if normalized:
-            rss_map.setdefault(normalized, entry)
+            title_index.setdefault(normalized, entry)
 
-    for item in items:
+    for item in root.findall("./channel/item"):
         title = item.findtext("title") or ""
         link = item.findtext("link") or ""
+        pub_date = item.findtext("pubDate") or ""
+        published_at = parsedate_to_datetime(pub_date) if pub_date else None
         enclosure = item.find("enclosure")
-        audio_url = ""
-        if enclosure is not None:
-            audio_url = enclosure.attrib.get("url", "")
+        audio_url = enclosure.attrib.get("url", "") if enclosure is not None else ""
+        entry = {
+            "title": title,
+            "episode_url": link.strip(),
+            "audio_url": audio_url.strip(),
+            "published_at": published_at,
+        }
+        all_entries.append(entry)
 
-        add_entry(title, link, audio_url)
+        add_title_entry(title, entry)
 
         itunes_title = item.findtext("itunes:title", namespaces=namespace) or ""
-        add_entry(itunes_title, link, audio_url)
+        add_title_entry(itunes_title, entry)
 
-    return rss_map
+        for guest_key in extract_guest_keys(title):
+            guest_index[guest_key].append(entry)
+        for guest_key in extract_guest_keys(itunes_title):
+            guest_index[guest_key].append(entry)
+
+    for guest_key, entries in guest_index.items():
+        entries.sort(key=lambda item: item["published_at"] or datetime.min)
+        deduped: List[Dict[str, str]] = []
+        seen_urls = set()
+        for entry in entries:
+            dedupe_key = entry["episode_url"] or entry["title"]
+            if dedupe_key in seen_urls:
+                continue
+            seen_urls.add(dedupe_key)
+            deduped.append(entry)
+        guest_index[guest_key] = deduped
+
+    return dict(guest_index), title_index, all_entries
+
+
+def lookup_rss_entry(
+    episode_name: str,
+    guest_index: Dict[str, List[Dict[str, str]]],
+    title_index: Dict[str, Dict[str, str]],
+    overrides: Dict,
+    all_entries: List[Dict[str, str]],
+) -> Dict[str, str]:
+    title_override = overrides.get("title_overrides", {}).get(episode_name)
+    if title_override:
+        return title_index.get(title_override) or title_index.get(
+            normalize_title(title_override), {}
+        )
+
+    version = parse_episode_version(episode_name)
+    for guest_key in resolve_guest_lookup_keys(episode_name):
+        entries = guest_index.get(guest_key, [])
+        if version <= len(entries):
+            return entries[version - 1]
+
+    base_key = guest_match_key(episode_base_name(episode_name))
+    if base_key:
+        title_matches = []
+        for entry in all_entries:
+            title_key = guest_match_key(entry["title"])
+            if base_key in title_key:
+                title_matches.append(entry)
+        if title_matches:
+            title_matches.sort(key=lambda item: item["published_at"] or datetime.min)
+            deduped = []
+            seen_urls = set()
+            for entry in title_matches:
+                dedupe_key = entry["episode_url"] or entry["title"]
+                if dedupe_key in seen_urls:
+                    continue
+                seen_urls.add(dedupe_key)
+                deduped.append(entry)
+            if version <= len(deduped):
+                return deduped[version - 1]
+
+    partial_matches = [
+        guest_key
+        for guest_key in guest_index
+        if base_key and (base_key in guest_key or guest_key in base_key)
+    ]
+    if len(partial_matches) == 1:
+        entries = guest_index[partial_matches[0]]
+        if version <= len(entries):
+            return entries[version - 1]
+
+    return {}
 
 
 def apply_rss_metadata(
-    episode: Dict, rss_map: Dict[str, Dict[str, str]], overrides: Dict
+    episode: Dict,
+    guest_index: Dict[str, List[Dict[str, str]]],
+    title_index: Dict[str, Dict[str, str]],
+    overrides: Dict,
+    all_entries: List[Dict[str, str]],
 ) -> Dict:
-    title_override = overrides.get("title_overrides", {}).get(episode["episode_name"])
-    target_title = title_override or episode["episode_name"]
-
-    rss_entry = rss_map.get(target_title) or rss_map.get(
-        normalize_title(target_title), {}
+    rss_entry = lookup_rss_entry(
+        episode["episode_name"],
+        guest_index,
+        title_index,
+        overrides,
+        all_entries,
     )
     episode_override = overrides.get("episode_overrides", {}).get(
         episode["episode_name"], {}
@@ -396,11 +584,14 @@ def build_site(
     overrides = read_json(overrides_path) if overrides_path.exists() else {}
 
     rss_root = load_rss(rss_source)
-    rss_map = build_rss_map(rss_root)
+    guest_index, title_index, all_entries = build_rss_index(rss_root)
 
     base_dataset = build_base_dataset(transcripts)
     base_dataset = [
-        apply_rss_metadata(episode, rss_map, overrides) for episode in base_dataset
+        apply_rss_metadata(
+            episode, guest_index, title_index, overrides, all_entries
+        )
+        for episode in base_dataset
     ]
 
     client = init_translator()
@@ -468,7 +659,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--rss",
         dest="rss_source",
-        default=os.getenv("RSS_URL"),
+        default=os.getenv("RSS_URL", DEFAULT_RSS_URL),
         help="RSS feed URL or local file path",
     )
     parser.add_argument("--locales", help="Comma-separated locale codes")
