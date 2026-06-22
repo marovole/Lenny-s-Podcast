@@ -10,6 +10,7 @@ import { getRequestContext } from '@cloudflare/next-on-pages';
 import type { ChatRequest, Citation, StreamEvent } from '../../../lib/rag/types';
 import { createQueryEmbedding, queryVectorize } from '../../../lib/rag/vectorize';
 import { buildPrompt } from '../../../lib/rag/prompt';
+import { formatTimestampSeconds, resolveTimestampSeconds } from '../../../lib/rag/citations';
 import { checkRateLimit, getClientIp } from '../../../lib/rag/rate-limit';
 
 export const runtime = 'edge';
@@ -148,12 +149,18 @@ export async function POST(request: NextRequest) {
         // Fallback: content not available
       }
 
+      const timestampSeconds = resolveTimestampSeconds({
+        timestamp_seconds: match.metadata.timestamp_seconds as number | string | undefined,
+        timestamp: match.metadata.timestamp as string | undefined,
+      });
+
       citations.push({
-        episode_slug: match.metadata.episode_slug,
-        episode_title: match.metadata.episode_title,
-        speaker: match.metadata.speaker || 'Unknown',
-        timestamp: match.metadata.timestamp || '00:00:00',
-        segment_index: match.metadata.segment_index,
+        episode_slug: match.metadata.episode_slug as string,
+        episode_title: match.metadata.episode_title as string,
+        speaker: (match.metadata.speaker as string) || 'Unknown',
+        timestamp: formatTimestampSeconds(timestampSeconds),
+        timestamp_seconds: timestampSeconds,
+        segment_index: match.metadata.segment_index as number,
         content,
       });
     }

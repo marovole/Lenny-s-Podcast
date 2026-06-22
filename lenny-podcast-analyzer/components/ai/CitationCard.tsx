@@ -1,34 +1,49 @@
 /**
- * Citation Card - Shows source reference
+ * Citation Card - Shows source reference with guest attribution and on-site link.
  */
 
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useChat, type Citation } from './ChatProvider';
+import {
+  buildEpisodeCitationUrl,
+  formatCitationLabel,
+} from '../../lib/rag/citations';
+import { DEFAULT_LOCALE, LOCALE_CODES } from '../../lib/locales';
 
 interface CitationCardProps {
   citation: Citation;
 }
 
+function useLocaleFromPath(): string {
+  const pathname = usePathname();
+  const segment = pathname?.split('/')[1];
+  return segment && LOCALE_CODES.includes(segment) ? segment : DEFAULT_LOCALE;
+}
+
 export function CitationCard({ citation }: CitationCardProps) {
   const { currentContext } = useChat();
+  const pathLocale = useLocaleFromPath();
+  const locale = currentContext?.locale ?? pathLocale;
   const isCurrentEpisode = currentContext?.slug === citation.episode_slug;
+  const timestampSeconds = citation.timestamp_seconds ?? 0;
+  const label = formatCitationLabel(
+    citation.speaker,
+    citation.episode_title,
+    timestampSeconds
+  );
+  const episodeUrl = buildEpisodeCitationUrl(
+    locale,
+    citation.episode_slug,
+    timestampSeconds
+  );
 
   const handleJumpToTimestamp = () => {
-    // Parse timestamp to seconds
-    const parts = citation.timestamp.split(':').map(Number);
-    let seconds = 0;
-    if (parts.length === 3) {
-      seconds = parts[0] * 3600 + parts[1] * 60 + parts[2];
-    } else if (parts.length === 2) {
-      seconds = parts[0] * 60 + parts[1];
-    }
-
-    // Find and control the audio element
     const audio = document.getElementById('main-episode-player') as HTMLAudioElement;
     if (audio) {
-      audio.currentTime = seconds;
+      audio.currentTime = timestampSeconds;
       audio.play().catch(() => {
         // Autoplay may be blocked
       });
@@ -48,14 +63,11 @@ export function CitationCard({ citation }: CitationCardProps) {
           className="ai-citation-action"
           onClick={handleJumpToTimestamp}
         >
-          Jump to {citation.timestamp}
+          {label}
         </button>
       ) : (
-        <Link
-          href={`/en/episodes/${citation.episode_slug}`}
-          className="ai-citation-action"
-        >
-          View Episode
+        <Link href={episodeUrl} className="ai-citation-action">
+          {label}
         </Link>
       )}
     </div>
