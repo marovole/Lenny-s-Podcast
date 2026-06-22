@@ -88,6 +88,26 @@ npm run build:site
 - `SEARCH_MAX_DOCUMENTS`：搜索索引最大条数（默认 20000）
 - `SEARCH_CONTENT_MAX_CHARS`：搜索片段最大字符数（默认 280）
 
+### R2 全文上传（Chat 引用必需）
+
+Chat API 从 R2 桶 `lenny-segments` 按 `metadata.content_key` 取 segment 原文；桶为空时引用卡片会被过滤。
+
+```bash
+# 1. 生成 segments.jsonl
+python3 scripts/normalize_segments.py
+
+# 2. 配置 R2 S3 API 凭证（Cloudflare Dashboard → R2 → Manage R2 API Tokens）
+export CF_ACCOUNT_ID="your-account-id"
+export R2_ACCESS_KEY_ID="your-access-key-id"
+export R2_SECRET_ACCESS_KEY="your-secret-access-key"
+
+# 3. 批量上传（boto3 并发，约 5 万对象）
+pip install boto3
+python3 scripts/upload_segments_to_r2.py
+```
+
+验收：R2 桶 `lenny-segments` 对象数 ≈ 50,599；线上 Chat 引用卡片能展示原文片段。
+
 ### Cloudflare Pages 配置
 - Root directory: `lenny-podcast-analyzer`
 - Build command: `npm run build:pages`
