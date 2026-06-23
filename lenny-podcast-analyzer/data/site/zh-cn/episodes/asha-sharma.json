@@ -918,18 +918,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma",
+  "audio_url": "https://api.substack.com/feed/podcast/171413445/00e29949caf3b15821124f4402939d9f.mp3"
 }

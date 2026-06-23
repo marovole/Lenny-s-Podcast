@@ -1299,18 +1299,18 @@
     "Vercel"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-shopify-builds-a-high-intensity-culture-farhan-thawar",
+  "audio_url": "https://api.substack.com/feed/podcast/152809230/b308138ff6913003ab7d40b18eb01eee.mp3"
 }

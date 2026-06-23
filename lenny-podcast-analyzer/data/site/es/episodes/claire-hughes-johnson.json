@@ -870,18 +870,18 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/lessons-from-scaling-stripe-tactics",
+  "audio_url": "https://api.substack.com/feed/podcast/105911097/321bd8bc81b5bc328b25a427e5651554.mp3"
 }

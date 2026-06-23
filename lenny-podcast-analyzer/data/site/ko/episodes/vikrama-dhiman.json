@@ -692,17 +692,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
     "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/a-framework-for-pm-skill-development",
+  "audio_url": "https://api.substack.com/feed/podcast/144374892/e97853bf96809fbe1bbb665995f7462c.mp3"
 }

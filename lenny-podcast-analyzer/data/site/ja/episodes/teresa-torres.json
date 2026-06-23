@@ -890,18 +890,18 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/teresa-torres-on-how-to-interview",
+  "audio_url": "https://api.substack.com/feed/podcast/61808104/4c547786fd41a27b15d82f11c5f6df57.mp3"
 }

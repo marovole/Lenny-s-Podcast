@@ -895,18 +895,18 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-power-of-strategic-narrative",
+  "audio_url": "https://api.substack.com/feed/podcast/122559787/cdfaec70adb10490f4f565f48d9b7fa4.mp3"
 }

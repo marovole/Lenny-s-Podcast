@@ -910,18 +910,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen",
+  "audio_url": "https://api.substack.com/feed/podcast/176081814/f9b50fde2e7e1ed86ca947c2a8157d2b.mp3"
 }

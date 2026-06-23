@@ -1486,18 +1486,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/an-inside-look-at-figmas-unique-bottom",
+  "audio_url": "https://api.substack.com/feed/podcast/136542634/c93fc70b7847c276f08d172b5db48f64.mp3"
 }

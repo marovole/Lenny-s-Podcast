@@ -1101,18 +1101,18 @@
     "Okta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/relentless-curiosity-radical-accountability",
+  "audio_url": "https://api.substack.com/feed/podcast/135727143/d0c507b507393119e179a43e00b1246e.mp3"
 }

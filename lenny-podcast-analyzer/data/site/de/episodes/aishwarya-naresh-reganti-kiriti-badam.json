@@ -926,14 +926,14 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],

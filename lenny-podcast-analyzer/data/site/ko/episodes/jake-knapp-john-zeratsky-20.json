@@ -1557,18 +1557,18 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-foundation-sprint-jake-knapp-and-john-zeratsky",
+  "audio_url": "https://api.substack.com/feed/podcast/167485876/413e92e34e5df23b9613148c5bdf76f4.mp3"
 }

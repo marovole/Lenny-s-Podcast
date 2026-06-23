@@ -1075,18 +1075,18 @@
     "Replit"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/chip-conley",
+  "audio_url": "https://api.substack.com/feed/podcast/168435278/c5a06957a04b1db4db041701a785c0f8.mp3"
 }

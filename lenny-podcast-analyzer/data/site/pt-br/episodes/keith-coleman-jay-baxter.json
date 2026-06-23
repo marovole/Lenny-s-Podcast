@@ -1435,17 +1435,17 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-x-built-the-best-fact-checking-system-on-the-internet",
+  "audio_url": "https://api.substack.com/feed/podcast/157562760/76cf204362eb83e5bd4562974793c2e0.mp3"
 }

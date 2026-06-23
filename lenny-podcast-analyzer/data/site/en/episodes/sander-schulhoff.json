@@ -1622,18 +1622,18 @@
     "Replit"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/ai-prompt-engineering-in-2025-sander-schulhoff",
+  "audio_url": "https://api.substack.com/feed/podcast/165821453/cf5d4c728c94873b763227dc79225dc7.mp3"
 }

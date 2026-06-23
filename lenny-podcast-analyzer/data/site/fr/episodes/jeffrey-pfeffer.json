@@ -858,18 +858,18 @@
     "Apple"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-paths-to-power-jeffrey-pfeffer",
+  "audio_url": "https://api.substack.com/feed/podcast/145262506/a527ad4680c844a7f176893cbc24bbca.mp3"
 }

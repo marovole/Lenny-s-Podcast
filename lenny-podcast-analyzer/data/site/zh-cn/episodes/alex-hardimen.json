@@ -1106,20 +1106,20 @@
     "Stripe"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/an-inside-look-at-how-the-new-york",
+  "audio_url": "https://api.substack.com/feed/podcast/83380047/c4906d07ff6b1cdf83480496c625597c.mp3"
 }

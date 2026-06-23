@@ -867,17 +867,17 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-linkedin-became-interesting-tomer-cohen",
+  "audio_url": "https://api.substack.com/feed/podcast/148280142/1129be900019ca39d4729f65830a3c39.mp3"
 }

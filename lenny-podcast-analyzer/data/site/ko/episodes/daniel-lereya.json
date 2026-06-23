@@ -1070,18 +1070,18 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/inside-mondays-transformation-daniel-lereya",
+  "audio_url": "https://api.substack.com/feed/podcast/161842014/48c6aa6d8bac51474ead42d4c3cbe815.mp3"
 }

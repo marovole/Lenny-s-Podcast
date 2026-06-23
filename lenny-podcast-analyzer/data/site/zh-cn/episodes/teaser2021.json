@@ -108,14 +108,14 @@
     "Discord"
   ],
   "topics": [
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
   "episode_url": null,

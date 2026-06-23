@@ -793,18 +793,18 @@
     "Anthropic"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
+  "audio_url": "https://api.substack.com/feed/podcast/181089452/094510ab33d59878b78644266ad3c67b.mp3"
 }

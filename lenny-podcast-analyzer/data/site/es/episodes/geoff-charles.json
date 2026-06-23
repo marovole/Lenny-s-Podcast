@@ -891,20 +891,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/velocity-over-everything-how-ramp",
+  "audio_url": "https://api.substack.com/feed/podcast/135600918/7ae48c0eb73c1d25e6524232ca796dab.mp3"
 }

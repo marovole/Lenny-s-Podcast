@@ -833,17 +833,17 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/transform-your-subscription-growth",
+  "audio_url": "https://api.substack.com/feed/podcast/70897559/edb9a4c268321ad5029ef5a4ee186f52.mp3"
 }

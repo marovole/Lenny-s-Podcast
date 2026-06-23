@@ -757,17 +757,17 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/an-inside-look-at-how-cnn-builds",
+  "audio_url": "https://api.substack.com/feed/podcast/103361286/df04baec698cdb26614de858463e18db.mp3"
 }

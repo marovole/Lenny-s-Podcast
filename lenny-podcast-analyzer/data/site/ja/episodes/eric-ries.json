@@ -1334,20 +1334,20 @@
     "Shopify"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/reflections-on-a-movement-eric-ries",
+  "audio_url": "https://api.substack.com/feed/podcast/138290395/e58c4af26adf42af1b7a6d083038721d.mp3"
 }

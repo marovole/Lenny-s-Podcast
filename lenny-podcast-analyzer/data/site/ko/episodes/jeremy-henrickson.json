@@ -1021,18 +1021,18 @@
     "Coinbase"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/moving-fast-and-navigating-uncertainty",
+  "audio_url": "https://api.substack.com/feed/podcast/124062033/9aeded2228e62b3c11bc8780d50d6b02.mp3"
 }

@@ -1020,18 +1020,18 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-be-more-innovative-sam-schillace",
+  "audio_url": "https://api.substack.com/feed/podcast/140332944/0ba8908c2b995d54f3816a9d8b122e73.mp3"
 }

@@ -938,20 +938,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-break-out-of-autopilot-graham-weaver",
+  "audio_url": "https://api.substack.com/feed/podcast/153999975/253dc61f2d0d25273879d9affc74484c.mp3"
 }

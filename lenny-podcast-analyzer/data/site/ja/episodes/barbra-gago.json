@@ -755,18 +755,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/category-creation-and-branding-barbra",
+  "audio_url": "https://api.substack.com/feed/podcast/80079071/faf2f1744739648d1717165e7cfa43fa.mp3"
 }

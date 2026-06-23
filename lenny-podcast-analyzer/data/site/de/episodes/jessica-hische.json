@@ -810,17 +810,17 @@
     "Salesforce"
   ],
   "topics": [
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/seeing-like-a-designer-jessica-hische",
+  "audio_url": "https://api.substack.com/feed/podcast/150060631/ea89dcf640ee249c3fe4d139ebaa0d85.mp3"
 }

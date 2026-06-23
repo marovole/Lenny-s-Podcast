@@ -1333,18 +1333,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/shopifys-growth-archie-abrams",
+  "audio_url": "https://api.substack.com/feed/podcast/150243565/3bb8e761631d7383589c218697a8ea45.mp3"
 }

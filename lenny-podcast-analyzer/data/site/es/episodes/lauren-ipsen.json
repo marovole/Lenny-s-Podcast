@@ -1073,18 +1073,18 @@
     "Coinbase"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/lessons-from-one-of-the-worlds-top",
+  "audio_url": "https://api.substack.com/feed/podcast/81828789/0a53eea04008fae3a38178bb6b57e7d1.mp3"
 }

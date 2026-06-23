@@ -975,20 +975,20 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [
-    "product",
-    "personal"
+    "personal",
+    "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/managing-nerves-anxiety-and-burnout",
+  "audio_url": "https://api.substack.com/feed/podcast/140852702/2449f4bd4f94d44d04412795dd3b572d.mp3"
 }

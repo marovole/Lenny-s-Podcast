@@ -793,18 +793,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-godmother-of-ai",
+  "audio_url": "https://api.substack.com/feed/podcast/178223233/a1604c36f9d36040e80df5a6452af1a8.mp3"
 }

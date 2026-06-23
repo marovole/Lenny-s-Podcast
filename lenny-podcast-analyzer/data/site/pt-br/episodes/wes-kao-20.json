@@ -1218,17 +1218,17 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "leadership",
-    "tech_ai",
-    "design",
     "operations",
-    "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "product",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/become-a-better-communicator-specific",
+  "audio_url": "https://api.substack.com/feed/podcast/159875088/6dc950f012613eda9b3cc3102bc2a793.mp3"
 }

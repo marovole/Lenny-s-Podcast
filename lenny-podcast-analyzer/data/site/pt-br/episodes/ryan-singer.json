@@ -1297,21 +1297,21 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "organizational",
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/shape-up-ryan-singer",
+  "audio_url": "https://api.substack.com/feed/podcast/159362953/275d38fa55ec341b80a86607472e20c2.mp3"
 }

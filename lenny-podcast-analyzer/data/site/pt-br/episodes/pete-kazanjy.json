@@ -737,18 +737,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/founder-led-sales-pete-kazanjy-founding",
+  "audio_url": "https://api.substack.com/feed/podcast/89275849/e4c338f27ec43900092f9b1cd563c0b0.mp3"
 }

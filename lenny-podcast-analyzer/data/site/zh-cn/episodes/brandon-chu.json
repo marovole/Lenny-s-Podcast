@@ -566,18 +566,18 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/brandon-chu-on-what-its-like-to-build",
+  "audio_url": "https://api.substack.com/feed/podcast/61114792/1f9d3a2028ad37d3cdcf2b1916b5e161.mp3"
 }

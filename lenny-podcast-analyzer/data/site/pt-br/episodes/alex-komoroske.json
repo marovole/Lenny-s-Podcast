@@ -1018,17 +1018,17 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/unconventional-product-advice-alex-komoroske",
+  "audio_url": "https://api.substack.com/feed/podcast/149372259/1ac1c9a27d1cbc652213ab3679b2e766.mp3"
 }

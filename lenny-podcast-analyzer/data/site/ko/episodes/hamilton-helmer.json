@@ -715,17 +715,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "leadership",
-    "tech_ai",
-    "design",
     "operations",
-    "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "product",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/business-strategy-with-hamilton-helmer",
+  "audio_url": "https://api.substack.com/feed/podcast/144151999/ce1a33f10b80e8fd5351c5077d1619c6.mp3"
 }

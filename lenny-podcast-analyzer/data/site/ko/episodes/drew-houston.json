@@ -978,20 +978,20 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/behind-the-founder-drew-houston-dropbox",
+  "audio_url": "https://api.substack.com/feed/podcast/153824192/e7418c5ffcc7fe71fd8f945ca82b5825.mp3"
 }

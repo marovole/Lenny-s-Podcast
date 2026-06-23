@@ -1354,17 +1354,17 @@
     "Stripe"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/frameworks-for-growing-your-career-bangaly-kaba",
+  "audio_url": "https://api.substack.com/feed/podcast/144810111/cc5e18c3b581d8f1a40178b954a0a293.mp3"
 }

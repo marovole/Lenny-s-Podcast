@@ -875,17 +875,17 @@
     "DoorDash"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-a-world-class-data-org-jessica-lachs",
+  "audio_url": "https://api.substack.com/feed/podcast/146221130/224e7db9499fc0d1cfa3287c164c4e55.mp3"
 }

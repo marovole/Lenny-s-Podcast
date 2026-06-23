@@ -710,18 +710,18 @@
     "Vercel"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/inside-canva-with-cameron-adams",
+  "audio_url": "https://api.substack.com/feed/podcast/144862021/507e1156e24ae4199374bea5ca6eb6b4.mp3"
 }

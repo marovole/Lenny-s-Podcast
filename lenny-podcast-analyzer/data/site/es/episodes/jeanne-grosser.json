@@ -818,18 +818,18 @@
     " Lovable"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
+  "audio_url": "https://api.substack.com/feed/podcast/179503137/0b2b3bdebe62803133bd8432266d8d74.mp3"
 }

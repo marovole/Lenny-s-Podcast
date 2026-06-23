@@ -876,17 +876,17 @@
     "Replit"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms",
+  "audio_url": "https://api.substack.com/feed/podcast/180042347/7cc16981caddc1e6074a8c69542ea32a.mp3"
 }

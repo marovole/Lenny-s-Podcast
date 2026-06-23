@@ -1498,18 +1498,18 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-get-press-for-your-product",
+  "audio_url": "https://api.substack.com/feed/podcast/137577562/7aea8666c0816565d90ff6207f7c8e9d.mp3"
 }

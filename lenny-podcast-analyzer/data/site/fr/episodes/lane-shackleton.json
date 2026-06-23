@@ -959,17 +959,17 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/what-sets-great-teams-apart-lane",
+  "audio_url": "https://api.substack.com/feed/podcast/137470635/9af6d0d3ed6c9d040172b34d37bb6eef.mp3"
 }

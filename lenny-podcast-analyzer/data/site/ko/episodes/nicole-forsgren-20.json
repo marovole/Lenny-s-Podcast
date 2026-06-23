@@ -952,20 +952,20 @@
     " Lovable"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity",
+  "audio_url": "https://api.substack.com/feed/podcast/175998086/98e4383560cb788fb2e142ca5f575146.mp3"
 }

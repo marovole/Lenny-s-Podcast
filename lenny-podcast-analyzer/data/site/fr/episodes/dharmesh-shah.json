@@ -1174,18 +1174,18 @@
     "Segment"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/lessons-from-30-years-of-building",
+  "audio_url": "https://api.substack.com/feed/podcast/142957775/b1b1a603a2013121f7aa9ed1703e4165.mp3"
 }

@@ -796,20 +796,20 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/frameworks-for-product-differentiation",
+  "audio_url": "https://api.substack.com/feed/podcast/119391064/a990b4ef2577025e062efcb26075a90d.mp3"
 }

@@ -1174,18 +1174,18 @@
     "Shopify"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-beautiful-products-with",
+  "audio_url": "https://api.substack.com/feed/podcast/137873020/a82c7b95fdfc1101a1d7666d2a1c43a6.mp3"
 }

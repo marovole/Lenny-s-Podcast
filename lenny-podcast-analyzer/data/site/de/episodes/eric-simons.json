@@ -1276,17 +1276,17 @@
     "Square"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/inside-bolt-eric-simons",
+  "audio_url": "https://api.substack.com/feed/podcast/158385460/50447ea06a52da363d5faa358a2ce627.mp3"
 }

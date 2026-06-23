@@ -1441,17 +1441,17 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/master-public-speaking-tristan-de-montebello",
+  "audio_url": "https://api.substack.com/feed/podcast/149788863/9485c0565ca278be6c2034c27caaec8a.mp3"
 }

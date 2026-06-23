@@ -1090,18 +1090,18 @@
     "Shopify"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/leveraging-growth-advisors-hiring",
+  "audio_url": "https://api.substack.com/feed/podcast/124955089/7c4d3b0a35faeb66e035b5acbfcad69a.mp3"
 }

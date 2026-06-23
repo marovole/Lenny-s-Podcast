@@ -1540,18 +1540,18 @@
     "Square"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/building-0-to-1-inside-atlassian-tanguy-crusson",
+  "audio_url": "https://api.substack.com/feed/podcast/145262527/e0e2a99d91c25361119a32809c4296d1.mp3"
 }

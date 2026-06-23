@@ -999,18 +999,18 @@
     "Vercel"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/a-founders-guide-to-crisis-management-uri-levine",
+  "audio_url": "https://api.substack.com/feed/podcast/155277920/56234c0a8f2278e99d0225b017770c8e.mp3"
 }

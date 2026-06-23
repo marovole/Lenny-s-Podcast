@@ -904,17 +904,17 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/strategies-for-becoming-less-distractible",
+  "audio_url": "https://api.substack.com/feed/podcast/139731722/8a0899fdcaac4a0133c2329d036a18d6.mp3"
 }

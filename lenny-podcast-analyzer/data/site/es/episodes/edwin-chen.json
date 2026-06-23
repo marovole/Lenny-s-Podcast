@@ -1246,18 +1246,18 @@
     " Lovable"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/surge-ai-edwin-chen",
+  "audio_url": "https://api.substack.com/feed/podcast/180055059/792dc6d9a2c626dad2b3644df0361a68.mp3"
 }

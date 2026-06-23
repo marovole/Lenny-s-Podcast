@@ -964,18 +964,18 @@
     "Discord"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier",
+  "audio_url": "https://api.substack.com/feed/podcast/147504863/c51ccaf5b9438ab83c072d6cccbda231.mp3"
 }

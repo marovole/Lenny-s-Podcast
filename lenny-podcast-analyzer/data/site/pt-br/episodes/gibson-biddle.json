@@ -1234,18 +1234,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/gibson-biddle-on-the-the-dhm-product",
+  "audio_url": "https://api.substack.com/feed/podcast/59949923/c169bdc8cb3a0707c7db9b4b4083090e.mp3"
 }

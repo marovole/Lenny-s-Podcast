@@ -1038,18 +1038,18 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-drive-word-of-mouth-nilan",
+  "audio_url": "https://api.substack.com/feed/podcast/137208706/6c06dd44621c81e9fec303f681e997c4.mp3"
 }

@@ -719,17 +719,17 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
     "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/merci-grace-ex-head-of-growth-at",
+  "audio_url": "https://api.substack.com/feed/podcast/63192149/19149caef07fd1154eb9e826b812ba0b.mp3"
 }

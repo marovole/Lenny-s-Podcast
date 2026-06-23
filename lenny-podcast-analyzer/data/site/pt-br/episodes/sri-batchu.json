@@ -1095,20 +1095,20 @@
     "Okta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/lessons-from-scaling-ramp-sri-batchu",
+  "audio_url": "https://api.substack.com/feed/podcast/125631622/fdfd2ba23d35f2d0dec7a79b46871453.mp3"
 }

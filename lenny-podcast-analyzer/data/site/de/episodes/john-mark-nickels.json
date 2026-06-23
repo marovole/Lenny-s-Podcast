@@ -871,17 +871,17 @@
     "DoorDash"
   ],
   "topics": [
-    "growth",
-    "leadership",
-    "tech_ai",
-    "design",
     "operations",
-    "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "product",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/becoming-a-conscious-leader-john-mark-nickels",
+  "audio_url": "https://api.substack.com/feed/podcast/149431985/2c5baf6e6591c7af323e9a8596977283.mp3"
 }

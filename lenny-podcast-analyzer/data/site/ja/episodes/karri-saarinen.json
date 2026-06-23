@@ -1202,18 +1202,18 @@
     "Coinbase"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/inside-linear-building-with-taste",
+  "audio_url": "https://api.substack.com/feed/podcast/137644117/06d5bf87db28012bb3bc661cee92ab0e.mp3"
 }

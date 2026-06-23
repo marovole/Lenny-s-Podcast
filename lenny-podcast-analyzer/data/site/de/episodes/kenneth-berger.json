@@ -950,18 +950,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "leadership",
-    "tech_ai",
-    "design",
     "operations",
-    "product",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "product",
     "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/ask-for-what-you-want-kenneth-berger",
+  "audio_url": "https://api.substack.com/feed/podcast/144593233/87a2af7b824aee91581cd813b5d93cfc.mp3"
 }

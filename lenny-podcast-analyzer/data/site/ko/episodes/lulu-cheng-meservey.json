@@ -810,17 +810,17 @@
     "Notion"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
     "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/navigating-comms-and-pr-lulu-cheng",
+  "audio_url": "https://api.substack.com/feed/podcast/109030708/5c4587079efe206b60ad36a95c6dc696.mp3"
 }

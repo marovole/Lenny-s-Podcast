@@ -752,17 +752,17 @@
     "Airbnb"
   ],
   "topics": [
-    "growth",
-    "leadership",
-    "tech_ai",
-    "design",
     "operations",
-    "product",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "product",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/manik-gupta-ex-cpo-uber-google-maps",
+  "audio_url": "https://api.substack.com/feed/podcast/62733801/8d58afb487c74b7bf102a2e3d44b61d6.mp3"
 }

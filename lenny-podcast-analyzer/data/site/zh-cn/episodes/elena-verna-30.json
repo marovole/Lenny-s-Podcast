@@ -1258,17 +1258,17 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/10-growth-tactics-that-never-work-elena-verna",
+  "audio_url": "https://api.substack.com/feed/podcast/154000215/85868137d1a9a4e53fa96cec746d21bc.mp3"
 }

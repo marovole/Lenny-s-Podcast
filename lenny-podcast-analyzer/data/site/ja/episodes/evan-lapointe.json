@@ -1244,17 +1244,17 @@
     "Stripe"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/understanding-your-brain-evan-lapointe",
+  "audio_url": "https://api.substack.com/feed/podcast/147380839/0ca2d22f197f7abb95754098474fb68d.mp3"
 }

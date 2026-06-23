@@ -777,17 +777,17 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/becoming-more-strategic-anneka-gupta",
+  "audio_url": "https://api.substack.com/feed/podcast/149715770/5d9c3f91391e1948b2f203c1c16a6ad1.mp3"
 }

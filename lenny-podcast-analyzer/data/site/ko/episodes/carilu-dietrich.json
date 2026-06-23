@@ -1075,19 +1075,19 @@
     "Snowflake"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [
     "product"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-achieve-hypergrowth-in-your",
+  "audio_url": "https://api.substack.com/feed/podcast/117677727/e93e2c739b1b1074e727e2dc640bd0b1.mp3"
 }

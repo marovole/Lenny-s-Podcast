@@ -951,18 +951,18 @@
     "Linear"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/storytelling-with-nancy-duarte-how",
+  "audio_url": "https://api.substack.com/feed/podcast/123560518/4f0fc3d0bffd73efcd2742aa2f45b8f1.mp3"
 }

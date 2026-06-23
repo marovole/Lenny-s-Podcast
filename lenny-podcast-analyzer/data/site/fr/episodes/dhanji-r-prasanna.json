@@ -1310,18 +1310,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native",
+  "audio_url": "https://api.substack.com/feed/podcast/176082333/731dd3c66b63923e351f0b6b9b7ae5b2.mp3"
 }

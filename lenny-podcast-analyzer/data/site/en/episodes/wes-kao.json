@@ -962,17 +962,17 @@
     "Salesforce"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/persuasive-communication-wes-kao",
+  "audio_url": "https://api.substack.com/feed/podcast/70233467/a21cc60285871f5a3a49c8a563a96241.mp3"
 }

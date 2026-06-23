@@ -1104,18 +1104,18 @@
     "Meta"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/everyones-an-engineer-now-guillermo-rauch",
+  "audio_url": "https://api.substack.com/feed/podcast/160373674/0f790266e1b7f5d0504bb177bfb5f3a6.mp3"
 }

@@ -967,18 +967,18 @@
     "Robinhood"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-make-better-decisions-and",
+  "audio_url": "https://api.substack.com/feed/podcast/114221446/88910e64fd9c9b9a58bd110fb63394ff.mp3"
 }

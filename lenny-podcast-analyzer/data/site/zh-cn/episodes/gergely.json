@@ -801,20 +801,20 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [
     "personal"
   ],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/leaving-big-tech-to-build-the-1-technology",
+  "audio_url": "https://api.substack.com/feed/podcast/84557209/ef3c9974158946a65e8bba12272172cb.mp3"
 }

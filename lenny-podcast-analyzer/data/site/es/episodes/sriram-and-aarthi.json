@@ -1122,18 +1122,18 @@
     "Netflix"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/hot-takes-and-optimism-from-techs",
+  "audio_url": "https://api.substack.com/feed/podcast/106894554/83b290e4e1bc61ce2567090ddbee83a7.mp3"
 }

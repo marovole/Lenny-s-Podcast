@@ -914,18 +914,18 @@
     "Replit"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "culture",
-    "finance"
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/the-making-of-canva",
+  "audio_url": "https://api.substack.com/feed/podcast/176082995/e9efd7f3906db7b3c698037ce4b94c99.mp3"
 }

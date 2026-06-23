@@ -989,17 +989,17 @@
     "Zoom"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/using-behavioral-science-to-improve",
+  "audio_url": "https://api.substack.com/feed/podcast/75677313/3180db2278954697e7a4abf61f9ecd8d.mp3"
 }

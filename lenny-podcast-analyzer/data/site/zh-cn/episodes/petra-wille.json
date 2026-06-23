@@ -1218,17 +1218,17 @@
     "Notion"
   ],
   "topics": [
-    "growth",
-    "hiring",
-    "leadership",
-    "tech_ai",
-    "design",
-    "operations",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
+    "growth",
+    "design",
+    "hiring",
     "culture"
   ],
   "failure_patterns": [],
-  "episode_url": null,
-  "audio_url": null
+  "episode_url": "https://www.lennysnewsletter.com/p/how-to-be-the-best-coach-to-product",
+  "audio_url": "https://api.substack.com/feed/podcast/86010510/d4032653b66e17a2d3de3547932ee478.mp3"
 }
