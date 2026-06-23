@@ -44,6 +44,7 @@ GUEST_ALIASES = {
     "jeanne grosser": "jeanne dewitt grosser",
     "melissa": "melissa perri",
     "shreyas doshi live": "shreyas doshi",
+    "jess lachs": "jessica lachs",
 }
 
 
@@ -86,9 +87,27 @@ def normalize_guest_name(value: str) -> str:
 
 def strip_guest_suffix(guest: str) -> str:
     guest = re.sub(r"\([^)]*\)", "", guest)
-    if "," in guest:
-        guest = guest.split(",", 1)[0].strip()
+    comma_idx = guest.find(",")
+    if comma_idx != -1:
+        after = guest[comma_idx + 1 :].lstrip()
+        # Keep thousands separators like "1,000+" intact; only split "Name, Org" suffixes.
+        if after and not after[0].isdigit():
+            guest = guest[:comma_idx].strip()
     return re.sub(r"\s+", " ", guest).strip()
+
+
+def is_valid_guest_key(key: str) -> bool:
+    if not key or len(key) < 2:
+        return False
+    if key.isdigit():
+        return False
+    return bool(re.search(r"[a-z]", key))
+
+
+def is_usable_partial_key(key: str) -> bool:
+    if not is_valid_guest_key(key):
+        return False
+    return len(key) >= 3
 
 
 def parse_episode_version(episode_name: str) -> int:
@@ -124,14 +143,16 @@ def extract_guest_keys(title: str) -> List[str]:
 
     from_match = re.search(r"from\s+([^:]+):", title, flags=re.IGNORECASE)
     if from_match:
-        guest = strip_guest_suffix(from_match.group(1).strip())
-        if guest:
-            keys.append(guest_match_key(guest))
+        captured = from_match.group(1).strip()
+        if not re.match(r"\d", captured):
+            guest = strip_guest_suffix(captured)
+            if guest:
+                keys.append(guest_match_key(guest))
 
     seen = set()
     unique_keys = []
     for key in keys:
-        if key and key not in seen:
+        if key and is_valid_guest_key(key) and key not in seen:
             seen.add(key)
             unique_keys.append(key)
     return unique_keys
@@ -283,7 +304,9 @@ def lookup_rss_entry(
     partial_matches = [
         guest_key
         for guest_key in guest_index
-        if base_key and (base_key in guest_key or guest_key in base_key)
+        if is_usable_partial_key(base_key)
+        and is_usable_partial_key(guest_key)
+        and (base_key in guest_key or guest_key in base_key)
     ]
     if len(partial_matches) == 1:
         entries = guest_index[partial_matches[0]]

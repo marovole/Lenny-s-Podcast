@@ -1075,15 +1075,15 @@
     "Snowflake"
   ],
   "topics": [
-    "leadership",
-    "finance",
-    "growth",
-    "tech_ai",
-    "design",
-    "hiring",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "operations"
+    "growth",
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [
     "product"

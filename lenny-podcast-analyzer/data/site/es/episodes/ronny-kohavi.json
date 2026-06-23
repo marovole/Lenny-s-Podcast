@@ -1328,15 +1328,15 @@
     "Netflix"
   ],
   "topics": [
-    "leadership",
-    "finance",
-    "growth",
-    "tech_ai",
-    "design",
-    "culture",
-    "hiring",
     "product",
-    "career"
+    "tech_ai",
+    "leadership",
+    "career",
+    "growth",
+    "finance",
+    "design",
+    "hiring",
+    "culture"
   ],
   "failure_patterns": [],
   "episode_url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-ab-testing",

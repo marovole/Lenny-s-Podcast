@@ -108,16 +108,16 @@
     "Discord"
   ],
   "topics": [
-    "leadership",
-    "finance",
-    "tech_ai",
-    "design",
-    "hiring",
     "product",
+    "operations",
+    "tech_ai",
+    "leadership",
     "career",
-    "operations"
+    "finance",
+    "design",
+    "hiring"
   ],
   "failure_patterns": [],
-  "episode_url": "https://www.lennysnewsletter.com/p/lessons-from-1000-yc-startups",
-  "audio_url": "https://api.substack.com/feed/podcast/143467547/0b305cef42f1d3b39e1148623b9e2834.mp3"
+  "episode_url": null,
+  "audio_url": null
 }
